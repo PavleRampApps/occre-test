@@ -1040,11 +1040,11 @@ stickyAtcBtn.addEventListener("click", () => {
 atcButton.click();
 })
 
-const elementToBeObserved = document.querySelector(".buy-buttons-row form");
+const elementToBeObserved = document.querySelector(".buy-buttons-row .product-purchase-form");
 
 let optionsStickyObserver = {
 root: null,
-rootMargin: "50px 0px",
+rootMargin: "70px 0px",
 threshold: [0, 1]
 };
 const stickyAtcEl = document.querySelector(".sticky_cart")
@@ -1055,7 +1055,11 @@ if (entry.isIntersecting) {
 
 stickyAtcEl.classList.remove("active");
 } else {
-stickyAtcEl.classList.add("active");
+  if(window.scrollY > 150){
+    console.log("window scroll y",window.scrollY)
+    stickyAtcEl.classList.add("active");
+
+  }
 
 }
 

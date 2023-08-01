@@ -1,7 +1,6 @@
 {% comment %}ly_liquid_scripts_begin{% endcomment %}{% capture ly_liquid_content %}{% comment %}ly_liquid_scripts_end{% endcomment %}<!doctype html>
 <html  lang="{{ request.locale.iso_code }}"{% comment %}ly_dir_replace_for_[]_begin{% endcomment %}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%} dir="rtl" {%- endif -%}{% comment %}ly_dir_replace_end{% endcomment %}>
 <head>
-  <!-- begin Convert Experiences code--><script type="text/javascript" src="//cdn-4.convertexperiments.com/js/10041571-10042162.js"></script><!-- end Convert Experiences code -->
   <script src="https://www.googleoptimize.com/optimize.js?id=OPT-WLS7KBJ"></script>
   <!-- Symmetry 5.1.0 -->
  
@@ -156,9 +155,9 @@
       display: none !important;
     }
   </style>
-{% endif %}
-
-<body class="template-{{ template | split: '.' | first }}{% if template.suffix %} template-suffix-{{ template.suffix }}{% endif %}" data-cc-animate-timeout="0">
+{% endif %} 
+ 
+<body data-new-cart-drawer='true' class="template-{{ template | split: '.' | first }}{% if template.suffix %} template-suffix-{{ template.suffix }}{% endif %}" data-cc-animate-timeout="0">
 <script>window.KlarnaThemeGlobals={};{%case template.name%} {%when"product"%} {% if product.first_available_variant.price %}window.KlarnaThemeGlobals.data_purchase_amount = {{ product.first_available_variant.price }};{% endif %}window.KlarnaThemeGlobals.productVariants={{product.variants|json}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%when"cart"%} window.KlarnaThemeGlobals.data_purchase_amount={{cart.total_price}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%endcase%}</script>
 
 
@@ -310,5 +309,6 @@
 <!-- CRITEO END -->
  {% include 'smile-initializer' %}
 
+ {% section 'cart-drawer' %}
 </body>
 </html>

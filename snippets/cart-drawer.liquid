@@ -46,6 +46,7 @@
     .cart-drawer .cart-header {
         position: relative;
         padding: 20px;
+        padding-bottom: 0px;
         border-bottom: 1px solid rgba(32,34,35,.15);
     }
     .cart-drawer .cart-title {
@@ -279,11 +280,40 @@
     @media only screen and (max-width:768px) {
         body[data-new-cart-drawer='true'] .section-header .logo-area__right__desktop .logo-area__right__inner .cart-link.test-a * {
             display: flex;/* flex/none */
-          justify-content:center;
         }
     }
 
+    .cart_drawer_progress_bar {
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+        min-width: 100%;
+        flex-basis: 100%;
+       }
 
+    .progress_bar {
+        width: 100%;
+        position: relative;
+        border-radius: 20px;
+        border: 1px solid black;
+        height: 10px;
+       }
+       .progress_bar_element {
+        position: absolute;
+        width: 30%;
+        background: #ffb81c;
+        border-radius: 20px;
+        height: 100%;
+        left: 0;
+        transition: width 0.2s linear;
+       }
+       .progress_bar_title {
+        text-align: center;
+        text-transform: lowercase;
+        font-size: 14px;
+        margin: 5px;
+       }
+       
 </style>
 
 <div class="cart-drawer">
@@ -291,7 +321,19 @@
         <div class="cart-header">
 <h3 class="cart-title">{{ "cart.general.title" | t }}</h3>{% comment %}page_titles{% endcomment %}
             <div class="cart-close">✕</div>
+
+            <div class="cart_drawer_progress_bar">
+                <div class="progress_bar">
+                 <div class="progress_bar_element"></div>
+                </div>
+                <div class="progress_bar_title">
+                 ONLY $20 AWAY FROM DAY FREE SHIPPING!
+                </div>
+            </div>
         </div>
+
+     
+        
         <div class="cart-body">
             {% for item in cart.items %}
             <div class="cart-drawer-item">
@@ -364,7 +406,7 @@
     
 </div>
 
-<script>
+<script async>
     
     const convertStringToHTML = htmlString => {
         const parser = new DOMParser();
@@ -382,6 +424,7 @@
         let cart_drawer_section = convertStringToHTML(json['cart-drawer']);
         let new_cart_drawer = cart_drawer_section.querySelector(cart_drawer_form_id);
         let cart_item_count = cart_drawer_section.querySelector('#cart_item_count')?cart_drawer_section.querySelector('#cart_item_count').value:0;
+    
        
         let old_cart_drawer = document.querySelector(cart_drawer_form_id);
         old_cart_drawer.insertAdjacentElement('beforebegin',new_cart_drawer);
@@ -398,63 +441,34 @@
         let {target} = event;
         let cartDrawerOpen = document.querySelector('.cart-drawer ');
 
- if(target.hasAttribute('data-add-to-cart-text')) {
-       dataLayer.push({'event': 'optimize.cartactive'});
- }
+        if(target.classList.contains('cart-link') || target.closest('.cart-link')) {
+            event.preventDefault();
+            document.body.setAttribute('data-cart-drawer', 'open'); 
+        }
+       
+        if(target.hasAttribute('data-add-to-cart-text')) {
+        dataLayer.push({'event': 'optimize.cartactive'});
+           setTimeout(() => {
+           await refreshCart();
 
-      
-      if(document.body.hasAttribute("data-new-cart-drawer")){
-
-      if(target.classList.contains('cart-link') || target.closest('.cart-link')) {
-        event.preventDefault();
-        document.body.setAttribute('data-cart-drawer', 'open'); 
-    }
-   
-    if(target.hasAttribute('data-add-to-cart-text')) {
-        event.preventDefault();
-        await addProductToCart(target);
-      
-         await refreshCart();
-          document.body.setAttribute('data-cart-drawer', 'open'); 
-   }
-   
-   if(target.classList.contains('cart-drawer-bg') || target.classList.contains('cart-close')) {
-        document.body.removeAttribute('data-cart-drawer', 'open');
-   }
-   
-   if(target.classList.contains('remove-item-cart') || target.closest('.quantity-down') ||  target.classList.contains('quantity-down') ||  target.closest('.quantity-up') || target.classList.contains('quantity-up')) {
-        event.preventDefault();
-        
-        target = target.closest('a') ? target.closest('a') : target;
-
-        let url_to_action = target.getAttribute('href');
-        let action_response = await fetch(url_to_action);
+            document.body.setAttribute('data-cart-drawer', 'open'); 
+           }, 300); 
+       }
+       
+       if(target.classList.contains('cart-drawer-bg') || target.classList.contains('cart-close')) {
+            document.body.removeAttribute('data-cart-drawer', 'open');
+       }
+       
+       if(target.classList.contains('remove-item-cart') || target.closest('.quantity-down') ||  target.classList.contains('quantity-down') ||  target.closest('.quantity-up') || target.classList.contains('quantity-up')) {
+            event.preventDefault();
             
-        await refreshCart(); 
-   }
+            target = target.closest('a') ? target.closest('a') : target;
 
-
-
-      }
-
-      
+            let url_to_action = target.getAttribute('href');
+            let action_response = await fetch(url_to_action);
+                
+            await   refreshCart(); 
+       }
              
     });
-    const addProductToCart = async (target) => {
-
-    let addToCartForm = target.closest('form[action$="/cart/add"]');
-    console.log(addToCartForm)
-    let formData = new FormData(addToCartForm);
-    formData.delete('property');
-  
-     return fetch(window.Shopify.routes.root + 'cart/add.js', {
-     method: 'POST',
-     body: formData
-    }).then(response => {
-     return response.json();
-    }).catch((error) => {
-     console.error('Error:', error);
-    });
-  
-   }
 </script>

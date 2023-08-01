@@ -46,6 +46,7 @@
     .cart-drawer .cart-header {
         position: relative;
         padding: 20px;
+        padding-bottom: 0px;
         border-bottom: 1px solid rgba(32,34,35,.15);
     }
     .cart-drawer .cart-title {
@@ -62,13 +63,13 @@
     }
     .cart-drawer .cart-body {
         padding: 5px 20px 20px;
-        height: 100%;
+      /*  height: 100%;*/
         overflow-y: scroll;
     }
     .cart-drawer .cart-footer {
         display: flex;
         flex-direction: column;
-        padding: 20px 20px 40px;
+        padding: 20px 20px 20px;
         border-top: 1px solid rgba(32,34,35,.15);
     }
     .cart-drawer .cart-checkout {
@@ -279,89 +280,564 @@
     @media only screen and (max-width:768px) {
         body[data-new-cart-drawer='true'] .section-header .logo-area__right__desktop .logo-area__right__inner .cart-link.test-a * {
             display: flex;/* flex/none */
+            justify-content: center;
         }
+    }
+
+    .cart_drawer_progress_bar {
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+        min-width: 100%;
+        flex-basis: 100%;
+       }
+
+    .progress_bar {
+        width: 100%;
+        position: relative;
+        border-radius: 20px;
+        border: 1px solid black;
+        height: 10px;
+       }
+       .progress_bar_element {
+        position: absolute;
+        width: 30%;
+        background: #ffb81c;
+        border-radius: 20px;
+        height: 100%;
+        left: 0;
+        transition: width 0.2s linear;
+       }
+       .progress_bar_title {
+        text-align: center;
+        text-transform: inherit;
+        font-size: 14px;
+        margin: 5px;
+       }
+
+
+
+
+       .cart_review_item {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+        padding: 10px;
+        padding-left: 25px;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .cart_review_author {
+        font-size: 14px;
+        text-align: center;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .cart_review_item_content {
+        font-size: 14px;
+    }
+    .cart_review_item_content_review_stars {
+        display: flex;
+        gap: 3px;
+        margin: 5px 0;
+    }
+
+.cart_review_item_content_review_stars svg use    {
+        color:#f69d1d;
+    }
+
+    .reviews-swipper .swiper-slide {
+        display: flex;
+        align-items: center;
+    }
+    .reviews-swipper {
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-button-prev:after,.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+        font-size: 20px;
+      }
+
+      .swiper-button-next {
+        right: 0;
+        color: #f69d1d;
+      }
+      .swiper-button-prev {
+        left: 0;
+        color: #f69d1d;
+      }
+
+      .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: -5px;
+      }
+
+      .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        background:#f69d1d;
+      }
+
+      .cart_review_item_content_text {
+        font-size: 13px;
+    }
+
+
+      @media screen and (max-width:660px) {
+        .cart_review_item_content_text {
+            font-size: 12px;
+        }
+     
+      }
+    .cart_wrap{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    @media screen and (max-width:500px) {
+        .cart_wrap{
+            height: calc(100% - 140px);
+        }
+        
     }
 </style>
 
 <div class="cart-drawer">
     <form id="cart_drawer_form" action="{{ routes.cart_url }}" method="post"> 
+<input type="hidden" id="cart_item_count"value="{{cart.item_count}}">
+
         <div class="cart-header">
 <h3 class="cart-title">{{ "cart.general.title" | t }}</h3>{% comment %}page_titles{% endcomment %}
             <div class="cart-close">✕</div>
+
+            <div class="cart_drawer_progress_bar">
+                <div class="progress_bar">
+                 <div class="progress_bar_element"></div>
+                </div>
+                <div class="progress_bar_title">
+                
+                </div>
+            </div>
         </div>
-        <div class="cart-body">
-            {% for item in cart.items %}
-            <div class="cart-drawer-item">
-                {% if item.image %}
-                <div class="item-img">
-                    <img src="{{ item.image | img_url: 'master' }}" class="cart-item-img">
+
+     
+        <div class="cart_wrap">
+            <div class="cart-body">
+                {% for item in cart.items %}
+                <div class="cart-drawer-item">
+                    {% if item.image %}
+                    <div class="item-img">
+                        <img src="{{ item.image | img_url: 'master' }}" class="cart-item-img">
+                    </div>
+                    {% endif %}
+                    <div class="item-description">
+                        <div class="item-detail">
+                            <h4 class="item-title">{{ item.title }}</h4>
+                            {%- if settings.show_vendor -%}
+                            <p class="product-vendor">{{ item.product.vendor }}</p>
+                            {%- endif -%}
+                        </div>
+                        <div class="cart-item__column cart-item__quantity">
+                            <div class="quantity buttoned-input">
+                                <a id="updates_dec_{{ forloop.index }}" class="notabutton quantity-down {% if item.quantity < 2 %}unusable{% endif %}" href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity={{ item.quantity | minus: 1 }}" aria-label="{{ 'cart.label.decrease' | t | escape }}">{% render 'svg-minus' %}</a>
+                                    <input
+                                        class="cart-item__quantity-input"
+                                        type="text"
+                                        size="2"
+                                        id="updates_{{ forloop.index }}"
+                                        name="updates[]"
+                                        value="{{ item.quantity }}"
+                                        data-initial-value="{{ item.quantity }}"
+                                        data-line="{{ forloop.index }}"
+                                        {% if item.variant.inventory_management == 'shopify' and item.variant.inventory_policy == 'deny' %}data-max="{{ item.variant.inventory_quantity }}"{% endif %}
+                                        aria-label="{{ 'cart.general.quantity' | t | escape }}" />
+                                <a id="updates_inc_{{ forloop.index }}" class="notabutton quantity-up {% unless can_increase %}unusable{% endunless %}" href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity={{ item.quantity | plus: 1 }}" aria-label="{{ 'cart.label.increase' | t | escape }}">{% render 'svg-plus' %}</a>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="item-price">
+                            {% if item.original_price != item.final_price %}
+                            <div class="cart-item-discounted-prices">
+                                <span class="cart-item-old-prices">
+                                    {{- item.original_price | money -}}
+                                </span>
+                                <span class="cart-item-final-prices">
+                                    {{ item.final_price | money }}
+                                </span>
+                            </div>
+                            {% else %}
+                            <h4 class="price">{{ item.original_price | money_with_currency }}</h4>
+                            {% endif %}
+                            <a href="{{ item.url_to_remove }}" class="remove-item-cart">✕</a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% if cart.item_count == 0 %}
+                <div class="empty-cart">
+                    {{ "cart.general.empty" | t }}
                 </div>
                 {% endif %}
-                <div class="item-description">
-                    <div class="item-detail">
-                        <h4 class="item-title">{{ item.title }}</h4>
-                        {%- if settings.show_vendor -%}
-                        <p class="product-vendor">{{ item.product.vendor }}</p>
-                        {%- endif -%}
+            </div>
+            
+            <div class="cart-footer">
+                <div class="subtotal">
+                    <div>{{ "cart.general.subtotal" | t }}</div><div class="subtotal-price">{{ cart.total_price | money_with_currency }}</div>
+                </div>
+                <div class="btn-wrap">
+                    <input type="submit" name="checkout" value="{{ "shopify.checkout.general.page_title" | t }}" class="cart-checkout">
+                </div>
+
+        
+
+
+                <div class="swiper reviews-swipper">
+                    <div class="swiper-wrapper">
+
+            
+                                <div class="swiper-slide">
+                                    <div class="cart_review_item">
+                                        <div class="cart_review_author">
+                                    <img width="40px" height="40px" src="{{ 'review-1-occre.png' | asset_url }}"  />  
+                                    <span class="author_title">
+                                        Paul -   {% if request.locale.iso_code == 'es' %}
+                                        Modelista
+                                        {% elsif request.locale.iso_code == 'fr' %}
+                                            Modéliste
+                                        {% elsif request.locale.iso_code == 'en' %}
+                                            Model-maker
+                                            {% elsif request.locale.iso_code == 'de' %}
+                                                Modellbauer
+                                        {% elsif request.locale.iso_code == 'it' %}
+                                            Modellista                                
+                                        {% elsif request.locale.iso_code == 'pt-PT' %}
+                                            Modelista                                   
+                                                    {% else  %}
+                                                Model-maker
+                                                {% endif %}
+                                    </span> 
+                                        </div>
+                                        <div class="cart_review_item_content">
+                    
+                                        <div class="cart_review_item_content_review_stars">
+                    
+                                        {% for i in (1..5) %}
+                                            <svg viewBox="0 0 24 24" data-lx-fill="full" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg>
+                                        {% endfor %}
+                    
+                                        </div>
+                                        <div class="cart_review_item_content_text">
+                                            {% if request.locale.iso_code == 'es' %}
+                                            Perfecto tanto para principiantes como para expertos.
+                                            Al igual que yo, haga realidad sus sueños de hacer modelos con un kit de OcCre:
+                                            ¡100% recomendado!👌
+                                            {% elsif request.locale.iso_code == 'fr' %}
+                                                Parfait pour les débutants comme pour les experts.
+                                                Comme moi, donnez vie à vos rêves de modélisme avec un kit OcCre -
+                                                100% recommandé !
+                                            {% elsif request.locale.iso_code == 'en' %}
+                                                Perfect for both beginners and experts alike.
+                                                Like me, bring your model-making dreams to life with a kit from OcCre - 100% recommended!
+                                                {% elsif request.locale.iso_code == 'de' %}
+                                                    Perfekt für Anfänger und Experten gleichermaßen.
+                                                    Erwecken Sie wie ich Ihre Modellbauträume mit einem Bausatz von OcCre zum Leben -
+                                                    100% empfehlenswert!
+                                            {% elsif request.locale.iso_code == 'it' %}
+                                                Perfetto sia per i principianti che per gli esperti.
+                                                Come me, dai vita ai tuoi sogni di modellista con un kit di OcCre -
+                                                Consigliato al 100%!                                    
+                                                {% elsif request.locale.iso_code == 'pt-PT' %}
+                                                    Perfeito para iniciantes e especialistas.
+                                                    Como eu, dê vida aos seus sonhos de modelagem com um kit da OcCre -
+                                                    100% recomendado!                                     
+                                                        {% else  %}
+                                                        Perfecto tanto para principiantes como para expertos.
+                                                        Al igual que yo, haga realidad sus sueños de hacer modelos con un kit de OcCre:
+                                                        ¡100% recomendado!
+                                                    {% endif %}
+            
+            
+                                        </div>
+                                        </div>
+                                    </div>                        
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="cart_review_item">
+                                        <div class="cart_review_author">
+                                                <img width="40px" height="40px" src="{{ 'review-2-occre.png' | asset_url }}"  />  
+                                                <span class="author_title">
+                                                    Roma - {% if request.locale.iso_code == 'es' %}
+                                                    Modelista
+                                                    {% elsif request.locale.iso_code == 'fr' %}
+                                                        Modéliste
+                                                    {% elsif request.locale.iso_code == 'en' %}
+                                                        Model-maker
+                                                        {% elsif request.locale.iso_code == 'de' %}
+                                                            Modellbauer
+                                                    {% elsif request.locale.iso_code == 'it' %}
+                                                        Modellista                                
+                                                    {% elsif request.locale.iso_code == 'pt-PT' %}
+                                                        Modelista                                   
+                                                                {% else  %}
+                                                            Model-maker
+                                                            {% endif %}
+                                                </span> 
+                                                </div>
+                                        <div class="cart_review_item_content">
+                    
+                                        <div class="cart_review_item_content_review_stars">
+                    
+                                        {% for i in (1..5) %}
+                                            <svg viewBox="0 0 24 24" data-lx-fill="full" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg>
+                                        {% endfor %}
+                    
+                                        </div>
+                                        <div class="cart_review_item_content_text">
+                                            {% if request.locale.iso_code == 'es' %}
+                                            ¡OcCre es una empresa que convertirá tus sueños en realidad! ¡Esta es una marca con gran variedad de barcos para cualquier gusto y nivel! Es como tu propio pequeño mundo donde siempre eres bienvenido y están dispuestos a ayudarte)) Forma parte de la familia OcCre 
+                                            {% elsif request.locale.iso_code == 'fr' %}
+                                                Parfait pour les débutants comme pour les experts.
+                                                Comme moi, donnez vie à vos rêves de modélisme avec un kit OcCre -
+                                                100% recommandé !
+                                            {% elsif request.locale.iso_code == 'en' %}
+                                                OcCre est une entreprise qui transformera vos rêves en réalité ! C'est une entreprise qui a une grande variété de bateaux pour tous les goûts et votre niveau de compétence ! C'est comme votre propre petit monde où vous êtes toujours le bienvenu et prêt à vous aider)) Faites partie de cette famille 
+                                                {% elsif request.locale.iso_code == 'de' %}
+                                                    OcCre ist ein Unternehmen, das Ihre Träume in die Realität umsetzen wird! Dies ist ein hat eine breite Palette von Schiffen für jeden Geschmack und Ihre Fähigkeiten! Es ist wie Ihre eigene kleine Welt, wo Sie immer willkommen sind und bereit, Ihnen zu helfen)) Werden Sie ein Teil dieser Familie
+                                            {% elsif request.locale.iso_code == 'it' %}
+                                                OcCre è un'azienda che trasformerà i vostri sogni in realtà! Ha un'ampia varietà di navi per ogni gusto e livello di abilità! E' come il tuo piccolo mondo dove sei sempre il benvenuto e pronto ad aiutarti)) Diventa parte di questa famiglia                                   
+                                                {% elsif request.locale.iso_code == 'pt-PT' %}
+                                                    A OcCre é uma empresa que vai transformar os seus sonhos em realidade! Esta é uma empresa que tem uma grande variedade de navios para todos os gostos e para o seu nível de habilidade! É como se fosse o teu pequeno mundo onde és sempre bem-vindo e pronto a ajudar-te)) Faz parte desta família                                  
+                                                        {% else  %}
+                                                        Perfecto tanto para principiantes como para expertos.
+                                                        Al igual que yo, haga realidad sus sueños de hacer modelos con un kit de OcCre:
+                                                        ¡100% recomendado!
+                                                    {% endif %}
+            
+            
+                                        </div>
+                                        </div>
+                                    </div>                        
+                                </div>
+
+
+                            
+                                <div class="swiper-slide">
+                                    <div class="cart_review_item">
+                                        <div class="cart_review_author">
+                        
+                                                <img width="40px" height="40px" src="{{ 'review-3-occre.png' | asset_url }}"  />  
+                                                <span class="author_title">
+                                                    Alex  - {% if request.locale.iso_code == 'es' %}
+                                                    Modelista
+                                                    {% elsif request.locale.iso_code == 'fr' %}
+                                                        Modéliste
+                                                    {% elsif request.locale.iso_code == 'en' %}
+                                                        Model-maker
+                                                        {% elsif request.locale.iso_code == 'de' %}
+                                                            Modellbauer
+                                                    {% elsif request.locale.iso_code == 'it' %}
+                                                        Modellista                                
+                                                    {% elsif request.locale.iso_code == 'pt-PT' %}
+                                                        Modelista                                   
+                                                                {% else  %}
+                                                            Model-maker
+                                                            {% endif %}
+                                                </span> 
+                                                
+                                        </div>
+                                        <div class="cart_review_item_content">
+                    
+                                        <div class="cart_review_item_content_review_stars">
+                    
+                                        {% for i in (1..5) %}
+                                            <svg viewBox="0 0 24 24" data-lx-fill="full" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg>
+                                        {% endfor %}
+                    
+                                        </div>
+                                        <div class="cart_review_item_content_text" style="font-size:11px;">
+                                            {% if request.locale.iso_code == 'es' %}
+                                            Los modelos de barcos de OcCre son una obra maestra de artesanía y atención al detalle. Construir estos modelos ha sido una experiencia calmante y meditativa, que me ha permitido explotar mi creatividad y encontrar la paz. Recomiendo encarecidamente OcCre a cualquiera que busque una experiencia de construcción de alta calidad.
+                                            {% elsif request.locale.iso_code == 'fr' %}
+                                                Les maquettes de navires OcCre sont des chefs-d'œuvre d'artisanat et d'attention aux détails. La construction de ces modèles a été une expérience apaisante et méditative, qui m'a permis de puiser dans ma créativité et de trouver la paix. Je recommande vivement OcCre à tous ceux qui recherchent une expérience de construction spirituelle de haute qualité.
+                                            {% elsif request.locale.iso_code == 'en' %}
+                                                OcCre ship models are a masterpiece in craftsmanship and attention to detail. Building these models has been a calming and meditative experience, allowing me to tap into my creativity and find peace. I highly recommend OcCre to anyone seeking a high-quality, spiritual building experience.
+                                                {% elsif request.locale.iso_code == 'de' %}
+                                                    Die Schiffsmodelle von OcCre sind ein Meisterwerk der Handwerkskunst und der Liebe zum Detail. Der Bau dieser Modelle war eine beruhigende und meditative Erfahrung, die es mir ermöglichte, meine Kreativität zu entfalten und Frieden zu finden. Ich empfehle OcCre jedem, der eine hochwertige, spirituelle Bauerfahrung sucht.
+                                            {% elsif request.locale.iso_code == 'it' %}
+                                                I modelli di navi OcCre sono un capolavoro di artigianato e attenzione ai dettagli. Costruire questi modelli è stata un'esperienza calmante e meditativa, che mi ha permesso di attingere alla mia creatività e di trovare la pace. Raccomando vivamente OcCre a chiunque cerchi un'esperienza di costruzione spirituale e di alta qualità.                                  
+                                                {% elsif request.locale.iso_code == 'pt-PT' %}
+                                                    Os modelos de navios OcCre são uma obra-prima de artesanato e atenção ao pormenor. Construir estes modelos tem sido uma experiência calmante e meditativa, permitindo-me explorar a minha criatividade e encontrar a paz. Recomendo vivamente a OcCre a todos os que procuram uma experiência de construção espiritual e de alta qualidade.                                   
+                                                        {% else  %}
+                                                        Los modelos de barcos de OcCre son una obra maestra de artesanía y atención al detalle. Construir estos modelos ha sido una experiencia calmante y meditativa, que me ha permitido explotar mi creatividad y encontrar la paz. Recomiendo encarecidamente OcCre a cualquiera que busque una experiencia de construcción de alta calidad.
+                                                    {% endif %}
+            
+            
+                                        </div>
+                                        </div>
+                                    </div>                        
+                                </div>
+                                
+
+            
                     </div>
-                    <div class="cart-item__column cart-item__quantity">
-                        <div class="quantity buttoned-input">
-                            <a id="updates_dec_{{ forloop.index }}" class="notabutton quantity-down {% if item.quantity < 2 %}unusable{% endif %}" href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity={{ item.quantity | minus: 1 }}" aria-label="{{ 'cart.label.decrease' | t | escape }}">{% render 'svg-minus' %}</a>
-                                <input
-                                    class="cart-item__quantity-input"
-                                    type="text"
-                                    size="2"
-                                    id="updates_{{ forloop.index }}"
-                                    name="updates[]"
-                                    value="{{ item.quantity }}"
-                                    data-initial-value="{{ item.quantity }}"
-                                    data-line="{{ forloop.index }}"
-                                    {% if item.variant.inventory_management == 'shopify' and item.variant.inventory_policy == 'deny' %}data-max="{{ item.variant.inventory_quantity }}"{% endif %}
-                                    aria-label="{{ 'cart.general.quantity' | t | escape }}" />
-                            <a id="updates_inc_{{ forloop.index }}" class="notabutton quantity-up {% unless can_increase %}unusable{% endunless %}" href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity={{ item.quantity | plus: 1 }}" aria-label="{{ 'cart.label.increase' | t | escape }}">{% render 'svg-plus' %}</a>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                {% comment %}
+                <div class="cart_reviews">
+                    <div class="cart_review_item">
+                        <div class="cart_review_author">
+                            Antonio D.
                         </div>
-                        </a>
-                    </div>
-                    <div class="item-price">
-                        {% if item.original_price != item.final_price %}
-                        <div class="cart-item-discounted-prices">
-                            <span class="cart-item-old-prices">
-                                {{- item.original_price | money -}}
-                            </span>
-                            <span class="cart-item-final-prices">
-                                {{ item.final_price | money }}
-                            </span>
+                        <div class="cart_review_item_content">
+
+                        <div class="cart_review_item_content_review_stars">
+
+                        {% for i in (1..5) %}
+                            <svg viewBox="0 0 24 24" data-lx-fill="full" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg>
+                        {% endfor %}
+
                         </div>
-                        {% else %}
-                        <h4 class="price">{{ item.original_price | money_with_currency }}</h4>
-                        {% endif %}
-                        <a href="{{ item.url_to_remove }}" class="remove-item-cart">✕</a>
+                        <div class="cart_review_item_content_text">
+                            He disfrutado muchísimo realizando esta maqueta! he aprendido muchas técnicas y trucos en su desarrollo. Con muchas ganas de empezar la siguiente. Saludos.
+                        </div>
+                        </div>
                     </div>
                 </div>
+                    {%endcomment%}
             </div>
-            {% endfor %}
-            {% if cart.item_count == 0 %}
-            <div class="empty-cart">
-                {{ "cart.general.empty" | t }}
             </div>
-            {% endif %}
-        </div>
-        
-        <div class="cart-footer">
-            <div class="subtotal">
-                <div>{{ "cart.general.subtotal" | t }}</div><div class="subtotal-price">{{ cart.total_price | money_with_currency }}</div>
-            </div>
-            <div class="btn-wrap">
-                <input type="submit" name="checkout" value="{{ "shopify.checkout.general.page_title" | t }}" class="cart-checkout">
-            </div>
-        </div>
     </form>
 </div>
-<div class="cart-drawer-bg">
-    
-</div>
+<div class="cart-drawer-bg"></div>
 
-<script>
+<script defer>
+
+var swiper = new Swiper(".reviews-swipper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 4500,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+let progress_bar_update=async () => {
+    let cartResponse=await fetch('/cart.js');
+    let cartData=await cartResponse.json();
+    let free_shipping=200;
+
+
+    let shopify_country = Shopify.country;
+
+
+    if(shopify_country == 'ES') {
+        free_shipping = 200;
+    } else if(shopify_country == 'US') {
+  free_shipping = 200;
+    } else if( shopify_country == 'FR') {
+     free_shipping = 150;
+    } else if (shopify_country == 'IT') {
+      free_shipping = 150;
+    }else if (shopify_country == 'CA') {
+         free_shipping = 200;
+     }else if (shopify_country == 'DE') {
+        free_shipping = 150;
+     }else if (shopify_country == 'PT') {
+            free_shipping = 150;
+     }else if (shopify_country == 'NL') {
+               free_shipping = 150;
+     } else if (shopify_country == 'CH') {
+                  free_shipping = 250;
+     }
+     else if (shopify_country == 'SE') {
+           free_shipping = 250;
+     } else {
+         free_shipping = 200;
+     }
+     
+    let amount=cartData.original_total_price/100;
+    let percentage=(amount/free_shipping)*100;
+    console.log(percentage); 
+    let progress_bar=document.querySelector('.progress_bar_element');
+    let progress_message=document.querySelector('.progress_bar_title');
+
+    percentage>100 ? percentage=100 : null;
+    let message;
+    if (percentage==0) {
+            if(Shopify.locale == 'es') {
+       message=`ENVÍO GRATIS EN PEDIDOS SUPERIORES A &euro;${free_shipping}`;
+    } else if(Shopify.locale == 'en') {
+        message=`FREE SHIPPING ON ORDERS OVER  &euro;${free_shipping}`;
+     }else if(Shopify.locale == 'de') {
+        message=`KOSTENLOSE LIEFERUNG BEI BESTELLUNGEN ÜBER  &euro;${free_shipping}`;
+      }else if(Shopify.locale == 'fr') {
+        message=`LIVRAISON GRATUITE SUR LES COMMANDES DE PLUS  &euro;${free_shipping}`;
+      } else if(Shopify.locale =='it') {
+        message=`CONSEGNA GRATUITA PER GLI ORDINI SUPERIORI &euro;${free_shipping}`;
+      } 
+      else if(Shopify.locale == 'pt-PT') {
+          message=`ENTREGA GRÁTIS EM PEDIDOS ACIMA DE &euro;${free_shipping}`;
+      }
+      else {
+               message=`ENVÍO GRATIS EN PEDIDOS SUPERIORES A &euro;${free_shipping}`;
+      }
+    } else if (percentage < 100) {
+        
+
+
+        if(Shopify.locale == 'es') {
+             message =   `Estás a solo <span style="font-weight:900;"> &euro;${(free_shipping - amount).toFixed(2) }</span>  para el envío gratuito`;
+         } else if(Shopify.locale == 'en') {    
+            message = ` You are only <span style="font-weight:900;"> &euro;${(free_shipping - amount).toFixed(2) }</span> away from free shipping`;
+          }else if(Shopify.locale == 'de') {
+            message =  `Sie sind nur noch  <span style="font-weight:900;"> &euro;${(free_shipping - amount).toFixed(2) }</span> vom kostenlosen Versand entfernt`
+           }else if(Shopify.locale == 'fr') {
+           message =   `Vous n'êtes qu'à <span style="font-weight:900;"> &euro;${(free_shipping - amount).toFixed(2) }</span> de la livraison gratuite`;
+           } else if(Shopify.locale == 'pt-PT') {
+            message = ` Está apenas a <span style="font-weight:900;"> &euro;${(free_shipping - amount).toFixed(2) }</span> da expedição gratuita`;
+           }
+           else if(Shopify.locale == 'it') {
+            message = ` Ti manca solo <span style="font-weight:900;"> &euro;${(free_shipping - amount).toFixed(2) }</span>  per la spedizione gratuita`;
+
+           }
+            else {
+                message =   `Estás a solo <span style="font-weight:900;"> &euro;${(free_shipping - amount).toFixed(2) }</span>  para el envío gratuito`;
+           }
+
+
+    } else {
+      if(Shopify.locale == 'es') {
+       message=`¡Enhorabuena! has desbloqueado el envío gratuito.   `;
+    } else if(Shopify.locale == 'en') {
+         message=`Congratulations, you have unlocked free shipping.`;
+     }else if(Shopify.locale == 'de') {
+        message=`Glückwunsch! Sie haben den kostenlosen Versand freigeschaltet.`;
+      }else if(Shopify.locale == 'fr') {
+        message=`Félicitations, vous avez débloqué la livraison gratuite .`;
+      } else if(Shopify.locale == 'pt-PT') {
+        message=`Parabéns! desbloqueou a expedição gratuita.`;
+      }
+      else if(Shopify.locale == 'it') {
+        message=`Congratulazioni! Hai sbloccato la spedizione gratuita.`;
+      }
+       else {
+        message=`¡Enhorabuena! has desbloqueado el envío gratuito.   `;
+      }
+    }
+
+    progress_bar.style.width=`${percentage}%`;
+    progress_message.innerHTML=message;
+    }
     
     const convertStringToHTML = htmlString => {
         const parser = new DOMParser();
@@ -380,33 +856,65 @@
         let new_cart_drawer = cart_drawer_section.querySelector(cart_drawer_form_id);
         let cart_item_count = cart_drawer_section.querySelector('#cart_item_count')?cart_drawer_section.querySelector('#cart_item_count').value:0;
     
-       
+        let old_cart_cart_wrap=document.querySelector(".cart_wrap"); 
+        let new_cart_cart_wrap=cart_drawer_section.querySelector(".cart_wrap");       
+
         let old_cart_drawer = document.querySelector(cart_drawer_form_id);
-        old_cart_drawer.insertAdjacentElement('beforebegin',new_cart_drawer);
-        old_cart_drawer.remove();
+        old_cart_cart_wrap.insertAdjacentElement('beforebegin',new_cart_cart_wrap);
+        old_cart_cart_wrap.remove();
+
             
-        let cart_count = document.querySelector('.cart-link__count');
-        if(cart_count) {
-            cart_count.innerHTML = Number(cart_item_count);
-        } 
-      
+        let cart_counts = document.querySelectorAll('.cart-link__count');
+
+        if (cart_counts) {
+            console.log("IF")
+            cart_counts.forEach(cart_count=>{
+                cart_count.innerHTML = Number(cart_item_count);
+        
+            })
+          }
+
+
+        await progress_bar_update();
+
+        if(document.querySelector('.reviews-swipper')) {
+            new Swiper(".reviews-swipper", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                  delay: 4500,
+                  disableOnInteraction: false,
+                },
+                navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                },
+              });
+        }
+ 
+
     }
 
     window.addEventListener('click', async (event) => {
         let {target} = event;
+        console.log("TARGET ", target)
         let cartDrawerOpen = document.querySelector('.cart-drawer ');
 
         if(target.classList.contains('cart-link') || target.closest('.cart-link')) {
             event.preventDefault();
+
             document.body.setAttribute('data-cart-drawer', 'open'); 
+
         }
        
-        if(target.hasAttribute('data-add-to-cart-text')) {
+        if(target.hasAttribute('data-add-to-cart-text') ) {
         dataLayer.push({'event': 'optimize.cartactive'});
-           setTimeout(() => {
+        event.preventDefault();
+        await addProductToCart(event.target);
+           setTimeout(async() => {
+           await refreshCart();
             document.body.setAttribute('data-cart-drawer', 'open'); 
-            refreshCart();
-           }, 200); 
+           }, 400); 
        }
        
        if(target.classList.contains('cart-drawer-bg') || target.classList.contains('cart-close')) {
@@ -421,8 +929,32 @@
             let url_to_action = target.getAttribute('href');
             let action_response = await fetch(url_to_action);
                 
-            refreshCart(); 
+            await refreshCart(); 
        }
              
     });
+
+
+    window.addEventListener('load',async () => {
+	  await progress_bar_update();
+    });
+
+ const addProductToCart = async (target) => {
+
+  let addToCartForm = target.closest('form[action$="/cart/add"]');
+  console.log(addToCartForm)
+  let formData = new FormData(addToCartForm);
+  console.log(formData)
+
+  return fetch(window.Shopify.routes.root + 'cart/add.js', {
+   method: 'POST',
+   body: formData
+  }).then(response => {
+   return response.json();
+  }).catch((error) => {
+   console.error('Error:', error);
+  });
+
+ }
+
 </script>

@@ -7,7 +7,7 @@
         "heading_image_height": "medium",
         "overlay_style": "shadow",
         "coll_num_per_page_int": 20,
-        "grid": 5,
+        "grid": 4,
         "show_vendor": false,
         "show_total": true,
         "coll_desc_pos": "above",

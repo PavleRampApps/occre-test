@@ -986,7 +986,7 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "announcement_show": false,
+          "announcement_show": true,
           "announcement_text": "<b>NUEVO LANZAMIENTO<\/b> | 08\/07\/2023",
           "announcement_link": "shopify:\/\/pages\/save-the-date-08-07-2023",
           "announcement_bar_col": "#ffb81c",

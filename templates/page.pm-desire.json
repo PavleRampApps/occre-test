@@ -13,18 +13,18 @@
         "1b4f3356-15a3-42d7-83ec-9558278453bc": {
           "type": "slide",
           "settings": {
-            "image_desktop_es": "shopify:\/\/shop_images\/AnyConv.com__es.webp",
-            "image_mobile_es": "shopify:\/\/shop_images\/AnyConv.com__esm.webp",
-            "image_desktop_en": "shopify:\/\/shop_images\/AnyConv.com__en.webp",
-            "image_mobile_en": "shopify:\/\/shop_images\/AnyConv.com__enm.webp",
-            "image_desktop_fr": "shopify:\/\/shop_images\/AnyConv.com__fr_1.webp",
-            "image_mobile_fr": "shopify:\/\/shop_images\/AnyConv.com__frm_1.webp",
-            "image_desktop_it": "shopify:\/\/shop_images\/AnyConv.com__it_2.webp",
-            "image_mobile_it": "shopify:\/\/shop_images\/AnyConv.com__itm_2.webp",
-            "image_desktop_de": "shopify:\/\/shop_images\/AnyConv.com__de_2.webp",
-            "image_mobile_de": "shopify:\/\/shop_images\/AnyConv.com__dem_2.webp",
-            "image_desktop_pt-PT": "shopify:\/\/shop_images\/AnyConv.com__pt_2.webp",
-            "image_mobile_pt-PT": "shopify:\/\/shop_images\/AnyConv.com__ptm_2.webp"
+            "image_desktop_es": "shopify:\/\/shop_images\/Captura_de_pantalla_2023-06-28_a_la_s_16.51_6.webp",
+            "image_mobile_es": "shopify:\/\/shop_images\/Recurso_252_34_cefbba11-3eda-47d2-b0a4-dcc76eb7c6cf.webp",
+            "image_desktop_en": "shopify:\/\/shop_images\/en_1.webp",
+            "image_mobile_en": "shopify:\/\/shop_images\/enm_1.webp",
+            "image_desktop_fr": "shopify:\/\/shop_images\/fr_1.webp",
+            "image_mobile_fr": "shopify:\/\/shop_images\/frm_2.webp",
+            "image_desktop_it": "shopify:\/\/shop_images\/it_2.webp",
+            "image_mobile_it": "shopify:\/\/shop_images\/itm_3.webp",
+            "image_desktop_de": "shopify:\/\/shop_images\/de.webp",
+            "image_mobile_de": "shopify:\/\/shop_images\/dem.webp",
+            "image_desktop_pt-PT": "shopify:\/\/shop_images\/pt.webp",
+            "image_mobile_pt-PT": "shopify:\/\/shop_images\/ptm.webp"
           }
         },
         "777ed8d2-f6da-472d-8bc3-9ec1ec84478c": {
@@ -77,7 +77,7 @@
           "type": "button",
           "settings": {
             "button_label": "COMPRAR AHORA",
-            "button_link": "shopify:\/\/products\/new-orleans",
+            "button_link": "shopify:\/\/products\/pack-precompra-maqueta-tranvia-new-orleans",
             "button_style": "primary"
           }
         }
@@ -98,11 +98,11 @@
         "use_alt_bg": false
       }
     },
-    "64d62acd-04df-481c-8380-acbee2a69860": {
-      "type": "pm-background-video",
+    "dd7771ce-17f6-4752-8059-100f197b6ace": {
+      "type": "background-video",
       "custom_css": [
-        "#section-id-template--19216448520521__64d62acd-04df-481c-8380-acbee2a69860 {padding: 60px;}",
-        "@media (max-width: 767px) {#section-id-template--19216448520521__64d62acd-04df-481c-8380-acbee2a69860 {padding: 24px; }}",
+        "#section-id-template--19216448520521__dd7771ce-17f6-4752-8059-100f197b6ace {padding: 60px;}",
+        "@media (max-width: 767px) {#section-id-template--19216448520521__dd7771ce-17f6-4752-8059-100f197b6ace {padding: 24px; }}",
         ".video-container {min-height: 0;}"
       ],
       "settings": {
@@ -122,10 +122,8 @@
         "open_url_new_tab": true,
         "button_style": "primary",
         "text_alignment": "center center",
-        "widthRatioDesktop": 16,
-        "heightRatioDesktop": 9,
-        "widthRatioMobile": 16,
-        "heightRatioMobile": 9,
+        "height_desktop": 520,
+        "height_mobile": 200,
         "full_width": true
       }
     },
@@ -138,7 +136,7 @@
       ],
       "settings": {
         "full_width": true,
-        "code": "<div class=\"pm-row dificultad-img\">\n\n    <div class=\"pm-column1\">\n        <div class=\"pm-column-item\">\n            <span class=\"pm-column-text1\">Longitud<\/span><br>\n            <span class=\"pm-column-text2\">562mm<\/span>\n        <\/div>\n        <div class=\"pm-column-item\">\n            <span class=\"pm-column-text1\">Longitud con trole<\/span><br>\n            <span class=\"pm-column-text2\">602mm<\/span>\n        <\/div>\n        <div class=\"pm-column-item\">\n            <span class=\"pm-column-text1\">Altura<\/span><br>\n            <span class=\"pm-column-text2\">142mm<\/span>\n        <\/div>\n        <div class=\"pm-column-item\">\n            <span class=\"pm-column-text1\">Altura con trole<\/span><br>\n            <span class=\"pm-column-text2\">190mm<\/span>\n        <\/div>\n    <\/div>\n\n    <div class=\"pm-column2\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/mobile-details-Frame_537.webp?v=1688816601\">\n        <div class=\"pm-column-item\">\n            <span class=\"pm-title\">Nivel de dificultad<\/span>\n            <br>\n            <span class=\"pm-title2\">Intermedio<\/span>\n        <\/div>\n        <div class=\"bottom-right\">\n            <div class=\"pm-column-item2\">\n                <span class=\"pm-column-text1\">Escala<\/span><br>\n                <span class=\"pm-column-text2\">1:24<\/span>\n            <\/div>\n            <div class=\"pm-column-item2\">\n                <span class=\"pm-column-text1\">Anchura<\/span><br>\n                <span class=\"pm-column-text2\">104mm<\/span>\n            <\/div>\n        <\/div>\n    <\/div>\n\n<\/div>\n\n<style>\n    .pm-row {\n        display: flex;\n    }\n\n    .pm-column1 {\n        flex: auto;\n        padding: 61px 0;\n        padding-left: 5%;\n        width: 15%;\n    }\n\n    .pm-column2 {\n        padding-top: 20px;\n        flex: auto;\n        position: relative;\n    }\n\n    .pm-column-text1 {\n        color: var(--dark-grey, #363636);\n        text-align: center;\n        font-size: 2.3vw;\n        font-family: Montserrat;\n        font-style: normal;\n        font-weight: 400;\n        line-height: 109.9%;\n    }\n\n    .pm-column-text2 {\n        color: var(--color-desire-2, #a10000);\n        text-align: center;\n        font-size: 3vw;\n        font-family: Montserrat;\n        font-style: normal;\n        font-weight: 700;\n        line-height: 109.9%;\n    }\n\n    .pm-column-item {\n        margin-bottom: 30px;\n    }\n\n    .pm-column-item2 {\n        margin-bottom: 30px;\n        margin-right: 50px;\n    }\n\n    .pm-title {\n        font-family: Montserrat;\n        font-size: 2vw;\n        font-weight: 400;\n        line-height: 109.9%;\n        margin-left: 100px;\n    }\n\n    .pm-title2 {\n        color: var(--background, #252525);\n        text-align: center;\n        font-family: Abril Fatface;\n        font-size: 6vw;\n        font-weight: 400;\n        line-height: 109.9%;\n    }\n\n    .bottom-right {\n        position: absolute;\n        bottom: 0;\n        right: 0;\n        display: flex;\n        padding-right: 15%;\n    }\n\n\n    .pm-row.dificultad-img {\n        width: 100%;\n        height: 100%;\n        background: linear-gradient(to right,\n                #aac19d 0%,\n                #aac19d 30%,\n                #e5dac7 25%,\n                #e5dac7 100%),\n            url(https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Rectangle_293.webp?v=1688795098);\n        background-repeat: no-repeat;\n        background-position: center center;\n        background-blend-mode: darken;\n        background-size: contain;\n    }\n\n    @media (max-width: 767px) {\n        .pm-row.dificultad-img {\n            flex-wrap: wrap;\n            background: none;\n        }\n\n        .pm-row.dificultad-img>.pm-column1 {\n            background-color: #e5dac7;\n        }\n\n        .pm-row.dificultad-img>.pm-column2 {\n            background-color: #aac19d;\n            padding-top: 0;\n        }\n\n        .pm-column-text1,\n        .pm-title {\n            font-size: 5vw;\n        }\n\n        .pm-column-text2 {\n            font-size: 6vw;\n        }\n\n        .pm-title2 {\n            font-size: min(7vw,43px);\n        }\n\n        .bottom-right {\n            position: static;\n            width: 100%;\n            justify-content: center;\n            column-gap: 40px;\n            padding-top: 10px;\npadding-right:0;\n        }\n\n        .bottom-right>div {\n            margin: 0;\n        }\n\n        .pm-column2 {\n            padding-bottom: 45px;\nwidth: 100%;\n        }\n\n        .pm-column1 {\n            padding: 150px 24px 0;\n            display: flex;\n            flex-wrap: wrap;\n            justify-content: space-around;\n            text-align: center;\n            column-gap: 24px;\n        }\n\n        .pm-column1>div {\n            margin: 0 0 15px;\n        }\n\n        .pm-column1>div:nth-child(3),\n        .pm-column1>div:nth-child(4) {\n            margin-bottom: 0;\n        }\n\n        .pm-row.dificultad-img {\n            position: relative;\n        }\n\n        .pm-row.dificultad-img>div {\n            position: static;\n        }\n\n        .pm-column2>.pm-column-item {\n            position: absolute;\n            top: 0;\n            width: 100%;\n            text-align: center;\n        }\n\n        .pm-column2>.pm-column-item {\n            margin-top: 25px;\n        }\n\n        .pm-column2>.pm-column-item .pm-title {\n            margin: 0;\n        }\n\n        .pm-row img {\n            width: 100%;\n        }\n    }\n@media (max-width: 540px){\n.pm-column1 {\n            padding: 124px 24px 0;\n}\n}\n@media (max-width: 420px){\n.pm-column1 {\n            padding: 90px 24px 0;\n}\n}\n<\/style>"
+        "code": "<div class=\"pm-row dificultad-img\">\n\n    <div class=\"pm-column1\">\n        <div class=\"pm-column-item\">\n            <span class=\"pm-column-text1\">Longitud<\/span><br>\n            <span class=\"pm-column-text2\">562mm<\/span>\n        <\/div>\n        <div class=\"pm-column-item\">\n            <span class=\"pm-column-text1\">Longitud con trole<\/span><br>\n            <span class=\"pm-column-text2\">602mm<\/span>\n        <\/div>\n        <div class=\"pm-column-item\">\n            <span class=\"pm-column-text1\">Altura<\/span><br>\n            <span class=\"pm-column-text2\">142mm<\/span>\n        <\/div>\n        <div class=\"pm-column-item\">\n            <span class=\"pm-column-text1\">Altura con trole<\/span><br>\n            <span class=\"pm-column-text2\">190mm<\/span>\n        <\/div>\n    <\/div>\n\n    <div class=\"pm-column2\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/mobile-details-Frame_537.webp?v=1688816601\">\n        <div class=\"pm-column-item\">\n            <span class=\"pm-title\">Nivel de dificultad<\/span>\n            <br>\n            <span class=\"pm-title2\">INTERMEDIO<\/span>\n        <\/div>\n        <div class=\"bottom-right\">\n            <div class=\"pm-column-item2\">\n                <span class=\"pm-column-text1\">Escala<\/span><br>\n                <span class=\"pm-column-text2\">1:24<\/span>\n            <\/div>\n            <div class=\"pm-column-item2\">\n                <span class=\"pm-column-text1\">Anchura<\/span><br>\n                <span class=\"pm-column-text2\">104mm<\/span>\n            <\/div>\n        <\/div>\n    <\/div>\n\n<\/div>\n\n<style>\n    .pm-row {\n        display: flex;\n    }\n\n    .pm-column1 {\n        flex: auto;\n        padding: 61px 0;\n        padding-left: 50px;\n        width: 15%;\n    }\n\n    .pm-column2 {\n        padding-top: 20px;\n        flex: auto;\n        position: relative;\n    }\n\n    .pm-column-text1 {\n        color: var(--dark-grey, #363636);\n        text-align: center;\n        font-size: 2.3vw;\n        font-family: Montserrat;\n        font-style: normal;\n        font-weight: 400;\n        line-height: 109.9%;\n    }\n\n    .pm-column-text2 {\n        color: var(--color-desire-2, #a10000);\n        text-align: center;\n        font-size: 3vw;\n        font-family: Montserrat;\n        font-style: normal;\n        font-weight: 700;\n        line-height: 109.9%;\n    }\n\n    .pm-column-item {\n        margin-bottom: 30px;\n    }\n\n    .pm-column-item2 {\n        margin-bottom: 30px;\n        margin-right: 50px;\n    }\n\n    .pm-title {\n        font-family: Montserrat;\n        font-size: 2vw;\n        font-weight: 400;\n        line-height: 109.9%;\n        margin-left: 100px;\n    }\n\n    .pm-title2 {\n        color: var(--background, #252525);\n        text-align: center;\n        font-family: Abril Fatface;\n        font-size: 6vw;\n        font-weight: 400;\n        line-height: 109.9%;\n    }\n\n    .bottom-right {\n        position: absolute;\n        bottom: 0;\n        right: 0;\n        display: flex;\n    }\n\n\n    .pm-row.dificultad-img {\n        width: 100%;\n        height: 100%;\n        background: linear-gradient(to right,\n                #aac19d 0%,\n                #aac19d 25%,\n                #e5dac7 25%,\n                #e5dac7 100%),\n            url(https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Rectangle_293.webp?v=1688795098);\n        background-repeat: no-repeat;\n        background-position: center center;\n        background-blend-mode: darken;\n        background-size: contain;\n    }\n\n    @media (max-width: 767px) {\n        .pm-row.dificultad-img {\n            flex-wrap: wrap;\n            background: none;\n        }\n\n        .pm-row.dificultad-img>.pm-column1 {\n            background-color: #e5dac7;\n        }\n\n        .pm-row.dificultad-img>.pm-column2 {\n            background-color: #aac19d;\n            padding-top: 0;\n        }\n\n        .pm-column-text1,\n        .pm-title {\n            font-size: 16px;\n        }\n\n        .pm-column-text2 {\n            font-size: 24px;\n        }\n\n        .pm-title2 {\n            font-size: 32px;\n        }\n\n        .bottom-right {\n            position: static;\n            width: 100%;\n            justify-content: center;\n            column-gap: 40px;\n            padding-top: 10px;\n        }\n\n        .bottom-right>div {\n            margin: 0;\n        }\n\n        .pm-column2 {\n            padding-bottom: 45px;\n        }\n\n        .pm-column1 {\n            padding: 115px 24px 0;\n            display: flex;\n            flex-wrap: wrap;\n            justify-content: center;\n            text-align: center;\n            column-gap: 24px;\n        }\n\n        .pm-column1>div {\n            margin: 0 0 15px;\n        }\n\n        .pm-column1>div:nth-child(3),\n        .pm-column1>div:nth-child(4) {\n            margin-bottom: 0;\n        }\n\n        .pm-row.dificultad-img {\n            position: relative;\n        }\n\n        .pm-row.dificultad-img>div {\n            position: static;\n        }\n\n        .pm-column2>.pm-column-item {\n            position: absolute;\n            top: 0;\n            width: 100%;\n            text-align: center;\n        }\n\n        .pm-column2>.pm-column-item {\n            margin-top: 25px;\n        }\n\n        .pm-column2>.pm-column-item .pm-title {\n            margin: 0;\n        }\n\n        .pm-row img {\n            width: 100%;\n        }\n    }\n<\/style>"
       }
     },
     "aa533a82-fea1-4ba1-a9c5-e79e81116f63": {
@@ -215,12 +213,12 @@
         "196b0896-b0cd-4aa9-aadf-f2f6f22d645f": {
           "type": "heading",
           "settings": {
-            "title_es": "Descubre los complementos del Desire 922",
-            "title_it": "Scopri gli accessori per il Desire 922",
-            "title_de": "Entdecken Sie das Zubehör für den Desire 922",
-            "title_fr": "Découvrez les accessoires pour le Desire 922",
-            "title_pt-PT": "Descubra os acessórios para o Desire 922",
-            "title_en": "Discover the accessories for the Desire 922",
+            "title_es": "Oportunidad de Lanzamiento",
+            "title_it": "Opportunità di lancio",
+            "title_de": "Gelegenheit zum Start",
+            "title_fr": "Opportunité de lancement",
+            "title_pt-PT": "Oportunidade de Lançamento",
+            "title_en": "Launch Opportunity",
             "color": "default_color",
             "text_transform": "text_default",
             "use_h1": false
@@ -229,27 +227,71 @@
         "6faca5b8-3fb3-4324-8beb-8c659c6d884c": {
           "type": "subheading",
           "settings": {
-            "subheading_es": "Dale un toque especial a tu maqueta y revive la historia del tranvia de Nueva Orleans con el Pack de Pinturas y el Kit de luces led",
-            "subheading_it": "Dai un tocco speciale al tuo modello e rivivi la storia del tram di New Orleans con il Pacchetto di Vernici e il Kit di Luci LED",
-            "subheading_de": "Verleihen Sie Ihrem Modell eine besondere Note und lassen Sie die Geschichte der Straßenbahn von New Orleans mit dem Farbset und dem LED-Lichter-Kit wieder aufleben",
-            "subheading_fr": "Donnez une touche spéciale à votre maquette et revivez l'histoire du tramway de La Nouvelle-Orléans avec le Pack de Peintures et le Kit de Lumières LED",
-            "subheading_pt-PT": "Dê um toque especial ao seu modelo e reviva a história do bonde de Nova Orleans com o Pacote de Tintas e o Kit de Luzes LED",
-            "subheading_en": "Give your model a special touch and relive the history of the New Orleans tram with the Paint Pack and the LED Lights Kit",
+            "subheading_es": "Con la compra del Tranvía Desire 922",
+            "subheading_it": "Con l'acquisto del tram Desire 922",
+            "subheading_de": "Beim Kauf der Desire 922 Tramway",
+            "subheading_fr": "Avec l'achat du tramway Desire 922",
+            "subheading_pt-PT": "Com a compra do Bonde Desire 922",
+            "subheading_en": "With the purchase of the Desire 922 Tramway",
             "color": "default_color"
+          }
+        },
+        "8a69d62e-a48d-4a48-9568-f303a4389029": {
+          "type": "text",
+          "settings": {
+            "text_es": "<p>obtén el Pack de Pinturas de Regalo<\/p>",
+            "text_it": "<p>ricevi in regalo il Paint Pack<\/p>",
+            "text_de": "<p>erhalten Sie das Paint Pack gratis<\/p>",
+            "text_fr": "<p>recevez gratuitement le Paint Pack<\/p>",
+            "text_pt-PT": "<p>ganhe o Pacote de Tintas de Presente<\/p>",
+            "text_en": "<p>get the Paint Pack for free<\/p>",
+            "enlarge_text": true,
+            "color": "default_color",
+            "bold_text": false
+          }
+        },
+        "5e17ff51-a434-4556-a1ff-e88de069531f": {
+          "type": "image",
+          "settings": {
+            "image_desktop_es": "shopify:\/\/shop_images\/es.webp",
+            "image_mobile_es": "shopify:\/\/shop_images\/esm.webp",
+            "image_desktop_en": "shopify:\/\/shop_images\/en_2.webp",
+            "image_mobile_en": "shopify:\/\/shop_images\/enm_2.webp",
+            "image_desktop_fr": "shopify:\/\/shop_images\/fr_2.webp",
+            "image_mobile_fr": "shopify:\/\/shop_images\/frm_3.webp",
+            "image_desktop_it": "shopify:\/\/shop_images\/AnyConv.com__it.webp",
+            "image_mobile_it": "shopify:\/\/shop_images\/AnyConv.com__itm.webp",
+            "image_desktop_de": "shopify:\/\/shop_images\/AnyConv.com__de.webp",
+            "image_mobile_de": "shopify:\/\/shop_images\/AnyConv.com__dem.webp",
+            "image_desktop_pt-PT": "shopify:\/\/shop_images\/AnyConv.com__pt.webp",
+            "image_mobile_pt-PT": "shopify:\/\/shop_images\/AnyConv.com__ptm.webp",
+            "url": ""
+          }
+        },
+        "9e5a0e26-4c3e-4e0e-8fd1-59e780815496": {
+          "type": "button",
+          "settings": {
+            "button_label": "COMPRAR AHORA",
+            "button_link": "shopify:\/\/products\/pack-precompra-maqueta-tranvia-new-orleans",
+            "button_style": "primary"
           }
         }
       },
       "block_order": [
         "196b0896-b0cd-4aa9-aadf-f2f6f22d645f",
-        "6faca5b8-3fb3-4324-8beb-8c659c6d884c"
+        "6faca5b8-3fb3-4324-8beb-8c659c6d884c",
+        "8a69d62e-a48d-4a48-9568-f303a4389029",
+        "5e17ff51-a434-4556-a1ff-e88de069531f",
+        "9e5a0e26-4c3e-4e0e-8fd1-59e780815496"
       ],
       "custom_css": [
         ".fully-spaced-row--medium {margin: 0px;}",
         ".lightly-spaced-row {margin-bottom: 0px;}",
         "div {background-color: #e5dac7;}",
-        "h2 {padding-top: 48px; color: #252525; font-size: min(4vw, 70px); font-family: \"Abril Fatface\"; line-height: 158.9%;}",
-        ".subheading {color: #a10000; margin: 0px; padding-bottom: 24px; font-weight: 600; font-size: min(2.2vw, 48px); text-transform: none;}",
-        "@media (max-width: 768px) {p, .subheading {font-size: 12px; } h2 {font-size: 22px; }}"
+        "h2 {padding-top: 48px; color: #252525; font-size: 5vw; font-family: \"Abril Fatface\"; line-height: 158.9%;}",
+        ".subheading {color: #a10000; margin: 0px; font-size: 3vw; text-transform: none;}",
+        "p {color: #a10000; font-size: 3.5vw; font-family: \"Montserrat\"; font-weight: 900; padding-bottom: 0.5em;}",
+        "@media (max-width: 768px) {p, .subheading {font-size: 18px; } h2 {font-size: 24px; }}"
       ],
       "settings": {
         "css_text": "",
@@ -259,35 +301,18 @@
         "use_alt_bg": false
       }
     },
-    "a4319585-6bd4-4428-b7c6-bee938073e94": {
-      "type": "custom-row",
-      "blocks": {
-        "b6afcbdf-77e4-4de5-8c8f-6c08c0981a3e": {
-          "type": "html",
-          "settings": {
-            "width": "half",
-            "code": "<style>\n.fully-spaced-row--medium {\n  margin: 0px;\n}\n    .primer-imagen {\n      width: 100%;\n      text-align: center;\n      margin:0px;\npadding-botton:20px;\n    }\n\n    .primer-imagen img {\n      width: 100%;\n      height: auto;\n    }\n\n    .primer-imagen button{\n      width: 100%;\n      margin-top: 10px;\ncolor:#fff;\n  background-color: #a10000;\n  padding: 12px 24px;\n  font-size: 15px;\n  font-family: Montserrat;\n  font-style: normal;\n  font-weight: 700;\n\n}\n<\/style>\n\n<!-- -->\n<!-- -->\n<!-- -->\n\n<div class=\"primer-imagen\">\n    \n<a href=\"{{ routes.root_url }}{% if routes.root_url != '\/' %}\/{% endif %}products\/pack-pinturas-new-orleans\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/a.webp?v=1689717056\"\n        >\n<\/a>\n\n    <a href=\"{{ routes.root_url }}{% if routes.root_url != '\/' %}\/{% endif %}products\/pack-pinturas-new-orleans\" ><button >Comprar ahora<\/button>\n<\/div>"
-          }
-        },
-        "6c76db2c-fc90-4dfc-96d9-d25cd0e9b2d9": {
-          "type": "html",
-          "settings": {
-            "width": "half",
-            "code": "<style>\n.fully-spaced-row--medium {\n  margin: 0px;\n}\n    .primer-imagen {\n      width: 100%;\n      text-align: center;\n      margin:0px;\npadding-bottom:20px;\n    }\n\n    .primer-imagen img {\n      width: 100%;\n      height: auto;\n    }\n\n    .primer-imagen p{\n      width: 100%;\n      margin-top: 10px;\ncolor:#fff;\n  background-color: #a10000;\n  padding: 12px 24px;\n  font-size: 15px;\n  font-family: Montserrat;\n  font-style: normal;\n  font-weight: 700;\n\n}\n<\/style>\n\n<!-- -->\n<!-- -->\n<!-- -->\n\n<div class=\"primer-imagen\">\n    \n<a href=\"{{ routes.root_url }}{% if routes.root_url != '\/' %}\/{% endif %}products\/kit-luces-led-para-maquetas\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/b.webp?v=1689717056\"\n        ><\/a>\n   \n    <a href=\"{{ routes.root_url }}{% if routes.root_url != '\/' %}\/{% endif %}products\/kit-luces-led-para-maquetas\" ><button >Comprar ahora<\/button><\/a>\n<\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "b6afcbdf-77e4-4de5-8c8f-6c08c0981a3e",
-        "6c76db2c-fc90-4dfc-96d9-d25cd0e9b2d9"
-      ],
+    "54387e13-0cfd-493b-98c3-ffea8625c7ff": {
+      "type": "custom-liquid",
       "custom_css": [
-        "div {background-color: #e5dac7;}",
-        ".container {max-width: 100%;}",
-        ".flexible-layout {max-width: 1440px; margin: 0 auto;}"
+        "#section-id-template--19216448520521__54387e13-0cfd-493b-98c3-ffea8625c7ff {margin: 0;}",
+        "div {text-align: center; background-color: #e5dac7;}",
+        "span {color: #363636; font-size: 24px; font-family: Montserrat; font-weight: 500; line-height: 109.9%;}",
+        ".fully-spaced-row--medium {margin-top: 0px; padding: 24px 5vw 48px;}",
+        "@media (max-width: 767px) {span {font-size: 12px; }}"
       ],
       "settings": {
-        "alignment": "middle"
+        "full_width": true,
+        "code": "<span>Oferta válida del 8\/07\/2023 al 16\/07\/2023 a las 23:59 CET<\/span>"
       }
     },
     "7d2a34cd-61e3-4d8e-af85-275398da8b27": {
@@ -300,7 +325,7 @@
             "subheading": "",
             "text": "<p>Obtén una experiencia increíble con la maqueta del Tranvía Desire 922 y disfruta de los beneficios exclusivos que tenemos para ti.<\/p>",
             "button_label": "COMPRAR AHORA",
-            "button_link": "shopify:\/\/products\/new-orleans",
+            "button_link": "shopify:\/\/products\/pack-precompra-maqueta-tranvia-new-orleans",
             "button_style": "primary",
             "bg_image": "shopify:\/\/shop_images\/Group_340_737bd781-fb73-4ff4-a1d2-45236c693ab8.webp"
           }
@@ -312,9 +337,10 @@
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 0px; margin-bottom: 0px;}",
         ".container {padding: 0; margin: 0; max-width: 100%;}",
+        ".overlay-container {}",
         "* {color: white;}",
-        "p {font-size: min(2.9vw, 46px); font-family: Montserrat; font-weight: 700; line-height: 109.9%; text-transform: uppercase;}",
-        "a {background-color: #a10000; padding: 10px 70px; font-size: min(2vw, 32px); font-family: Montserrat; font-weight: 700;}",
+        "p {font-size: 2.9vw; font-family: Montserrat; font-weight: 700; line-height: 109.9%; text-transform: uppercase;}",
+        "a {background-color: #a10000; padding: 10px 70px; font-size: 2vw; font-family: Montserrat; font-weight: 700;}",
         "@media (max-width: 768px) {.container {display: none; }}",
         ".overlay-text {max-width: 1400px; margin: 0 auto;}",
         ".overlay-text__text {padding: 60px 0;}"
@@ -346,7 +372,7 @@
             "title": "",
             "text": "<p>Obtén una experiencia increíble con la maqueta del Tranvía Desire 922 y disfruta de los beneficios exclusivos que tenemos para ti.<\/p>",
             "button_label": "COMPRAR",
-            "button_link": "shopify:\/\/products\/new-orleans",
+            "button_link": "shopify:\/\/products\/pack-precompra-maqueta-tranvia-new-orleans",
             "button_style": "primary",
             "text_alignment": "left"
           }
@@ -417,9 +443,9 @@
       ],
       "custom_css": [
         ".fully-spaced-row--medium {margin: 0;}",
-        "h2 {padding-top: 48px; margin-bottom: 18px; color: #a10000; text-align: center; font-size: min(6.25vw, 105px); font-family: Abril Fatface; font-weight: 400; line-height: 109.9%;}",
-        ".subheading {margin-top: 0; color: #252525; font-size: min(3vw, 48px); font-weight: 700; line-height: 109.9%;}",
-        "p {color: #000; text-align: left; font-size: min(2.25vw, 40px); font-weight: 400; line-height: 109.9%;}",
+        "h2 {margin-top: 48px; margin-bottom: 18px; color: #a10000; text-align: center; font-size: 6.25vw; font-family: Abril Fatface; font-weight: 400; line-height: 109.9%;}",
+        ".subheading {margin-top: 0; color: #252525; font-size: 3vw; font-weight: 700; line-height: 109.9%;}",
+        "p {color: #000; text-align: left; font-size: 2.25vw; font-weight: 400; line-height: 109.9%;}",
         "@media (max-width: 768px) {p {font-size: 16px; } h2 {font-size: 36px; } .subheading {font-size: 24px; }}"
       ],
       "settings": {
@@ -523,8 +549,6 @@
       "custom_css": [
         "#section-id-template--19216448520521__660bbd61-0f28-49a0-a63e-3417241b7bf1 {margin-top: 0; margin-bottom: 0;}",
         ".fully-spaced-row--medium {margin-top: 100x; margin-bottom: 40px;}",
-        ".container {max-width: 100%;}",
-        ".flexible-layout {max-width: 1440px; margin: 0 auto;}",
         "@media (max-width: 767px) {.flexible-layout {column-gap: 2%; flex-direction: row; }}",
         "@media (max-width: 767px) {.flexible-layout .column--third {width: 32% !important; margin-bottom: 2%; }}"
       ],
@@ -553,7 +577,7 @@
           "type": "button",
           "settings": {
             "button_label": "COMPRAR AHORA",
-            "button_link": "shopify:\/\/products\/new-orleans",
+            "button_link": "shopify:\/\/products\/pack-precompra-maqueta-tranvia-new-orleans",
             "button_style": "primary"
           }
         }
@@ -563,9 +587,8 @@
         "0a116cf8-9325-4535-b13a-3af5c2242ba5"
       ],
       "custom_css": [
-        ".lightly-spaced-row {margin-bottom: 0;}",
-        "p {padding-top: 24px; color: #a10000; text-align: center; font-size: min(2.5vw, 40px); font-family: Montserrat; font-style: normal; font-weight: 500; line-height: normal;}",
-        "a {background-color: #a10000; margin-top: 24px; margin-bottom: 24px; padding: 12px 70px; font-size: 32px; font-family: Montserrat; font-style: normal; font-weight: 700; border-radius: 4px;}",
+        "p {color: #a10000; text-align: center; font-size: 2.5vw; font-family: Montserrat; font-style: normal; font-weight: 500; line-height: normal;}",
+        "a {background-color: #a10000; margin-top: 24px; padding: 12px 24px; font-size: 32px; font-family: Montserrat; font-style: normal; font-weight: 700; border-radius: 4px;}",
         "@media (max-width: 767px) {p {font-size: 16px; } a {font-size: 13px; }}"
       ],
       "settings": {
@@ -613,10 +636,10 @@
         "0b795c4b-d33b-4d2e-8fbd-147189377f4b"
       ],
       "custom_css": [
-        ".fully-spaced-row--small,.lightly-spaced-row {margin: 0;}",
+        ".fully-spaced-row--small,.lightly-spaced-row {margin-bottom: 0;}",
         "div {background: #789a69;}",
-        "h2 {padding-top: 48px; color: #fff; text-align: center; font-size: min(6.25vw, 105px); font-family: Abril Fatface; font-style: normal; font-weight: 400; line-height: 109.9%;}",
-        "p {color: #fff; font-size: min(3.3vw, 53px); font-family: Montserrat; font-style: normal; font-weight: 600; line-height: 134.9%;}",
+        "h2 {padding-top: 48px; color: #fff; text-align: center; font-size: 6.25vw; font-family: Abril Fatface; font-style: normal; font-weight: 400; line-height: 109.9%;}",
+        "p {color: #fff; font-size: 3.3vw; font-family: Montserrat; font-style: normal; font-weight: 600; line-height: 134.9%;}",
         "@media (max-width: 767px) {p {font-size: 20px; } h2 {font-size: 36px; }}"
       ],
       "settings": {
@@ -627,11 +650,11 @@
         "use_alt_bg": false
       }
     },
-    "6181df68-f1b1-4c2f-9a26-90193d342286": {
-      "type": "pm-background-video",
+    "ef8924cb-21bb-4d05-9fc4-621a23803653": {
+      "type": "background-video",
       "custom_css": [
-        "#section-id-template--19216448520521__6181df68-f1b1-4c2f-9a26-90193d342286 {padding: 60px; background-color: #789a69;}",
-        "@media (max-width: 767px) {#section-id-template--19216448520521__6181df68-f1b1-4c2f-9a26-90193d342286 {padding: 24px; }}",
+        "#section-id-template--19216448520521__ef8924cb-21bb-4d05-9fc4-621a23803653 {padding: 60px; background-color: #789a69;}",
+        "@media (max-width: 767px) {#section-id-template--19216448520521__ef8924cb-21bb-4d05-9fc4-621a23803653 {padding: 24px; }}",
         ".video-container {min-height: 0;}"
       ],
       "settings": {
@@ -651,10 +674,8 @@
         "open_url_new_tab": true,
         "button_style": "primary",
         "text_alignment": "center center",
-        "widthRatioDesktop": 16,
-        "heightRatioDesktop": 9,
-        "widthRatioMobile": 16,
-        "heightRatioMobile": 9,
+        "height_desktop": 520,
+        "height_mobile": 200,
         "full_width": true
       }
     },
@@ -756,11 +777,11 @@
     "main",
     "43f6051e-34c1-406e-b73a-0ccd4ddc76a9",
     "87e87b05-83b5-4abf-af14-17e924960b40",
-    "64d62acd-04df-481c-8380-acbee2a69860",
+    "dd7771ce-17f6-4752-8059-100f197b6ace",
     "d5750363-2c35-4e72-acf9-e06efb5470f7",
     "aa533a82-fea1-4ba1-a9c5-e79e81116f63",
     "e6eeb460-3088-43d4-81de-1a8cdbfe9434",
-    "a4319585-6bd4-4428-b7c6-bee938073e94",
+    "54387e13-0cfd-493b-98c3-ffea8625c7ff",
     "7d2a34cd-61e3-4d8e-af85-275398da8b27",
     "ffb191f7-44e5-4812-bc9b-bd397a55dbb4",
     "d61108e6-b8b5-4333-a565-6ab1476f0e34",
@@ -768,7 +789,7 @@
     "660bbd61-0f28-49a0-a63e-3417241b7bf1",
     "14425762-fbf4-4ab4-b74c-9250121668e7",
     "ba223ff3-f66d-4935-b84d-a59b7d4ab1c1",
-    "6181df68-f1b1-4c2f-9a26-90193d342286",
+    "ef8924cb-21bb-4d05-9fc4-621a23803653",
     "fac94a2f-b2e8-4e0b-b7ee-fa7971bcad30",
     "f40121b5-996a-411b-a93d-b5cbc0f5d2a9",
     "03098f4a-99ab-41c9-a2db-02e754e8a844"
