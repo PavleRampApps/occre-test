@@ -1,0 +1,415 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": true
+      }
+    },
+    "43f6051e-34c1-406e-b73a-0ccd4ddc76a9": {
+      "type": "pm-slider-center-mode",
+      "blocks": {
+        "9a23ac45-b960-4c1d-8543-3ee10a0b092f": {
+          "type": "slide",
+          "settings": {
+            "image_desktop_es": "shopify:\/\/shop_images\/Mesa_de_trabajo_8.webp",
+            "image_mobile_es": "shopify:\/\/shop_images\/es-m-Recurso_252_23_cc74c722-d75f-4ff3-bd8a-1ac2dc60f5ad.webp",
+            "image_desktop_en": "shopify:\/\/shop_images\/en-d-Mesa_de_trabajo_25.webp",
+            "image_mobile_en": "shopify:\/\/shop_images\/en-m-Recurso_252_36_e703a4bf-decb-4f3c-a075-5340235b4df5.webp",
+            "image_desktop_fr": "shopify:\/\/shop_images\/Mesa_de_trabajo_8.webp",
+            "image_mobile_fr": "shopify:\/\/shop_images\/Recurso_252_23.webp",
+            "image_desktop_it": "shopify:\/\/shop_images\/Mesa_de_trabajo_8.webp",
+            "image_mobile_it": "shopify:\/\/shop_images\/Recurso_252_23.webp",
+            "image_desktop_de": "shopify:\/\/shop_images\/Mesa_de_trabajo_8.webp",
+            "image_mobile_de": "shopify:\/\/shop_images\/es-m-Recurso_252_23_882015a0-443a-454d-b54a-94529f09f3a9.webp",
+            "image_desktop_pt-PT": "shopify:\/\/shop_images\/Mesa_de_trabajo_8.webp",
+            "image_mobile_pt-PT": "shopify:\/\/shop_images\/es-m-Recurso_252_23_513b2603-c0c4-491f-aab5-bce18c75ead7.webp"
+          }
+        },
+        "777ed8d2-f6da-472d-8bc3-9ec1ec84478c": {
+          "type": "slide",
+          "settings": {
+            "image_desktop_es": "shopify:\/\/shop_images\/Mesa_de_trabajo_9.webp",
+            "image_mobile_es": "shopify:\/\/shop_images\/Recurso_252_25.webp",
+            "image_desktop_en": "shopify:\/\/shop_images\/Mesa_de_trabajo_9_1.webp",
+            "image_mobile_en": "shopify:\/\/shop_images\/Recurso_252_9.webp",
+            "image_desktop_fr": "shopify:\/\/shop_images\/Mesa_de_trabajo_18.webp",
+            "image_mobile_fr": "shopify:\/\/shop_images\/fr-m-Group_488.webp",
+            "image_desktop_it": "shopify:\/\/shop_images\/Mesa_de_trabajo_19.webp",
+            "image_mobile_it": "shopify:\/\/shop_images\/Recurso_252_20_mobile.webp",
+            "image_desktop_de": "shopify:\/\/shop_images\/Mesa_de_trabajo_27.webp",
+            "image_mobile_de": "shopify:\/\/shop_images\/Recurso_252_38_mobile.webp",
+            "image_desktop_pt-PT": "shopify:\/\/shop_images\/Mesa_de_trabajo_21.webp",
+            "image_mobile_pt-PT": "shopify:\/\/shop_images\/Recurso_252_22_mobile.webp"
+          }
+        },
+        "1b4f3356-15a3-42d7-83ec-9558278453bc": {
+          "type": "slide",
+          "settings": {
+            "image_desktop_es": "shopify:\/\/shop_images\/Mesa_de_trabajo_7.webp",
+            "image_mobile_es": "shopify:\/\/shop_images\/Recurso_252_24_1e9aba36-5610-433e-a73f-efc687e89349.webp",
+            "image_desktop_en": "shopify:\/\/shop_images\/Mesa_de_trabajo_7_1.webp",
+            "image_mobile_en": "shopify:\/\/shop_images\/Recurso_252_10_0c7ebb94-17aa-4d9f-9f9c-e9eaf0dcb8ce.webp",
+            "image_desktop_fr": "shopify:\/\/shop_images\/Mesa_de_trabajo_10.webp",
+            "image_mobile_fr": "shopify:\/\/shop_images\/Recurso_252_11_mobile_84cbbd26-f04e-4db0-9fe1-8ad9c6792d75.webp",
+            "image_desktop_it": "shopify:\/\/shop_images\/Mesa_de_trabajo_11.webp",
+            "image_mobile_it": "shopify:\/\/shop_images\/Recurso_252_12_mobile_8e94ec41-42b5-47d3-9c29-7138909392ff.webp",
+            "image_desktop_de": "shopify:\/\/shop_images\/Mesa_de_trabajo_26_846f7df6-7781-41ca-bf58-df0140bee790.webp",
+            "image_mobile_de": "shopify:\/\/shop_images\/Recurso_252_37_mobile.webp",
+            "image_desktop_pt-PT": "shopify:\/\/shop_images\/Mesa_de_trabajo_13.webp",
+            "image_mobile_pt-PT": "shopify:\/\/shop_images\/Recurso_252_14_mobile_7edc0918-2a1b-47cf-b242-76a209003ef7.webp"
+          }
+        }
+      },
+      "block_order": [
+        "9a23ac45-b960-4c1d-8543-3ee10a0b092f",
+        "777ed8d2-f6da-472d-8bc3-9ec1ec84478c",
+        "1b4f3356-15a3-42d7-83ec-9558278453bc"
+      ],
+      "settings": {
+      }
+    },
+    "f67e9626-f5ec-4d3c-a721-231c4015613d": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".kv-form {width: 650px; max-width: 65%; margin: 0 auto;}",
+        "@media (max-width: 768px) {.kv-form {width: 65%; min-width: 240px; }}",
+        "#section-id-template--19188104626505__f67e9626-f5ec-4d3c-a721-231c4015613d {margin-top: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "code": "<div class=\"kv-form\">{% if request.locale.iso_code == 'es' %}\n<div class=\"klaviyo-form-RecGiZ\"><\/div>\n{% elsif request.locale.iso_code == 'it' %}\n<div class=\"klaviyo-form-XAyUWg\"><\/div>\n{% elsif request.locale.iso_code == 'de' %}\n<div class=\"klaviyo-form-VJ738K\"><\/div>\n{% elsif request.locale.iso_code == 'fr' %}\n<div class=\"klaviyo-form-U3Xq7g\"><\/div>\n{% elsif request.locale.iso_code == 'pt-PT' %}\n<div class=\"klaviyo-form-VDtLMm\"><\/div>\n{% else %}\n<div class=\"klaviyo-form-WBpBGh\"><\/div>\n{% endif %}\n<\/div>"
+      }
+    },
+    "659e512f-b683-40d5-9cad-30d2ef2dd5de": {
+      "type": "pm-title",
+      "custom_css": [
+        ".pm_title_countdown {font-family: \"Abril Fatface\", cursive; text-align: center; margin: 0px; font-size: 7vw; color: #a10000;}",
+        ".fully-spaced-row--medium {margin-top: 100px; margin-bottom: 30px;}",
+        "@media (max-width: 575px) {.pm_title_countdown {font-size: 9vw; }}"
+      ],
+      "settings": {
+        "title_es": "Pronto en OcCre",
+        "title_en": "Coming soon on OcCre",
+        "title_fr": "Prochainement sur OcCre",
+        "title_it": "Prossimamente su OcCre",
+        "title_de": "Demnächst auf OcCre",
+        "title_pt-PT": "Brevemente em OcCre"
+      }
+    },
+    "da05b951-9fc1-4280-8646-500c52f57cda": {
+      "type": "pm-countdown",
+      "settings": {
+        "datetime_value": "2023\/07\/08 17:00:00"
+      }
+    },
+    "660bbd61-0f28-49a0-a63e-3417241b7bf1": {
+      "type": "custom-row",
+      "blocks": {
+        "template--19188104626505__660bbd61-0f28-49a0-a63e-3417241b7bf1-1688172544a21faa52-0": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify:\/\/shop_images\/Rectangle_291.webp",
+            "image_position": "center center",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "4eaf1aa9-5942-42f6-be8f-f8a402932a72": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify:\/\/shop_images\/Rectangle_292_50bf1451-1aee-4a11-bc44-1e22a06f3b1a.webp",
+            "image_position": "center center",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "66399412-39b9-4364-b457-bdd001437be2": {
+          "type": "image",
+          "settings": {
+            "width": "full",
+            "image": "shopify:\/\/shop_images\/Rectangle_2913.webp",
+            "image_position": "center center",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        }
+      },
+      "block_order": [
+        "template--19188104626505__660bbd61-0f28-49a0-a63e-3417241b7bf1-1688172544a21faa52-0",
+        "4eaf1aa9-5942-42f6-be8f-f8a402932a72",
+        "66399412-39b9-4364-b457-bdd001437be2"
+      ],
+      "custom_css": [
+        ".fully-spaced-row--medium {margin-top: 100x; margin-bottom: 40px;}"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "58374dff-97d7-4b0e-bedf-a4288261c1c9": {
+      "type": "multi-column-single-row",
+      "blocks": {
+        "template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9-1688174587733c900d-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Frame_483.webp",
+            "title": "<p>Mejorar tus habilidades manuales<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9-1688174587733c900d-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Frame_485.webp",
+            "title": "<p>Fortalecer tu  memoria<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9-1688174587733c900d-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Frame_487.webp",
+            "title": "<p>Encontrar tu momento de paz<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9-1688174587733c900d-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Frame_488.webp",
+            "title": "<p>Ser parte de una gran comunidad<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9-1688174587733c900d-0",
+        "template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9-1688174587733c900d-1",
+        "template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9-1688174587733c900d-3",
+        "template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9-1688174587733c900d-2"
+      ],
+      "custom_css": [
+        ".fully-spaced-row--medium {padding-top: 48px; padding-bottom: 48px; background-color: #363636; margin-top: 0px; margin-bottom: 30px; margin-bottom: 0;}",
+        ".text-column__image {display: flex;}",
+        "h2 {color: #e5dac7; font-size: max(6vw, 32px); font-family: \"Bebas Neue\", sans-serif; font-weight: normal;}",
+        "p {color: #ffffff; text-align: center; font-family: Montserrat; font-size: max(1.8vw, 14px); font-weight: 500;}",
+        "img {width: 120px; object-fit: cover; margin: 0 auto;}",
+        "@media (max-width: 980px) {img {width: 65px; height: 65px !important; }}"
+      ],
+      "settings": {
+        "title": "BENEFICIOS DE COMPRAR EN OCCRE",
+        "text_alignment": "center",
+        "use_alt_bg": false,
+        "image_height": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "subheading": ""
+      }
+    },
+    "c66cc239-6596-4630-8e29-293267ae996f": {
+      "type": "rich-text-leads",
+      "blocks": {
+        "3ed1ea25-f33a-4981-9f19-7eaacac1140b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/reviews.svg",
+            "image_width": 260,
+            "url": ""
+          }
+        },
+        "template--19188104626505__c66cc239-6596-4630-8e29-293267ae996f-1688183457ffae1141-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Más de 2.000 reviews y contando",
+            "titleen": "More than 2,000 reviews and counting",
+            "titlefr": "Plus de 2 000 avis et plus encore",
+            "titlede": "Über 2.000 Bewertungen, Tendenz steigend",
+            "titleit": "Più di 2.000 recensioni e oltre",
+            "titlept": "Mais de 2.000 comentários e a contar",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "3ed1ea25-f33a-4981-9f19-7eaacac1140b",
+        "template--19188104626505__c66cc239-6596-4630-8e29-293267ae996f-1688183457ffae1141-0"
+      ],
+      "custom_css": [
+        ".article {margin: 0;}",
+        ".fully-padded-row--medium {padding-top: 20px; padding-bottom: 20px;}",
+        ".lightly-spaced-row {margin-top: 0;}",
+        ".majortitle {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "1688181391d208728f": {
+      "type": "apps",
+      "blocks": {
+        "528ad90e-be37-4b77-8a11-b596e01ab325": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1200,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "528ad90e-be37-4b77-8a11-b596e01ab325"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "f40121b5-996a-411b-a93d-b5cbc0f5d2a9": {
+      "type": "cross-page-promos-landing",
+      "blocks": {
+        "96eb2d5f-5d34-4de8-85bf-c3808b546f15": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/guarantee.png",
+            "image_size": "icon",
+            "text": "Garantía de por vida",
+            "link_url": ""
+          }
+        },
+        "a17e053a-02ff-4a49-ae30-df28266a3d1c": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/delivery.png",
+            "image_size": "icon",
+            "text": "Envío rápido y seguro",
+            "link_url": ""
+          }
+        },
+        "c7d6ddad-489d-4760-9756-72e93679badf": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lock.png",
+            "image_size": "icon",
+            "text": "Pago seguro y fácil",
+            "link_url": ""
+          }
+        },
+        "3760b26c-1a3a-43ba-93d6-a4ae453fe44d": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lock_1.png",
+            "image_size": "icon",
+            "text": "+23.000 clientes felices",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "96eb2d5f-5d34-4de8-85bf-c3808b546f15",
+        "a17e053a-02ff-4a49-ae30-df28266a3d1c",
+        "c7d6ddad-489d-4760-9756-72e93679badf",
+        "3760b26c-1a3a-43ba-93d6-a4ae453fe44d"
+      ],
+      "settings": {
+        "css_text": "",
+        "visibility": "all"
+      }
+    },
+    "2f985a14-550e-40a6-8cb5-a3576d6c00ff": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "#section-id-template--19188104626505__2f985a14-550e-40a6-8cb5-a3576d6c00ff {margin: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "code": "<link rel=\"preconnect\" href=\"https:\/\/fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https:\/\/fonts.gstatic.com\" crossorigin>\n<link href=\"https:\/\/fonts.googleapis.com\/css2?family=Bebas+Neue&display=swap\" rel=\"stylesheet\">\n<style>\n    @media (max-width:399px) {\n        #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 h2 {\n            font-size: max(6vw, 28px);\n        }\n    }\n\n    @media (min-width:1600px) {\n        #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 h2 {\n            font-size: 96px;\n        }\n\n        #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 p {\n            font-size: 29px;\n        }\n    }\n\n    @media (min-width:992px) and (max-width:1199px) {\n        #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 img {\n            width: 100px;\n            height: 100px !important;\n        }\n    }\n\n    .template-suffix-pm-pre-desire #content {\n        background-color: #e5dac7;\n    }\n\n    #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 p {\n        margin-left: auto;\n        margin-right: auto;\n        padding: 0 5px;\n    }\n\n    #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 .text-column:nth-child(2) p,\n    #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 .text-column:nth-child(3) p {\n        max-width: 165px;\n    }\n\n    @media (max-width:767px) {\n        #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 p {\n            max-width: 175px;\n        }\n    }\n\n    @media (min-width:992px) {\n\n        #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 .text-column:nth-child(3) p {\n            max-width: 270px;\n        }\n\n        #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 .text-column:nth-child(2) p {\n            max-width: 220px;\n        }\n    }\n<\/style>"
+      }
+    },
+    "91584422-109a-4ff1-a50a-8f02cb03e237": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "#section-id-template--19188104626505__91584422-109a-4ff1-a50a-8f02cb03e237 {margin: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "code": "<script>\nwindow.addEventListener('klaviyoForms', (event) => {\n    if (event.detail.type === 'submit') {\n        if (window.location.href.includes('save-the-date-08-07-2023')) {\n            \/\/ GTM Event\n            dataLayer.push({\n                'event': 'sub_desire'\n            });\n        }\n    }\n});\n<\/script>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "43f6051e-34c1-406e-b73a-0ccd4ddc76a9",
+    "f67e9626-f5ec-4d3c-a721-231c4015613d",
+    "659e512f-b683-40d5-9cad-30d2ef2dd5de",
+    "da05b951-9fc1-4280-8646-500c52f57cda",
+    "660bbd61-0f28-49a0-a63e-3417241b7bf1",
+    "58374dff-97d7-4b0e-bedf-a4288261c1c9",
+    "c66cc239-6596-4630-8e29-293267ae996f",
+    "1688181391d208728f",
+    "f40121b5-996a-411b-a93d-b5cbc0f5d2a9",
+    "2f985a14-550e-40a6-8cb5-a3576d6c00ff",
+    "91584422-109a-4ff1-a50a-8f02cb03e237"
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "sections": {
+    "16635431120bfa1cd6": {
+      "type": "background-video-landing2",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9e6340cb7cc945dca6fe9088d21724cf.mp4",
+        "subheading": "",
+        "enlarge_subheading": false,
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "open_url_new_tab": true,
+        "button_style": "primary",
+        "text_alignment": "center center",
+        "height_desktop": 460,
+        "height_mobile": 300,
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/HOLANDeS_ERRANTE_3bdd290e-7cf7-4794-ac05-393ecf319c98.png",
+        "image_en": "shopify:\/\/shop_images\/flying_dutchman_9f1ee27e-aea9-4ec3-860c-2c96c7eef297.png",
+        "image_fr": "shopify:\/\/shop_images\/HOLLANDAIS_VOLANT.png",
+        "image_de": "shopify:\/\/shop_images\/FLIEGENDER_HOLLANDER.png",
+        "image_it": "shopify:\/\/shop_images\/L_OLANDESE_VOLANTE.png"
+      }
+    },
+    "1662212938d6ae83be": {
+      "type": "encabezado-landing",
+      "settings": {
+        "image7": "shopify:\/\/shop_images\/CONDENADO_A_navegar_eternamente_a0779583-28a8-4164-a870-e2bab464e7f5.png",
+        "image8": "shopify:\/\/shop_images\/HOLANDES_ERRANTE.png",
+        "image9": "shopify:\/\/shop_images\/edicion_limitada_-_solo_en_occre.png",
+        "image_tradicion1a": "shopify:\/\/shop_images\/cuenta.png",
+        "image_tradicion1a_en": "shopify:\/\/shop_images\/LEGEND_SAYS....png",
+        "image_tradicion1a_fr": "shopify:\/\/shop_images\/LA_LEGENDE_RACONTE....png",
+        "image_tradicion1a_it": "shopify:\/\/shop_images\/LA_LEGGENDA_RACCONTA_CHE....png",
+        "image_tradicion1a_de": "shopify:\/\/shop_images\/DIE_LEGENDE_ERZAHLT....png",
+        "image_tradicion1": "shopify:\/\/shop_images\/Rectangle_50_cab7e778-7b07-4d40-a8c4-12eb9eb92491.png",
+        "image_tradicion2": "shopify:\/\/shop_images\/Rectangle_39_74e58707-ae33-4900-994b-04962de24002.png",
+        "image_tradicion3": "shopify:\/\/shop_images\/Rectangle_40_5b0b7e9f-9985-45de-9507-a5505b9083b6.png",
+        "image_tradicion4": "shopify:\/\/shop_images\/Rectangle_50-1.png",
+        "image_tradicion5": "shopify:\/\/shop_images\/Rectangle_39-1.png",
+        "image_tradicion6": "shopify:\/\/shop_images\/Rectangle_40-1.png",
+        "image_tradicion7": "shopify:\/\/shop_images\/Rectangle_82.png",
+        "image_tradicion8": "shopify:\/\/shop_images\/Rectangle_83.png",
+        "image_tradicion9": "shopify:\/\/shop_images\/Rectangle_84.png",
+        "image_tradicion10": "shopify:\/\/shop_images\/Rectangle_85.png",
+        "image_tradicion11": "shopify:\/\/shop_images\/Rectangle_86.png",
+        "image_tradicion12": "shopify:\/\/shop_images\/Rectangle_87_58afeae4-e4bd-4b2e-81b1-0621ec090341.png",
+        "image_desafio": "shopify:\/\/shop_images\/collage2.png",
+        "image_for": "shopify:\/\/shop_images\/Leyenda_del_barco_el_Holandes_Errante_1.png",
+        "image_foren": "shopify:\/\/shop_images\/LIMITED_EDITION_FLYING_DUTCHMAN.png",
+        "image_forfr": "shopify:\/\/shop_images\/La_legende_du_bateau_l_Hollandais_Volant.png",
+        "image_forit": "shopify:\/\/shop_images\/La_leggenda_della_nave_dell_Olandese_Volante.png",
+        "image_forde": "shopify:\/\/shop_images\/DIE_LEGENDE_DES_FLIEGENDEN_HOLLANDERS.png",
+        "soloen": "shopify:\/\/shop_images\/Solo_en_occre.._1.png",
+        "soloen_en": "shopify:\/\/shop_images\/Only_in_OcCre.png",
+        "soloen_fr": "shopify:\/\/shop_images\/Seulement_chez_OcCre.png",
+        "soloen_it": "shopify:\/\/shop_images\/Soltanto_da_OcCre.png",
+        "soloen_de": "shopify:\/\/shop_images\/Nur_bei_OcCre.png",
+        "desafio2": "shopify:\/\/shop_images\/Rectangle_88.png"
+      }
+    },
+    "bf09f3f5-a9c6-46e5-bb5e-96f0f4f504da": {
+      "type": "carousel-logos",
+      "blocks": {
+        "template--16578797699327__bf09f3f5-a9c6-46e5-bb5e-96f0f4f504da-1683164519b4105dbe-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_11.jpg",
+            "image_link": ""
+          }
+        },
+        "template--16578797699327__bf09f3f5-a9c6-46e5-bb5e-96f0f4f504da-1683164519b4105dbe-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_9.jpg",
+            "image_link": ""
+          }
+        },
+        "template--16578797699327__bf09f3f5-a9c6-46e5-bb5e-96f0f4f504da-1683164519b4105dbe-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_6.jpg",
+            "image_link": ""
+          }
+        },
+        "template--16578797699327__bf09f3f5-a9c6-46e5-bb5e-96f0f4f504da-1683164519b4105dbe-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_10.jpg",
+            "image_link": ""
+          }
+        },
+        "23358bcc-e871-47e0-91b5-04b8c2a1740a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_85.jpg",
+            "image_link": ""
+          }
+        },
+        "89742411-0153-438d-9458-e93115364bef": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_86.jpg",
+            "image_link": ""
+          }
+        },
+        "5519293b-e48b-4ce2-b543-82d24196c13b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_7.jpg",
+            "image_link": ""
+          }
+        },
+        "2354620d-cde3-4dbc-bc67-c588494c2320": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_8.jpg",
+            "image_link": ""
+          }
+        },
+        "cab3fcf0-1d04-4082-9a7b-f793b2acfe67": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_50.jpg",
+            "image_link": ""
+          }
+        },
+        "2d92d166-e8b3-4c73-af6f-5fe009a52f87": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_83.jpg",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16578797699327__bf09f3f5-a9c6-46e5-bb5e-96f0f4f504da-1683164519b4105dbe-0",
+        "template--16578797699327__bf09f3f5-a9c6-46e5-bb5e-96f0f4f504da-1683164519b4105dbe-1",
+        "template--16578797699327__bf09f3f5-a9c6-46e5-bb5e-96f0f4f504da-1683164519b4105dbe-2",
+        "template--16578797699327__bf09f3f5-a9c6-46e5-bb5e-96f0f4f504da-1683164519b4105dbe-3",
+        "23358bcc-e871-47e0-91b5-04b8c2a1740a",
+        "89742411-0153-438d-9458-e93115364bef",
+        "5519293b-e48b-4ce2-b543-82d24196c13b",
+        "2354620d-cde3-4dbc-bc67-c588494c2320",
+        "cab3fcf0-1d04-4082-9a7b-f793b2acfe67",
+        "2d92d166-e8b3-4c73-af6f-5fe009a52f87"
+      ],
+      "settings": {
+        "heading": "Brand list",
+        "subheading": "",
+        "header_alignment": "center",
+        "padding-top": 20,
+        "enable_slider": true,
+        "custom_class": ""
+      }
+    },
+    "16639334128fac114d": {
+      "type": "background-video-landing2",
+      "disabled": true,
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9e6340cb7cc945dca6fe9088d21724cf.mp4",
+        "subheading": "",
+        "enlarge_subheading": true,
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "open_url_new_tab": false,
+        "button_style": "primary",
+        "text_alignment": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/edicion_limitada_del_holandes_errante.png"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": true
+      }
+    },
+    "165276578350b291f4": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    },
+    "16639334215c961015": {
+      "type": "background-video-landing",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9e6340cb7cc945dca6fe9088d21724cf.mp4",
+        "subheading": "",
+        "enlarge_subheading": false,
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "open_url_new_tab": true,
+        "button_style": "primary",
+        "text_alignment": "center center",
+        "height_desktop": 480,
+        "height_mobile": 420,
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/edicion_limitada_del_holandes_errante.png",
+        "image_en": "shopify:\/\/shop_images\/LIMITED_EDITION_FLYING_DUTCHMAN_b514f975-f86f-4d5e-8574-140c593a8377.png",
+        "image_fr": "shopify:\/\/shop_images\/La_legende_du_bateau_l_Hollandais_Volant_b89e6b5c-bba5-44b8-8350-3e177092157d.png",
+        "image_de": "shopify:\/\/shop_images\/DIE_LEGENDE_DES_FLIEGENDEN_HOLLANDERS_e2432af2-9d70-4acc-b23e-506b39d0d402.png",
+        "image_it": "shopify:\/\/shop_images\/La_leggenda_della_nave_dell_Olandese_Volante_402abfa7-20fb-4842-bb1d-0bb21e88b9e4.png",
+        "image_desafio2": "shopify:\/\/shop_images\/Rectangle_78.png",
+        "image_desafio3": "shopify:\/\/shop_images\/Rectangle_81.png"
+      }
+    }
+  },
+  "order": [
+    "16635431120bfa1cd6",
+    "1662212938d6ae83be",
+    "bf09f3f5-a9c6-46e5-bb5e-96f0f4f504da",
+    "16639334128fac114d",
+    "main",
+    "165276578350b291f4",
+    "16639334215c961015"
+  ]
+}

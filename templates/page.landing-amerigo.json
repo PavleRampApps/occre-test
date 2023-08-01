@@ -1,0 +1,977 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    },
+    "1650629352a8404cdf": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "46380e8e-f07c-42eb-9f3a-cb9014590389": {
+          "type": "heading",
+          "settings": {
+            "title": "OcCre PRINZ EUGEN 1:200",
+            "color": "primary_color",
+            "text_transform": "text_uppercase",
+            "use_h1": true
+          }
+        },
+        "1650629352e6148289-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Crucero pesado alemán de la clase Admiral Hipper.<\/p>",
+            "enlarge_text": true,
+            "color": "secondary_color",
+            "bold_text": false
+          }
+        },
+        "398288f8-c797-4e8b-b53c-b2e883e13ccd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pre-comprar ahora",
+            "button_link": "shopify:\/\/products\/prinz-eugen",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "46380e8e-f07c-42eb-9f3a-cb9014590389",
+        "1650629352e6148289-1",
+        "398288f8-c797-4e8b-b53c-b2e883e13ccd"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "large",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1650558988a6bd2282": {
+      "type": "background-video",
+      "blocks": {
+        "79f500b4-3630-4429-b2ae-cd69feb41987": {
+          "type": "sticker",
+          "settings": {
+            "sticker": "shopify:\/\/shop_images\/00-marca-OCCRE-21_transparent_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "79f500b4-3630-4429-b2ae-cd69feb41987"
+      ],
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/OcCre_Maqueta_de_madera_amerigo_vespucci_1-100_WEB.mp4?v=1655294015",
+        "placeholder_image": "shopify:\/\/shop_images\/OcCre_Maqueta_Barco_Amerigo_Vespucci_Mkting_1-1920.jpg",
+        "subheading": "AMERIGO VESPUCCI",
+        "enlarge_subheading": true,
+        "title": "EL BUQUE ESCUELA\n\"PIÙ BELLO\" DEL MUNDO",
+        "title_size": 36,
+        "title_size_mobile": 30,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "COMPRA AMERIGO CON VELAS",
+        "button_url_1": "shopify:\/\/products\/amerigo-vespucci",
+        "button_label_2": "COMPRA AMERIGO SIN VELAS",
+        "button_url_2": "shopify:\/\/products\/amerigo-vespucci-basic",
+        "open_url_new_tab": false,
+        "button_style": "primary",
+        "text_alignment": "center center",
+        "height_desktop": 520,
+        "height_mobile": 480,
+        "full_width": true
+      }
+    },
+    "16555868025d0d0695": {
+      "type": "rich-text",
+      "blocks": {
+        "16555868023decee9b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>¡El Amerigo Vespucci ya está aquí!<\/p><p>Este verano, disfruta construyendo esta maravillosa maqueta naval. Infinitas horas de diversión con las más de 600 piezas diferentes.<\/p><p><strong>El pasado, presente y futuro del Amerigo Vespucci en tus manos.<\/strong><\/p>",
+            "enlarge_text": true,
+            "color": "secondary_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16555868023decee9b-1"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16555868059e92b93a": {
+      "type": "custom-row",
+      "blocks": {
+        "17a18d93-01d5-426d-bd1c-880d1cff3f3c": {
+          "type": "html",
+          "settings": {
+            "width": "third",
+            "code": "<style>\n    \/* Generales *\/\n    .vespucci-variation,\n    .vespucci-variation a {\n        color: white;\n    }\n\n    .vespucci-variation .vespucci-variation__gift {\n        background-color: #4A4A4A;\n    }\n\n    .vespucci-variation .vespucci-variation__type>span>span {\n        font-weight: bold;\n    }\n\n    .vespucci-variation .vespucci-variation__type,\n    .vespucci-variation .vespucci-variation__link {\n        padding: 12px;\n        text-align: center;\n        text-transform: uppercase;\n        font-size: 20px;\n    }\n\n    .vespucci-variation .vespucci-variation__link {\n        display: block;\n        font-weight: bold;\n        text-decoration: underline;\n    }\n\n    .vespucci-variation .vespucci-variation__link:hover {\n        text-decoration: none;\n    }\n\n    .vespucci-variation img {\n        width: 100%;\n        height: auto;\n    }\n\n    .vespucci-variation .vespucci-variation__gift {\n        font-size: 30px;\n        font-weight: bold;\n        padding: 12px;\n        text-align: center;\n        text-transform: uppercase;\n    }\n\n    .vespucci-variation .vespucci-variation__gift > span {\n        display: block;\n    }\n\n    @media (min-width:1400px) {\n        .vespucci-variation .vespucci-variation__gift {\n            font-size: 36px;\n        }\n    }\n\n    @media (max-width:1199px) {\n        .vespucci-variation .vespucci-variation__type>span>span {\n            display: block;\n        }\n\n        .vespucci-variation .vespucci-variation__gift {\n            font-size: 28px;\n        }\n    }\n\n    @media (max-width:991px) {\n        .vespucci-variation .vespucci-variation__type,\n        .vespucci-variation .vespucci-variation__link {\n            font-size: 18px;\n        }\n    }\n\n    @media (max-width:767px) {\n        .vespucci-variation .vespucci-variation__gift {\n            font-size: 24px;\n        }\n    }\n\n    \/* Con velas *\/\n    .vespucci-con-velas .vespucci-variation__type {\n        background-color: #0A119F;\n    }\n\n    .vespucci-con-velas .vespucci-variation__link {\n        background-color: #0A119F;\n    }\n\n    \/* Sin velas *\/\n    .vespucci-sin-velas .vespucci-variation__type {\n        background-color: #F5BD43;\n    }\n\n    .vespucci-sin-velas .vespucci-variation__link {\n        background-color: #F5BD43;\n    }\n\n    \/* FIX alto de sección de video 2 *\/\n    #shopify-section-template--16141282672895__1655592161f7f48642 .video-container {\n        min-height: auto;\n    }\n<\/style>\n\n<!-- -->\n<!-- -->\n<!-- -->\n\n<div class=\"vespucci-variation vespucci-con-velas\">\n    <div class=\"vespucci-variation__type\">\n        <span>Amerigo Vespucci <span>con velas<\/span><\/span>\n    <\/div>\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/amerigo-vespucci-con-velas.jpg?v=1655588469\"\n        alt=\"Amerigo Vespucci con velas\">\n   \n    <a class=\"vespucci-variation__link\" href=\"https:\/\/occre.com\/products\/amerigo-vespucci\">Comprar ahora<\/a>\n<\/div>"
+          }
+        },
+        "ddd1862b-7c1d-4420-b18e-5971e8e832af": {
+          "type": "html",
+          "settings": {
+            "width": "third",
+            "code": "<div class=\"vespucci-variation vespucci-sin-velas\">\n    <div class=\"vespucci-variation__type\">\n        <span>Amerigo Vespucci <span>sin velas<\/span><\/span>\n    <\/div>\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/amerigo-vespucci-sin-velas.jpg?v=1655588470\"\n        alt=\"Amerigo Vespucci sin velas\">\n    \n    <a class=\"vespucci-variation__link\" href=\"https:\/\/occre.com\/products\/amerigo-vespucci-basic\">Comprar ahora<\/a>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "17a18d93-01d5-426d-bd1c-880d1cff3f3c",
+        "ddd1862b-7c1d-4420-b18e-5971e8e832af"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "16555897724d93ce39": {
+      "type": "rich-text",
+      "blocks": {
+        "16555897720e55c871-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Anímate a montar el Amerigo Vespucci",
+            "color": "secondary_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "16555897720e55c871-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Conoce cada una de sus partes y sorpréndete con + de 600 piezas diferentes e infinitas horas de diversión.<\/p><p><\/p><p><strong>Peana básica incluida<br\/>Placa de fundición con el nombre incluida<br\/>Garantía de por vida<br\/>Reposición de piezas<br\/>Videotutoriales paso a paso<\/strong><\/p>",
+            "enlarge_text": true,
+            "color": "secondary_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16555897720e55c871-0",
+        "16555897720e55c871-1"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1655590028dd6b4709": {
+      "type": "gallery",
+      "blocks": {
+        "1655590028460d9b8d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amerigo-gallery-1.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "open_link_new_tab": true,
+            "text_alignment": "bottom left"
+          }
+        },
+        "2c6a8986-da6b-4cb0-a40f-2b5994dd91c5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amerigo-gallery-2.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "open_link_new_tab": true,
+            "text_alignment": "bottom left"
+          }
+        },
+        "9f6ac2c2-f21f-4300-ba2b-3ca0efbb37f3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amerigo-gallery-3.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "open_link_new_tab": true,
+            "text_alignment": "bottom left"
+          }
+        },
+        "acdb734a-771f-4169-bd6a-9530f12f74b6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amerigo-gallery-4.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "open_link_new_tab": true,
+            "text_alignment": "bottom left"
+          }
+        },
+        "e5c037af-0b20-4468-9263-57bf587e94a9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amerigo-gallery-5.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "open_link_new_tab": true,
+            "text_alignment": "bottom left"
+          }
+        },
+        "b022f2c4-3d2d-4f9c-bea6-a07e52a0fa6f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amerigo-gallery-6.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "open_link_new_tab": true,
+            "text_alignment": "bottom left"
+          }
+        },
+        "e17d8a14-23fc-4fb4-8241-ecc139f26d4f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amerigo-gallery-7.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "open_link_new_tab": true,
+            "text_alignment": "bottom left"
+          }
+        },
+        "51439063-b0f1-40c1-b39f-79214680d976": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amerigo-gallery-8.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "open_link_new_tab": true,
+            "text_alignment": "bottom left"
+          }
+        },
+        "a9764bec-5668-4ed9-9489-d775d2f478ea": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amerigo-gallery-9.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "open_link_new_tab": true,
+            "text_alignment": "bottom left"
+          }
+        },
+        "bde6bf5c-0ee3-4042-b695-84a740a2b77b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amerigo-gallery-10.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "open_link_new_tab": true,
+            "text_alignment": "bottom left"
+          }
+        },
+        "513e871b-a750-4e70-9351-af52a08ea157": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amerigo-gallery-11.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "open_link_new_tab": true,
+            "text_alignment": "bottom left"
+          }
+        },
+        "1d07bff0-0e11-4d91-86f2-0e8c9fe15282": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amerigo-gallery-12.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "open_link_new_tab": true,
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "1655590028460d9b8d-0",
+        "2c6a8986-da6b-4cb0-a40f-2b5994dd91c5",
+        "9f6ac2c2-f21f-4300-ba2b-3ca0efbb37f3",
+        "acdb734a-771f-4169-bd6a-9530f12f74b6",
+        "e5c037af-0b20-4468-9263-57bf587e94a9",
+        "b022f2c4-3d2d-4f9c-bea6-a07e52a0fa6f",
+        "e17d8a14-23fc-4fb4-8241-ecc139f26d4f",
+        "51439063-b0f1-40c1-b39f-79214680d976",
+        "a9764bec-5668-4ed9-9489-d775d2f478ea",
+        "bde6bf5c-0ee3-4042-b695-84a740a2b77b",
+        "513e871b-a750-4e70-9351-af52a08ea157",
+        "1d07bff0-0e11-4d91-86f2-0e8c9fe15282"
+      ],
+      "settings": {
+        "grid": 4,
+        "desktop_image_height": 270,
+        "mobile_image_height": 250,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "full_width": true,
+        "use_alt_bg": false,
+        "enable_carousel": true
+      }
+    },
+    "1655592161f7f48642": {
+      "type": "video-with-text",
+      "disabled": true,
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2b5a9581762d4a9f8499d40d825a37f5.mp4",
+        "autoplay": true,
+        "placeholder_image": "shopify:\/\/shop_images\/AMERIGO-VESPUCCI_PINTURAS-1.jpg",
+        "subheading": "¡OPORTUNIDAD HASTA EL 25 DE JUNIO!",
+        "bold_subheading": true,
+        "title": "Pre-compra ahora y llevate el pack de pinturas",
+        "title_style": "text_default",
+        "use_h1": false,
+        "text": "<p>¡Hasta el día 25 de junio con la pre-compra del Amerigo Vespucci te regalamos el PACK DE PINTURAS! ¡Valorado en 60€!<\/p>",
+        "color": "default_color",
+        "button_label": "PRE-COMPRAR AHORA",
+        "button_link": "shopify:\/\/products\/amerigo-vespucci",
+        "button_style": "secondary",
+        "video_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": true
+      }
+    },
+    "1650630431bd1d81ef": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "1650630430612f6e89-0": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1650630430612f6e89-1": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true
+          }
+        },
+        "1650630430612f6e89-2": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "1650630430612f6e89-3": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "1650630430612f6e89-4": {
+          "type": "variant_picker",
+          "settings": {
+            "show_single": false,
+            "variant_style": "listed",
+            "show_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "1650630430612f6e89-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_backorder_text": true,
+            "show_pickup_availability": true
+          }
+        },
+        "1650630430612f6e89-6": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "1650630430612f6e89-0",
+        "1650630430612f6e89-1",
+        "1650630430612f6e89-2",
+        "1650630430612f6e89-3",
+        "1650630430612f6e89-4",
+        "1650630430612f6e89-5",
+        "1650630430612f6e89-6"
+      ],
+      "settings": {
+        "product": "prinz-eugen",
+        "inventory_transfers_enable": true,
+        "prod_gall_thumbs_under": "under",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "1650696455c54044cb": {
+      "type": "featured-product-2",
+      "disabled": true,
+      "settings": {
+        "product": "",
+        "image": "shopify:\/\/shop_images\/OcCre-Pack_Pinturas_Maqueta_de_madera_barco_prinz_eugen_1_200_web_regalo.png",
+        "subheading": "Pack pinturas",
+        "bold_subheading": true,
+        "border_width": 50,
+        "title": "REGALAZO",
+        "text": "<p>Realiza la pre-compra antes del día 30 de abril y...<br\/>¡Recibe este regalazo valorado en <strong>60 euros<\/strong>!<\/p><p><\/p><p>¿Dejarás escapar esta oportunidad?<\/p>",
+        "show_entire_description": false,
+        "truncate_description": 5,
+        "button_label": "Pre-comprar ahora",
+        "button_link": "shopify:\/\/products\/prinz-eugen",
+        "button_style": "quaternary"
+      }
+    },
+    "165069798199b890c9": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/amerigo-vespucci-specs.png",
+        "image_width": 700,
+        "subheading": "NO EL QUE EMPIEZA, SINO EL QUE PERSEVERA...",
+        "bold_subheading": true,
+        "title": "Descubre de cerca su maravillosa historia y cada parte de él",
+        "heading_type": "text_uppercase",
+        "use_h1": false,
+        "text": "<p>Cuenta con tres mástiles, 54, 50 y 43 metros de altura, respectivamente, con un total de 6 velas de lona olona, una fibra cruda natural muy resistente, y una superficie vélica de más de 000 metros cuadrados. Cuenta con una longitud de 101 metros, la anchura de 15.56 y el calado – la parte del barco que termina bajo el agua – es de 7.3 metros.<\/p>",
+        "color": "secondary_color",
+        "button_label": "COMPRAR",
+        "button_link": "shopify:\/\/products\/amerigo-vespucci",
+        "button_style": "secondary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "16510720294732786c": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "1651072029ed1ded66-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OcCre-Maqueta_de_madera_barco_prinz_eugen_1_200_lateral_fondo_blanco.jpg",
+            "image_position": "center center",
+            "mobile_image_position": "center center",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "Pre-comprar ahora",
+            "button_url_1": "shopify:\/\/products\/prinz-eugen",
+            "button_label_2": "",
+            "button_url_2": "",
+            "button_style": "primary",
+            "text_alignment": "center center"
+          }
+        },
+        "1651072029ed1ded66-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OcCre-Maqueta_de_madera_barco_prinz_eugen_1_200_piezas_laton_fondo_negro.jpg",
+            "image_position": "center center",
+            "mobile_image_position": "center center",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "Pre-comprar ahora",
+            "button_url_1": "shopify:\/\/products\/prinz-eugen",
+            "button_label_2": "",
+            "button_url_2": "",
+            "button_style": "primary",
+            "text_alignment": "center center"
+          }
+        },
+        "602d663e-1868-48da-b012-731cef80b99a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OcCre-Maqueta_de_madera_barco_prinz_eugen_1_200_zenital_fondo_blanco.jpg",
+            "image_position": "center center",
+            "mobile_image_position": "center center",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "Pre-comprar ahora",
+            "button_url_1": "shopify:\/\/products\/prinz-eugen",
+            "button_label_2": "",
+            "button_url_2": "",
+            "button_style": "primary",
+            "text_alignment": "center center"
+          }
+        },
+        "f9d9d9af-b666-4c08-9140-8735c6c2caf2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OcCre-Maqueta_de_madera_barco_prinz_eugen_1_200_fundicion_detalle_fondo_negro.jpg",
+            "image_position": "center center",
+            "mobile_image_position": "center center",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "Pre-comprar ahora",
+            "button_url_1": "shopify:\/\/products\/prinz-eugen",
+            "button_label_2": "",
+            "button_url_2": "",
+            "button_style": "primary",
+            "text_alignment": "center center"
+          }
+        },
+        "1d4dbf87-ff81-4bf9-bf05-4b73145d2c6a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OcCre-Maqueta_de_madera_barco_prinz_eugen_1_200_perfill_fondo_blanco.jpg",
+            "image_position": "center center",
+            "mobile_image_position": "center center",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "Pre-comprar ahora",
+            "button_url_1": "shopify:\/\/products\/prinz-eugen",
+            "button_label_2": "",
+            "button_url_2": "",
+            "button_style": "primary",
+            "text_alignment": "center center"
+          }
+        },
+        "2aa56b55-5be2-4a2c-ab23-f0cb29323def": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/200_canon_fundicion_fondo_negro_copia.jpg",
+            "image_position": "center center",
+            "mobile_image_position": "center center",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "Pre-comprar ahora",
+            "button_url_1": "shopify:\/\/products\/prinz-eugen",
+            "button_label_2": "",
+            "button_url_2": "",
+            "button_style": "primary",
+            "text_alignment": "bottom center"
+          }
+        }
+      },
+      "block_order": [
+        "1651072029ed1ded66-0",
+        "1651072029ed1ded66-1",
+        "602d663e-1868-48da-b012-731cef80b99a",
+        "f9d9d9af-b666-4c08-9140-8735c6c2caf2",
+        "1d4dbf87-ff81-4bf9-bf05-4b73145d2c6a",
+        "2aa56b55-5be2-4a2c-ab23-f0cb29323def"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 600,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "box",
+        "slide_transition": "zoom",
+        "slide_navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 2
+      }
+    },
+    "1650712977cbefe4c7": {
+      "type": "ad-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Maqueta_de_barco_prinx_eugen_OcCre.jpg",
+        "title": "Un poco de historia...",
+        "body": "<p>El Prinz Eugen fue un crucero pesado alemán de la clase Admiral Hipper, tercero de una serie de cinco, que sirvió en la Kriegsmarine durante la Segunda Guerra Mundial. <\/p><p>Recibió su nombre del príncipe Eugenio de Saboya, general austríaco del siglo XVIII.<br\/><br\/>El Prinz Eugen fue uno de los protagonistas de la Operación Rheinübung, un intento alemán en mayo de 1941 por cortar la navegación mercante aliada por el Atlántico en la que estuvo acompañado por el acorazado Bismarck. <br\/><br\/>Tras la rendición alemana en mayo de 1945 el Prinz Eugen fue transferido a la Armada de los Estados Unidos como botín de guerra. La armada norteamericana asignó el crucero a las pruebas nucleares de la Operación Crossroads en el Atolón Bikini. <\/p><p>El pecio está todavía visible por encima de la superficie del agua; una de sus hélices fue salvada y se exhibe en el memorial naval Marine-Ehrenmal Laboe, en Alemania.<\/p>",
+        "use_alt_bg": true,
+        "image_height": 20,
+        "rounded_image": true,
+        "customer_name": "",
+        "customer_personal_info": ""
+      }
+    },
+    "16506400160442688c": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1650640016ba27b023-0": {
+          "type": "heading",
+          "settings": {
+            "title": "VIDEOS PASO A PASO",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "1650640016ba27b023-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Te guiamos durante toda la construcción. Solo tienes que preocuparte de disfrutar la experiencia de construir esta maravillosa maqueta. <\/p>",
+            "enlarge_text": false,
+            "color": "secondary_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1650640016ba27b023-0",
+        "1650640016ba27b023-1"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1650638610d93660c1": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/OcCre_Maqueta_de_madera_amerigo_vespucci_1-100_WEB.mp4?v=1655294015",
+        "subheading": "AMERIGO VESPUCCI",
+        "enlarge_subheading": true,
+        "title": "EL BUQUE ESCUELA\n \"PIÙ BELLO\" EL MUNDO",
+        "title_size": 72,
+        "title_size_mobile": 36,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label_1": "PRE-COMPRA AMERIGO CON VELAS",
+        "button_url_1": "shopify:\/\/pages\/enlaces-de-interes",
+        "button_label_2": "PRE-COMPRA AMERIGO SIN VELAS",
+        "button_url_2": "shopify:\/\/pages\/enlaces-de-interes",
+        "open_url_new_tab": false,
+        "button_style": "quaternary",
+        "text_alignment": "center center",
+        "height_desktop": 720,
+        "height_mobile": 580,
+        "full_width": true
+      }
+    },
+    "1650640912b2c41520": {
+      "type": "image-with-text-landing",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OcCre-Maqueta_de_madera_barco_prinz_eugen_1_200_trasera_fondo_blanco.jpg",
+        "image_2": "shopify:\/\/shop_images\/OcCre-Maqueta_de_madera_barco_prinz_eugen_1_200_detalle_frontal_fondo_blanco2.jpg",
+        "image_width": 700,
+        "subheading": "",
+        "bold_subheading": false,
+        "title": "NO ESPERES MÁS",
+        "use_h1": false,
+        "text": "<p>- Más de 800 piezas para disfrutar construyendo una parte de la historia. <\/p><p>- Cortes de altaprecisióny piezas de fundición con macro detalles para identificar cada pieza que sobrevivió a dos explosiones atómicas.<\/p><p>- Estructura y superestructura de madera.<\/p><p>- Cañones principales con rotación de 360 grados.<\/p><p><\/p><p>Construye esta maqueta para ser protagonistas de la Operación Rheinübung por el Atlántico en la que el Prinz Eugen estuvo acompañado por el acorazado Bismarck.<\/p>",
+        "button_label": "Pre-comprar ahora",
+        "button_link": "shopify:\/\/products\/prinz-eugen",
+        "button_style": "quaternary",
+        "image_position": "right",
+        "image_shadow": false,
+        "text_alignment": "left",
+        "use_alt_landing": true
+      }
+    },
+    "165069698162ca8fc0": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1650696981971e957b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Los pedidos se enviarán <strong>a partir del día 3 de mayo <\/strong>por orden de pre-compra.<\/p>",
+            "enlarge_text": true,
+            "color": "secondary_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1650696981971e957b-1"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "1655632380a5e4835b": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OcCre_Maqueta_Barco_Amerigo_Vespucci_Fondo_Negro.webp",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 580,
+        "height_mobile": 520,
+        "image_link": "",
+        "subheading": "AMERIGO VESPUCCI 1:100",
+        "title": "EL BUQUE ESCUELA\n\"PIÙ BELLO\" EL MUNDO",
+        "titleen": "EL BUQUE ESCUELA\n\"PIÙ BELLO\" EL MUNDO",
+        "titlefr": "EL BUQUE ESCUELA\n\"PIÙ BELLO\" EL MUNDO",
+        "titlede": "EL BUQUE ESCUELA\n\"PIÙ BELLO\" EL MUNDO",
+        "titleit": "EL BUQUE ESCUELA\n\"PIÙ BELLO\" EL MUNDO",
+        "titlePT": "EL BUQUE ESCUELA\n\"PIÙ BELLO\" EL MUNDO",
+        "title_size": 46,
+        "title_size_mobile": 40,
+        "use_h1": false,
+        "text": "",
+        "texten": "",
+        "textfr": "",
+        "textde": "",
+        "textit": "",
+        "textpt": "",
+        "enlarge_text": true,
+        "button_label_1": "COMPRA AMERIGO",
+        "button_url_1": "shopify:\/\/products\/amerigo-vespucci",
+        "button_label_2": "COMPRA AMERIGO BASIC",
+        "button_url_2": "shopify:\/\/products\/amerigo-vespucci-basic",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "1655594052f7cef379": {
+      "type": "rich-text",
+      "blocks": {
+        "16555940523922d2c8-0": {
+          "type": "heading",
+          "settings": {
+            "title": "MÁS DE 20.000+ CLIENTES FELICES",
+            "color": "secondary_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "16555940523922d2c8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Querido por miles<\/p>",
+            "enlarge_text": true,
+            "color": "primary_color",
+            "bold_text": true
+          }
+        }
+      },
+      "block_order": [
+        "16555940523922d2c8-0",
+        "16555940523922d2c8-1"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16555941685400c884": {
+      "type": "apps",
+      "blocks": {
+        "84c87f67-1068-486a-ba25-c92793b9f93f": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 10,
+            "maxwidth": 920
+          }
+        }
+      },
+      "block_order": [
+        "84c87f67-1068-486a-ba25-c92793b9f93f"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "1655594324dd00f736": {
+      "type": "multi-column-single-row",
+      "blocks": {
+        "1655594324e273bf2d-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/instrucciones-idiomas-2-OCCRE-2022.png",
+            "title": "<p>Instrucciones paso a paso en 5 idiomas<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1655594324e273bf2d-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/fotos-paso-a-paso-2-OCCRE-2022.png",
+            "title": "<p>Fotos paso a paso HD<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1655594324e273bf2d-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lista-piezas-2-OCCRE-2022.png",
+            "title": "<p>Lista de piezas con medidas y materiales<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1655594324e273bf2d-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/fichas-ip-2-OCCRE-2022.png",
+            "title": "<p>Ficha IP para identificar las piezas<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1655594324e273bf2d-4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/planos-escala-2-OCCRE-2022.png",
+            "title": "<p>Planos a escala<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "9a725e80-cd05-497d-820d-dabb72cfaa51": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/videos-paso-a-paso-2-OCCRE-2022.png",
+            "title": "<p>Video tutoriales paso a paso<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1655594324e273bf2d-0",
+        "1655594324e273bf2d-1",
+        "1655594324e273bf2d-2",
+        "1655594324e273bf2d-3",
+        "1655594324e273bf2d-4",
+        "9a725e80-cd05-497d-820d-dabb72cfaa51"
+      ],
+      "settings": {
+        "title": "¿QUÉ INCLUYEN NUESTROS KITS?",
+        "text_alignment": "center",
+        "use_alt_bg": false,
+        "image_height": 175,
+        "button_label": "Abre un kit de OcCre",
+        "button_link": "shopify:\/\/pages\/abre-un-kit",
+        "button_style": "quaternary",
+        "subheading": "<p>Te acompañamos de principio a fin de la construcción de tu maqueta. Disfruta de la experiencia. Nosotros nos ocupamos del resto. <strong>Siempre a tu lado.<\/strong><\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1650629352a8404cdf",
+    "1650558988a6bd2282",
+    "16555868025d0d0695",
+    "16555868059e92b93a",
+    "16555897724d93ce39",
+    "1655590028dd6b4709",
+    "1655592161f7f48642",
+    "1650630431bd1d81ef",
+    "1650696455c54044cb",
+    "165069798199b890c9",
+    "16510720294732786c",
+    "1650712977cbefe4c7",
+    "16506400160442688c",
+    "1650638610d93660c1",
+    "1650640912b2c41520",
+    "165069698162ca8fc0",
+    "1655632380a5e4835b",
+    "1655594052f7cef379",
+    "16555941685400c884",
+    "1655594324dd00f736"
+  ]
+}

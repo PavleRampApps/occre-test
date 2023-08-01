@@ -1,0 +1,105 @@
+<div id="template" class="small-form" data-cc-animate>
+    <div id="customer">
+        <!-- Create Customer -->
+        <div id="create-customer">
+          <div class="template_header">
+            <h2 class="title">{{ 'customer.register.title' | t }}</h2>
+          </div>
+  
+          {% form 'create_customer' %}
+            {{ form.errors | default_errors }}
+  
+            <div class="input-row">
+              <label for="first_name" class="login">{{ 'customer.register.first_name' | t }}</label>
+              <input type="text" value="" name="customer[first_name]" id="first_name" class="large" size="30" />
+            </div>
+  
+            <div class="input-row">
+              <label for="last_name" class="login">{{ 'customer.register.last_name' | t }}</label>
+              <input type="text" value="" name="customer[last_name]" id="last_name" class="large" size="30" />
+            </div>
+  
+            <div class="input-row">
+              <label for="email" class="login">{{ 'customer.register.email' | t }}</label>
+              <input type="email" value="" name="customer[email]" id="email" class="large" size="30" />
+            </div>
+  
+            <div class="input-row">
+              <label for="password" class="login">{{ 'customer.register.password' | t }}</label>
+              <input type="password" value="" name="customer[password]" id="password" class="large password" size="30" />
+            </div>
+
+            <div class="input-row">
+                <label for="dni" class="login">{{ 'customer.register.dni' | t }}</label>
+                <div class="dni-message rte medium-text lightly-spaced-row">{{ section.settings.dni_msg }}</div>
+                <input type="text" value="" name="customer[DNI]" id="dni" class="large" {% if section.settings.required_field %}required{% endif %}/>
+                
+                {% if section.settings.required_field %}
+                {% endif %}
+              </div>
+
+    <div class="input-row">
+<label for="newslleter" class="login"> Suscríbete a la lista de correo de OcCre </label>
+
+
+    <input type="hidden" name="customer[accepts_marketing]" value="false" />
+
+    <input type="checkbox" name="customer[accepts_marketing]" /> Acepto
+ 
+
+
+
+   </div>
+
+            <div class="action_bottom">
+                <input class="btn" type="submit" value="{{ 'customer.register.submit' | t }}" />
+                <span class="note">
+                    <a href="{{ routes.account_login_url }}">{{ 'customer.register.log_in' | t }}</a>
+                    {{ 'customer.general.or' | t }}
+                    <a href="{{ routes.root_url }}">{{ 'customer.register.cancel' | t }}</a>
+                </span>
+            </div>
+          {% endform %}
+        </div><!-- /#create-customer -->
+    </div>
+</div>
+
+<script defer>
+  const form = document.getElementById('create-customer');
+  const dni = document.getElementById('dni');
+  
+
+  form.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      if (dni.value.length >= 1) {
+        dni.setAttribute("name","customer[note][DNI]");
+        const inputTag = `<input type="hidden" name="customer[tags][0]" value="customer_with_dni"/>` 
+        dni.insertAdjacentHTML('afterend', inputTag);
+      }
+       
+
+    
+      
+      e.submit();
+  });
+</script>
+
+{% schema %}
+{
+    "name": "Reigstration page",
+    "settings": [
+        {
+            "type": "richtext",
+            "id": "dni_msg",
+            "label": "DNI message"
+        },
+        {
+          "type": "checkbox",
+          "id": "required_field",
+          "label": "DNI is required",
+          "default": false
+        }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,160 @@
+{%- liquid
+  assign text_align = section.settings.text_align
+  assign justify_center = ''
+  if section.settings.text_align == 'center'
+    assign justify_center = 'justify_center'
+  endif
+-%}
+<div id="section-id-{{ section.id }}" class="fully-padded-row--medium" {% if section.settings.bg_image != blank %}style="background-image: url({{section.settings.bg_image | img_url: 'master'}})"{% endif %} data-cc-animate>
+  <div class="container">
+    {% if section.settings.title != blank %}
+      <h2 class="spaced-row h4-style align-center" data-cc-animate>
+        {{- section.settings.title | escape -}}
+      </h2>
+    {% endif %}
+    <div class="card-information">
+      {% for block in section.blocks %}
+        <div class="card align-{{section.settings.text_align}}" data-cc-animate="cc-fade-in-up" data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
+          {%- if block.settings.title != blank -%}
+            <div class="card-information__title {{justify_center}}">
+              {% if block.settings.title_icon != blank %}
+                <img src="{{block.settings.title_icon | img_url: 'master'}}">
+              {% endif %}
+              <h3 class="h4-style text_bold">{{ block.settings.title}}</h3>
+            </div>
+          {%- endif -%}
+          {%- if block.settings.subheading != blank -%}
+            <h4 class="text_regular lightly-spaced-row">{{ block.settings.subheading}}</h4>
+          {%- endif -%}
+          {%- if block.settings.text != blank -%}
+            <div class="rte">{{ block.settings.text }}</div>
+          {%- endif -%}
+          {% if block.settings.button_label != blank %}
+            <div class="lightly-spaced-row-above card-information__button {{justify_center}}">
+              <a class="{% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}">{{ block.settings.button_label | escape }}</a>
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Card information",
+    "class": "section-card-information",
+    "max_blocks": 3,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Section title",
+        "default": "Card information section"
+      },
+      {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "Background image"
+      },
+      {
+        "type": "select",
+        "id": "text_align",
+        "label": "Card content alignment",
+        "default": "left",
+        "options": [
+          {
+            "label": "Left",
+            "value": "left"
+          },
+          {
+            "label": "Center",
+            "value": "center"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Button style",
+        "default": "primary",
+        "options": [
+          {
+            "label": "Button - primary",
+            "value": "primary"
+          },
+          {
+            "label": "Button - secondary",
+            "value": "secondary"
+          },
+          {
+            "label": "Button - tertiary",
+            "value": "tertiary"
+          },
+          {
+            "label": "Button - quaternary",
+            "value": "quaternary"
+          },
+          {
+            "label": "Link",
+            "value": "link"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "card",
+        "name": "Card",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "title_icon",
+            "label": "Title icon"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Card"
+          },
+          {
+            "type": "text",
+            "id": "subheading",
+            "label": "Subtitle",
+            "default": "Subtitle"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et</p>"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button",
+            "default": "Read more"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Card information",
+        "settings": {},
+        "blocks": [
+          {
+            "type": "card"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

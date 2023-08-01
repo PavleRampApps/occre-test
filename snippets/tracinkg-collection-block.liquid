@@ -1,0 +1,78 @@
+<script>
+    if(!collectionTrackingLoadedScript){
+
+
+window.addEventListener('load',()=>{
+
+  adjustToAllProducts();
+
+  const filterContainer =document.querySelectorAll('.filter-container');
+     const config = { attributes: true };
+const callback = (mutationList, observer) => {
+  adjustToAllProducts();
+  
+}
+   const observer = new MutationObserver(callback);
+   filterContainer.forEach(fc=>{
+   observer.observe(fc, config);
+
+   })
+})
+
+const adjustToAllProducts=()=>{
+   const allProducts = document.querySelectorAll(".product-block");
+  allProducts.forEach(product=>{
+    const productShopNow = product.querySelector('.quickbuy-toggle')
+ 
+    if(productShopNow){
+
+       productShopNow.addEventListener('click',(e)=>{
+       ga('send','event','Product Box',' Button Click','Open Quick Buy')
+      
+        const currentProdId=e.currentTarget.closest('[data-product-id]').getAttribute('data-product-id');
+        let currentQuickBuyContainerSelector = `.product-form[data-product-id='${currentProdId}']`;
+
+
+        let findInterval = setInterval(() => {
+
+
+
+
+        const currentQuickBuyContainer= document.querySelector(currentQuickBuyContainerSelector);
+
+        if(currentQuickBuyContainer) {
+            clearInterval(findInterval);
+   
+          const currInner=currentQuickBuyContainer.querySelector('button[type="submit"]');
+        
+          currInner.addEventListener("click", handleInnerClick)
+        }
+    
+        }, 100); 
+
+    
+      })
+     
+    }
+     
+        
+      })
+  
+}
+
+collectionTrackingLoadedScript=true;
+
+    }
+
+
+
+const handleInnerClick=(event) => {
+        
+           if (event.target.getAttribute('[data-add-to-cart-text]') || event.target.classList.contains("button")) {
+          ga('send','event','Product Box',' Button Click','ATC')
+           
+
+        }
+          }
+ 
+</script>

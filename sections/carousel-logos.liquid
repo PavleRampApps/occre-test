@@ -1,0 +1,297 @@
+{% assign bg_color = settings.background_color %}
+{% assign has_bg = false %}
+ 
+
+
+{% unless bg_color == "rgba(0,0,0,0)" or bg_color == blank %}
+    {% assign has_bg = true %}
+{% endunless %}
+
+<script src="{{ 'slick.js' | asset_url }}"></script>
+
+<section
+    id="sf__brand-list-{{ section.id }}"
+    class="brands-list {{ section.settings.custom_class }}"
+    {% if has_bg %}
+        data-bg="{{ bg_color | color_to_hsl }}"
+    {% endif %}
+    style="background-color: {{ bg_color }};--items: {{ settings.item_per_row }}; --column-gap: 30px;
+ {% if section.settings.padding-top != blank %}  padding-top:{{ section.settings.padding-top }}px  {% endif %}"
+>
+
+  
+<div class="container container-slider" >
+   {% comment %}[% render 'index-section-header', section_settings: section.settings %} {% endcomment %}
+   
+   <section class="customer-logos{{ section.id }} slider" 
+   
+  {% if section.settings.enable_slider   %}
+   dir="rtl" 
+{% endif %}
+>
+    
+     {%- assign blocks = section.blocks -%}
+     {% for block in blocks %}
+        <div class="slide">
+           {% if block.settings.image_link != blank %} <a href="{{ block.settings.image_link }}"> {% endif %}
+          <img src="{{ block.settings.image | img_url: '250x250' }} ">
+          {% if block.settings.image_link != blank %}</a>{% endif %}
+         </div>
+     {% endfor %}
+
+     
+     
+   </section>
+</div>
+
+<style>
+ 
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+</style>
+
+
+<script>
+  $(document).ready(function(){
+    $('.customer-logos{{ section.id }}').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+   
+
+            
+  {% if section.settings.enable_slider   %}
+      rtl: true , 
+{% endif %}
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+</script>
+ 
+
+{% schema %}
+{
+    "name": "Brands list",
+    "settings": [
+       {
+            "type": "header",
+            "content": "Section header"
+        },
+        {
+            "type":"text",
+            "id":"heading",
+            "label":"Heading",
+            "default": "Brand list"
+        },
+        {
+            "type": "text",
+            "id": "subheading",
+            "label": "Subheading"
+        },
+        {
+            "type": "select",
+            "id": "header_alignment",
+            "label": "Text alignment",
+            "default": "center",
+            "options": [
+                {
+                    "value": "left",
+                    "label": "Left"
+                },
+                {
+                    "value": "center",
+                    "label": "Center"
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "content": "General"
+        },
+        {
+            "type": "number",
+            "id": "padding-top",
+            "label": "padding-top",
+            "default": 20
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_slider",
+          "label": "Direccion inversa?",
+          "default": true
+    
+        },
+        {
+            "type": "text",
+            "id": "custom_class",
+            "label": "Custom classes"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "image",
+            "name": "Image",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "url",
+                    "id": "image_link",
+                    "label": "Image Link"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Brands Carousel(gab)",
+            "category": "Image",
+            "blocks": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "image"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

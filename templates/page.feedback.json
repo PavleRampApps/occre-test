@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "788f787f-75cc-47c4-b599-4f5816442293": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {margin-top: 0px !important;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "code": "{% if request.locale.iso_code == 'es'  %}\n                <div data-tf-widget=\"yTtR998s\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=Product Review Form Template (español)\" data-tf-transitive-search-params=\"\" data-tf-medium=\"snippet\" style=\"width: 100%; height: 500px;\"><\/div>                  {% elsif request.locale.iso_code == 'en'  %}               <div data-tf-widget=\"Bd42K19N\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=Feedback (En)\" data-tf-transitive-search-params=\"\" data-tf-medium=\"snippet\" style=\"width: 100%; height: 500px;\"><\/div>                  {% elsif request.locale.iso_code == 'fr' %}<div data-tf-widget=\"F4DW1FK8\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=Feedback (FR)\" data-tf-transitive-search-params data-tf-medium=\"snippet\" style=\"width:100%;height:500px;\"><\/div>\n\n                  {% elsif request.locale.iso_code == 'de' %}\n                <div data-tf-widget=\"nFXVCZsY\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=Feedback (De)\" data-tf-transitive-search-params data-tf-medium=\"snippet\" style=\"width:100%;height:500px;\"><\/div>\n                  {% elsif request.locale.iso_code == 'it' %}\n                  <div data-tf-widget=\"cEvgWGrY\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=Feedback (IT)\" data-tf-transitive-search-params data-tf-medium=\"snippet\" style=\"width:100%;height:500px;\"><\/div>\n                {% elsif request.locale.iso_code == 'pt-PT' %}\n                  <div data-tf-widget=\"uajjXrHr\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=Feedback (PT)\" data-tf-transitive-search-params data-tf-medium=\"snippet\" style=\"width:100%;height:500px;\"><\/div>\n                  {% else  %}\n                   <div data-tf-widget=\"Bd42K19N\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=Feedback (En)\" data-tf-transitive-search-params=\"\" data-tf-medium=\"snippet\" style=\"width: 100%; height: 500px;\"><\/div>\n             \n                  {% endif %}\n\n\n\n\n\n<script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": true
+      }
+    },
+    "165276578350b291f4": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    },
+    "165276575739ddb1e6": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "788f787f-75cc-47c4-b599-4f5816442293",
+    "main",
+    "165276578350b291f4",
+    "165276575739ddb1e6"
+  ]
+}

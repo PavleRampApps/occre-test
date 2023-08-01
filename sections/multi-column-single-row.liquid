@@ -1,0 +1,225 @@
+<div id="section-id-{{ section.id }}" class="{% if section.settings.use_alt_bg %}use-alt-bg fully-padded-row--medium{% else %}fully-spaced-row--medium{% endif %}">
+  <div class="container">
+    {% if section.settings.title != blank %}
+      <h2 class="hometitle h4-style align-center" data-cc-animate>
+        {{- section.settings.title | escape -}}
+      </h2>
+    {% endif %}
+
+    {% if section.settings.subheading != blank %}
+      <div class="rte lightly-spaced-row multi-column-sr__subtitle" {{ block.shopify_attributes }}>
+        <p>{{ section.settings.subheading }}</p>
+      </div>          
+    {% endif %}
+
+    <div class="multi-column-sr-container">
+      {% for block in section.blocks %}
+        <div id="block-id-{{ block.id }}" class="column text-column" {{ block.shopify_attributes }}
+             data-cc-animate="cc-fade-in-up" data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
+          {% if block.settings.enable_image %}
+            <div class="text-column__image lightly-spaced-row">
+              {%- if block.settings.link != blank -%}<a href="{{ block.settings.link }}">{%- endif -%}
+
+              {%- if block.settings.image != blank -%}
+                {% liquid
+                  assign image = block.settings.image
+                  assign image_height = section.settings.image_height
+                  assign image_height_tag = image_height | prepend: 'x' %}
+                <img src="{{image | img_url: image_height_tag }}" class="multi-column-single-row__image" style="height: {{image_height}}px">
+              {%- else -%}
+                <div class="placeholder-image">
+                  {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
+                </div>
+              {%- endif -%}
+
+              {%- if block.settings.link != blank -%}</a>{% endif -%}
+            </div>
+          {% endif %}
+
+          {% if block.settings.title != blank %}
+            <div class="text-column__text rte align-center">{{ block.settings.title }}</div>
+          {% endif %}
+
+          {% if block.settings.button_label != blank %}
+            <div class="text-column__button-row text-column__button-row--{{section.settings.button_style }} lightly-spaced-row-above" data-cc-animate="cc-fade-in-up">
+              <a class="text-column__button {% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    {%- if section.settings.button_link != blank -%}
+      <div class="spaced-row-above" data-cc-animate="cc-fade-in-up">
+        <a class="text-column__button {% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %}"  href="{{ section.settings.button_link }}">{{ section.settings.button_label }}</a>
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Multi-column-single-row",
+  "class": "section-multi-column-single-row",
+  "max_blocks": 6,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Multi-column"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "id": "use_alt_bg",
+      "type": "checkbox",
+      "label": "Use alternate section color",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Blocks size"
+    },
+    {
+      "type": "range",
+      "id": "image_height",
+      "min": 100,
+      "max": 300,
+      "step": 5,
+      "label": "Image height",
+      "unit": "px",
+      "default": 260
+    },
+    {
+      "type": "header",
+      "content": "Section buttons"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Link"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button style",
+      "default": "primary",
+      "options": [
+        {
+          "label": "Button - primary",
+          "value": "primary"
+        },
+        {
+          "label": "Button - secondary",
+          "value": "secondary"
+        },
+        {
+          "label": "Button - tertiary",
+          "value": "tertiary"
+        },
+        {
+          "label": "Button - quaternary",
+          "value": "quaternary"
+        },
+        {
+          "label": "Link",
+          "value": "link"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Subheading"
+    },
+    {
+      "type": "richtext",
+      "id": "subheading",
+      "label": "Subheading"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_block",
+      "name": "Column",
+      "settings": [
+        {
+          "id": "enable_image",
+          "type": "checkbox",
+          "label": "Enable image",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Text",
+          "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multi-column-single-row",
+      "settings": {
+      },
+      "blocks": [
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

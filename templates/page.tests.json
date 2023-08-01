@@ -1,0 +1,52 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": true
+      }
+    },
+    "43f6051e-34c1-406e-b73a-0ccd4ddc76a9": {
+      "type": "pm-slider-center-mode",
+      "blocks": {
+        "a455cc37-a02c-4b66-ae25-2059d37d1ba5": {
+          "type": "slide",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "a455cc37-a02c-4b66-ae25-2059d37d1ba5"
+      ],
+      "settings": {
+      }
+    },
+    "eddbc50c-7715-42e5-b643-b5a119a59b4e": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".klaviyo-form-WBpBGh {max-width: 500px; margin: 0 auto;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "code": "<div class=\"klaviyo-form-WBpBGh\"><\/div>"
+      }
+    },
+    "08181455-5392-45b3-aaf5-c061052ae678": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "span {padding: 50px; display: block;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "code": "{% assign foo = 10 | times: 1.0 %}\n{% assign bar = 3 | times: 1.0 %}\n\n\n<span>\n\n{{ foo | divided_by: 2 }}\n<br><br>\n{{ foo | divided_by: bar }}\n\n<\/span>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "43f6051e-34c1-406e-b73a-0ccd4ddc76a9",
+    "eddbc50c-7715-42e5-b643-b5a119a59b4e",
+    "08181455-5392-45b3-aaf5-c061052ae678"
+  ]
+}

@@ -1,0 +1,268 @@
+{% liquid
+  unless section.settings.collection == blank
+    assign collection = section.settings.collection
+  endunless
+
+  assign product_form_id = 'product-form-' | append: section.id | append: '-' | append: product.id
+  assign product_form_installments_id = product_form_id | append: '-installments'
+
+  assign blocked_countries = settings.blocked_countries
+  assign current_country = localization.country.iso_code
+
+  assign blocked_buying_properties = settings.block_buy
+  assign blocked_vendor = settings.block_vendor
+
+  assign blocked_price = settings.block_price
+
+  if blocked_price 
+    assign blocked_buying_properties = true
+  endif
+  %}
+<div class="fully-padded-row--medium" style="background: {{ section.settings.bg_col}};">
+  <div class="container">
+    <div class="flexible-layout valign-middle">
+      <div class="column column--quarter">
+        {% unless section.settings.subheading == blank %}
+          {% assign bold_subheading = section.settings.bold_subheading %}
+          <div class="subheading subheading--over secondary_color text_default {% if bold_subheading %}text_semibold{% endif %}">{{ section.settings.subheading | escape }}</div>
+        {% endunless %}
+  
+        {% unless section.settings.title == blank %}
+          <h3 class="majortitle in-content h1-style secondary_color text_default">{{ section.settings.title | escape }}</h3>
+        {% endunless %}
+  
+        {% unless section.settings.body == blank %}
+          <div class="rte secondary_color">{{ section.settings.body | strip_html }}</div>
+        {% endunless %}
+  
+        {% if section.settings.button_label != blank and collection %}
+          <div class="lightly-spaced-row-above">
+            <a class="{% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %} primary_color" href="{{ collection.url }}" {% if section.settings.new_tab %}target="_blank"{%endif%}>{{ section.settings.button_label | escape }}</a>{% if section.settings.button_style == 'link' %}{% render 'icons-rocket', icon: 'arrow-left' %}{% endif %}   
+          </div>
+        {% endif %}
+
+        {% if collection %}
+          <div class="testimonial-list__controls lightly-spaced-row-above desktop-only"></div> 
+        {% endif %}
+      </div>
+
+      <div class="column column--three-quarters">
+        {% if collection %}
+          <div class="collection-slider__landing collection-listing">
+            {% for product in collection.products limit: section.settings.product_limit %}
+              {% liquid
+                if collection
+                  assign product_url = product.url | within: collection
+                else
+                  assign product_url = product.url
+                endif
+
+                assign cheapest_variant = product.variants | sort: 'price' | first
+                %}
+              <div class="product-card product-block secondary_color">
+                <div class="image-cont">
+                  <div class="image-label-wrap">
+                    <div>
+                      <div class="product-block__image product-block__image--primary product-block__image--active">
+                        {%- render 'responsive-image', image: product.featured_media.preview_image, manual_image_load: manual_image_load, min_aspect_ratio: 0.6, aspect_ratio: custom_aspect_ratio, no_max_width: true, -%}
+                      </div>
+                    </div>
+                    {% render 'product-label', product: product, cheapest_variant: cheapest_variant %}
+                  </div>
+                </div>
+                <div class="product-info">
+                  <div class="inner">
+                    <div class="innerer">
+                      <a href="{{ product_url }}">
+                        <div class="product-card-main-info flex lightly-spaced-row">
+                          <div class="product-block__title text_semibold">{{ product.title }}</div>
+                          {% unless blocked_countries contains current_country and blocked_price %}
+                            <div class="product-price">
+                              {% if product.price_varies %}
+                                <span class="product-price__item product-price__from">{{ 'products.listing.from' | t }}</span>
+                              {% endif %}
+                              <span class="product-price__item product-price__amount {% if cheapest_variant.compare_at_price > cheapest_variant.price %}product-price__amount--on-sale{% endif %} theme-money">
+                                {%- if settings.product_currency_code_enabled -%}
+                                  {{ cheapest_variant.price | money_with_currency }}
+                                {%- else -%}
+                                  {{ cheapest_variant.price | money }}
+                                {%- endif -%}
+                              </span>
+                              {% if cheapest_variant.compare_at_price > cheapest_variant.price %}
+                                <span class="product-price__item product-price__compare theme-money">{{ cheapest_variant.compare_at_price | money }}</span>
+                              {% endif %}
+                  
+                              {% if settings.prod_sold_out_show and product.available == false %}
+                                <span class="product-price__item price-label price-label--sold-out">{{ 'products.labels.sold_out' | t }}</span>
+                              {% elsif settings.prod_pre_order_label_show and product.template_suffix == 'preorder' %}
+                                <span class="product-price__item price-label price-label--preorder">{{ 'products.product.preorder' | t }}</span>
+                              {% elsif settings.prod_sale_show and cheapest_variant.compare_at_price > cheapest_variant.price %}
+                                <span class="product-price__item price-label price-label--sale">{{ 'products.labels.sale' | t }}</span>
+                              {% endif %}
+                            </div>
+                          {% endunless %}
+                        </div>
+                          <p>{{ product.description | strip_html | truncatewords: section.settings.description_words, '...'  }}</p>
+                      </a>
+                      {% form 'product', product, data-product-id: product.id %}
+                        <select name="id" class="original-selector hidden" aria-label="{{ 'products.product.selector_label' | t | escape }}">
+                          {% for variant in product.variants %}
+                          <option value="{{ variant.id }}"
+                            {% if variant == product.selected_or_first_available_variant %} selected="selected"{% endif %}
+                            {% if section.settings.inventory_transfers_enable and variant.incoming %}
+                              {%- if variant.next_incoming_date -%}
+                                {%- assign date = variant.next_incoming_date | date: format: 'date' -%}
+                                {%- if variant.available -%}
+                                  data-inventory-transfer="{{ 'products.transfers.will_not_ship_until' | t: date: date | escape }}"
+                                {%- else -%}
+                                  data-inventory-transfer="{{ 'products.transfers.will_be_in_stock_after' | t: date: date | escape }}"
+                                {%- endif -%}
+                              {%- else -%}
+                                data-inventory-transfer="{{ 'products.transfers.waiting_for_stock' | t | escape }}"
+                              {%- endif -%}
+                            {% endif %}
+                            data-stock="{% if variant.inventory_management == 'shopify' and variant.inventory_quantity <= 0 %}out{% endif %}">{{ variant.title | escape }}</option>
+                          {% endfor %}
+                        </select>
+                        {%- capture add_to_cart_text -%}
+                            {{ 'products.product.add_to_cart' | t }}
+                        {%- endcapture -%}
+                        <button type="submit" data-add-to-cart-text="{{ add_to_cart_text | escape }}" class="small-feature-link">{{- add_to_cart_text -}}</button>
+                      {% endform %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+        {% if collection %}
+          <div class="testimonial-list__controls mobile-only soft-spaced-row-above "></div> 
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+    "name": "Collection with Text",
+    "class": "collection-with-text",
+    "settings": [
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Collection"
+      },
+      {
+        "type": "range",
+        "id": "description_words",
+        "label": "Description length",
+        "min": 10,
+        "max": 20,
+        "step": 1,
+        "default": 20,
+        "info": "Set the description length (in words)"
+      },
+      {
+        "type": "range",
+        "id": "product_limit",
+        "label": "Product quantity",
+        "min": 5,
+        "max": 50,
+        "step": 5,
+        "default": 10
+      },
+      {
+        "type": "checkbox",
+        "id": "bold_subheading",
+        "label": "Bold subheading",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading",
+        "default": "Ipsum massa elit"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Ipsum massa elit"
+      },
+      {
+        "type": "richtext",
+        "id": "body",
+        "label": "Text"
+      },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Label",
+        "default": "Comprar ahora"
+      },
+      {
+        "type": "checkbox",
+        "id": "new_tab",
+        "label": "Open link in a new tab",
+        "default": false
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Button style",
+        "default": "primary",
+        "options": [
+          {
+            "label": "Button - primary",
+            "value": "primary"
+          },
+          {
+            "label": "Button - secondary",
+            "value": "secondary"
+          },
+          {
+            "label": "Button - ternary",
+            "value": "ternary"
+          },
+          {
+            "label": "Button - quaternary",
+            "value": "quaternary"
+          },
+          {
+            "label": "Button - Quaternary (alternative)",
+            "value": "quaternary-alt"
+          },
+          {
+            "label": "Link",
+            "value": "link"
+          }
+        ],
+        "default": "quaternary-alt"
+      },
+      {
+        "type": "text",
+        "id": "add_cart_link_label",
+        "label": "Add to cart label",
+        "default": "Añadir a la cesta"
+      },
+      {
+        "type": "color",
+        "id": "bg_col",
+        "label": "Background color",
+        "default": "#F8F8F8"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Collection with text",
+        "settings": {}
+      }
+    ]
+}   
+{% endschema %}

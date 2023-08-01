@@ -1,0 +1,40 @@
+{%- liquid
+  assign text = collection.metafields.rocket.seo_description
+-%}
+
+<div class="{% unless section.settings.full_width %}article{% endunless %} fully-spaced-row--medium" data-cc-animate>
+  <div class="container">
+    <div class="align-left">{{ text }}</div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Collection Dynamic Text",
+    "class": "section-rich-text section-collection-dynamic-rich-text",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "full_width",
+        "label": "Wide display",
+        "default": false
+      },
+     {
+      "type": "text",
+      "id": "content",
+      "label": "Collection SEO description content",
+      "info": "It takes dynamically the content from the collection's metafield: SEO description"
+     }
+    ],
+    "presets": [
+      {
+        "name": "Collection Dynamic Text",
+        "settings": {}
+      }
+    ],
+    "templates": [
+      "collection"
+    ]
+  }
+{% endschema %}

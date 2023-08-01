@@ -1,0 +1,1236 @@
+<div class="with-reviews1 " style="background:white !important;">
+  <div class="container">
+     <h4 style="padding-top:30px;">{% for block in section.blocks %} 
+            {% case block.type %}
+            {% when 'h3' %}
+            {% if block.settings.image != blank %}
+            {% if request.locale.iso_code == 'es'  %}
+            {{ block.settings.image }}
+            {% elsif request.locale.iso_code == 'en'  %}
+            {{ block.settings.image_en }}
+            {% elsif request.locale.iso_code == 'fr' %}
+            {{ block.settings.image_fr }}
+            {% elsif request.locale.iso_code == 'de' %}
+            {{ block.settings.image_de }}
+            {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+              
+             {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+                  {% elsif request.locale.iso_code == 'pt-PT' %}
+                        {{ block.settings.image_br }}
+            {% else  %}
+        {{ block.settings.image_en }}
+            {% endif %}
+            {% endif %}
+            {% endcase %}
+            {% endfor %}</h4>
+  <h3 class="h3">{% for block in section.blocks %} 
+            {% case block.type %}
+            {% when 'h4' %}
+            {% if block.settings.image != blank %}
+            {% if request.locale.iso_code == 'es'  %}
+            {{ block.settings.image }}
+            {% elsif request.locale.iso_code == 'en'  %}
+            {{ block.settings.image_en }}
+            {% elsif request.locale.iso_code == 'fr' %}
+            {{ block.settings.image_fr }}
+            {% elsif request.locale.iso_code == 'de' %}
+            {{ block.settings.image_de }}
+            {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+              
+             {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+                  {% elsif request.locale.iso_code == 'pt-PT' %}
+                        {{ block.settings.image_br }}
+            {% else  %}
+        {{ block.settings.image_en }}
+            {% endif %}
+            {% endif %}
+            {% endcase %}
+            {% endfor %}</h3>
+
+    <h2 class="h2h2h2">{% for block in section.blocks %} 
+            {% case block.type %}
+            {% when 'h2' %}
+            {% if block.settings.image != blank %}
+            {% if request.locale.iso_code == 'es'  %}
+            {{ block.settings.image }}
+            {% elsif request.locale.iso_code == 'en'  %}
+            {{ block.settings.image_en }}
+            {% elsif request.locale.iso_code == 'fr' %}
+            {{ block.settings.image_fr }}
+            {% elsif request.locale.iso_code == 'de' %}
+            {{ block.settings.image_de }}
+            {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+              
+             {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+                  {% elsif request.locale.iso_code == 'pt-PT' %}
+                        {{ block.settings.image_br }}
+            {% else  %}
+        {{ block.settings.image_en }}
+            {% endif %}
+            {% endif %}
+            {% endcase %}
+            {% endfor %}</h2>
+
+
+
+<div class="column4-images"
+  style="display:grid; grid-template-columns:1fr; padding:0px 4rem;">
+    <div class="img1"><img src="https://cdn.shopify.com/s/files/1/0622/6942/3871/files/img_3.jpg?v=1681401602"></div>
+  
+
+</div>
+
+   <div style="width:900px; margin:0 auto; max-width: 100%; max-width: 100%;">
+   {% for block in section.blocks %} 
+            {% case block.type %}
+            {% when 'image' %}
+         {% if block.settings.image != blank %}
+         {% if request.locale.iso_code == 'es'  %}
+       {% if request.path contains 'es-us' %}
+            <img src="{{ block.settings.image_es-us | img_url: 'master'  }}" class="imagen-multi es-us">
+                               <style >     .es-eu {          display:none;        }                    </style>
+         
+            {% else %}
+              <img src="{{ block.settings.image | img_url: 'master'  }}" class="imagen-multi es-eu">
+            {% endif %}
+           
+         
+    {% elsif request.locale.iso_code == 'en'  %}
+           {% if request.path contains 'en-us' %}
+            <img src="{{ block.settings.image_en-us | img_url: 'master'  }}" class="imagen-multi en-us">
+                               <style >     .en-eu {          display:none;        }                    </style>
+            {% elsif  request.path contains 'en-ca' %}
+                         <style > .en-eu {     display:none;   }   </style>                           
+              <img src="{{ block.settings.image_en-ca | img_url: 'master'  }}" class="imagen-multi en-ca" >
+            {% else %}
+              <img src="{{ block.settings.image_en | img_url: 'master'  }}" class="imagen-multi en-eu">
+            {% endif %}
+       
+           
+         {% elsif request.locale.iso_code == 'fr' %}
+         <img src="{{ block.settings.image_fr | img_url: 'master'  }}" class="imagen-multi">
+         {% elsif request.locale.iso_code == 'de' %}
+         <img src="{{ block.settings.image_de | img_url: 'master'  }}" class="imagen-multi">
+         {% elsif request.locale.iso_code == 'it' %}
+         <img src="{{ block.settings.image_it | img_url: 'master'  }}" class="imagen-multi">
+            {% elsif request.locale.iso_code == 'pt-PT' %}
+       
+             <img src="{{ block.settings.image_br | img_url: 'master'  }}" class="imagen-multi">
+         {% else  %}
+       <img src="{{ block.settings.image_en | img_url: 'master'  }}">
+         {% endif %}
+         {% endif %}
+         {% endcase %}
+    {% endfor %}
+</div>
+
+  <div class="text-center" style="padding-bottom:50px;"> <a  target="_blank" href="{{ section.settings.url }}" class="button btn altcolour">{% for block in section.blocks %} 
+            {% case block.type %}
+            {% when 'btn' %}
+            {% if block.settings.image != blank %}
+            {% if request.locale.iso_code == 'es'  %}
+            {{ block.settings.image }}
+            {% elsif request.locale.iso_code == 'en'  %}
+            {{ block.settings.image_en }}
+            {% elsif request.locale.iso_code == 'fr' %}
+            {{ block.settings.image_fr }}
+            {% elsif request.locale.iso_code == 'de' %}
+            {{ block.settings.image_de }}
+            {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+              
+             {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+                  {% elsif request.locale.iso_code == 'pt-PT' %}
+                        {{ block.settings.image_br }}
+            {% else  %}
+        {{ block.settings.image_en }}
+            {% endif %}
+            {% endif %}
+            {% endcase %}
+            {% endfor %}</a>  </div>
+
+
+    </div>
+    
+    
+
+<div class="with-reviews34">
+  <div class="container">
+  
+   <div class="img1"><img src="https://cdn.shopify.com/s/files/1/0622/6942/3871/files/IMG_8197-2_1.png?v=1681401775" style="width:100%;
+                       padding:3rem;"> </div>
+
+  
+   <h3>{% for block in section.blocks %} 
+            {% case block.type %}
+            {% when 'text1' %}
+            {% if block.settings.image != blank %}
+            {% if request.locale.iso_code == 'es'  %}
+            {{ block.settings.image }}
+            {% elsif request.locale.iso_code == 'en'  %}
+            {{ block.settings.image_en }}
+            {% elsif request.locale.iso_code == 'fr' %}
+            {{ block.settings.image_fr }}
+            {% elsif request.locale.iso_code == 'de' %}
+            {{ block.settings.image_de }}
+            {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+              
+             {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+                  {% elsif request.locale.iso_code == 'pt-PT' %}
+                        {{ block.settings.image_br }}
+            {% else  %}
+        {{ block.settings.image_en }}
+            {% endif %}
+            {% endif %}
+            {% endcase %}
+            {% endfor %}</h3>
+  
+  <h2>{% for block in section.blocks %} 
+            {% case block.type %}
+            {% when 'h2h2' %}
+            {% if block.settings.image != blank %}
+            {% if request.locale.iso_code == 'es'  %}
+            {{ block.settings.image }}
+            {% elsif request.locale.iso_code == 'en'  %}
+            {{ block.settings.image_en }}
+            {% elsif request.locale.iso_code == 'fr' %}
+            {{ block.settings.image_fr }}
+            {% elsif request.locale.iso_code == 'de' %}
+            {{ block.settings.image_de }}
+            {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+              
+             {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+                  {% elsif request.locale.iso_code == 'pt-PT' %}
+                        {{ block.settings.image_br }}
+            {% else  %}
+        {{ block.settings.image_en }}
+            {% endif %}
+            {% endif %}
+            {% endcase %}
+            {% endfor %}</h2>
+ <p style="text-align:center;">{% for block in section.blocks %} 
+            {% case block.type %}
+            {% when 'text2' %}
+            {% if block.settings.image != blank %}
+            {% if request.locale.iso_code == 'es'  %}
+            {{ block.settings.image }}
+            {% elsif request.locale.iso_code == 'en'  %}
+            {{ block.settings.image_en }}
+            {% elsif request.locale.iso_code == 'fr' %}
+            {{ block.settings.image_fr }}
+            {% elsif request.locale.iso_code == 'de' %}
+            {{ block.settings.image_de }}
+            {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+              
+             {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+                  {% elsif request.locale.iso_code == 'pt-PT' %}
+                        {{ block.settings.image_br }}
+            {% else  %}
+        {{ block.settings.image_en }}
+            {% endif %}
+            {% endif %}
+            {% endcase %}
+            {% endfor %}</p>
+    <h3 class="h3h3h3">{% for block in section.blocks %} 
+            {% case block.type %}
+            {% when 'text3' %}
+            {% if block.settings.image != blank %}
+            {% if request.locale.iso_code == 'es'  %}
+            {{ block.settings.image }}
+            {% elsif request.locale.iso_code == 'en'  %}
+            {{ block.settings.image_en }}
+            {% elsif request.locale.iso_code == 'fr' %}
+            {{ block.settings.image_fr }}
+            {% elsif request.locale.iso_code == 'de' %}
+            {{ block.settings.image_de }}
+            {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+              
+             {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+                  {% elsif request.locale.iso_code == 'pt-PT' %}
+                        {{ block.settings.image_br }}
+            {% else  %}
+        {{ block.settings.image_en }}
+            {% endif %}
+            {% endif %}
+            {% endcase %}
+            {% endfor %}</h3>
+
+  
+   <div class="text-center" style="padding-bottom:50px; padding-top:20px;"> <a  target="_blank" href="{{ section.settings.url2 }}" class="button btn altcolour">{% for block in section.blocks %} 
+            {% case block.type %}
+            {% when 'btn2' %}
+            {% if block.settings.image != blank %}
+            {% if request.locale.iso_code == 'es'  %}
+            {{ block.settings.image }}
+            {% elsif request.locale.iso_code == 'en'  %}
+            {{ block.settings.image_en }}
+            {% elsif request.locale.iso_code == 'fr' %}
+            {{ block.settings.image_fr }}
+            {% elsif request.locale.iso_code == 'de' %}
+            {{ block.settings.image_de }}
+            {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+              
+             {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+                  {% elsif request.locale.iso_code == 'pt-PT' %}
+                        {{ block.settings.image_br }}
+            {% else  %}
+        {{ block.settings.image_en }}
+            {% endif %}
+            {% endif %}
+            {% endcase %}
+            {% endfor %}</a>  </div>
+        
+     {% comment %}   <div class="column4-images"
+        style="display:grid; grid-template-columns:1fr 1fr 1fr 1fr; padding:0px 4rem;">
+        <div class="img1"><img src="https://cdn.shopify.com/s/files/1/0622/6942/3871/files/IMG_8184-2_1.jpg?v=1681401973"> </div>
+        <div class="img1"><img src="https://cdn.shopify.com/s/files/1/0622/6942/3871/files/IMG_8245-2_1_1.jpg?v=1681401973"> </div>
+        <div class="img1"><img src="https://cdn.shopify.com/s/files/1/0622/6942/3871/files/IMG_8215-2_3_1.jpg?v=1681401972"> </div>
+        <div class="img1"><img src="https://cdn.shopify.com/s/files/1/0622/6942/3871/files/EREBUS-008_1_2.jpg?v=1681402032"> </div>
+        
+        
+        </div>
+ {% endcomment %}
+     
+  
+    </div>
+  </div>
+</div>
+
+<style>
+  .text-center {
+    text-align:center;
+  }
+ .columns4  h2 {
+  text-align: center;
+  padding-top: 30px;
+   font-size:22px;
+  color: #242c5f;
+}
+.columns4 .container {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10%;
+  row-gap: 20px;
+  max-width:1200px;
+  padding-bottom:40px;
+  color:#09080C;
+  
+}
+.columns4 .column14 {
+  font-size: 16px;
+  width: 45%;
+  position: relative;
+}
+.columns4 .column14 img {
+  position: absolute;
+  width: 15px;
+  top: 5px;
+  left: -25px;
+}
+
+  /**/
+.with-reviews34 .btn2 {
+  background:#242C5F;
+  color:white;
+  border-radius:20px;
+}
+  .with-reviews34 .btn {
+ 
+  border-radius:20px;
+}
+ .with-reviews34 h2,
+.with-reviews34 h3,
+.with-reviews34 h4 {
+  text-align: center;
+  
+  color: white;
+}
+    .with-reviews34 h2 {
+      font-size:55px;
+      margin-top:30px;
+      margin-bottom:40px;
+         letter-spacing:5px;
+      font-weight:400;
+  font-family:"Enchanted Land";
+    }
+  .with-reviews34 h3 {
+     font-size:22px;
+  }
+   .with-reviews34 h3 b {
+    color:#F3B01C;
+  }
+  .with-reviews34 h4 {
+  margin-top:40px;
+     font-size:20px;
+  }
+.with-reviews34  {
+  background: #000;
+  color: white;
+}
+.with-reviews34 .flex-3 {
+  margin:0 auto;
+  max-width:1200px;
+  padding-top:40px;
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+}
+.with-reviews34 .flex-3 > div {
+  width: 30%;
+  color: black;
+  background: white;
+  font-weight: normal;
+  font-size: 12px;
+  border-radius: 20px;
+}
+.with-reviews34 .flex-3 > div > div {
+  border-radius: 20px 20px 0px 0px;
+  padding: 20px;
+  background: #feb71a;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+.with-reviews34 .flex-3 p {
+  padding: 20px 20px;
+
+}
+  @media (max-width:749px) {
+  .with-reviews34 .flex-3 > div {
+  width:100%;
+  margin-bottom:20px;
+
+  }
+    .with-reviews34 .flex-3 {
+
+    flex-direction: column;
+}
+
+          .columns4 h2 {
+
+            font-size: 16px;
+          }
+          .columns4 .container {
+          flex-direction: column;
+          }
+     .columns4 .container   .column14 {
+       width:100%;
+       padding-left:30px;
+     }
+    .columns4 .column14 p {
+      font-size:12px;
+    }
+    .columns4 .column14 img {
+    left:-5px;
+    }
+
+    .with-reviews34 h4 {
+    font-size:14px;
+  }
+
+    .with-reviews34 h3 {
+       font-size:14px;
+    }
+    .with-reviews34 p {
+    font-size:12px;
+    }
+ .button, a.button {
+   font-size:12px;
+ }
+
+  }
+  .button.altcolour {
+  border:none;
+}
+</style>
+
+{% schema %}
+  {
+    "name": "Rich text with erebus 3",
+    "settings": [
+      {
+        "type": "url",
+        "id": "url",
+        "label": "link url"
+      },
+       {
+        "type": "url",
+        "id": "url2",
+        "label": "link url second product"
+      }
+    ],
+     "blocks": [
+      {
+"type": "titulo1",
+"name": "titulo1",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} ,
+       {
+"type": "text1",
+"name": "text1",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} ,
+         {
+"type": "text2",
+"name": "text2",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} ,
+         {
+"type": "text3",
+"name": "text3",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} ,
+         {
+"type": "text4",
+"name": "text4",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} ,
+    {
+"type": "h3",
+"name": "h3",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+},
+         {
+"type": "h4",
+"name": "h4",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} ,
+         {
+"type": "h2",
+"name": "h2",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} ,
+         {
+"type": "btn",
+"name": "btn",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+}  ,
+         {
+"type": "btn2",
+"name": "btn2",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} ,
+         {
+"type": "h2h2",
+"name": "h2h2",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} ,
+         {
+"type": "person1",
+"name": "person1",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} ,
+         {
+"type": "person2",
+"name": "person2",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+},
+         {
+"type": "person3",
+"name": "person3",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} ,
+         {
+"type": "reviews",
+"name": "reviews",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+},
+           {
+"type": "title01",
+"name": "title01",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+},
+                {
+"type": "title02",
+"name": "title02",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} 
+       ,
+                {
+"type": "title03",
+"name": "title03",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} 
+       ,
+                {
+"type": "title04",
+"name": "title04",
+"limit": 1,
+"settings": [
+{
+"type": "html",
+"id": "image",
+"label": "text"
+},
+{
+"type": "html",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "html",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "html",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "html",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "html",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} 
+       
+       ,
+           {
+"type": "image",
+"name": "image",
+"limit": 1,
+"settings": [
+{
+"type": "image_picker",
+"id": "image",
+"label": "text"
+},
+  {
+"type": "image_picker",
+"id": "image_es-us",
+"label": "imaga es us"
+},
+{
+"type": "image_picker",
+"id": "image_en",
+"label": "text en"
+}, 
+  {
+"type": "image_picker",
+"id": "image_en-us",
+"label": "text en-us"
+}, 
+  {
+"type": "image_picker",
+"id": "image_en-ca",
+"label": "text en-ca"
+}, 
+{
+"type": "image_picker",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "image_picker",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "image_picker",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "image_picker",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} 
+    ],
+ "presets": [
+      {
+        "name": "Rich text with erebus 3",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

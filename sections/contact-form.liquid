@@ -1,0 +1,436 @@
+{% liquid
+  assign show_labels = section.settings.show_label
+%}
+
+<div class="container strongly-spaced-row" data-cc-animate>
+  <div id="template">
+    <div class="flexible-layout valign-middle space-evenly">
+      <div class="column column--less-half">
+        {% form 'contact' %}
+          {% if form.posted_successfully? %}
+            <p><strong>{{ 'contact.form.post_success' | t }}</strong></p>
+          {% else %}
+
+          {% if section.settings.text != blank %}
+            <p class="secondary_color text_semibold">{{ section.settings.text }}</p>
+          {% endif %}
+    
+            {% if form.errors %}
+              <ul class="errors">
+                {% for field in form.errors %}
+                  <li>{{ field | replace: 'body','Message' | capitalize }} - {{ form.errors.messages[field] }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+    
+            <div class="flexible-layout flexible-layout--form">
+              {% for block in section.blocks %}
+                {% unless block.type == 'contact_info' %}
+                  <div class="column column--{% if block.settings.half_width %}half{% else %}full{% endif %}">
+                    {% case block.type %}
+                      {% when 'name_input' %}
+                        {% if show_labels %}
+                          <label for="contact_name">{{ 'contact.form.name' | t }}</label>
+                        {% endif %}
+
+                        <input
+                          type="text"
+                          autocomplete="name"
+                          placeholder="{{ 'contact.form.name' | t }}"
+                          required
+                          id="contact_name"
+                          name="contact[name]"
+                          value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" />
+      
+                      {% when 'email_input' %}
+                      {% if show_labels %}
+                        <label for="contact_email">{{ 'contact.form.email' | t }}</label>
+                      {% endif %}
+                        <input
+                          type="email"
+                          required
+                          id="contact_email"
+                          class="email"
+                          name="contact[email]"
+                          placeholder="{{ 'contact.form.email' | t }}"
+                          autocomplete="email"
+                          spellcheck="false"
+                          autocapitalize="off"
+                          value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}" />
+      
+                      {% when 'message_input' %}
+                      {% if show_labels %}
+                        <label for="message">{{ 'contact.form.message' | t }}</label>
+                      {% endif %}
+                        <textarea id="message" required name="contact[body]" placeholder="{{ 'contact.form.message' | t }}">{{ form.body }}</textarea>
+      
+                      {% when 'phone_input' %}
+                      {% if show_labels %}
+                        <label for="contact_phone">{{ 'contact.form.phone' | t }}</label>  
+                      {% endif %}
+                        <input
+                          type="tel"
+                          id="contact_form"
+                          autocomplete="tel"
+                          placeholder="{{ 'contact.form.phone' | t }}"
+                          name="contact[{{ 'contact.form.phone' | t }}]"
+                          {% if block.settings.required %}required{% endif %}
+                          value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" />
+      
+                      {% when 'custom_input' %}
+                        {%- assign title_handle = block.settings.title | handle -%}
+                        {% if show_labels %}
+                          <label for="contact_{{ title_handle }}">{{ block.settings.title | escape }}</label>
+                        {% endif %}
+                        {% if block.settings.type == 'textarea' %}
+                          <textarea
+                            id="contact_{{ title_handle }}"
+                            name="contact[{{ title_handle }}]"
+                            placeholder="{{ block.settings.title }}"
+                            {% if block.settings.required %}required{% endif %}>
+                            {{- form[title_handle] -}}
+                          </textarea>
+                        {% elsif block.settings.type ==  "select" %}
+                          {% assign select_options = block.settings.select_options | split: ',' %}
+                          {% render 'icons-rocket', icon: 'arrow-down' %}
+                          <select name="contact[{{ title_handle }}]" id="contact_{{ title_handle }}" {% if block.settings.required %}required{% endif %}>
+                            {% for option in select_options %}
+                              <option value="{{ option | strip }}">{{ option | capitalize | strip }}</option>
+                            {% endfor %}
+                          </select>
+                        {% else %}
+                          <input
+                            type="{{ block.settings.type }}"
+                            id="contact_{{ title_handle }}"
+                            name="contact[{{ title_handle }}]"
+                            value="{{ form[title_handle] }}"
+                            placeholder="{{ block.settings.title }}"
+                            {% if block.settings.required %}required{% endif %}/>
+                        {% endif %}
+      
+                      {% when 'text' %}
+                        <div class="rte">{{ block.settings.text }}</div>
+      
+                    {% endcase %}
+                  </div>                
+                {% endunless %}
+              {% endfor %}
+            </div>
+    
+            <div class="lightly-spaced-row align-right">
+              <input class="{% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %}" type="submit" value="{{ 'contact.form.send' | t }}" />
+            </div>
+    
+          {% endif %}
+        {% endform %}
+
+      </div>
+
+      <div class="column column--third">
+        {% if section.settings.subheading != blank %}
+          {% assign bold_subheading = section.settings.bold_subheading %}
+          <div class="subheading primary_color {% if bold_subheading %}text_bold{% endif %}">{{ section.settings.subheading | escape }}</div>
+        {% endif %}
+
+        {% if section.settings.contact_title != blank %}
+          <h2 class="secondary_color text_default text_bold title_large text-uppercase-mobile soft-spaced-row-above">{{ section.settings.contact_title | escah2e }}</h2>
+        {% endif %}
+
+        {% if section.settings.contact_title != blank or section.settings.contact_text != blank %}
+          <div class="lightish-spaced-row">
+            {% if section.settings.contact_text != blank %}
+              <div class="rte secondary_color text_semibold">{{ section.settings.contact_text }}</div>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        <div class="contact_info">
+          {%- for block in section.blocks -%}
+            {% if block.type == "contact_info" %}
+              <div class="contact_info-wrapper">
+                <div class="contact_info-icon icon-{{ block.settings.icon_type }} {{ block.settings.icon_style }}_color-bg lightly-spaced-row">
+                  {% render 'icons-rocket', icon: block.settings.icon_type %}
+                </div>
+                <p class="secondary_color">{{ block.settings.title }}</p>
+              </div>
+            {% endif %}
+          {%- endfor -%}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Contact form",
+    "class": "section-contact-form",
+    "settings": [
+      {
+        "type": "text",
+        "id": "contact_title",
+        "label": "Heading",
+        "default": "Contact us"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading"
+      },
+      {
+        "type": "checkbox",
+        "id": "bold_subheading",
+        "label": "Bold subheading",
+        "default": true
+      },
+      {
+        "type": "richtext",
+        "id": "contact_text",
+        "label": "Introduction"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_label",
+        "label": "Show labels",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "info": "This text will be displayed on top of the contact form"
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Button style",
+        "default": "primary",
+        "options": [
+          {
+            "label": "Button - primary",
+            "value": "primary"
+          },
+          {
+            "label": "Button - secondary",
+            "value": "secondary"
+          },
+          {
+            "label": "Button - ternary",
+            "value": "ternary"
+          },
+          {
+            "label": "Button - quaternary",
+            "value": "quaternary"
+          },
+          {
+            "label": "Link",
+            "value": "link"
+          }
+        ],
+        "default": "secondary"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "name_input",
+        "name": "Name input",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "half_width",
+            "label": "Half width",
+            "default": false
+          }
+        ]
+      },
+      {
+        "type": "email_input",
+        "name": "Email input",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "half_width",
+            "label": "Half width",
+            "default": false
+          }
+        ]
+      },
+      {
+        "type": "message_input",
+        "name": "Message input",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "half_width",
+            "label": "Half width",
+            "default": false
+          }
+        ]
+      },
+      {
+        "type": "phone_input",
+        "name": "Phone input",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "required",
+            "label": "Required",
+            "default": false
+          },
+          {
+            "type": "checkbox",
+            "id": "half_width",
+            "label": "Half width",
+            "default": false
+          }
+        ]
+      },
+      {
+        "type": "custom_input",
+        "name": "Custom input",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Label",
+            "default": "Custom input"
+          },
+          {
+            "type": "select",
+            "id": "type",
+            "label": "Type",
+            "default": "text",
+            "options": [
+              {
+                "label": "Text",
+                "value": "text"
+              },
+              {
+                "label": "Select",
+                "value": "select"
+              },
+              {
+                "label": "Number",
+                "value": "number"
+              },
+              {
+                "label": "Email",
+                "value": "email"
+              },
+              {
+                "label": "Text area",
+                "value": "textarea"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "select_options",
+            "label": "Select options",
+            "info": "If you selected a 'Select' input type, write down all the options you want to display to the user followed by a comma"
+          },
+          {
+            "type": "checkbox",
+            "id": "required",
+            "label": "Required",
+            "default": false
+          },
+          {
+            "type": "checkbox",
+            "id": "half_width",
+            "label": "Half width",
+            "default": false
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "name": "Text",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Text content</p>"
+          }
+        ]
+      },
+      {
+        "type": "contact_info",
+        "name": "Contact info",
+        "limit": 3,
+        "settings": [
+          {
+            "type": "select",
+            "id": "icon_type",
+            "label": "Icon",
+            "options": [
+              {
+                "value": "localization",
+                "label": "Address"
+              },
+              {
+                "value": "email",
+                "label": "Email"
+              },
+              {
+                "value": "phone",
+                "label": "Phone number"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Contact info"
+          },
+          {
+            "type": "select",
+            "id": "icon_style",
+            "label": "Icon Style",
+            "options": [
+              {
+                "value": "primary",
+                "label": "Primary"
+              },
+              {
+                "value": "secondary",
+                "label": "Secondary"
+              }
+            ],
+            "default": "primary"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Contact form",
+        "blocks": [
+          {
+            "type": "name_input",
+            "settings": {
+              "half_width": true
+            }
+          },
+          {
+            "type": "email_input",
+            "settings": {
+              "half_width": true
+            }
+          },
+          {
+            "type": "message_input"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+

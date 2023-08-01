@@ -1,0 +1,580 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": true
+      }
+    },
+    "715f8832-d79c-41f8-987c-4ef2f804ee31": {
+      "type": "blackfriday-1a",
+      "blocks": {
+        "1fee09b0-3802-4c48-82e3-d307c38e8f7b": {
+          "type": "imagen1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Black_Friday___Cyber_Monday_01.png",
+            "image_en": "shopify:\/\/shop_images\/Black_Friday___Cyber_Monday_02.png",
+            "image_fr": "shopify:\/\/shop_images\/Black_Friday___Cyber_Monday_02.png",
+            "image_de": "shopify:\/\/shop_images\/Black_Friday___Cyber_Monday_02.png",
+            "image_it": "shopify:\/\/shop_images\/Black_Friday___Cyber_Monday_02.png"
+          }
+        },
+        "894e7968-8893-4ea7-a399-c9b9a08d4172": {
+          "type": "imagen2",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sale-blackfriday.jpg",
+            "image_en": "shopify:\/\/shop_images\/sale-blackfriday.jpg",
+            "image_fr": "shopify:\/\/shop_images\/sale-blackfriday.jpg",
+            "image_de": "shopify:\/\/shop_images\/sale-blackfriday.jpg",
+            "image_it": "shopify:\/\/shop_images\/sale-blackfriday.jpg"
+          }
+        },
+        "7acfdd61-dc17-462c-99a9-e83fe304e67a": {
+          "type": "text01",
+          "settings": {
+            "image": "<p>No acostumbramos a hacer descuentos, pero cuando es Black Friday… <strong>descuentos imperdibles, ofertas flash y más.<\/strong><br\/>¡No te pierdas nada suscribiéndote a nuestra lista VIP!<\/p>",
+            "image_en": "<p>We are not used to doing discounts, but when it's Black Friday... discounts that you cannot miss, flash offers and more.  Don't miss a thing by subscribing to our VIP list!<\/p>",
+            "image_fr": "<p>Nous n’avons pas l’habitude de faire des réduction, mais quand c’est le Black Friday...des réductions à ne pas manquer, des offres flash et bien plus encore. Ne ratez rien en vous inscrivant sur notre liste de VIP !<\/p>",
+            "image_de": "<p>im Allgemeinen sind wir nicht an Rabatte gewhönen zu machen, aber wenn Black Friday ist... kortingen die u niet mag missen, flashaanbiedingen en meer. Nichts verpassen!..und unsere VIP-Liste zu abonnieren!!<\/p>",
+            "image_it": "<p>Ormai ci siamo abituati a fare degli sconti, però il Black Friday offre… sconti imperdibili, offerte lampo e altro. Non te lo fare scappare ed iscriviti alla nostra lista di clienti VIP!<\/p>"
+          }
+        },
+        "2984b4c1-804c-4f6f-9eab-a7cd56411685": {
+          "type": "titulo1",
+          "settings": {
+            "image": "Beneficios de formar parte de la lista VIP",
+            "image_en": "Benefits of being part of the VIP list",
+            "image_fr": "Les bénéfices de faire partie de la liste VIP",
+            "image_de": "Vorteile der mitgliedschaft in der VIP-liste",
+            "image_it": "Vantaggi di essere nella lista VIP"
+          }
+        },
+        "0cb01ab5-cc4c-4f3d-be20-37b3b766a284": {
+          "type": "text1",
+          "settings": {
+            "image": "<p>✅ 10% descuento extra.<br\/>✅ Acceso anticipado el JUEVES 24 de Noviembre.<br\/>✅ Acceder al máximo descuento durante el fin de semana de Black Friday.<br\/>✅ Al tener acceso anticipado, no te vas a quedar sin tu maqueta<br\/>✅ Ahorrar MUUUUCHO dinero para empezar tu próximo desafío.<br\/><\/p>",
+            "image_en": "<p>✅ 10% extra discount.<\/p><p>✅ Early access on THURSDAY, November 24.<\/p><p>✅ Access the maximum discount during the Black Friday weekend.<\/p><p>✅ By having early access, you will not be left without your model<\/p><p>✅ Save a lot of money in your next challenge.<\/p>",
+            "image_fr": "<p>✅ 10% de réduction en plus.<\/p><p>✅Accès anticipé le JEUDI 24 Novembre.<\/p><p>✅Accès à la réduction maximale pendant le week-end du Black Friday.<\/p><p>✅ Avec l’accès anticipé, ne ratez pas votre<\/p><p>✅ Économisez un MAAAAX pour pouvoir commencer votre prochain défi.<\/p>",
+            "image_de": "<p>✅ 10% Extra-Rabatt.<\/p><p>✅  Vorzeitiger Zugriff am DONNERSTAG, 24. November.<\/p><p>✅  Zugriff auf den maximalen Rabatt während des Black Friday Wochenendes.<\/p><p> ✅  Mit dem vorzeitigen Zugriff werden Sie Ihren Rabatt nicht verlieren.<\/p><p> ✅  VIEL Geld sparen, um Ihre nächste Herausforderung zu beginnen.<\/p>",
+            "image_it": "<p>✅ 10% di sconto extra.<\/p><p>✅ Acceso anticipato il GIOVEDI 24  novembre.<\/p><p>✅ Acceso al massimo sconto durante il fine settimana di Black Friday.<\/p><p>✅Avendo un accesso anticipato, non ti farai scappare il tuo modellino<\/p><p>✅ OTTIMO risparmio per iniziare una nuova sfida.<\/p>"
+          }
+        },
+        "6f94eb9e-b7c3-40cb-96bb-95ddf75ca400": {
+          "type": "imagenlateral",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img-lateral.png",
+            "image_en": "shopify:\/\/shop_images\/img-lateral.png",
+            "image_fr": "shopify:\/\/shop_images\/img-lateral.png",
+            "image_de": "shopify:\/\/shop_images\/img-lateral.png",
+            "image_it": "shopify:\/\/shop_images\/img-lateral.png"
+          }
+        },
+        "84033a92-d07a-44ea-ba1b-79a03b16e0b4": {
+          "type": "text2",
+          "settings": {
+            "image": "<p>Sí, sí y sí ... ya ESTAMOS LISTOS para la edición   <strong>Black Friday - Cyber Monday 2022.<\/strong><br\/><br\/>Haz lo que sea necesario, porque ¡HA VUELTOOOO! La oferta que has estado esperando durante todo el año está a punto de DESPEGAR.<br\/><br\/>Vas a encontrar increíbles descuentos en el Black Friday 2022, desde el 25 de noviembre hasta el Cyber Monday del 28 de noviembre. <br\/><br\/>Estamos hablando de M-U-C-H-O descuento en todas nuestras maquetas (¡más de 80!).<br\/><br\/>Mientras tanto puedes ir mirando las categorías de todas las maquetas que tenemos.<\/p>",
+            "image_en": "<p>Yes, yes, and yes... WE ARE READY for Black Friday - Cyber ​​Monday 2022 edition. Do whatever it takes, because IT'S BACK! The deal you've been waiting for all year is about to TAKE OFF.<\/p><p>You will find incredible discounts on Black Friday 2022, from November 25 to Cyber ​​Monday on November 28.<\/p><p>We're talking about B-I-G discounts on all our models (over 80!).<\/p><p>Meanwhile, you can take a look at the categories of all the models we have.<\/p>",
+            "image_fr": "<p>Oui, oui, oui et oui nous SOMMES PRÊTS pour l’édition <strong>2022<\/strong> <strong>du Black Friday - Cyber Monday.<\/strong><\/p><p>Faites le nécessaire car ELLE EST DE RETOUR ! L’offre que vous avez attendu toute l’année est sur le point de DECOLLER !<\/p><p>Vous trouverez d’incroyables réductions lors du Black Friday à partir du 25 novembre jusqu’au Cyber Monday le 28 novembre. <\/p><p>On vous parle d’une G-R-O-S-S-E réduction sur toutes nos maquettes (plus de 80 !)<\/p><p>Pendant ce temps, vous pouvez commencer à regarder les catégories de maquettes que nous avons.<\/p>",
+            "image_de": "<p>Ja, allerdings!! … WIR SIND SCHON BEREIT für die Black Friday – Cyber Monday  Ausgabe 2022.<\/p><p>Machen Sie sich bereit vor, weil DAS WIEDER DA IST! Das Angebot, auf das Sie den ganzen Jahr gewartet haben, wird es gleich BEGINNEN.<\/p><p>Sie finden unglaubliche Rabatte vom Black Friday 2022 am 25. November bis zum Cyber Monday am 28. November.<\/p><p>Wir meinen: ein GROßES Rabatt für alle unsere Modelle (mehr als 80!).<\/p><p>Bis dahin können Sie die Kategorien aller Modelle anschauen, die wir haben.<\/p>",
+            "image_it": "<p>Si, si e si ... SIAMO GIÀ PRONTI per l'edizione <strong>Black Friday - Cyber Monday 2022<\/strong>.<\/p><p>Dati da fare, perché TORNA! L´offerta cha hai aspettato durante tutto l´anno sta per DECOLLARE.<\/p><p>Troverai incredibili sconti durante il Black Friday 2022, dal 25 novembre al Cyber Monday del 28 novembre. <\/p><p>Stiamo parlando di uno sconto I-N-C-R-E-D-I-B-I-L-E per tutti i modellini (più del 80!).<\/p><p>Nel frattempo puoi cominciare a guardare le categorie di tutti i nostri modellini.<\/p>"
+          }
+        },
+        "d397dbe1-dba0-4876-bfd1-74a8422ba503": {
+          "type": "linkbtn",
+          "settings": {
+            "image": "quiero ser vip",
+            "image_en": " I WANT TO BE VIP",
+            "image_fr": " JE VEUX ÊTRE UN VIP",
+            "image_de": "ICH WILL VIP SEIN",
+            "image_it": "VOGLIO ESSERE VIP",
+            "linkbtn": "#form-btn"
+          }
+        },
+        "c2328d98-ea87-40b9-b14d-802d2ed0cc46": {
+          "type": "tituloprincipal",
+          "settings": {
+            "image": "<h1>BLACK FRIDAY & <br>CYBER MONDAY<\/h1>",
+            "image_en": "<h1>BLACK FRIDAY & <br>CYBER MONDAY<\/h1>",
+            "image_fr": "<h1>BLACK FRIDAY & <br>CYBER MONDAY<\/h1>",
+            "image_de": "<h1>BLACK FRIDAY & <br>CYBER MONDAY<\/h1>",
+            "image_it": "<h1>BLACK FRIDAY & <br>CYBER MONDAY<\/h1>"
+          }
+        },
+        "0f4031ee-09b5-4d44-96b3-ca38c22d3ac2": {
+          "type": "fecha",
+          "settings": {
+            "image": "25-26-27-28 NOVIEMBRE 2022",
+            "image_en": "25-26-27-28 NOVEMBER 2022",
+            "image_fr": "25-26-27-28 NOVEMBRE 2022",
+            "image_de": "25-26-27-28 NOVEMBER 2022",
+            "image_it": "25-26-27-28 NOVEMBRE 2022"
+          }
+        },
+        "152e20b8-47fb-478b-b2a8-10fd428dc4e7": {
+          "type": "titulo03",
+          "settings": {
+            "image": "Black Friday 2022 OcCre",
+            "image_en": "Black Friday 2022 OcCre",
+            "image_fr": "Black Friday 2022 OcCre",
+            "image_de": "Black Friday 2022 OcCre",
+            "image_it": "Black Friday 2022 OcCre"
+          }
+        }
+      },
+      "block_order": [
+        "1fee09b0-3802-4c48-82e3-d307c38e8f7b",
+        "894e7968-8893-4ea7-a399-c9b9a08d4172",
+        "7acfdd61-dc17-462c-99a9-e83fe304e67a",
+        "2984b4c1-804c-4f6f-9eab-a7cd56411685",
+        "0cb01ab5-cc4c-4f3d-be20-37b3b766a284",
+        "6f94eb9e-b7c3-40cb-96bb-95ddf75ca400",
+        "84033a92-d07a-44ea-ba1b-79a03b16e0b4",
+        "d397dbe1-dba0-4876-bfd1-74a8422ba503",
+        "c2328d98-ea87-40b9-b14d-802d2ed0cc46",
+        "0f4031ee-09b5-4d44-96b3-ca38c22d3ac2",
+        "152e20b8-47fb-478b-b2a8-10fd428dc4e7"
+      ],
+      "settings": {
+        "formk": "<div class=\"klaviyo-form-VcqDnj\"><\/div>\n<div class=\"klaviyo-form-VCUH4G\"><\/div>\n<div class=\"klaviyo-form-WJbMtY\"><\/div>\n<div class=\"klaviyo-form-RPRaX6\"><\/div>\n<div class=\"klaviyo-form-YzdVbk\"><\/div>",
+        "imagebg": "shopify:\/\/shop_images\/Rectangle_129.png",
+        "image": "shopify:\/\/shop_images\/LIMITED_EDITION_FLYING_DUTCHMAN_b514f975-f86f-4d5e-8574-140c593a8377.png",
+        "image_en": "shopify:\/\/shop_images\/La_leggenda_della_nave_dell_Olandese_Volante_402abfa7-20fb-4842-bb1d-0bb21e88b9e4.png"
+      }
+    },
+    "92cd8456-49e9-43d2-bc44-bc26a1283fc1": {
+      "type": "blackfriday-2",
+      "blocks": {
+        "4087fa4c-a050-41d9-a136-05c741fa436f": {
+          "type": "imagen1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bftop1.png",
+            "image_en": "shopify:\/\/shop_images\/bftop1.png",
+            "image_fr": "shopify:\/\/shop_images\/bftop1.png",
+            "image_de": "shopify:\/\/shop_images\/bftop1.png",
+            "image_it": "shopify:\/\/shop_images\/bftop1.png"
+          }
+        }
+      },
+      "block_order": [
+        "4087fa4c-a050-41d9-a136-05c741fa436f"
+      ],
+      "settings": {
+        "title": "Maquetas de barco Black Friday 2022",
+        "collection": "maquetas-barcos-ingleses",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 3,
+        "rows": 1,
+        "background_style": "use-alt-bg",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "62821777-9d4a-4eba-b8bc-dfe3b948e91a": {
+      "type": "blackfriday-2",
+      "settings": {
+        "title": "Maquetas de tranvía Black Friday 2022",
+        "collection": "modelismo-de-tranvias",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 3,
+        "rows": 1,
+        "background_style": "use-prim-bg",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "a2a097a9-340a-4824-8878-f8d6ad386bb0": {
+      "type": "blackfriday-2",
+      "settings": {
+        "title": "Maquetas de tren Black Friday 2022",
+        "collection": "modelismo-ferroviario",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 3,
+        "rows": 1,
+        "background_style": "use-prim-bg",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "eca35103-5ef6-4d38-a201-0c27bf1c18ba": {
+      "type": "black-friday3a",
+      "blocks": {
+        "f3b98e43-731a-4766-8b6f-305d1be0b9fb": {
+          "type": "imagen1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_en": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_fr": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_de": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_it": "shopify:\/\/shop_images\/Recurso_1_4x_1.png"
+          }
+        },
+        "931662a4-d43d-4803-a209-2c8600fe2160": {
+          "type": "titulo1",
+          "settings": {
+            "image": "Obtén un 10% de descuento extra para el black friday",
+            "image_en": "Get an extra 10% off for black friday",
+            "image_fr": "Obtenez 10% de réduction en plus ¨pour le black friday",
+            "image_de": "Ein extra 10% rabatt am black friday zu erhalten",
+            "image_it": "Ottieni uno sconto del 10% extra durante il black friday"
+          }
+        },
+        "2a7fff7a-7860-4e8e-b301-9eede9876ffb": {
+          "type": "text01",
+          "settings": {
+            "image": "<p>Recuerda que ese fin de semana vas a encontrar maquetas de barcos, tranvías y trenes a MUY BUEN PRECIO!<strong><br\/>Formando parte de la lista VIP obtendrás<br\/>un 10% extra!!!<\/strong><\/p><p>Suscríbete ahora para formar parte de la lista VIP.<\/p>",
+            "image_en": "<p>Remember that this weekend you will find models of ships, trams, and trains at a VERY GOOD PRICE! By being part of the VIP list you’ll get an extra 10%!!!<\/p><p>Subscribe now to be part of the VIP list.<\/p>",
+            "image_fr": "<p>N’oubliez pas que ce week-end là vous trouverez des maquettes de bateau, tramway et de train à TRÈS BON PRIX ! En faisant partie de la liste VIP vous obtenez 10% en plus !!!<\/p><p>Inscrivez vous maintenant sur la liste VIP<\/p>",
+            "image_de": "<p>Vergessen Sie nicht, dass Sie Modelle von Schiffen, Strassenbahnen und Zügen, an diesem Wochenende, zu SEHR GÜNSTIGEN PREISEN finden werden! Als Mitglied der VIP-Liste, erhalten Sie 10% extra!!!<\/p><p> <\/p><p>Jetzt abonnieren, um Mitgleid der VIP-Liste zu sein.<\/p>",
+            "image_it": "<p>Ricorda che questo fine settimana troverai modellini di navi, tram e treni ad UN OTTIMO PREZZO! Facendo parte della lista VIP avrai un 10% extra!!!<\/p><p>Iscriviti adesso per far parte della lista VIP.<\/p>"
+          }
+        },
+        "6e1c9480-0ad1-43b8-9d52-816aff73c982": {
+          "type": "imagenlateral",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_en": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_fr": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_de": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_it": "shopify:\/\/shop_images\/bfbottom1.png"
+          }
+        },
+        "126564f0-2813-4070-a5dd-70dae11c4376": {
+          "type": "text1",
+          "settings": {
+            "image": "<p>Sabemos que tienes mil dudas acerca del fin de semana del <strong>Black Friday<\/strong> y <strong>Cyber Monday<\/strong>, así que aquí tienes algunas de las preguntas más comunes:<\/p>",
+            "image_en": "<p>We know that you have a thousand doubts about the Black Friday and Cyber ​​Monday weekend, so here are some of the most frequent questions and their answers: <\/p>",
+            "image_fr": "<p>Nous savons que vous avez des doutes à propos du week-end du <strong>Black Friday <\/strong>et <strong>du Cyber Monday<\/strong>, donc voici quelques une des questions les plus posées :<\/p>",
+            "image_de": "<p>Wir wissen, dass Sie viele Zweifel am Black Friday und Cyber Monday haben. Hier sind einige der häufigsten Fragen:<\/p>",
+            "image_it": "<p>Sappiamo che hai tanti dubbi sul fine settimana del <strong>Black Friday<\/strong> e <strong>Cyber Monday<\/strong>, queste sono alcune delle domande più frequenti:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f3b98e43-731a-4766-8b6f-305d1be0b9fb",
+        "931662a4-d43d-4803-a209-2c8600fe2160",
+        "2a7fff7a-7860-4e8e-b301-9eede9876ffb",
+        "6e1c9480-0ad1-43b8-9d52-816aff73c982",
+        "126564f0-2813-4070-a5dd-70dae11c4376"
+      ],
+      "settings": {
+        "formk": "<div class=\"klaviyo-form-VcqDnj\"><\/div>\n<div class=\"klaviyo-form-VCUH4G\"><\/div>\n<div class=\"klaviyo-form-WJbMtY\"><\/div>\n<div class=\"klaviyo-form-RPRaX6\"><\/div>\n<div class=\"klaviyo-form-YzdVbk\"><\/div>"
+      }
+    },
+    "501f61ab-89e9-4cbc-87dd-2fecdcdc046e": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/59060068762946afb5178dd7f341e8de.mp4",
+        "subheading": "",
+        "enlarge_subheading": false,
+        "title": "Queremos que todo el mundo disfrute de las mejores maquetas al mejor precio en este Black Friday de OcCre",
+        "title_size": 34,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "open_url_new_tab": true,
+        "button_style": "primary",
+        "text_alignment": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true
+      }
+    },
+    "54b36c90-a2fa-42f5-a9cc-7101da150947": {
+      "type": "blackfriday-blacka",
+      "blocks": {
+        "ec5a889e-8d8b-4ae9-8cde-f2ad40c5e56d": {
+          "type": "titulo2",
+          "settings": {
+            "image": "TODO SOBRE EL BLACK FRIDAY & CYBER MONDAY EN OCCRE",
+            "image_en": "All about black friday & cyber monday 2022",
+            "image_fr": "Tout ce qu’il faut savoir sur le black friday & cyber monday 2022",
+            "image_de": "Alle in bezug auf black friday & cyber monday 2022",
+            "image_it": "Tutto sul black friday & cyber monday 2022"
+          }
+        },
+        "ec03bb1d-6f4c-4040-b93e-bfeb03ef73e6": {
+          "type": "text1",
+          "settings": {
+            "image": "<p>Sabemos que tienes mil dudas acerca del fin de semana del <strong>Black Friday<\/strong> y <strong>Cyber Monday<\/strong>, así que aquí tienes algunas de las preguntas más comunes:<\/p>",
+            "image_en": "<p>We know that you have a thousand doubts about the Black Friday and Cyber ​​Monday weekend, so here are some of the most frequent questions and their answers: <\/p>",
+            "image_fr": "<p>Nous savons que vous avez des doutes à propos du week-end du <strong>Black Friday <\/strong>et <strong>du Cyber Monday<\/strong>, donc voici quelques une des questions les plus posées :<\/p>",
+            "image_de": "<p><strong>Wir wissen, dass Sie viele Zweifel am Black Friday und Cyber Monday haben. Hier sind einige der häufigsten Fragen:<\/strong><\/p>",
+            "image_it": "<p>Sappiamo che hai tanti dubbi sul fine settimana del <strong>Black Friday<\/strong> e <strong>Cyber Monday<\/strong>, queste sono alcune delle domande più frequenti:<\/p>"
+          }
+        },
+        "a4547164-138a-4396-a677-a67528588d34": {
+          "type": "text2",
+          "settings": {
+            "image": "<p><strong>SUSCRÍBETE A NUESTROS EMAILS<\/strong><\/p><p><br\/>En general, enviamos emails para anunciar novedades, promociones, descuentos, datos históricos y relevantes que merecen la pena ser leídos.<\/p><p>Durante el Black Friday y Cyber Monday, te enterarás de las rebajas y de las ofertas exclusivas antes que nadie, para que ahorres aún más durante el fin de semana de Black Friday. No se nos ocurre ningún motivo para no suscribirse, a menos que no te guste leer tips y consejos para armar maquetas y ahorrarte dinero, claro.<\/p><p><\/p><p><strong>NO LO DUDES MÁS, SUSCRÍBETE ¡AHORA!<\/strong><\/p>",
+            "image_en": "<p><strong>SUBSCRIBE TO OUR EMAILS<\/strong><\/p><p>In general, we send emails to announce the news, promotions, discounts, and relevant data that are worth reading.<\/p><p><strong>DO NOT HESITATE ANYMORE, SUBSCRIBE NOW!<\/strong><\/p>",
+            "image_fr": "<p><strong>ABONNEZ-VOUS À NOS MAILS<\/strong><\/p><p>En général, nous envoyons des e-mails pour annoncer des nouvelles, des promotions, des remises, des données historiques et pertinentes qui valent la peine d'être lues.<\/p><p><strong>NE DOUTEZ PLUS ET INSCRIVEZ VOUS MAINTENANT !<\/strong><\/p>",
+            "image_de": "<p><strong>ABONNIEREN SIE UNSERE E-MAILS<\/strong><\/p><p>Im Allgemeinen versenden wir E-Mails, um Neuigkeiten, Werbeaktionen, Rabatte, historische und relevante Daten anzukündigen, die es wert sind, gelesen zu werden.<\/p><p><strong>ZÖGERN SIE NICHT MEHR, UND JETZT ABONNIEREN!!<\/strong><\/p>",
+            "image_it": "<p><strong>ISCRIVITI ALLE NOSTRE EMAIL<\/strong><\/p><p>In generale, inviamo e-mail per annunciare notizie, promozioni, sconti, dati storici e rilevanti che vale la pena leggere.<\/p><p><strong>NON ESITARE PIÙ, ISCRIVITI SUBITO!<\/strong><\/p>"
+          }
+        },
+        "687037f4-aede-4e10-9ae8-84883736948c": {
+          "type": "question",
+          "settings": {
+            "title": "¿QUÉ INCLUYE LAS REBAJAS DEL BLACK FRIDAY Y CYBER MONDAY EN OCCRE?",
+            "answer": "<p>¡Son nuestras MEJORES rebajas del año! Incluyen descuentos exclusivos nuestras maquetas, envíos gratuitos, ofertas flash y oportunidades únicas en los complementos.<\/p>"
+          }
+        },
+        "0b6b658a-273b-4f98-b963-cdd2dcbc3b4e": {
+          "type": "question",
+          "settings": {
+            "title": "¿OFRECE OCCRE DEVOLUCIONES DURANTE Y DESPUÉS DEL BLACK FRIDAY?",
+            "answer": "<p>Ofrecemos devoluciones gratuitas en muchos sitios. El periodo de devoluciones durante estos días es de 15 días tras recibir el paquete. <\/p>"
+          }
+        },
+        "88bac67f-1f38-42e7-a830-99e818d5a56e": {
+          "type": "question",
+          "settings": {
+            "title": "¿PUEDO UTILIZAR OTROS DESCUENTOS EN EL BLACK FRIDAY?",
+            "answer": "<p>¡No, lo sentimos! Pero te prometemos que los descuentos serán a lo grande...<\/p>"
+          }
+        },
+        "e73a3884-c65a-4c17-8490-107c3ba30e8f": {
+          "type": "question",
+          "settings": {
+            "title": "¿HAY ENVÍOS GRATUITOS EN OCCRE?",
+            "answer": "<p>A muchos sitios sí, pero no a todos. Visita la página de envíos y devoluciones para enterarte de todo.<\/p>"
+          }
+        },
+        "795f5a33-6962-4b0b-94c8-c3104ab6937b": {
+          "type": "question",
+          "settings": {
+            "title": "¿OCCRE TIENE TAMBIÉN REBAJAS DE CYBER MONDAY?",
+            "answer": "<p>¡Por supuesto! ¿Nuestro consejo antes de que llegue el mejor lunes del año? Suscríbete a nuestros emails y SMS. De ese modo, serás de los primeros en enterarte de todo lo relacionado con los descuentos de Black Friday, Cyber Monday.<\/p>"
+          }
+        },
+        "aad9ab1a-4c85-4060-991a-a8ae8b220d35": {
+          "type": "question",
+          "settings": {
+            "title": "¿A QUÉ HORA EMPIEZAN LAS REBAJAS DEL BLACK FRIDAY ONLINE?",
+            "answer": "<p>¡Buena pregunta! No podemos decirte la hora exacta, pero sí sabemos que los que están suscritos a nuestros correos y SMS serán los primeros en enterarse<\/p>"
+          }
+        },
+        "2d7f595a-fb10-4e79-a125-a19694bd4482": {
+          "type": "question",
+          "settings": {
+            "title": "¡QUIERO SABER MÁS ACERCA DEL BLACK FRIDAY EN OCCRE!",
+            "answer": "<p>¡Normal! Lo más importante que tienes que saber es que va a ser increíble. Y hay dos formas muy sencillas de estar informado. Primero y lo más importante suscribiéndote a nuestros emails y SMS. Segundo siguiéndonos en Facebook, Instagram, YouTube para no perderte NADA!<\/p>"
+          }
+        },
+        "fbb1da57-0c60-4238-88ae-4cbc2e873e31": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "a ser leídos ",
+            "answer": ""
+          }
+        },
+        "4d3b9e6c-1c33-41f2-8b2d-dc017f016af7": {
+          "type": "imagen1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black-friday-off.png",
+            "image_en": "shopify:\/\/shop_images\/black-friday-off.png",
+            "image_fr": "shopify:\/\/shop_images\/black-friday-off.png",
+            "image_de": "shopify:\/\/shop_images\/black-friday-off.png",
+            "image_it": "shopify:\/\/shop_images\/black-friday-off.png"
+          }
+        }
+      },
+      "block_order": [
+        "ec5a889e-8d8b-4ae9-8cde-f2ad40c5e56d",
+        "ec03bb1d-6f4c-4040-b93e-bfeb03ef73e6",
+        "a4547164-138a-4396-a677-a67528588d34",
+        "687037f4-aede-4e10-9ae8-84883736948c",
+        "0b6b658a-273b-4f98-b963-cdd2dcbc3b4e",
+        "88bac67f-1f38-42e7-a830-99e818d5a56e",
+        "e73a3884-c65a-4c17-8490-107c3ba30e8f",
+        "795f5a33-6962-4b0b-94c8-c3104ab6937b",
+        "aad9ab1a-4c85-4060-991a-a8ae8b220d35",
+        "2d7f595a-fb10-4e79-a125-a19694bd4482",
+        "fbb1da57-0c60-4238-88ae-4cbc2e873e31",
+        "4d3b9e6c-1c33-41f2-8b2d-dc017f016af7"
+      ],
+      "settings": {
+        "formk": "<div class=\"klaviyo-form-VcqDnj\"><\/div>\n<div class=\"klaviyo-form-VCUH4G\"><\/div>\n<div class=\"klaviyo-form-WJbMtY\"><\/div>\n<div class=\"klaviyo-form-RPRaX6\"><\/div>\n<div class=\"klaviyo-form-YzdVbk\"><\/div>"
+      }
+    },
+    "0e216ef1-4696-445c-8cb1-465b3d0955a3": {
+      "type": "black-friday-cards",
+      "disabled": true,
+      "blocks": {
+        "9c1fafa2-6d18-4c63-8d36-f3907a60303f": {
+          "type": "titulo1",
+          "settings": {
+            "image": "TAN GENIAL DE RECIBIR COMO DE REGALAR",
+            "image_en": "SUBSCRIBE TO THE VIP LISTAS GREAT TO RECEIVE AS TO GIVE",
+            "image_fr": "PLAISIR D’OFFRIR, JOIE DE RECEVOIR ",
+            "image_de": "MAN IST SO TOLL, GESCHENKE ZU BEKOMMEN, WIE ZU VERSCHENKEN",
+            "image_it": "COSÌ STUPENDO DA RICEVERE CHE DA REGALARE"
+          }
+        },
+        "0cba288d-5e06-4449-8d6e-ad427779be20": {
+          "type": "text01",
+          "settings": {
+            "image": "<p>Si no sabes que comprar\/regalar, no te la juegues, acierta seguro con las tarjetas regalo OcCre. Regala ahora y aprovéchalo durante el Black Friday y Navidad<\/p>",
+            "image_en": "<p>If you don't know what to buy\/give, don't take risks, you’ll be right with OcCre’s gift cards. Give now and take advantage of it during Black Friday and Christmas<\/p>",
+            "image_fr": "<p>Si vous ne savez pas quoi acheter\/offrir, ne prenez pas de risque et offrez une carte cadeau de chez OcCre pour être sûr de faire plaisir. Faites-vous un cadeau pendant le Black Friday et Noël.<\/p>",
+            "image_de": "<p>Wenn Sie nicht wissen, was zu kaufen\/verschenken, dann riskieren Sie nicht. Mit OcCre- Geschenkkarten treffen Sie sicher. Jetzt verschenken Sie und am Black Friday und Weihnachten die geniessen <\/p>",
+            "image_it": "<p>Se non sai che cosa comprare\/regalare, e vuoi andare sul sicuro ti offriamo le tessere regalo OcCre. Regala adesso e approfitta del Black Friday e del Natale<\/p>"
+          }
+        },
+        "5e2c15e0-5b80-4251-a5b3-2a36d6b85124": {
+          "type": "imagenlateral",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "9c1fafa2-6d18-4c63-8d36-f3907a60303f",
+        "0cba288d-5e06-4449-8d6e-ad427779be20",
+        "5e2c15e0-5b80-4251-a5b3-2a36d6b85124"
+      ],
+      "settings": {
+        "formk": ""
+      }
+    },
+    "28370e23-f997-459a-92ce-708697c9d68d": {
+      "type": "multi-column-bf",
+      "blocks": {
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "¡TAN GENIAL DE RECIBIR COMO DE REGALAR!",
+            "text": "<p>Si no sabes que comprar\/regalar, no te la juegues, acierta seguro con las tarjetas regalo OcCre. Es una excelente opcion para regalar ahora y aprovechar durante navidad,  reyes  o cumpleaños <\/p>",
+            "button_label": "VER OPCIONES",
+            "link": "shopify:\/\/products\/tarjeta-regalo-occre"
+          }
+        },
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/tarjetas.jpg",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-2": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-0",
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-1",
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-2"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "left",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "d615a182-55c5-459d-8b85-879521f5023e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-0": {
+          "type": "heading",
+          "settings": {
+            "title": "23.321 CLIENTES FELICES",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>querido por miles<\/p>",
+            "enlarge_text": false,
+            "color": "default_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-0",
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-1"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "1667270674e3197caa": {
+      "type": "apps",
+      "blocks": {
+        "5ac926b7-c9b7-482e-9edd-e037a192dc51": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "5ac926b7-c9b7-482e-9edd-e037a192dc51"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "28ca89f4-a18b-4530-b2bf-f62984450060": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": false,
+        "code": "<script>\nwindow.addEventListener('klaviyoForms', (event) => {\n    if (event.detail.type === 'submit') {\n        \/\/ GTM Event\n        dataLayer.push({'event': 'sub-bf'});\n        \/\/ FB Pixel Event\n        fbq('track', 'Subscribe');\n    }\n});\n<\/script>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "715f8832-d79c-41f8-987c-4ef2f804ee31",
+    "92cd8456-49e9-43d2-bc44-bc26a1283fc1",
+    "62821777-9d4a-4eba-b8bc-dfe3b948e91a",
+    "a2a097a9-340a-4824-8878-f8d6ad386bb0",
+    "eca35103-5ef6-4d38-a201-0c27bf1c18ba",
+    "501f61ab-89e9-4cbc-87dd-2fecdcdc046e",
+    "54b36c90-a2fa-42f5-a9cc-7101da150947",
+    "0e216ef1-4696-445c-8cb1-465b3d0955a3",
+    "28370e23-f997-459a-92ce-708697c9d68d",
+    "d615a182-55c5-459d-8b85-879521f5023e",
+    "1667270674e3197caa",
+    "28ca89f4-a18b-4530-b2bf-f62984450060"
+  ]
+}

@@ -1,0 +1,598 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": true
+      }
+    },
+    "715f8832-d79c-41f8-987c-4ef2f804ee31": {
+      "type": "blackfriday-1a",
+      "blocks": {
+        "0f4031ee-09b5-4d44-96b3-ca38c22d3ac2": {
+          "type": "fecha",
+          "settings": {
+            "image": "Tu imaginación es el único límite",
+            "image_en": "Your imagination is the only limit.",
+            "image_fr": "Your imagination is the only limit.",
+            "image_de": "Your imagination is the only limit.",
+            "image_it": "Your imagination is the only limit.",
+            "image_br2": "Your imagination is the only limit.",
+            "image_br": "Your imagination is the only limit."
+          }
+        },
+        "c2328d98-ea87-40b9-b14d-802d2ed0cc46": {
+          "type": "tituloprincipal",
+          "settings": {
+            "image": "<h1>Si tienes buen ojo para los detalles, habilidad para trabajar con las manos y sobre todo pasión por el modelismo...\n<\/h1>\n<style>\n.tituloprincipal h1 {\n    font-family: Montserrat;\n    font-size: 21px !important;\n    font-weight: 900;\n    line-height: 23px !important; \n    letter-spacing: 0em;\n    text-align: left;\n    color: #09080C;\n    margin-bottom: 15px;\n}\n<\/style>",
+            "image_en": "<h1>If you have a good eye for detail, the ability to work with your hands, and a passion for modeling...\n<\/h1>\n<style>\n.tituloprincipal h1 {\n    font-family: Montserrat;\n    font-size: 21px !important;\n    font-weight: 900;\n    line-height: 23px !important; \n    letter-spacing: 0em;\n    text-align: left;\n    color: #09080C;\n    margin-bottom: 15px;\n}\n<\/style>",
+            "image_fr": "<h1>If you have a good eye for detail, the ability to work with your hands, and a passion for modeling...\n<\/h1>\n<style>\n.tituloprincipal h1 {\n    font-family: Montserrat;\n    font-size: 21px !important;\n    font-weight: 900;\n    line-height: 23px !important; \n    letter-spacing: 0em;\n    text-align: left;\n    color: #09080C;\n    margin-bottom: 15px;\n}\n<\/style>",
+            "image_de": "<h1>If you have a good eye for detail, the ability to work with your hands, and a passion for modeling...\n<\/h1>\n<style>\n.tituloprincipal h1 {\n    font-family: Montserrat;\n    font-size: 21px !important;\n    font-weight: 900;\n    line-height: 23px !important; \n    letter-spacing: 0em;\n    text-align: left;\n    color: #09080C;\n    margin-bottom: 15px;\n}\n<\/style>",
+            "image_it": "<h1>If you have a good eye for detail, the ability to work with your hands, and a passion for modeling...\n<\/h1>\n<style>\n.tituloprincipal h1 {\n    font-family: Montserrat;\n    font-size: 21px !important;\n    font-weight: 900;\n    line-height: 23px !important; \n    letter-spacing: 0em;\n    text-align: left;\n    color: #09080C;\n    margin-bottom: 15px;\n}\n<\/style>",
+            "image_br": "<h1>If you have a good eye for detail, the ability to work with your hands, and a passion for modeling...\n<\/h1>\n<style>\n.tituloprincipal h1 {\n    font-family: Montserrat;\n    font-size: 21px !important;\n    font-weight: 900;\n    line-height: 23px !important; \n    letter-spacing: 0em;\n    text-align: left;\n    color: #09080C;\n    margin-bottom: 15px;\n}\n<\/style>"
+          }
+        },
+        "7acfdd61-dc17-462c-99a9-e83fe304e67a": {
+          "type": "text01",
+          "settings": {
+            "image": "<p>OcCre es el lugar ideal para ti.<\/p><p>Tienes el potencial que se necesita para ser modelista, y nosotros tenemos las herramientas para acompañarte en el maravilloso mundo del Ocio Creativo.<\/p><p><strong>Te damos un 10% de descuento en tu primera compra para que lo disfrutes aún más.<\/strong><\/p><p>Uno de los aspectos más importantes de la vida es poder disfrutar. Y OcCre te ofrece eso mismo.<\/p>",
+            "image_en": "<p>OcCre is the ideal place for you.<\/p><p>You have the potential to be a modeler, and we have the tools to accompany you in the beautiful world of Creative Leisure.<\/p><p><strong>We give you a 10% discount on your first purchase so you can enjoy it even more.<\/strong><\/p><p>One of the most important aspects of life is being able to enjoy. And OcCre offers you just that.<\/p>",
+            "image_fr": "<p>OcCre is the ideal place for you.<\/p><p>You have the potential to be a modeler, and we have the tools to accompany you in the beautiful world of Creative Leisure.<\/p><p><strong>We give you a 10% discount on your first purchase so you can enjoy it even more.<\/strong><\/p><p>One of the most important aspects of life is being able to enjoy. And OcCre offers you just that.<\/p>",
+            "image_de": "<p>OcCre is the ideal place for you.<\/p><p>You have the potential to be a modeler, and we have the tools to accompany you in the beautiful world of Creative Leisure.<\/p><p><strong>We give you a 10% discount on your first purchase so you can enjoy it even more.<\/strong><\/p><p>One of the most important aspects of life is being able to enjoy. And OcCre offers you just that.<\/p>",
+            "image_it": "<p>OcCre is the ideal place for you.<\/p><p>You have the potential to be a modeler, and we have the tools to accompany you in the beautiful world of Creative Leisure.<\/p><p><strong>We give you a 10% discount on your first purchase so you can enjoy it even more.<\/strong><\/p><p>One of the most important aspects of life is being able to enjoy. And OcCre offers you just that.<\/p>",
+            "image_br": "<p>OcCre is the ideal place for you.<\/p><p>You have the potential to be a modeler, and we have the tools to accompany you in the beautiful world of Creative Leisure.<\/p><p><strong>We give you a 10% discount on your first purchase so you can enjoy it even more.<\/strong><\/p><p>One of the most important aspects of life is being able to enjoy. And OcCre offers you just that.<\/p>"
+          }
+        },
+        "894e7968-8893-4ea7-a399-c9b9a08d4172": {
+          "type": "imagen2",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sale-blackfriday.jpg",
+            "image_en": "shopify:\/\/shop_images\/sale-blackfriday.jpg",
+            "image_fr": "shopify:\/\/shop_images\/sale-blackfriday.jpg",
+            "image_de": "shopify:\/\/shop_images\/sale-blackfriday.jpg",
+            "image_it": "shopify:\/\/shop_images\/sale-blackfriday.jpg",
+            "image_br": "shopify:\/\/shop_images\/sale-blackfriday.jpg"
+          }
+        },
+        "2984b4c1-804c-4f6f-9eab-a7cd56411685": {
+          "type": "titulo1",
+          "settings": {
+            "image": "Conoce los beneficios de ser parte de la comunidad OcCre",
+            "image_en": "Learn about the benefits of being part of the OcCre community",
+            "image_fr": "Voici les bénéfices de faire partie de la communauté de OcCre :",
+            "image_de": "Vorteile, Mitgleid der OcCre-Gemeinschaft zu sein:",
+            "image_it": "Vantaggi di essere nella comunità OcCre:",
+            "image_br": "Vantagens de fazer parte da comunidade OcCre:"
+          }
+        },
+        "0cb01ab5-cc4c-4f3d-be20-37b3b766a284": {
+          "type": "text1",
+          "settings": {
+            "image": "<p>✅ Eres el primero en recibir ofertas VIP exclusivas, enterarte de novedades, lanzamientos, consejos y tips de construcción y mucho más.<\/p><p>✅  Obtienes acceso a la Comunidad más grande de Modelistas creada por nosotros. (+36000 modelistas en total)<\/p><p>✅ Accedes a videotutoriales y guías de ayuda para la construcción de tu maqueta. <\/p><p>✅ Te damos acceso anticipado a Black Friday (la época del años que OcCre ofrece descuentos imperdibles)<\/p><p>✅ Desarrollarás nuevas habilidades estimulando la mente y aprenderás sobre recursos y herramientas que te sirvirán para aplicarlas en todos los aspectos de la vida cotidiana.<\/p>",
+            "image_en": "<p>✅ You are the first to receive exclusive VIP offers; find out about news, releases, construction tips, and much more.<\/p><p>✅ You get access to the largest Community of Modelers created by us. (+36000 modelers in total)<\/p><p>✅ You access video tutorials and guides to help you build your model.<\/p><p>✅ We give you early access to Black Friday (the time of the year when OcCre offers the biggest deals)<\/p><p>✅ You will develop new skills by stimulating your mind and learning about resources and tools that will help you apply them in all aspects of everyday life.<\/p>",
+            "image_fr": "<p>✅  Obtenez des réductions supplémentaires.<br\/>✅ Un accès anticipé au Black Friday. <br\/>✅ Accédez à la réduction maximale de OcCre<br\/>✅ Avec l’accès anticipé, ne ratez pas votre maquette.<br\/>✅ Economisez BEAUCOUUUP d’argent.<\/p>",
+            "image_de": "<p>✅  Sie erhalten extra-Rabatte.<br\/>✅ Wir geben Ihnen vorzeitiger Zugriff zum Black Friday<br\/>✅ Sichern Sie sich den maximalen Rabatt von OcCre<br\/> Mit dem vorzeitigen Zugriff, bleiben Sie nicht ohne Ihrer Modell<br\/>✅ Sie sparen VIEL Geld.<\/p>",
+            "image_it": "<p>✅  Sconti extra.<br\/>✅  Acceso anticipato al Black Friday <br\/>✅ Acceso al massimo sconto di OcCre<br\/>✅ Con l’accesso anticipato, non ti farai scappare il tuo modellino<br\/>✅ Risparmio INCREDIBILE .<\/p>",
+            "image_br": "<p>✅ Recebe descontos extra.<br\/>✅ Damos-lhe acesso antecipado à Black Friday.<br\/>✅ Tem acesso ao desconto máximo da OcCre.<br\/>✅ Ao ter acesso antecipado, não perde o seu modelo<br\/>✅ Poupa-se MUUUUITO dinheiro.<\/p>"
+          }
+        },
+        "6f94eb9e-b7c3-40cb-96bb-95ddf75ca400": {
+          "type": "imagenlateral",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_102.png",
+            "image_en": "shopify:\/\/shop_images\/Group_102.png",
+            "image_fr": "shopify:\/\/shop_images\/Group_102.png",
+            "image_de": "shopify:\/\/shop_images\/Group_102.png",
+            "image_it": "shopify:\/\/shop_images\/Group_102.png",
+            "image_br": "shopify:\/\/shop_images\/Group_102.png"
+          }
+        },
+        "d397dbe1-dba0-4876-bfd1-74a8422ba503": {
+          "type": "linkbtn",
+          "disabled": true,
+          "settings": {
+            "image": "quiero ser vip",
+            "image_en": " I WANT TO BE VIP",
+            "image_fr": " JE VEUX ÊTRE UN VIP",
+            "image_de": "ICH WILL VIP SEIN",
+            "image_it": "VOGLIO ESSERE VIP",
+            "image_br": "INSCREVA-SE NA LISTA VIP",
+            "linkbtn": "#form-btn"
+          }
+        },
+        "152e20b8-47fb-478b-b2a8-10fd428dc4e7": {
+          "type": "titulo03",
+          "settings": {
+            "image": "OcCre llego para desafiar tus propios límites.",
+            "image_en": "OcCre arrived to challenge your limits.",
+            "image_fr": "Black Friday 2023 OcCre",
+            "image_de": "Black Friday 2023 OcCre",
+            "image_it": "Black Friday 2023 OcCre",
+            "image_br": "Black Friday 2023 OcCre"
+          }
+        },
+        "84033a92-d07a-44ea-ba1b-79a03b16e0b4": {
+          "type": "text2",
+          "settings": {
+            "image": "<p>Queremos que experimente el placer de crear algo extraordinario, inspirado en acontecimientos históricos y adaptado a tu propio estilo.<br\/><br\/>Cada modelo es único, como tú, y merece la pena mostrarlo al mundo con orgullo.<br\/><br\/>Es hora de diseñarlo a tu gusto. Disfrútalo como más te guste. ¡El creador eres tú!<\/p><p><em>Quiero ser OcCremaniac@<\/em><\/p>",
+            "image_en": "<p>We want you to experience the pleasure of creating something extraordinary, inspired by historical events and adapted to your style.<br\/><br\/>Each model is unique, just like you, and it's worth proudly displaying to the world.<br\/><br\/>It's time to design it to your liking and enjoy it as you like. The creator is you!<\/p><p><em>I want to be OcCremaniac@<\/em><\/p>",
+            "image_fr": "<p>L’édition <strong>Black Friday<\/strong> <strong>- Cyber Monday OcCre 2022 <\/strong>est terminée. Préparez pour l’édition <strong>2023 en vous inscrivant ici à notre newsletter.<\/strong><br\/><br\/>Nos clients ont profité au maximum des bénéfices d’être un membre <strong>VIP<\/strong> et ils ont <strong>économisé<\/strong> <strong>beaucoup d’argent <\/strong>pour leur prochain défi. <br\/><br\/>On parle de réductions allant jusqu’à 60% sur toutes nos maquettes et jusqu’à 25% sur les suppléments et les accessoires.  Ça fait beaucoup de réductions sur tous nos produits.<br\/><br\/>Nous serions ravis si vous vous abonniez à notre newsletter, ainsi vous ne manquerez pas l’opportunité d’acheter votre prochain défi OcCre avec nos réductions du BFCM2023.<\/p>",
+            "image_de": "<p>Die <strong>Black Friday - Cyber Monday  Ausgabe 2022<\/strong> von OcCre ist vorbei. Bereiten Sie sich auf die Ausgabe 2023 vor, indem <strong>Sie hier an unseren Newsletter abonnieren<\/strong>.<br\/><br\/>Unsere Kunden haben die Vorteile der <strong>VIP-Mitgliedschaft<\/strong> voll ausgenutzt und sie haben auch bei ihrer nächsten Herausforderung <strong>viel Geld gespart<\/strong>.<br\/><br\/>Zir meinen Rabatten von bis zu 60% auf alle unsere Modelle und bis zu 25% auf Zubehör und Ergänzungen. Das ist eine Menge Rabatt auf alle unsere Produkte.<br\/><br\/>Deshalb würden wir uns freuen, wenn Sie an unsere Liste der Neuigkeiten abonnieren, damit Sie nicht die Chance verpassen, Ihre nächste OcCre-Herausforderung mit unseren BFCM2023 Rabatten zu kaufen.<\/p>",
+            "image_it": "<p>L’edizione <strong>Black Friday - Cyber Monday OcCre 2022<\/strong> è finita. Preparati per l’edizione <strong>2023 iscrivendoti qui alla nostra newsletter<\/strong>.<br\/><br\/>I nostri clienti approfitteranno al massimo dei vantaggi di essere <strong>VIP<\/strong> e <strong>risparmieranno tanto <\/strong>nella loro prossima sfida.<br\/><br\/>Si tratta di sconti del 60% per tutti i nostri modellini e del  25% per complementi e accessori. Sono sconti incredibili per tutti i nostri prodotti.<br\/><br\/>Per questo motivo, ti consigliamo di iscriverti al nostro elenco di novità per non mancare l’opportunità di comprare la tua prossima sfida OcCre con i nostri sconti BFCM2023.<\/p>",
+            "image_br": "<p>A <strong>Black Friday - Cyber Monday OcCre 2022<\/strong> acabou. Prepare-se para a edição de <strong>2023, subscrevendo aqui a nossa newsletter.<\/strong><br\/><br\/>Os nossos clientes aproveitaram ao máximo os benefícios <strong>VIP <\/strong>e<strong> pouparam muito dinheiro<\/strong> no seu próximo desafio.<br\/><br\/>Estamos falando de descontos de até 60% em todos os nossos modelos e até 25% em acessórios. Isso é um grande desconto em todos os nossos produtos.<br\/><br\/>É por isso que gostaríamos que subscrevesse a nossa newsletter para não perder a oportunidade de comprar o seu próximo desafio OcCre com os nossos descontos BFCM2023.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0f4031ee-09b5-4d44-96b3-ca38c22d3ac2",
+        "c2328d98-ea87-40b9-b14d-802d2ed0cc46",
+        "7acfdd61-dc17-462c-99a9-e83fe304e67a",
+        "894e7968-8893-4ea7-a399-c9b9a08d4172",
+        "2984b4c1-804c-4f6f-9eab-a7cd56411685",
+        "0cb01ab5-cc4c-4f3d-be20-37b3b766a284",
+        "6f94eb9e-b7c3-40cb-96bb-95ddf75ca400",
+        "d397dbe1-dba0-4876-bfd1-74a8422ba503",
+        "152e20b8-47fb-478b-b2a8-10fd428dc4e7",
+        "84033a92-d07a-44ea-ba1b-79a03b16e0b4"
+      ],
+      "settings": {
+        "formk": "<div class=\"klaviyo-form-U8Shs7\"><\/div>\n<div class=\"klaviyo-form-XNHNJk\"><\/div>\n<div class=\"klaviyo-form-XXYjr8\"><\/div><div class=\"klaviyo-form-X4tfzs\"><\/div><div class=\"klaviyo-form-Yyp7QS\"><\/div>",
+        "imagebg": "shopify:\/\/shop_images\/Rectangle_129.png",
+        "image": "shopify:\/\/shop_images\/LIMITED_EDITION_FLYING_DUTCHMAN_b514f975-f86f-4d5e-8574-140c593a8377.png",
+        "image_en": "shopify:\/\/shop_images\/La_leggenda_della_nave_dell_Olandese_Volante_402abfa7-20fb-4842-bb1d-0bb21e88b9e4.png"
+      }
+    },
+    "92cd8456-49e9-43d2-bc44-bc26a1283fc1": {
+      "type": "blackfriday-2",
+      "blocks": {
+        "4087fa4c-a050-41d9-a136-05c741fa436f": {
+          "type": "imagen1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bftop1.png",
+            "image_en": "shopify:\/\/shop_images\/bftop1.png",
+            "image_fr": "shopify:\/\/shop_images\/bftop1.png",
+            "image_de": "shopify:\/\/shop_images\/bftop1.png",
+            "image_it": "shopify:\/\/shop_images\/bftop1.png",
+            "image_pt": "shopify:\/\/shop_images\/bftop1.png"
+          }
+        }
+      },
+      "block_order": [
+        "4087fa4c-a050-41d9-a136-05c741fa436f"
+      ],
+      "settings": {
+        "title": "Maquetas de barco",
+        "collection": "maquetas-barcos-ingleses",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 3,
+        "rows": 1,
+        "background_style": "use-alt-bg",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "62821777-9d4a-4eba-b8bc-dfe3b948e91a": {
+      "type": "blackfriday-2",
+      "settings": {
+        "title": "Maquetas de tranvía",
+        "collection": "modelismo-de-tranvias",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 3,
+        "rows": 1,
+        "background_style": "use-prim-bg",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "a2a097a9-340a-4824-8878-f8d6ad386bb0": {
+      "type": "blackfriday-2",
+      "settings": {
+        "title": "Maquetas de tren",
+        "collection": "modelismo-ferroviario",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 3,
+        "rows": 1,
+        "background_style": "use-prim-bg",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "eca35103-5ef6-4d38-a201-0c27bf1c18ba": {
+      "type": "black-friday3a",
+      "blocks": {
+        "f3b98e43-731a-4766-8b6f-305d1be0b9fb": {
+          "type": "imagen1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_en": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_fr": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_de": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_it": "shopify:\/\/shop_images\/Recurso_1_4x_1.png"
+          }
+        },
+        "931662a4-d43d-4803-a209-2c8600fe2160": {
+          "type": "titulo1",
+          "settings": {
+            "image": "Te regalamos un 10% de descuentos suscribiendote a nuestro newsletter",
+            "image_en": "We give you a 10% discount by subscribing to our newsletter",
+            "image_fr": "Nous vous offrons 10% de réduction en vous abonnant à notre newsletter",
+            "image_de": "Wenn Sie unseren Newsletter abonnieren, schenken wir Ihnen 10% Rabatt",
+            "image_it": "Ti regaliamo un 10% di sconti iscrivendoti alla nostra newsletter",
+            "image_pt": "Damos-lhe um desconto de 10% ao subscrever a nossa newsletter"
+          }
+        },
+        "2a7fff7a-7860-4e8e-b301-9eede9876ffb": {
+          "type": "text01",
+          "settings": {
+            "image": "<p>Al ser parte de la comunidad OcCre te enviamos emails para anunciar novedades, promociones, descuentos, datos históricos y relevantes que merecen la pena ser leídos.<\/p><p>También serás la primer persona en enterarte de la época de rebajas y de las ofertas exclusivas para que ahorres mucho dinero.<\/p>",
+            "image_en": "<p>As part of the OcCre community, we send you emails to announce the news, promotions, deals, and historical and relevant data worth reading.<\/p><p>You will also be the first to hear about the sales season and the exclusive offers to save a lot of money.<\/p>",
+            "image_fr": "<p>As part of the OcCre community, we send you emails to announce the news, promotions, deals, and historical and relevant data worth reading.<\/p><p>You will also be the first to hear about the sales season and the exclusive offers to save a lot of money.<\/p>",
+            "image_de": "<p>As part of the OcCre community, we send you emails to announce the news, promotions, deals, and historical and relevant data worth reading.<\/p><p>You will also be the first to hear about the sales season and the exclusive offers to save a lot of money.<\/p>",
+            "image_it": "<p>As part of the OcCre community, we send you emails to announce the news, promotions, deals, and historical and relevant data worth reading.<\/p><p>You will also be the first to hear about the sales season and the exclusive offers to save a lot of money.<\/p>",
+            "image_pt": "<p>As part of the OcCre community, we send you emails to announce the news, promotions, deals, and historical and relevant data worth reading.<\/p><p>You will also be the first to hear about the sales season and the exclusive offers to save a lot of money.<\/p>"
+          }
+        },
+        "6e1c9480-0ad1-43b8-9d52-816aff73c982": {
+          "type": "imagenlateral",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_en": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_fr": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_de": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_it": "shopify:\/\/shop_images\/bfbottom1.png"
+          }
+        },
+        "126564f0-2813-4070-a5dd-70dae11c4376": {
+          "type": "text1",
+          "settings": {
+            "image": "<p>Sabemos que tienes mil dudas acerca del fin de semana del <strong>Black Friday<\/strong> y <strong>Cyber Monday<\/strong>, así que aquí tienes algunas de las preguntas más comunes:<\/p>",
+            "image_en": "<p>We know that you have a thousand doubts about the Black Friday and Cyber ​​Monday weekend, so here are some of the most frequent questions and their answers: <\/p>",
+            "image_fr": "<p>Nous savons que vous avez des doutes à propos du week-end du <strong>Black Friday <\/strong>et <strong>du Cyber Monday<\/strong>, donc voici quelques une des questions les plus posées :<\/p>",
+            "image_de": "<p>Wir wissen, dass Sie viele Zweifel am Black Friday und Cyber Monday haben. Hier sind einige der häufigsten Fragen:<\/p>",
+            "image_it": "<p>Sappiamo che hai tanti dubbi sul fine settimana del <strong>Black Friday<\/strong> e <strong>Cyber Monday<\/strong>, queste sono alcune delle domande più frequenti:<\/p>",
+            "image_pt": "<p>Sabemos que você tem mil perguntas sobre o fim de semana da Black Friday e Cyber ​​​​Monday, então aqui estão algumas das perguntas mais comuns:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f3b98e43-731a-4766-8b6f-305d1be0b9fb",
+        "931662a4-d43d-4803-a209-2c8600fe2160",
+        "2a7fff7a-7860-4e8e-b301-9eede9876ffb",
+        "6e1c9480-0ad1-43b8-9d52-816aff73c982",
+        "126564f0-2813-4070-a5dd-70dae11c4376"
+      ],
+      "settings": {
+        "formk": "<div class=\"klaviyo-form-U8Shs7\"><\/div>\n<div class=\"klaviyo-form-XNHNJk\"><\/div>\n<div class=\"klaviyo-form-XXYjr8\"><\/div><div class=\"klaviyo-form-X4tfzs\"><\/div><div class=\"klaviyo-form-Yyp7QS\"><\/div>"
+      }
+    },
+    "501f61ab-89e9-4cbc-87dd-2fecdcdc046e": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/59060068762946afb5178dd7f341e8de.mp4",
+        "subheading": "",
+        "enlarge_subheading": false,
+        "title": "",
+        "title_size": 34,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "open_url_new_tab": true,
+        "button_style": "primary",
+        "text_alignment": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true
+      }
+    },
+    "54b36c90-a2fa-42f5-a9cc-7101da150947": {
+      "type": "blackfriday-blacka",
+      "disabled": true,
+      "blocks": {
+        "ec5a889e-8d8b-4ae9-8cde-f2ad40c5e56d": {
+          "type": "titulo2",
+          "settings": {
+            "image": "TODO SOBRE EL BLACK FRIDAY & CYBER MONDAY EN OCCRE",
+            "image_en": "ALL ABOUT BLACK FRIDAY & CYBER MONDAY AT OCCRE",
+            "image_fr": "Tout ce qu’il faut savoir sur le black friday 2023",
+            "image_de": "ALLE IN BEZUG AUF BLACK FRIDAY & CYBER MONDAY OCCRE",
+            "image_it": "TUTTO SUL BLACK FRIDAY & CYBER MONDAY OCCRE",
+            "image_pt": "TUDO SOBRE BLACK FRIDAY & CYBER MONDAY 2023 "
+          }
+        },
+        "ec03bb1d-6f4c-4040-b93e-bfeb03ef73e6": {
+          "type": "text1",
+          "settings": {
+            "image": "<p>Sabemos que tienes mil dudas acerca del fin de semana del <strong>Black Friday<\/strong> y <strong>Cyber Monday<\/strong>, así que aquí tienes algunas de las preguntas más comunes:<\/p>",
+            "image_en": "<p>We know that you have a thousand doubts about the <strong>Black Friday and Cyber ​​Monday <\/strong>weekend, so here are some of the most frequent questions and their answers: <\/p>",
+            "image_fr": "<p>Nous savons que vous avez des doutes à propos du week-end du <strong>Black Friday <\/strong>et <strong>du Cyber Monday<\/strong>, donc voici quelques une des questions les plus posées :<\/p>",
+            "image_de": "<p>Wir wissen, dass Sie viele Zweifel am <strong>Black Friday und Cyber Monday<\/strong> haben. Hier sind einige der häufigsten Fragen:<\/p>",
+            "image_it": "<p>Sappiamo che hai tanti dubbi sul fine settimana del <strong>Black Friday<\/strong> e <strong>Cyber Monday<\/strong>, queste sono alcune delle domande più frequenti:<\/p>",
+            "image_pt": "<p>Sabemos que você tem mil perguntas sobre o fim de semana da Black Friday e Cyber ​​​​Monday, então aqui estão algumas das perguntas mais comuns:<\/p>"
+          }
+        },
+        "a4547164-138a-4396-a677-a67528588d34": {
+          "type": "text2",
+          "settings": {
+            "image": "<p><strong>SUSCRÍBETE A NUESTROS EMAILS<\/strong><\/p><p><br\/>En general, enviamos emails para anunciar novedades, promociones, descuentos, datos históricos y relevantes que merecen la pena ser leídos.<\/p><p>Durante el Black Friday y Cyber Monday, te enterarás de las rebajas y de las ofertas exclusivas antes que nadie, para que ahorres aún más durante el fin de semana de Black Friday. No se nos ocurre ningún motivo para no suscribirse, a menos que no te guste leer tips y consejos para armar maquetas y ahorrarte dinero, claro.<\/p><p><strong>NO LO DUDES MÁS, SUSCRÍBETE ¡AHORA!<\/strong><\/p>",
+            "image_en": "<p><strong>SUBSCRIBE TO OUR EMAILS<\/strong><\/p><p>In general, we send emails to announce the news, promotions, discounts, and relevant data that are worth reading.<\/p><p>During Black Friday and Cyber ​​Monday, you'll hear about sales and exclusive offers before anyone else, so you can save even more during the Black Friday weekend. We can't think of any reason not to subscribe, unless you don't like reading tips and advice to build models and save money, of course.<\/p><p><strong>DO NOT HESITATE ANYMORE, SUBSCRIBE NOW!<\/strong><\/p>",
+            "image_fr": "<p><strong>ABONNEZ-VOUS À NOS MAILS<\/strong><\/p><p>En général, nous envoyons des e-mails pour annoncer des nouvelles, des promotions, des remises, des données historiques et pertinentes qui valent la peine d'être lues.<\/p><p>Pendant le Black Friday et le Cyber Monday vous découvrirez toutes les réductions et les offres exclusives avant tout le monde pour que vous puissiez économiser le plus possible pendant le week-end du Black Friday. Nous ne voyons aucune raison de ne pas s’inscrire, à moins que vous n’aimiez pas recevoir des tips et des conseils pour monter des maquettes.<\/p><p><strong>NE DOUTEZ PLUS ET INSCRIVEZ VOUS MAINTENANT !<\/strong><\/p>",
+            "image_de": "<p><strong>ABONNIEREN SIE UNSERE E-MAILS<\/strong><\/p><p>Im Allgemeinen versenden wir E-Mails, um Neuigkeiten, Werbeaktionen, Rabatte, historische und relevante Daten anzukündigen, die es wert sind, gelesen zu werden.<\/p><p>Während Black Friday und Cyber Monday, erfahren Sie vor allen anderen über den Rabatten und exklusiven Angeboten, damit Sie am Black Friday Wochenende noch mehr sparen können. Es gibt keinen Grund, um Sie nicht zu abonnieren,..vielleicht wenn Sie Tipps nicht lesen möchten, keinen Rat zum Modellbau erhalten, oder kein Geld sparen möchten..oder?. <\/p><p><strong>ZÖGERN SIE NICHT MEHR, UND JETZT ABONNIEREN!!<\/strong><\/p>",
+            "image_it": "<p><strong>ISCRIVITI ALLE NOSTRE EMAIL<\/strong><\/p><p>In generale, inviamo e-mail per annunciare notizie, promozioni, sconti, dati storici e rilevanti che vale la pena leggere.<\/p><p>Durante il Black Friday ed il Cyber Monday, scoprirai gli sconti e le offerte esclusive prima di tutti, per risparmiare ancora di più durante il fine settimana di Black Friday. Non esiste nessuna ragione per non iscriverti, almeno che non ti piaccia leggere tips e consigli per assemblare i modellini e risparmiare.<\/p><p><strong>NON ESITARE PIÙ, ISCRIVITI SUBITO!<\/strong><\/p>",
+            "image_pt": "<p><strong>ACESSE NOSSOS E-MAILS<\/strong><\/p><p>Em geral, enviamos e-mails para anunciar novidades, promoções, descontos, históricos e dados relevantes que valem a pena serem lidos.<\/p><p>Durante a Black Friday e a Cyber ​​​​Monday, você saberá sobre promoções e ofertas exclusivas antes de todo mundo, para economizar ainda mais durante o fim de semana da Black Friday. Não conseguimos pensar em nenhum motivo para não assinar, a menos que você não goste de ler dicas e conselhos para construir modelos e economizar dinheiro, é claro.<\/p><p><strong>NÃO HESITE MAIS, INSCREVA-SE AGORA!<\/strong><\/p>"
+          }
+        },
+        "687037f4-aede-4e10-9ae8-84883736948c": {
+          "type": "question",
+          "settings": {
+            "title": "¿QUÉ INCLUYE LAS REBAJAS DEL BLACK FRIDAY Y CYBER MONDAY EN OCCRE?",
+            "answer": "<p>¡Son nuestras <strong>MEJORES<\/strong> rebajas del año! Incluyen descuentos exclusivos nuestras maquetas, envíos gratuitos, ofertas flash y oportunidades únicas en los complementos.<\/p>"
+          }
+        },
+        "0b6b658a-273b-4f98-b963-cdd2dcbc3b4e": {
+          "type": "question",
+          "settings": {
+            "title": "¿OFRECE OCCRE DEVOLUCIONES DURANTE Y DESPUÉS DEL BLACK FRIDAY?",
+            "answer": "<p>Ofrecemos devoluciones gratuitas en muchos sitios. El periodo de devoluciones durante estos días es de 15 días tras recibir el paquete. <\/p>"
+          }
+        },
+        "88bac67f-1f38-42e7-a830-99e818d5a56e": {
+          "type": "question",
+          "settings": {
+            "title": "¿PUEDO UTILIZAR OTROS DESCUENTOS EN EL BLACK FRIDAY?",
+            "answer": "<p>¡No, lo sentimos! Pero te prometemos que los descuentos serán a lo grande...<\/p>"
+          }
+        },
+        "e73a3884-c65a-4c17-8490-107c3ba30e8f": {
+          "type": "question",
+          "settings": {
+            "title": "¿HAY ENVÍOS GRATUITOS EN OCCRE?",
+            "answer": "<p>A muchos sitios sí, pero no a todos. Visita la página de envíos y devoluciones para enterarte de todo.<\/p>"
+          }
+        },
+        "795f5a33-6962-4b0b-94c8-c3104ab6937b": {
+          "type": "question",
+          "settings": {
+            "title": "¿OCCRE TIENE TAMBIÉN REBAJAS DE CYBER MONDAY?",
+            "answer": "<p>¡Por supuesto! ¿Nuestro consejo antes de que llegue el mejor lunes del año? <strong>Suscríbete a nuestros emails y SMS<\/strong>. De ese modo, serás de los primeros en enterarte de todo lo relacionado con los descuentos de Black Friday, Cyber Monday.<\/p>"
+          }
+        },
+        "aad9ab1a-4c85-4060-991a-a8ae8b220d35": {
+          "type": "question",
+          "settings": {
+            "title": "¿A QUÉ HORA EMPIEZAN LAS REBAJAS DEL BLACK FRIDAY ONLINE?",
+            "answer": "<p>¡Buena pregunta! No podemos decirte la hora exacta, pero sí sabemos que los que están<strong> suscritos a nuestros correos y SMS<\/strong> serán los primeros en enterarse 😉.<\/p>"
+          }
+        },
+        "2d7f595a-fb10-4e79-a125-a19694bd4482": {
+          "type": "question",
+          "settings": {
+            "title": "¡QUIERO SABER MÁS ACERCA DEL BLACK FRIDAY EN OCCRE!",
+            "answer": "<p>¡Normal! Lo más importante que tienes que saber es que va a ser increíble. Y hay dos formas muy sencillas de estar informado. Primero y lo más importante <strong>suscribiéndote a nuestros emails y SMS<\/strong>. Segundo <strong>siguiéndonos<\/strong> en <strong>Facebook<\/strong>, <strong>Instagram<\/strong>, <strong>YouTube<\/strong> para no perderte NADA!<\/p>"
+          }
+        },
+        "fbb1da57-0c60-4238-88ae-4cbc2e873e31": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "a ser leídos ",
+            "answer": ""
+          }
+        },
+        "4d3b9e6c-1c33-41f2-8b2d-dc017f016af7": {
+          "type": "imagen1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black-friday-off.png",
+            "image_en": "shopify:\/\/shop_images\/black-friday-off.png",
+            "image_fr": "shopify:\/\/shop_images\/black-friday-off.png",
+            "image_de": "shopify:\/\/shop_images\/black-friday-off.png",
+            "image_it": "shopify:\/\/shop_images\/black-friday-off.png",
+            "image_pt": "shopify:\/\/shop_images\/black-friday-off.png"
+          }
+        }
+      },
+      "block_order": [
+        "ec5a889e-8d8b-4ae9-8cde-f2ad40c5e56d",
+        "ec03bb1d-6f4c-4040-b93e-bfeb03ef73e6",
+        "a4547164-138a-4396-a677-a67528588d34",
+        "687037f4-aede-4e10-9ae8-84883736948c",
+        "0b6b658a-273b-4f98-b963-cdd2dcbc3b4e",
+        "88bac67f-1f38-42e7-a830-99e818d5a56e",
+        "e73a3884-c65a-4c17-8490-107c3ba30e8f",
+        "795f5a33-6962-4b0b-94c8-c3104ab6937b",
+        "aad9ab1a-4c85-4060-991a-a8ae8b220d35",
+        "2d7f595a-fb10-4e79-a125-a19694bd4482",
+        "fbb1da57-0c60-4238-88ae-4cbc2e873e31",
+        "4d3b9e6c-1c33-41f2-8b2d-dc017f016af7"
+      ],
+      "settings": {
+        "formk": "<div class=\"klaviyo-form-VcqDnj\"><\/div>\n<div class=\"klaviyo-form-YzdVbk\"><\/div>\n<div class=\"klaviyo-form-WJbMtY\"><\/div>\n<div class=\"klaviyo-form-RPRaX6\"><\/div>\n<div class=\"klaviyo-form-VCUH4G\"><\/div>"
+      }
+    },
+    "0e216ef1-4696-445c-8cb1-465b3d0955a3": {
+      "type": "black-friday-cards",
+      "disabled": true,
+      "blocks": {
+        "9c1fafa2-6d18-4c63-8d36-f3907a60303f": {
+          "type": "titulo1",
+          "settings": {
+            "image": "TAN GENIAL DE RECIBIR COMO DE REGALAR",
+            "image_en": "SUBSCRIBE TO THE VIP LISTAS GREAT TO RECEIVE AS TO GIVE",
+            "image_fr": "PLAISIR D’OFFRIR, JOIE DE RECEVOIR ",
+            "image_de": "MAN IST SO TOLL, GESCHENKE ZU BEKOMMEN, WIE ZU VERSCHENKEN",
+            "image_it": "COSÌ STUPENDO DA RICEVERE CHE DA REGALARE"
+          }
+        },
+        "0cba288d-5e06-4449-8d6e-ad427779be20": {
+          "type": "text01",
+          "settings": {
+            "image": "<p>Si no sabes que comprar\/regalar, no te la juegues, acierta seguro con las tarjetas regalo OcCre. Regala ahora y aprovéchalo durante el Black Friday y Navidad<\/p>",
+            "image_en": "<p>If you don't know what to buy\/give, don't take risks, you’ll be right with OcCre’s gift cards. Give now and take advantage of it during Black Friday and Christmas<\/p>",
+            "image_fr": "<p>Si vous ne savez pas quoi acheter\/offrir, ne prenez pas de risque et offrez une carte cadeau de chez OcCre pour être sûr de faire plaisir. Faites-vous un cadeau pendant le Black Friday et Noël.<\/p>",
+            "image_de": "<p>Wenn Sie nicht wissen, was zu kaufen\/verschenken, dann riskieren Sie nicht. Mit OcCre- Geschenkkarten treffen Sie sicher. Jetzt verschenken Sie und am Black Friday und Weihnachten die geniessen <\/p>",
+            "image_it": "<p>Se non sai che cosa comprare\/regalare, e vuoi andare sul sicuro ti offriamo le tessere regalo OcCre. Regala adesso e approfitta del Black Friday e del Natale<\/p>"
+          }
+        },
+        "5e2c15e0-5b80-4251-a5b3-2a36d6b85124": {
+          "type": "imagenlateral",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "9c1fafa2-6d18-4c63-8d36-f3907a60303f",
+        "0cba288d-5e06-4449-8d6e-ad427779be20",
+        "5e2c15e0-5b80-4251-a5b3-2a36d6b85124"
+      ],
+      "settings": {
+        "formk": ""
+      }
+    },
+    "28370e23-f997-459a-92ce-708697c9d68d": {
+      "type": "multi-column-bf",
+      "blocks": {
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "¡TAN GENIAL DE RECIBIR COMO DE REGALAR!",
+            "text": "<p>Si no sabes que comprar\/regalar, no te la juegues, acierta seguro con las tarjetas regalo OcCre. Es una excelente opción para regalar ahora y aprovechar durante navidad, reyes o cumpleaños<\/p>",
+            "button_label": "VER OPCIONES",
+            "link": "shopify:\/\/products\/tarjeta-regalo-occre"
+          }
+        },
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/tarjetas.jpg",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-2": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-0",
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-1",
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-2"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "left",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "d615a182-55c5-459d-8b85-879521f5023e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-0": {
+          "type": "heading",
+          "settings": {
+            "title": "23.321 CLIENTES FELICES",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>querido por miles<\/p>",
+            "enlarge_text": false,
+            "color": "default_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-0",
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-1"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "1667270674e3197caa": {
+      "type": "apps",
+      "blocks": {
+        "5ac926b7-c9b7-482e-9edd-e037a192dc51": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "5ac926b7-c9b7-482e-9edd-e037a192dc51"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "f61c1c32-1191-4c9f-b2f4-83942dcd9eab": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "<style>\n#section-id-template--16605734306047__f61c1c32-1191-4c9f-b2f4-83942dcd9eab {\nmargin:0px;\nmargin-bottom:40px;\n}\n<\/style>\n<p style=\"width:80%; margin:0 auto; margin-top:20px; font-size:9px;\">Al registrarte por SMS, aceptas recibir mensajes automatizados de marketing recurrentes al número de teléfono proporcionado, incluyendo recordatorios de carritos. El consentimiento no es una condición de compra. Responde STOP para darte de baja. Responde HELP para obtener ayuda. La frecuencia de los mensajes varía. Pueden aplicarse tarifas de mensajes y datos. Ver nuestra Política de privacidad y nuestros Términos del servicio. \n<\/p>"
+      }
+    },
+    "28ca89f4-a18b-4530-b2bf-f62984450060": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": false,
+        "code": "<script>\nwindow.addEventListener('klaviyoForms', (event) => {\n    if (event.detail.type === 'submit') {\n        \/\/ GTM Event\n        dataLayer.push({'event': 'sub-bf'});\n        \/\/ FB Pixel Event\n        fbq('track', 'Subscribe');\n    }\n});\n<\/script>\n\n<style>\n.bf-textos-p2 p em {\ncolor:#ffb81c;\nfont-size:20px;\n  font-family: Montserrat;\nfont-weight:600;\ntext-decoration: underline;\n}\n.tituloprincipal h1 {\n    font-family: Montserrat;\n    font-size: 30px !important;\n    font-weight: 900;\n    line-height: 34px !important; \n    letter-spacing: 0em;\n    text-align: left;\n    color: #09080C;\n    margin-bottom: 15px;\n}\n.columnas .columna2 {\npadding-right:5%;\n}\n.columnas .bf-textos-p1 p {\n   \n    font-size: 16px;\n    \n    line-height: 22px;\n  \n}\n<\/style>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "715f8832-d79c-41f8-987c-4ef2f804ee31",
+    "92cd8456-49e9-43d2-bc44-bc26a1283fc1",
+    "62821777-9d4a-4eba-b8bc-dfe3b948e91a",
+    "a2a097a9-340a-4824-8878-f8d6ad386bb0",
+    "eca35103-5ef6-4d38-a201-0c27bf1c18ba",
+    "501f61ab-89e9-4cbc-87dd-2fecdcdc046e",
+    "54b36c90-a2fa-42f5-a9cc-7101da150947",
+    "0e216ef1-4696-445c-8cb1-465b3d0955a3",
+    "28370e23-f997-459a-92ce-708697c9d68d",
+    "d615a182-55c5-459d-8b85-879521f5023e",
+    "1667270674e3197caa",
+    "f61c1c32-1191-4c9f-b2f4-83942dcd9eab",
+    "28ca89f4-a18b-4530-b2bf-f62984450060"
+  ]
+}

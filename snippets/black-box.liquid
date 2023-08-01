@@ -1,0 +1,83 @@
+<style>
+    .flex-container {
+        display: flex;
+        gap: 35px;
+        align-items: center;
+
+    }
+
+    .black_box_container {
+        font-size: 10px;
+        background: #000000;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        gap: 4px;
+        padding: 5px 12px;
+        border-radius: 15px;
+        white-space: nowrap;
+        visibility: hidden;
+    }
+
+    .black_box_container .highlight_bold {
+        font-weight: 800;
+    }
+
+    .black_box_container .highlight_price {
+        color: rgb(243, 12, 12);
+        text-decoration: line-through;
+    }
+
+
+    @media only screen and (max-width: 900px) {
+
+        .flex-container {
+            gap: 20px;
+        }
+
+        .black_box_container {
+            white-space: normal;
+            font-size: 12px;
+            display: inline-block;
+        }
+
+
+    }
+</style>
+
+<div class="black_box_container"> <span class="highlight_price">&euro;14.99</span> <span class="highlight_bold">
+   
+    {% if request.locale.iso_code == 'es' %}
+    GRATIS 
+{% elsif request.locale.iso_code == 'en' %}
+FREE
+{% elsif request.locale.iso_code == 'de' %}
+KOSTENLOS 
+{% elsif request.locale.iso_code == 'fr' %}
+GRATUITE
+{% elsif request.locale.iso_code == 'pt-PT' %}
+GRATUITA 
+{% elsif request.locale.iso_code == 'ru' %}
+FREE
+{% else %}
+GRATIS
+{% endif %}
+</span>
+
+{% if request.locale.iso_code == 'es' %}
+Placa Personalizada (agregada en el carrito)
+{% elsif request.locale.iso_code == 'en' %}
+Wooden Name Plate Included (Added In Cart)
+{% elsif request.locale.iso_code == 'de' %}
+Personalisierte Namensschild enthalten (den Warenkorb gelegt)
+{% elsif request.locale.iso_code == 'fr' %}
+Plaque Personnalisée incluse (Il est ajouté au panier)
+{% elsif request.locale.iso_code == 'pt-PT' %}
+Placa Identificação de madeira incluída (adicionada ao carrinho)
+{% elsif request.locale.iso_code == 'ru' %}
+ Wooden Name Plate Included (Added In Cart)
+{% else %}
+Targa personalizzata (aggiunto al carrello)
+{% endif %}
+</div>

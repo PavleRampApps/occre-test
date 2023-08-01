@@ -1,0 +1,1110 @@
+
+<div style=" background-image: url('{{ section.settings.imagebg | img_url }}');
+  background-size:100%;
+  background:white !important">
+  <div class="container container-textos">
+    <div class="bf-btn-fecha">
+      <a href="" class="bf-btn-fecha-a">
+{% for block in section.blocks %} 
+  
+  {% case block.type %}
+      {% when 'imagen1' %}
+      
+      {% if block.settings.image != blank %}
+      
+      
+      {% if request.locale.iso_code == 'es'  %}
+      <img src="{{ block.settings.image | img_url: 'master'  }}">
+      
+      
+      {% elsif request.locale.iso_code == 'en'  %}
+      <img src="{{ block.settings.image_en | img_url: 'master'  }}">
+      
+      
+      {% elsif request.locale.iso_code == 'fr' %}
+      <img src="{{ block.settings.image_fr | img_url: 'master'  }}">
+      {% elsif request.locale.iso_code == 'de' %}
+      <img src="{{ block.settings.image_de | img_url: 'master'  }}">
+      
+      {% elsif request.locale.iso_code == 'it' %}
+      <img src="{{ block.settings.image_it | img_url: 'master'  }}">
+      {% else  %}
+      
+      <img src="{{ block.settings.image_en | img_url: 'master'  }}">
+      {% endif %}
+        
+      {% endif %}
+  {% endcase %}
+{% endfor %}
+    
+      </a>
+      
+    </div>
+  
+<div class="text01p">
+              {% for block in section.blocks %} 
+  
+  {% case block.type %}
+      {% when 'text01' %}
+      
+      {% if block.settings.image != blank %}
+      
+      
+      {% if request.locale.iso_code == 'es'  %}
+      {{ block.settings.image }}
+      
+      
+      {% elsif request.locale.iso_code == 'en'  %}
+  {{ block.settings.image_en }}
+      
+      
+      {% elsif request.locale.iso_code == 'fr' %}
+    {{ block.settings.image_fr }}
+      {% elsif request.locale.iso_code == 'de' %}
+      {{ block.settings.image_de }}
+      
+      {% elsif request.locale.iso_code == 'it' %}
+     {{ block.settings.image_it }}
+      {% else  %}
+      
+      {{ block.settings.image_en }}
+      {% endif %}
+        
+      {% endif %}
+  {% endcase %}
+{% endfor %}
+</div>
+    <div class="bf-count-down">
+      <div class="countdown_wrap">
+      <div class="countdown_time" id="js_set_time" >
+        <div class="timer-block">
+          <span class="countdown_number js-days">00</span>
+          <span class="countdown_title">{% if request.locale.iso_code == 'es'  %}
+Días{% else %}
+            
+Dias
+            {% endif %}</span>
+        </div>
+        <div class="timer-block">
+          <span class="countdown_number js-hours">00</span>
+          <span class="countdown_title">Horas</span>
+        </div>
+        <div class="timer-block">
+          <span class="countdown_number js-minutes">00</span>
+          <span class="countdown_title">Minutos</span>
+        </div>
+        <div class="timer-block">
+          <span class="countdown_number js-seconds">00</span>
+          <span class="countdown_title">Segundos</span>
+        </div>
+      </div>
+    </div>
+<div class="form_klaviyo">
+  {{ section.settings.formk }}
+</div>
+      
+    </div>
+
+</div>
+<div class="container-negro" style="">
+<div class="columnas">
+  <div class="columna1">
+{% for block in section.blocks %} 
+  
+  {% case block.type %}
+      {% when 'imagenlateral' %}
+      
+      {% if block.settings.image != blank %}
+      
+      
+      {% if request.locale.iso_code == 'es'  %}
+      <img src="{{ block.settings.image | img_url: 'master'  }}">
+      
+      
+      {% elsif request.locale.iso_code == 'en'  %}
+      <img src="{{ block.settings.image_en | img_url: 'master'  }}">
+      
+      
+      {% elsif request.locale.iso_code == 'fr' %}
+      <img src="{{ block.settings.image_fr | img_url: 'master'  }}">
+      {% elsif request.locale.iso_code == 'de' %}
+      <img src="{{ block.settings.image_de | img_url: 'master'  }}">
+      
+      {% elsif request.locale.iso_code == 'it' %}
+      <img src="{{ block.settings.image_it | img_url: 'master'  }}">
+      {% else  %}
+      
+      <img src="{{ block.settings.image_en | img_url: 'master'  }}">
+      {% endif %}
+        
+      {% endif %}
+  {% endcase %}
+{% endfor %}
+</div>
+ <div class="columna2">
+    <h2 class="bf-textos-h2">
+        {% for block in section.blocks %} 
+  
+  {% case block.type %}
+      {% when 'titulo1' %}
+      
+      {% if block.settings.image != blank %}
+      
+      
+      {% if request.locale.iso_code == 'es'  %}
+      {{ block.settings.image }}
+      
+      
+      {% elsif request.locale.iso_code == 'en'  %}
+  {{ block.settings.image_en }}
+      
+      
+      {% elsif request.locale.iso_code == 'fr' %}
+    {{ block.settings.image_fr }}
+      {% elsif request.locale.iso_code == 'de' %}
+      {{ block.settings.image_de }}
+      
+      {% elsif request.locale.iso_code == 'it' %}
+     {{ block.settings.image_it }}
+      {% else  %}
+      
+      {{ block.settings.image_en }}
+      {% endif %}
+        
+      {% endif %}
+  {% endcase %}
+{% endfor %}
+    
+      
+      </h2>
+     <div class="bf-textos-p1">
+          {% for block in section.blocks %} 
+  
+  {% case block.type %}
+      {% when 'text1' %}
+      
+      {% if block.settings.image != blank %}
+      
+      
+      {% if request.locale.iso_code == 'es'  %}
+      {{ block.settings.image }}
+      
+      
+      {% elsif request.locale.iso_code == 'en'  %}
+  {{ block.settings.image_en }}
+      
+      
+      {% elsif request.locale.iso_code == 'fr' %}
+    {{ block.settings.image_fr }}
+      {% elsif request.locale.iso_code == 'de' %}
+      {{ block.settings.image_de }}
+      
+      {% elsif request.locale.iso_code == 'it' %}
+     {{ block.settings.image_it }}
+      {% else  %}
+      
+      {{ block.settings.image_en }}
+      {% endif %}
+        
+      {% endif %}
+  {% endcase %}
+{% endfor %}
+ 
+    <div class="" style="    text-align: center; display:flex;">
+          
+  {% for block in section.blocks %} 
+      {% case block.type %}
+        
+      {% when 'linkbtn' %}
+      
+      {% if block.settings.image != blank %}
+      
+      
+      {% if request.locale.iso_code == 'es'  %}
+      <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image}} </a>
+      
+      
+      {% elsif request.locale.iso_code == 'en'  %}
+<a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_en }} </a>
+      
+      
+      {% elsif request.locale.iso_code == 'fr' %}
+  <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_fr }} </a>
+      {% elsif request.locale.iso_code == 'de' %}
+     <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_de }} </a>
+      
+      {% elsif request.locale.iso_code == 'it' %}
+   <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_it }} </a>
+      {% else  %}
+      
+    <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_en }} </a>
+      {% endif %}
+        
+      {% endif %}
+
+        
+  {% endcase %}
+{% endfor %}
+
+            </div>    </div>
+      </div>
+     </div>
+</div>
+  
+    
+
+<div style=" background-image: url('{{ section.settings.imagebg | img_url }}');
+  background-size:100%;
+  background:white !important">
+    <div class="bf-textos">
+        <div class="bf-titulo-image">
+          <a href="" class="bf-titulo-image-a">
+             {% for block in section.blocks %}
+   
+          
+         {% case block.type %}
+    {% when 'imagen2' %}
+         
+    {% if block.settings.image != blank %}
+ 
+
+   {% if request.locale.iso_code == 'es'  %}
+<img src="{{ block.settings.image | img_url: 'master'  }}">
+
+
+{% elsif request.locale.iso_code == 'en'  %}
+<img src="{{ block.settings.image_en | img_url: 'master'  }}">
+
+
+  {% elsif request.locale.iso_code == 'fr' %}
+<img src="{{ block.settings.image_fr | img_url: 'master'  }}">
+   {% elsif request.locale.iso_code == 'de' %}
+<img src="{{ block.settings.image_de | img_url: 'master'  }}">
+
+     {% elsif request.locale.iso_code == 'it' %}
+<img src="{{ block.settings.image_it | img_url: 'master'  }}">
+  {% else  %}
+      
+  <img src="{{ block.settings.image_en | img_url: 'master'  }}">
+{% endif %}
+    {% endif %}
+             {% endcase %}
+  {% endfor %}
+  
+          </a>
+
+  
+
+      
+    </div>
+     {% comment %}  <h2 class="bf-textos-h2b">
+        {% for block in section.blocks %} 
+  
+  {% case block.type %}
+      {% when 'titulo2' %}
+      
+      {% if block.settings.image != blank %}
+      
+      
+      {% if request.locale.iso_code == 'es'  %}
+      {{ block.settings.image }}
+      
+      
+      {% elsif request.locale.iso_code == 'en'  %}
+  {{ block.settings.image_en }}
+      
+      
+      {% elsif request.locale.iso_code == 'fr' %}
+    {{ block.settings.image_fr }}
+      {% elsif request.locale.iso_code == 'de' %}
+      {{ block.settings.image_de }}
+      
+      {% elsif request.locale.iso_code == 'it' %}
+     {{ block.settings.image_it }}
+      {% else  %}
+      
+      {{ block.settings.image_en }}
+      {% endif %}
+        
+      {% endif %}
+  {% endcase %}
+{% endfor %}
+    
+      
+      </h2>
+    {% endcomment %} 
+     <div class="div-bf-textos-p2">
+     <div class="bf-textos-p2">
+
+           {% for block in section.blocks %} 
+  
+  {% case block.type %}
+      {% when 'text2' %}
+      
+      {% if block.settings.image != blank %}
+      
+      
+      {% if request.locale.iso_code == 'es'  %}
+      {{ block.settings.image }}
+      
+      
+      {% elsif request.locale.iso_code == 'en'  %}
+  {{ block.settings.image_en }}
+      
+      
+      {% elsif request.locale.iso_code == 'fr' %}
+    {{ block.settings.image_fr }}
+      {% elsif request.locale.iso_code == 'de' %}
+      {{ block.settings.image_de }}
+      
+      {% elsif request.locale.iso_code == 'it' %}
+     {{ block.settings.image_it }}
+      {% else  %}
+      
+      {{ block.settings.image_en }}
+      {% endif %}
+        
+      {% endif %}
+  {% endcase %}
+{% endfor %}
+
+     </div>
+      <div class="" style="    text-align: center; display:flex;">
+          
+  {% for block in section.blocks %} 
+      {% case block.type %}
+        
+      {% when 'linkbtn2' %}
+      
+      {% if block.settings.image != blank %}
+      
+      
+      {% if request.locale.iso_code == 'es'  %}
+      <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image}} </a>
+      
+      
+      {% elsif request.locale.iso_code == 'en'  %}
+<a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_en }} </a>
+      
+      
+      {% elsif request.locale.iso_code == 'fr' %}
+  <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_fr }} </a>
+      {% elsif request.locale.iso_code == 'de' %}
+     <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_de }} </a>
+      
+      {% elsif request.locale.iso_code == 'it' %}
+   <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_it }} </a>
+      {% else  %}
+      
+    <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_en }} </a>
+      {% endif %}
+        
+      {% endif %}
+
+        
+  {% endcase %}
+{% endfor %}
+
+        
+      </div>
+
+         </div>
+    </div>
+  </div>
+</div>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+</style>
+
+<style>
+.container-textos {
+    font-family: 'Fira Mono' !important;
+  padding-top:20px;
+   padding-bottom:20px;
+  text-align:center;
+  max-width:1200px;
+  padding-left:2em;
+  padding-right:2em;
+  
+  
+}
+  .bf-btn-fecha-a img {
+width: 950px;
+    margin-bottom:0px;
+  }
+  
+  .bf-titulo-image-a {
+    width: 878px; 
+  }
+  .text01p p {
+font-family: 'Fira Mono';
+    padding:0px 20%;
+font-size: 22px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+  
+  .bf-textos {
+    text-align:center;
+    color:#09080C;
+
+      padding-top:40px;
+
+  padding-left:5%;
+  padding-right:5%;
+    
+  }
+   .bf-textos-h2 {
+     font-family: Montserrat;
+
+font-weight: 800;
+
+letter-spacing: 0em;
+
+
+        text-align:left;
+font-family: 'Fira Mono' ;
+font-size: 50px;
+font-weight: 700;
+line-height: 60px;
+
+     color:white;
+     margin-bottom:60px;
+color: #FBBC30;
+    
+
+
+     
+   } 
+  .bf-textos-h2b {
+  font-family: Montserrat;
+font-size: 60px;
+font-weight: 800;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: center;
+    color:#10069F;
+}
+  .div-bf-textos-p2 {
+     display:flex;
+     padding-top:20px;
+     flex-direction: column;
+ 
+   }
+  .columna1, .columna2 {
+    width:45%;
+   
+  }
+  .columna2 {
+    width:55%;
+   
+  }
+    .bf-textos-p1 p {
+     
+ font-family: 'Fira Mono' ;
+font-size: 26px;
+font-weight: 500;
+line-height: 55px;
+letter-spacing: -0.02em;
+text-align: left;
+color:#F5F5F5;
+      
+   } 
+ .bf-textos-p2 p{
+
+  }
+    .bf-textos-p2 p {
+      max-width:900px;
+ font-family: 'Fira Mono' ;
+font-size: 22px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: -0.02em;
+text-align: center;
+      margin:0 auto;
+      padding:0px 10%;
+
+
+             padding-top:20px;
+  padding-bottom:40px;
+   }
+
+  .full-text2-btn {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #000;
+    color: white;
+    padding: 15px 25px;
+    max-width: 650px;
+    margin: 0px auto;
+    color: black !important;
+    background: #F3B01C;
+         margin-top:40px;
+    width: 100%;
+}
+
+  
+    .form_klaviyo input {
+    text-align:left !important;
+    color: #040404;
+
+  }
+  .form_klaviyo {
+    padding-bottom:0px;
+  }
+  .countdown_time{
+   
+        background: transparent;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width:800px;
+    margin:0 auto;
+    
+  }
+  .countdown_wrap { 
+    padding-top: 20px;
+    padding-bottom:20px;
+  }
+  .countdown_time .timer-block{
+    width: 25%;
+  }
+  .countdown_time .timer-block span{
+    display: block;
+        text-align: center;
+    font-family: 'Fira Mono' ;
+font-size: 49px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+color: #09080C;
+    text-transform:uppercase;
+
+  }
+  .countdown_number {
+        border-bottom: 5px solid black;
+    margin:30px;
+    margin-top:0px;
+    padding-bottom: 10px;
+  }
+   .countdown_time .timer-block .countdown_title {
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+    color: #09080C;
+
+  }
+  .container-negro {
+    background:#09080C;
+    padding:30px 50px;
+    padding-right:0px;
+  }
+  .columnas {
+    display:flex;
+    
+  }
+    .columna2 {
+      padding-right:40px;
+    }
+  @media (max-width:980px) {
+    .text01p p, .bf-textos-p1 p, .bf-textos-p2 p{
+      padding:0px 5px;
+      font-size:13px;
+      line-height:20px;
+    }
+    .bf-textos-p2 p {
+       padding:0px 5px;
+      margin-bottom:20px;
+    }
+    .bf-textos-h2 {
+        font-size:18px;
+      line-height:20px;
+      margin-bottom:5px;
+            padding:0px 5px;
+    }
+    .container-negro {
+      padding:0px;
+      padding-top:20px;
+      padding-bottom:20px;
+    }
+    .full-text2-btn {
+       padding:0px 5px;
+      font-size:14px;
+      line-height:20px;
+      margin-top:5px;
+      
+    }
+    .columnas {
+    display: flex;
+    align-items: center;
+}
+    .columna1 {
+      width:30%;
+      
+    }
+     .columna2 {
+      width:70%;
+          padding-right: 10px;
+      
+    }
+    .countdown_number {
+      font-size:24px !important;
+          border-bottom: 2px solid black;
+    margin:5px 10px;
+    margin-top:0px;
+    padding-bottom: 0px;
+    }
+       .countdown_time .timer-block .countdown_title {
+    font-family: Montserrat;
+font-size: 10px; }
+     .form_klaviyo button {
+       font-size:16px !important;
+     }
+    .icon-with-caption .icon-with-caption__text {
+      font-size:12px !important;
+    }
+
+    
+  }
+  </style>
+<script type="text/javascript">
+  var settime = "2022/11/24 00:00:00";
+  (function (){
+    if(settime.length  > 0 ){
+      var countDownDate = new Date(settime).getTime();
+      var x = setInterval(function() { 
+        // Get todays date and time
+        var now = new Date().getTime(); 
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now; 
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        if(days < 10 )
+        {
+          var days = '0' + days;
+        }else{
+          days = days;
+        }
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        if(hours  < 10 )
+        {
+          var hours = '0' + hours;
+        }else{
+          hours = hours;
+        }
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        if(minutes  < 10 )
+        {
+          var minutes = '0' + minutes;
+        }else{
+          minutes = minutes;
+        }
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000); 
+        document.querySelector('.js-days').innerText = days;
+        document.querySelector('.js-hours').innerText = hours;
+        document.querySelector('.js-minutes').innerText = minutes;
+        document.querySelector('.js-seconds').innerText = seconds;
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("js_set_time").innerHTML = "Out of date";
+        }
+      }, 1000);
+    }
+  })();
+</script>
+
+
+
+{% schema %}
+  {
+    "name": "Black Friday",
+    "settings": [
+       {
+          "type": "textarea",
+          "id": "formk",
+          "label": "Form Codes"
+        },
+      {
+          "type": "image_picker",
+          "id": "imagebg",
+          "label": "Imagebg"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_en",
+          "label": "Image en"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_fr",
+          "label": "Image fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_de",
+          "label": "Image de"
+        },{
+          "type": "image_picker",
+          "id": "image_it",
+          "label": "Image it"
+        },
+         {
+          "type": "image_picker",
+          "id": "image2",
+          "label": "Image"
+        
+        }
+    ],
+ "blocks": [
+      {
+        "type": "imagen1",
+        "name": "imagen1",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_en",
+          "label": "Image en"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_fr",
+          "label": "Image fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_de",
+          "label": "Image de"
+        },{
+          "type": "image_picker",
+          "id": "image_it",
+          "label": "Image it"
+        }
+        ]
+      },
+   {
+        "type": "imagenlateral",
+        "name": "imagenlateral",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_en",
+          "label": "Image en"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_fr",
+          "label": "Image fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_de",
+          "label": "Image de"
+        },{
+          "type": "image_picker",
+          "id": "image_it",
+          "label": "Image it"
+        }
+        ]
+      },
+   {
+        "type": "imagen2",
+        "name": "imagen2",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_en",
+          "label": "Image en"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_fr",
+          "label": "Image fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_de",
+          "label": "Image de"
+        },{
+          "type": "image_picker",
+          "id": "image_it",
+          "label": "Image it"
+        }
+        ]
+      },
+     {
+        "type": "text01",
+        "name": "text01",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "richtext",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "richtext",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "richtext",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "richtext",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "richtext",
+          "id": "image_it",
+          "label": "text it"
+        }
+        ]
+      }   ,
+     {
+        "type": "titulo1",
+        "name": "titulo1",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "text",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "text",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "text",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "text",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "text",
+          "id": "image_it",
+          "label": "text it"
+        }
+        ]
+      },
+    
+     {
+        "type": "titulo2",
+        "name": "titulo2",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "text",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "text",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "text",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "text",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "text",
+          "id": "image_it",
+          "label": "text it"
+        }
+        ]
+      },
+     {
+        "type": "text1",
+        "name": "text1",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "richtext",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "richtext",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "richtext",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "richtext",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "richtext",
+          "id": "image_it",
+          "label": "text it"
+        }
+        ]
+      },
+     {
+        "type": "text2",
+        "name": "text2",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "richtext",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "richtext",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "richtext",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "richtext",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "richtext",
+          "id": "image_it",
+          "label": "text it"
+        }
+        ]
+      },
+        {
+        "type": "linkbtn",
+        "name": "btn1",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "text",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "text",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "text",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "text",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "text",
+          "id": "image_it",
+          "label": "text it"
+        },
+          {
+       "type": "url",
+          "id": "linkbtn",
+          "label": "Link"
+        }
+        ]
+      },
+        {
+        "type": "linkbtn2",
+        "name": "linkbtn2",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "text",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "text",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "text",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "text",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "text",
+          "id": "image_it",
+          "label": "text it"
+        },
+          {
+       "type": "url",
+          "id": "linkbtn",
+          "label": "Link"
+        }
+        ]
+      }
+    ], 
+    "presets": [
+      {
+        "name": "Black Friday 4"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

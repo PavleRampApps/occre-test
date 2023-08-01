@@ -1,0 +1,607 @@
+
+<div class="container-cuadro2" style=" 
+  background-size:100%;
+  background:#000 !important; padding-bottom:40px;">
+  <div class="container container-cuadro">
+<div class="columnas columnascenter">
+  <div class="columna1de2">
+    <div class="bf3-btn-fecha">
+      
+        <h2 class="bf-textos-h2 bf3 bf4">
+        {% for block in section.blocks %} 
+        
+        {% case block.type %}
+        {% when 'titulo1' %}
+        
+        {% if block.settings.image != blank %}
+        
+        
+        {% if request.locale.iso_code == 'es'  %}
+        {{ block.settings.image }}
+        
+        
+        {% elsif request.locale.iso_code == 'en'  %}
+        {{ block.settings.image_en }}
+        
+        
+        {% elsif request.locale.iso_code == 'fr' %}
+        {{ block.settings.image_fr }}
+        {% elsif request.locale.iso_code == 'de' %}
+        {{ block.settings.image_de }}
+        
+        {% elsif request.locale.iso_code == 'it' %}
+        {{ block.settings.image_it }}
+     
+        {% else  %}
+        
+        {{ block.settings.image_pt }}
+        {% endif %}
+        
+        {% endif %}
+        {% endcase %}
+        {% endfor %}
+        
+        
+        </h2>
+        <div class="text01p p3">
+          {% for block in section.blocks %} 
+          
+          {% case block.type %}
+          {% when 'text01' %}
+          
+          {% if block.settings.image != blank %}
+          
+          
+          {% if request.locale.iso_code == 'es'  %}
+          {{ block.settings.image }}
+          
+          
+          {% elsif request.locale.iso_code == 'en'  %}
+          {{ block.settings.image_en }}
+          
+          
+          {% elsif request.locale.iso_code == 'fr' %}
+          {{ block.settings.image_fr }}
+          {% elsif request.locale.iso_code == 'de' %}
+          {{ block.settings.image_de }}
+          
+          {% elsif request.locale.iso_code == 'it' %}
+          {{ block.settings.image_it }}
+         
+          {% else  %}
+          
+          {{ block.settings.image_pt }}
+          {% endif %}
+          
+          {% endif %}
+          {% endcase %}
+          {% endfor %}
+        </div>
+       </div>
+
+  </div>
+  <div class="columna2de2">
+     <div class="form_klaviyo">
+        {{ section.settings.formk }}
+      </div>    
+  </div>    
+</div>
+
+      <div class="imagen03 margintopnegativo">
+              {% for block in section.blocks %} 
+                  
+                  {% case block.type %}
+                      {% when 'imagenlateral' %}
+                      
+                      {% if block.settings.image != blank %}
+                      
+                      
+                      {% if request.locale.iso_code == 'es'  %}
+                      <img src="{{ block.settings.image | img_url: 'master'  }}">
+                      
+                      
+                      {% elsif request.locale.iso_code == 'en'  %}
+                      <img src="{{ block.settings.image_en | img_url: 'master'  }}">
+                      
+                      
+                      {% elsif request.locale.iso_code == 'fr' %}
+                      <img src="{{ block.settings.image_fr | img_url: 'master'  }}">
+                      {% elsif request.locale.iso_code == 'de' %}
+                      <img src="{{ block.settings.image_de | img_url: 'master'  }}">
+                      
+                      {% elsif request.locale.iso_code == 'it' %}
+                      <img src="{{ block.settings.image_it | img_url: 'master'  }}">
+                   
+                        
+                      {% else  %}
+                      
+                      <img src="{{ block.settings.image_pt | img_url: 'master'  }}">
+                      {% endif %}
+                        
+                      {% endif %}
+                  {% endcase %}
+                {% endfor %}
+      </div>
+    </div>
+  
+
+
+
+      
+    </div>
+
+</div>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+</style>
+
+<style>
+  .margintopnegativo {
+    margin-bottom:-10px;
+        text-align: center;
+  }
+  .text01p.p3 p {
+     color: #F5F5F5 !important;
+    text-align:left !important;
+  }
+  .bf3-btn-fecha {
+    text-align:left !important;
+  }
+  .bf3-btn-fecha-a img {
+    margin:20px auto;
+  }
+  .bf3 {
+    color: #fff !important;
+    text-align:left !important;
+
+  }
+  .container-cuadro {
+    background: #10069F;
+
+    
+  }
+  @media (max-width:980px) {
+   
+    
+  }
+  </style>
+
+
+
+{% schema %}
+  {
+    "name": "Black Friday 3",
+    "settings": [
+       {
+          "type": "textarea",
+          "id": "formk",
+          "label": "Form Codes"
+        },
+      {
+          "type": "image_picker",
+          "id": "imagebg",
+          "label": "Imagebg"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_en",
+          "label": "Image en"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_fr",
+          "label": "Image fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_de",
+          "label": "Image de"
+        },{
+          "type": "image_picker",
+          "id": "image_it",
+          "label": "Image it"
+     },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+},
+         {
+          "type": "image_picker",
+          "id": "image2",
+          "label": "Image"
+        
+        }
+    ],
+ "blocks": [
+      {
+        "type": "imagen1",
+        "name": "imagen1",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_en",
+          "label": "Image en"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_fr",
+          "label": "Image fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_de",
+          "label": "Image de"
+        },{
+          "type": "image_picker",
+          "id": "image_it",
+          "label": "Image it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      },
+   {
+        "type": "imagenlateral",
+        "name": "imagenlateral",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_en",
+          "label": "Image en"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_fr",
+          "label": "Image fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_de",
+          "label": "Image de"
+        },{
+          "type": "image_picker",
+          "id": "image_it",
+          "label": "Image it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      },
+   {
+        "type": "imagen2",
+        "name": "imagen2",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_en",
+          "label": "Image en"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_fr",
+          "label": "Image fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_de",
+          "label": "Image de"
+        },{
+          "type": "image_picker",
+          "id": "image_it",
+          "label": "Image it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      },
+     {
+        "type": "text01",
+        "name": "text01",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "richtext",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "richtext",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "richtext",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "richtext",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "richtext",
+          "id": "image_it",
+          "label": "text it"
+        },
+  {
+"type": "richtext",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      }   ,
+     {
+        "type": "titulo1",
+        "name": "titulo1",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "text",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "text",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "text",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "text",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "text",
+          "id": "image_it",
+          "label": "text it"
+        },
+  {
+"type": "text",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      },
+    
+     {
+        "type": "titulo2",
+        "name": "titulo2",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "text",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "text",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "text",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "text",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "text",
+          "id": "image_it",
+          "label": "text it"
+        },
+  {
+"type": "text",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      },
+     {
+        "type": "text1",
+        "name": "text1",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "richtext",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "richtext",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "richtext",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "richtext",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "richtext",
+          "id": "image_it",
+          "label": "text it"
+        },
+  {
+"type": "richtext",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      },
+     {
+        "type": "text2",
+        "name": "text2",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "richtext",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "richtext",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "richtext",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "richtext",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "richtext",
+          "id": "image_it",
+          "label": "text it"
+        },
+  {
+"type": "richtext",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      },
+        {
+        "type": "linkbtn",
+        "name": "btn1",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "text",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "text",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "text",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "text",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "text",
+          "id": "image_it",
+          "label": "text it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+},
+          {
+       "type": "url",
+          "id": "linkbtn",
+          "label": "Link"
+        }
+        ]
+      },
+        {
+        "type": "linkbtn2",
+        "name": "linkbtn2",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "text",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "text",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "text",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "text",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "text",
+          "id": "image_it",
+          "label": "text it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+},
+          {
+       "type": "url",
+          "id": "linkbtn",
+          "label": "Link"
+        }
+        ]
+      }
+    ], 
+    "presets": [
+      {
+        "name": "Black Friday 3 Blue"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

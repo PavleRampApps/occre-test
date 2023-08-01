@@ -1,0 +1,729 @@
+<div class="pm-rich-text {{ section.settings.css_text }} {% unless section.settings.full_width %}article{% endunless %} {% if section.settings.use_alt_bg %}use-alt-bg fully-padded-row--{{ section.settings.height }}{% else %}fully-spaced-row--{{ section.settings.height }}{% endif %}" data-cc-animate>
+  <div class="container">
+    <div class="align-{{ section.settings.text_alignment }}">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'heading' %}
+            {% liquid
+              assign color = block.settings.color 
+              assign text_transform = block.settings.text_transform
+            %}
+            {% if request.locale.iso_code == 'es' %}
+              {% if block.settings.use_h1 %}
+                <h1 class="majortitle in-content {{color}} {{text_transform}}" {{ block.shopify_attributes }}>{{ block.settings.title_es }}</h1>
+              {% else %}
+                <h2 class="majortitle in-content h1-style {{color}} {{text_transform}}" {{ block.shopify_attributes }}>{{ block.settings.title_es }}</h2>
+              {% endif %}
+            {% elsif request.locale.iso_code == 'it' %}
+              {% if block.settings.use_h1 %}
+                <h1 class="majortitle in-content {{color}} {{text_transform}}" {{ block.shopify_attributes }}>{{ block.settings.title_it }}</h1>
+              {% else %}
+                <h2 class="majortitle in-content h1-style {{color}} {{text_transform}}" {{ block.shopify_attributes }}>{{ block.settings.title_it }}</h2>
+              {% endif %}
+            {% elsif request.locale.iso_code == 'de' %}
+              {% if block.settings.use_h1 %}
+                <h1 class="majortitle in-content {{color}} {{text_transform}}" {{ block.shopify_attributes }}>{{ block.settings.title_de }}</h1>
+              {% else %}
+                <h2 class="majortitle in-content h1-style {{color}} {{text_transform}}" {{ block.shopify_attributes }}>{{ block.settings.title_de }}</h2>
+              {% endif %}
+            {% elsif request.locale.iso_code == 'fr' %}
+              {% if block.settings.use_h1 %}
+                <h1 class="majortitle in-content {{color}} {{text_transform}}" {{ block.shopify_attributes }}>{{ block.settings.title_fr }}</h1>
+              {% else %}
+                <h2 class="majortitle in-content h1-style {{color}} {{text_transform}}" {{ block.shopify_attributes }}>{{ block.settings.title_fr }}</h2>
+              {% endif %}
+            {% elsif request.locale.iso_code == 'pt-PT' %}
+              {% if block.settings.use_h1 %}
+                <h1 class="majortitle in-content {{color}} {{text_transform}}" {{ block.shopify_attributes }}>{{ block.settings.title_pt-PT }}</h1>
+              {% else %}
+                <h2 class="majortitle in-content h1-style {{color}} {{text_transform}}" {{ block.shopify_attributes }}>{{ block.settings.title_pt-PT }}</h2>
+              {% endif %}
+            {% else %}
+              {% if block.settings.use_h1 %}
+                <h1 class="majortitle in-content {{color}} {{text_transform}}" {{ block.shopify_attributes }}>{{ block.settings.title_en }}</h1>
+              {% else %}
+                <h2 class="majortitle in-content h1-style {{color}} {{text_transform}}" {{ block.shopify_attributes }}>{{ block.settings.title_en }}</h2>
+              {% endif %}
+            {% endif %}
+          {% when 'subheading' %}
+            {% liquid
+              assign color = block.settings.color 
+            %}
+            <div class="subheading subheading--over lightly-spaced-row lightly-spaced-row-above {{color}}" {{ block.shopify_attributes }}>
+              {% if request.locale.iso_code == 'es' %}
+                {{ block.settings.subheading_es | escape }}
+              {% elsif request.locale.iso_code == 'it' %}
+                {{ block.settings.subheading_it | escape }}
+              {% elsif request.locale.iso_code == 'de' %}
+                {{ block.settings.subheading_de | escape }}
+              {% elsif request.locale.iso_code == 'fr' %}
+                {{ block.settings.subheading_fr | escape }}
+              {% elsif request.locale.iso_code == 'pt-PT' %}
+                {{ block.settings.subheading_pt-PT | escape }}
+              {% else %}
+                {{ block.settings.subheading_en | escape }}
+              {% endif %}          
+          </div>
+
+          {% when 'text' %}
+            {% liquid
+              assign color = block.settings.color 
+              assign bold = block.settings.bold_text
+            %}
+          <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %} {{color}} {% if bold %}text_bold{% endif %}" {{ block.shopify_attributes }}>
+            {% if request.locale.iso_code == 'es' %}
+              {{ block.settings.text_es }}
+            {% elsif request.locale.iso_code == 'it' %}
+              {{ block.settings.text_it }}
+            {% elsif request.locale.iso_code == 'de' %}
+              {{ block.settings.text_de }}
+            {% elsif request.locale.iso_code == 'fr' %}
+              {{ block.settings.text_fr }}
+            {% elsif request.locale.iso_code == 'pt-PT' %}
+              {{ block.settings.text_pt-PT }}
+            {% else %}
+              {{ block.settings.text_en }}
+            {% endif %}
+          </div>
+
+          {% when 'button' %}
+            <div class="lightly-spaced-row" {{ block.shopify_attributes }}>
+              <a class="{% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}">{{ block.settings.button_label | escape }}</a>
+            </div>
+
+          {% when 'image' %}
+            {% if request.locale.iso_code == 'es' %}
+              {% if block.settings.image_desktop_es %}
+                <img loading="lazy" class="hidden-mobile" src="{{ block.settings.image_desktop_es | image_url }}">
+              {% endif %}
+              {% if block.settings.image_mobile_es %}
+                <img loading="lazy" class="hidden-desktop" src="{{ block.settings.image_mobile_es | image_url }}">
+              {% endif %}
+
+            {% elsif request.locale.iso_code == 'fr' %}
+              {% if block.settings.image_desktop_fr %}
+                <img loading="lazy" class="hidden-mobile" src="{{ block.settings.image_desktop_fr | image_url }}">
+              {% endif %}
+              {% if block.settings.image_mobile_fr %}
+                <img loading="lazy" class="hidden-desktop" src="{{ block.settings.image_mobile_fr | image_url }}">
+              {% endif %}
+
+            {% elsif request.locale.iso_code == 'it' %}
+              {% if block.settings.image_desktop_it %}
+                <img loading="lazy" class="hidden-mobile" src="{{ block.settings.image_desktop_it | image_url }}">
+              {% endif %}
+              {% if block.settings.image_mobile_it %}
+                <img loading="lazy" class="hidden-desktop" src="{{ block.settings.image_mobile_it | image_url }}">
+              {% endif %}
+
+            {% elsif request.locale.iso_code == 'de' %}
+              {% if block.settings.image_desktop_de %}
+                <img loading="lazy" class="hidden-mobile" src="{{ block.settings.image_desktop_de | image_url }}">
+              {% endif %}
+              {% if block.settings.image_mobile_de %}
+                <img loading="lazy" class="hidden-desktop" src="{{ block.settings.image_mobile_de | image_url }}">
+              {% endif %}
+
+            {% elsif request.locale.iso_code == 'pt-PT' %}
+              {% if block.settings['image_desktop_pt-PT'] %}
+                <img loading="lazy" class="hidden-mobile" src="{{ block.settings.image_desktop_pt-PT | image_url }}">
+              {% endif %}
+              {% if block.settings['image_mobile_pt-PT'] %}
+                <img loading="lazy" class="hidden-desktop" src="{{ block.settings.image_mobile_pt-PT | image_url }}">
+              {% endif %}
+
+            {% else %}
+              {% if block.settings.image_desktop_en %}
+                <img loading="lazy" class="hidden-mobile" src="{{ block.settings.image_desktop_en | image_url }}">
+              {% endif %}
+              {% if block.settings.image_mobile_en %}
+                <img loading="lazy" class="hidden-desktop" src="{{ block.settings.image_mobile_en | image_url }}">
+              {% endif %}
+            {% endif %}
+
+          {% when 'icon' %}
+            <div class="lightly-spaced-row" {{ block.shopify_attributes }}>
+              <span class="large-light-icon">
+                {% render 'icon', icon: block.settings.icon, size: 'medium' %}
+              </span>
+            </div>
+
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Pm Rich text",
+    "class": "section-pm-rich-text",
+    "settings": [
+       {
+            "type": "text",
+            "id": "css_text",
+            "label": "CSS"
+          },
+      {
+        "type": "select",
+        "id": "height",
+        "label": "Section height",
+        "default": "medium",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text alignment",
+        "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "full_width",
+        "label": "Wide display",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "use_alt_bg",
+        "label": "Use alternate section color",
+        "default": false
+      }
+    ],
+    "blocks": [
+      {
+        "type": "heading",
+        "name": "Heading",
+        "settings": [
+          {
+            "type": "textarea",
+            "id": "title_es",
+            "label": "Heading ES",
+            "default": "Rich text"
+          },
+          {
+            "type": "textarea",
+            "id": "title_it",
+            "label": "Heading IT",
+            "default": "Rich text"
+          },
+          {
+            "type": "textarea",
+            "id": "title_de",
+            "label": "Heading DE",
+            "default": "Rich text"
+          },
+          {
+            "type": "textarea",
+            "id": "title_fr",
+            "label": "Heading FR",
+            "default": "Rich text"
+          },
+          {
+            "type": "textarea",
+            "id": "title_pt-PT",
+            "label": "Heading pt-PT",
+            "default": "Rich text"
+          },
+          {
+            "type": "textarea",
+            "id": "title_en",
+            "label": "Heading EN",
+            "default": "Rich text"
+          },
+          {
+            "type": "select",
+            "id": "color",
+            "label": "Heading color",
+            "default": "default_color",
+            "options": [
+              {
+                "label": "Primary",
+                "value": "primary_color"
+              },
+              {
+                "label": "Secondary",
+                "value": "secondary_color"
+              },
+              {
+                "label": "Base",
+                "value": "base_color"
+              },
+              {
+                "label": "Default",
+                "value": "default_color"
+              }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "text_transform",
+            "label": "Heading Text Transform",
+            "default": "text_default",
+            "options": [
+              {
+                "label": "Default",
+                "value": "text_default"
+              },
+              {
+                "label": "Uppercase",
+                "value": "text_uppercase"
+              },
+              {
+                "label": "Lowercase",
+                "value": "text_lowercase"
+              },
+              {
+                "label": "Capitalize",
+                "value": "text_capitalize"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "id": "use_h1",
+            "label": "Set as primary page heading",
+            "info": "Uses <h1> tag (used for SEO and accessibility). One per page recommended.",
+            "default": false
+          }
+        ]
+      },
+      {
+        "type": "subheading",
+        "name": "Subheading",
+        "settings": [
+          {
+            "type": "text",
+            "id": "subheading_es",
+            "label": "Subheading ES",
+            "default": "Subheading"
+          },
+          {
+            "type": "text",
+            "id": "subheading_it",
+            "label": "Subheading IT",
+            "default": "Subheading"
+          },
+          {
+            "type": "text",
+            "id": "subheading_de",
+            "label": "Subheading DE",
+            "default": "Subheading"
+          },
+          {
+            "type": "text",
+            "id": "subheading_fr",
+            "label": "Subheading FR",
+            "default": "Subheading"
+          },
+          {
+            "type": "text",
+            "id": "subheading_pt-PT",
+            "label": "Subheading pt-PT",
+            "default": "Subheading"
+          },
+          {
+            "type": "text",
+            "id": "subheading_en",
+            "label": "Subheading EN",
+            "default": "Subheading"
+          },
+          {
+            "type": "select",
+            "id": "color",
+            "label": "Subeading color",
+            "default": "default_color",
+            "options": [
+              {
+                "label": "Primary",
+                "value": "primary_color"
+              },
+              {
+                "label": "Secondary",
+                "value": "secondary_color"
+              },
+              {
+                "label": "Base",
+                "value": "base_color"
+              },
+              {
+                "label": "Default",
+                "value": "default_color"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "name": "Text",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "text_es",
+            "label": "Text ES",
+            "default": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.</p>"
+          },
+          {
+            "type": "richtext",
+            "id": "text_it",
+            "label": "Text IT",
+            "default": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.</p>"
+          },
+          {
+            "type": "richtext",
+            "id": "text_de",
+            "label": "Text DE",
+            "default": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.</p>"
+          },
+          {
+            "type": "richtext",
+            "id": "text_fr",
+            "label": "Text FR",
+            "default": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.</p>"
+          },
+          {
+            "type": "richtext",
+            "id": "text_pt-PT",
+            "label": "Text pt-PT",
+            "default": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.</p>"
+          },
+          {
+            "type": "richtext",
+            "id": "text_en",
+            "label": "Text EN",
+            "default": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.</p>"
+          },
+          {
+            "type": "checkbox",
+            "id": "enlarge_text",
+            "label": "Enlarge text",
+            "default": true
+          },
+          {
+            "type": "select",
+            "id": "color",
+            "label": "Text color",
+            "default": "default_color",
+            "options": [
+              {
+                "label": "Primary",
+                "value": "primary_color"
+              },
+              {
+                "label": "Secondary",
+                "value": "secondary_color"
+              },
+              {
+                "label": "Base",
+                "value": "base_color"
+              },
+              {
+                "label": "Default",
+                "value": "default_color"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "id": "bold_text",
+            "label": "Bold text",
+            "default": false,
+            "info": "Check if you want the text to be bold"
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "name": "Button",
+        "settings": [
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button",
+            "default": "Button text"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button link"
+          },
+          {
+            "type": "select",
+            "id": "button_style",
+            "label": "Button style",
+            "default": "primary",
+            "options": [
+              {
+                "label": "Button - primary",
+                "value": "primary"
+              },
+              {
+                "label": "Button - secondary",
+                "value": "secondary"
+              },
+              {
+                "label": "Link",
+                "value": "link"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "icon",
+        "name": "Icon",
+        "settings": [
+          {
+            "type": "select",
+            "id": "icon",
+            "label": "Icon",
+            "default": "star",
+            "options": [
+              {
+                "value": "award",
+                "label": "Award"
+              },
+              {
+                "value": "box",
+                "label": "Box"
+              },
+              {
+                "value": "briefcase",
+                "label": "Briefcase"
+              },
+              {
+                "value": "calendar",
+                "label": "Calendar"
+              },
+              {
+                "value": "chat_bubble",
+                "label": "Chat bubble"
+              },
+              {
+                "value": "check_mark",
+                "label": "Check mark"
+              },
+              {
+                "value": "check_mark_in_circle",
+                "label": "Check mark in circle"
+              },
+              {
+                "value": "clock",
+                "label": "Clock"
+              },
+              {
+                "value": "credit_card",
+                "label": "Credit card"
+              },
+              {
+                "value": "dollar_sign",
+                "label": "Dollar sign"
+              },
+              {
+                "value": "dryer",
+                "label": "Dryer"
+              },
+              {
+                "value": "eye",
+                "label": "Eye"
+              },
+              {
+                "value": "feather",
+                "label": "Feather"
+              },
+              {
+                "value": "gift",
+                "label": "Gift"
+              },
+              {
+                "value": "heart",
+                "label": "Heart"
+              },
+              {
+                "value": "iron",
+                "label": "Iron"
+              },
+              {
+                "value": "leaf",
+                "label": "Leaf"
+              },
+              {
+                "value": "leather",
+                "label": "Leather"
+              },
+              {
+                "value": "lock",
+                "label": "Lock"
+              },
+              {
+                "value": "map_pin",
+                "label": "Map pin"
+              },
+              {
+                "value": "pants",
+                "label": "Pants"
+              },
+              {
+                "value": "percent",
+                "label": "Percent"
+              },
+              {
+                "value": "plane",
+                "label": "Plane"
+              },
+              {
+                "value": "price_tag",
+                "label": "Price tag"
+              },
+              {
+                "value": "question_mark",
+                "label": "Question mark"
+              },
+              {
+                "value": "return",
+                "label": "Return"
+              },
+              {
+                "value": "ruler",
+                "label": "Ruler"
+              },
+              {
+                "value": "scissors",
+                "label": "Scissors"
+              },
+              {
+                "value": "shirt",
+                "label": "Shirt"
+              },
+              {
+                "value": "shoe",
+                "label": "Shoe"
+              },
+              {
+                "value": "silhouette",
+                "label": "Silhouette"
+              },
+              {
+                "value": "star",
+                "label": "Star"
+              },
+              {
+                "value": "truck",
+                "label": "Truck"
+              },
+              {
+                "value": "washing",
+                "label": "Washing"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image_desktop_es",
+            "label": "Image desktop ES"
+          },
+         {
+           "type": "image_picker",
+           "id": "image_mobile_es",
+           "label": "Image mobile ES"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_desktop_en",
+           "label": "Image desktop EN"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_mobile_en",
+           "label": "Image mobile EN"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_desktop_fr",
+           "label": "Image desktop FR"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_mobile_fr",
+           "label": "Image mobile FR"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_desktop_it",
+           "label": "Image desktop IT"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_mobile_it",
+           "label": "Image mobile IT"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_desktop_de",
+           "label": "Image desktop DE"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_mobile_de",
+           "label": "Image mobile DE"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_desktop_pt-PT",
+           "label": "Image desktop pt-PT"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_mobile_pt-PT",
+           "label": "Image mobile pt-PT"
+         },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Pm Rich text",
+        "settings": {}        
+      }
+    ]
+  }
+{% endschema %}

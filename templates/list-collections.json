@@ -1,0 +1,164 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "1536b06d-829c-4669-946e-d1c98b6306d0": {
+          "type": "image",
+          "settings": {
+            "collection": "bestseller"
+          }
+        },
+        "6a7109cd-a6f1-46be-b076-05f9ea5b552b": {
+          "type": "image",
+          "settings": {
+            "collection": "modelismo-naval",
+            "image": "shopify:\/\/shop_images\/OcCre_Categoria_Modelismo_Naval_241c90ce-2465-44ab-b41e-946c007bbc71.png"
+          }
+        },
+        "94f1e790-58e3-489f-bdea-65aea14e0622": {
+          "type": "image",
+          "settings": {
+            "collection": "modelismo-de-tranvias"
+          }
+        },
+        "b5e4c84b-452e-4f53-afcd-587e454650b3": {
+          "type": "image",
+          "settings": {
+            "collection": "modelismo-ferroviario"
+          }
+        },
+        "c096df4c-069d-4a57-a57d-72eee848ee4e": {
+          "type": "image",
+          "settings": {
+            "collection": "accesorios"
+          }
+        },
+        "7938dc6a-0c3c-4ce3-8e6c-fa52682a3e26": {
+          "type": "image",
+          "settings": {
+            "collection": "herramientas",
+            "image": "shopify:\/\/shop_images\/OcCre_Categoria_Herramientas.png"
+          }
+        },
+        "47bc6f1d-5e8e-4085-b91b-93f388ada8db": {
+          "type": "image",
+          "settings": {
+            "collection": "pintura"
+          }
+        },
+        "b3e67bc3-608d-42ff-beed-8726d383c373": {
+          "type": "image",
+          "settings": {
+            "collection": "tintes",
+            "image": "shopify:\/\/shop_images\/OcCre_Categoria_Tintes.png"
+          }
+        },
+        "2631c0f0-8f37-4c6f-b4a2-a5f600c8cc63": {
+          "type": "image",
+          "settings": {
+            "collection": "maquetas-barcos-para-principiantes"
+          }
+        },
+        "edddf6c9-c30f-442b-9da1-b540dc44ebe3": {
+          "type": "image",
+          "settings": {
+            "collection": "barcos-galeon"
+          }
+        },
+        "c8c5628e-da15-427a-a3cf-7158288604ad": {
+          "type": "image",
+          "settings": {
+            "collection": "barcos-de-guerra"
+          }
+        },
+        "1348660e-c403-4b6b-a003-1f8977e3138d": {
+          "type": "image",
+          "settings": {
+            "collection": "barcos-armada-espanola"
+          }
+        },
+        "3ee3c2ca-eb1f-4272-b92b-359b3047df9b": {
+          "type": "image",
+          "settings": {
+            "collection": "maquetas-barcos-ingleses"
+          }
+        },
+        "11615889-4fa9-42e8-ba47-ef36ce1a05e5": {
+          "type": "image",
+          "settings": {
+            "collection": "barcos-pesqueros"
+          }
+        },
+        "8cf7e542-1c0b-4a7d-bfed-207b7ade9bf4": {
+          "type": "image",
+          "settings": {
+            "collection": "peanas"
+          }
+        },
+        "ebd1dba8-03d8-42a6-9b94-5ef3de20131f": {
+          "type": "image",
+          "settings": {
+            "collection": "packs-de-barcos",
+            "image": "shopify:\/\/shop_images\/OcCre_Categoria_Packs_Barco.png"
+          }
+        },
+        "e2d1802c-4f07-4254-982b-687b624e7184": {
+          "type": "image",
+          "settings": {
+            "collection": "dioramas"
+          }
+        },
+        "fe631c02-addb-4aa2-b0ff-242f0a011106": {
+          "type": "image",
+          "settings": {
+            "collection": "listones-y-varillas",
+            "image": "shopify:\/\/shop_images\/OcCre_Categoria_Listones.png"
+          }
+        },
+        "bc55505f-76ae-41d2-8f67-8e1331bf8b1d": {
+          "type": "image",
+          "settings": {
+            "collection": "complementos"
+          }
+        },
+        "a9b8cefc-f114-45df-9148-812260c6bc96": {
+          "type": "image",
+          "settings": {
+            "collection": "velas"
+          }
+        }
+      },
+      "block_order": [
+        "1536b06d-829c-4669-946e-d1c98b6306d0",
+        "6a7109cd-a6f1-46be-b076-05f9ea5b552b",
+        "94f1e790-58e3-489f-bdea-65aea14e0622",
+        "b5e4c84b-452e-4f53-afcd-587e454650b3",
+        "c096df4c-069d-4a57-a57d-72eee848ee4e",
+        "7938dc6a-0c3c-4ce3-8e6c-fa52682a3e26",
+        "47bc6f1d-5e8e-4085-b91b-93f388ada8db",
+        "b3e67bc3-608d-42ff-beed-8726d383c373",
+        "2631c0f0-8f37-4c6f-b4a2-a5f600c8cc63",
+        "edddf6c9-c30f-442b-9da1-b540dc44ebe3",
+        "c8c5628e-da15-427a-a3cf-7158288604ad",
+        "1348660e-c403-4b6b-a003-1f8977e3138d",
+        "3ee3c2ca-eb1f-4272-b92b-359b3047df9b",
+        "11615889-4fa9-42e8-ba47-ef36ce1a05e5",
+        "8cf7e542-1c0b-4a7d-bfed-207b7ade9bf4",
+        "ebd1dba8-03d8-42a6-9b94-5ef3de20131f",
+        "e2d1802c-4f07-4254-982b-687b624e7184",
+        "fe631c02-addb-4aa2-b0ff-242f0a011106",
+        "bc55505f-76ae-41d2-8f67-8e1331bf8b1d",
+        "a9b8cefc-f114-45df-9148-812260c6bc96"
+      ],
+      "settings": {
+        "title": "OcCre, tu tienda de modelismo online",
+        "display_type": "selected",
+        "grid": 3
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

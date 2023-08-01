@@ -1,0 +1,37 @@
+{%for block in products%}
+{% assign product =block.settings.product %}
+{% assign productImage = product.featured_image  %}
+
+{%if block.settings.qns-product-image-options == "custom"%}
+    {% assign productImage = block.settings.qns-product_custom_image %}
+{%endif%}
+{% assign productTitle = product.title %}
+
+{%if block.settings.qns-product-title-options == "custom"%}
+    {% assign productTitle = block.settings.qns-custom_product_title %}
+{%endif%}
+
+{% assign productUrl = product.url %}
+
+{%if block.settings.qns-product-url-options == "custom"%}
+    {% assign productUrl = block.settings.qns-custom-product-url %}
+{%endif%}
+
+
+
+<div class="swiper-slide">
+    <div class="quick-nav-story-block">
+        <div class="quick-nav-story-block-image">
+
+            <a href="{{productUrl}}">
+            <img src="{{productImage | img_url: 'master'}}" alt=""/>
+        </a>
+        </div>
+        <div class="quick-nav-story-block-title">
+            <a href="{{productUrl}}">{{productTitle | truncate: 18, '...'}}</a>
+        </div>
+    </div>
+  </div>
+
+
+{%endfor%}

@@ -1,0 +1,42 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": true
+      }
+    },
+    "165276578350b291f4": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    },
+    "165276575739ddb1e6": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    },
+    "16621487029f7cfc84": {
+      "type": "countdown",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/proximamente.png",
+        "image_en": "shopify:\/\/shop_images\/coming_soon_at_occre.png",
+        "image_fr": "shopify:\/\/shop_images\/BIENTOT_CHEZ_occre.png",
+        "image_de": "shopify:\/\/shop_images\/IN_KURZE_bein_occre.png",
+        "image_it": "shopify:\/\/shop_images\/PROSSIMAMENTE_in_occre.png",
+        "image2": "shopify:\/\/shop_images\/fondo.png"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165276578350b291f4",
+    "165276575739ddb1e6",
+    "16621487029f7cfc84"
+  ]
+}

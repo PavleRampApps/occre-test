@@ -1,0 +1,252 @@
+{
+  "sections": {
+    "b93d7f80-18f4-4001-bc89-712fd8b68723": {
+      "type": "image-with-text-overlay-hotsale-2023",
+      "custom_css": [
+        ".rimage__image {width: 380px; max-width: 100%;}",
+        ".subheading {font-weight: 800; font-size: 24px; line-height: 1.2; text-transform: none; margin-bottom: 0.75em;}",
+        ".overlay-text__title {font-family: \"Oswald\", sans-serif; font-weight: bold; line-height: 1.2; text-transform: uppercase;}",
+        ".column-klaviyo {max-width: 490px; flex-shrink: 0;}",
+        ".column-klaviyo2 {padding: 35px 40px 20px;}",
+        ".text-v1 {width: 100%;}",
+        "@media (max-width: 980px) {.rimage__image {max-width: 85%; } .subheading {font-size: 18px; }}"
+      ],
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/Recurso_39_4x-8_1.png",
+        "image": "shopify:\/\/shop_images\/Group_348.png",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 620,
+        "height_mobile": 100,
+        "image_link": "",
+        "subheading": "2, 3 y 4 de Junio",
+        "subheadingen": "June 2nd, 3rd, and 4th",
+        "title": "Consigue un 5% de descuento adicional al 15% existente en todos los modelos.",
+        "titleen": "Get an additional 5% discount on top of the existing 15% off on all models.",
+        "titlees": "",
+        "titlefr": "",
+        "titlede": "",
+        "titleit": "",
+        "titlept": "",
+        "text": "",
+        "texten": "",
+        "textfr": "",
+        "textde": "",
+        "textit": "",
+        "textpt": "",
+        "title_size": 62,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text2": "Únete a nosotros en la lista VIP para recibir ventajas exclusivas\ndurante el 🔥HOT SALE🔥",
+        "text2en": "Join us at the VIP list to receive exclusive benefits\nduring the HOT SALE.",
+        "text2fr": "",
+        "text2de": "",
+        "text2it": "",
+        "text2pt": "",
+        "enlarge_text": false,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "20fbc641-258f-4bb1-9430-b42a3e741891": {
+      "type": "multi-column-hotsale",
+      "blocks": {
+        "template--19022902329673__20fbc641-258f-4bb1-9430-b42a3e741891-168531914163bacd39-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Group_309.png",
+            "image_width": 700,
+            "title": "Acceso anticipado",
+            "titleen": "Early access",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--19022902329673__20fbc641-258f-4bb1-9430-b42a3e741891-168531914163bacd39-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Group_308.png",
+            "image_width": 700,
+            "title": "Obtienes descuentos extra",
+            "titleen": "You get extra discounts",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--19022902329673__20fbc641-258f-4bb1-9430-b42a3e741891-168531914163bacd39-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Vector_6.png",
+            "image_width": 700,
+            "title": "Ahorras dinero al máximo",
+            "titleen": "You save money to the fullest",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19022902329673__20fbc641-258f-4bb1-9430-b42a3e741891-168531914163bacd39-0",
+        "template--19022902329673__20fbc641-258f-4bb1-9430-b42a3e741891-168531914163bacd39-1",
+        "template--19022902329673__20fbc641-258f-4bb1-9430-b42a3e741891-168531914163bacd39-2"
+      ],
+      "custom_css": [
+        "h2 {font-size: 40px; line-height: 50px; font-weight: bold; padding-top: 35px; margin-bottom: 60px; text-transform: uppercase;}",
+        ".text-column__image {height: 120px;}",
+        ".rimage-wrapper .rimage__image {height: 120px; width: 120px; margin: 0 auto;}",
+        ".container {margin-bottom: 50px;}",
+        "@media (max-width: 980px) {h2 br {display: none; } h2 {font-size: 22px; line-height: 26px; }}"
+      ],
+      "settings": {
+        "title": "BENEFICIOS de formar parte de <br>la lista vip durante 🔥HOT SALE🔥",
+        "titleen": "BENEFITS of being part of <br>the vip list during HOT SALE",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "7056a8e8-9534-4112-be36-d7adb550fa3c": {
+      "type": "collection-list-hotsale",
+      "blocks": {
+        "1ec73d3e-ea09-4f69-8fcb-0683b230a171": {
+          "type": "collection",
+          "settings": {
+            "collection": "modelismo-naval",
+            "title": "Maquetas de barcos",
+            "titleen": "Model Ship Kits",
+            "image": "shopify:\/\/shop_images\/Frame_441.jpg"
+          }
+        },
+        "c9613a1c-a3bc-4cac-9ab1-d7c08c0cde18": {
+          "type": "collection",
+          "settings": {
+            "collection": "modelismo-de-tranvias",
+            "title": "Maquetas de tranvía",
+            "titleen": "Model Tram Kits",
+            "image": "shopify:\/\/shop_images\/Rectangle_303_1.jpg"
+          }
+        },
+        "7ca7f51c-ffda-4745-982d-aa84930e79ef": {
+          "type": "collection",
+          "settings": {
+            "collection": "modelismo-ferroviario",
+            "title": "Maquetas de trenes",
+            "titleen": "Model Train Kits",
+            "image": "shopify:\/\/shop_images\/Frame_446_3.jpg"
+          }
+        },
+        "03a5b8a2-2c68-4bd1-b97d-d0e237500461": {
+          "type": "collection",
+          "settings": {
+            "collection": "maquetas-barcos-para-principiantes",
+            "title": "Maquetas de barcos para principiantes",
+            "titleen": "Beginner Model Ships",
+            "image": "shopify:\/\/shop_images\/Frame_441_1.jpg"
+          }
+        },
+        "382ea75d-e6dd-42ea-b9ac-7cc4cf2d9523": {
+          "type": "collection",
+          "settings": {
+            "collection": "barcos-de-guerra",
+            "title": "Maquetas de Barcos de Guerra",
+            "titleen": "Models of Warships",
+            "image": "shopify:\/\/shop_images\/Frame_444_1.jpg"
+          }
+        },
+        "6df1c38a-2c25-4f14-86d5-1b59bd8b4bad": {
+          "type": "collection",
+          "settings": {
+            "collection": "barcos-armada-espanola",
+            "title": "Barcos de la Armada Española",
+            "titleen": "Spanish Navy Ships",
+            "image": "shopify:\/\/shop_images\/Frame_446_4.jpg"
+          }
+        },
+        "85f86cb4-bc70-4216-945b-f7c3765fe4e6": {
+          "type": "collection",
+          "settings": {
+            "collection": "maquetas-barcos-ingleses",
+            "title": "Maquetas de barcos británicos",
+            "titleen": "British Model Ships",
+            "image": "shopify:\/\/shop_images\/Rectangle_122_1.jpg"
+          }
+        },
+        "69c28c43-434c-407f-a222-83e4ef6be4fc": {
+          "type": "collection",
+          "settings": {
+            "collection": "barcos-pesqueros",
+            "title": "Maquetas de barcos de pesca",
+            "titleen": "Model fishing boats",
+            "image": "shopify:\/\/shop_images\/Frame_444_2.jpg"
+          }
+        },
+        "27d35d3a-6ebf-456e-9996-eb75fc59cef2": {
+          "type": "collection",
+          "settings": {
+            "collection": "barcos-galeon",
+            "title": "Galeones",
+            "titleen": "Galleon Ships",
+            "image": "shopify:\/\/shop_images\/Frame_446_5.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "1ec73d3e-ea09-4f69-8fcb-0683b230a171",
+        "c9613a1c-a3bc-4cac-9ab1-d7c08c0cde18",
+        "7ca7f51c-ffda-4745-982d-aa84930e79ef",
+        "03a5b8a2-2c68-4bd1-b97d-d0e237500461",
+        "382ea75d-e6dd-42ea-b9ac-7cc4cf2d9523",
+        "6df1c38a-2c25-4f14-86d5-1b59bd8b4bad",
+        "85f86cb4-bc70-4216-945b-f7c3765fe4e6",
+        "69c28c43-434c-407f-a222-83e4ef6be4fc",
+        "27d35d3a-6ebf-456e-9996-eb75fc59cef2"
+      ],
+      "custom_css": [
+        ".product-info .small {display: none !important;}",
+        ".collection-listing {background: black; padding: 20px;}",
+        ".product-info {position: absolute; width: 100%; text-align: center; font-weight: bold; top: 0px;}",
+        ".product-link {position: relative;}",
+        "h2 {font-size: 25px; font-weight: 400; color: white;}",
+        ".collection-slider-row {background: black;}",
+        ".rimage__image {background: white; padding-top: 50px; border-radius: 0px !important;}",
+        ".btn {width: 100%;}",
+        "@media (max-width: 980px) {.product.list {display: grid; } . h2 {font-size: 16px; } .btn {font-size: 12px; }}"
+      ],
+      "settings": {
+        "title": "Pronto llega a OcCre la primera edición de <b>🔥HOT SALE🔥 en USA y CANADA<\/b>,<br> prepárate para disfrutar de increíbles descuentos en nuestros productos.",
+        "titleen": "The first edition of <b>HOT SALE in USA and CANADA is coming soon to OcCre<\/b>, <br> get ready to enjoy amazing discounts on our products.",
+        "enable_carousel": false,
+        "grid": 3,
+        "use_alt_bg": false,
+        "full_width": false
+      }
+    },
+    "513968da-6ea4-4592-b267-d078e6e0ddab": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "code": "<div class=\"container-columns\">\n<div class=\"container\">\n<div class=\"columnas \">\n<div class=\"columna-texto\">\n<h2>additional 5%<br> discount, early<br> access, and<br> much more\n <\/h2>\n<\/div>\n<div class=\"columna-klaviyo\">\n  <div class=\"klaviyo-form-X3UuB2\"><\/div>\n<div class=\"klaviyo-form-Saqn9V\"><\/div>\n<div class=\"klaviyo-form-WGNdb6\"><\/div>\n<div class=\"klaviyo-form-V5CQmp\"><\/div>\n<div class=\"klaviyo-form-SBzE3q\"><\/div>\n<div class=\"klaviyo-form-S2zBzi\"><\/div>\n<div class=\"klaviyo-form-XtXLMU\"><\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<style>\n.columna-texto {\n    display: flex;\n    justify-content: center;\n    align-items: center;}\n\n.columna-texto h2 {\ncolor: #FEB71A;\nfont-weight:bold;\nfont-size:40px;\ntext-transform:uppercase;\n}\n.container-columns {\nbackground:black;\npadding:40px 0px;\n}\n\n.columnas {\nbackground:#363636;\ncolumn-gap:20px;\npadding:20px;\ncolor:white;\ndisplay:grid;\ngrid-template-columns:1fr 1fr;\n}\n\n#shopify-section-template--19022902329673__7056a8e8-9534-4112-be36-d7adb550fa3c .collection-slider-row {\nmargin-bottom:0px;\npadding-bottom:0px;\n}\n.fully-spaced-row--medium {\n    margin-top: 0px;\n    margin-bottom: 0px;\n}\n<\/style>"
+      }
+    }
+  },
+  "order": [
+    "b93d7f80-18f4-4001-bc89-712fd8b68723",
+    "20fbc641-258f-4bb1-9430-b42a3e741891",
+    "7056a8e8-9534-4112-be36-d7adb550fa3c",
+    "513968da-6ea4-4592-b267-d078e6e0ddab"
+  ]
+}

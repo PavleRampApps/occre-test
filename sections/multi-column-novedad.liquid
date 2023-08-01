@@ -1,0 +1,341 @@
+<style>
+
+
+  @font-face {
+font-family: "JMH Typewriter";
+    src:   url('https://cdn.shopify.com/s/files/1/0622/6942/3871/files/AnyConv.com__JMH_Typewriter.woff2?v=1677280906') format("woff2"),
+        url('https://cdn.shopify.com/s/files/1/0622/6942/3871/files/AnyConv.com__JMH_Typewriter.woff?v=1677280979') format("woff");
+      url('https://cdn.shopify.com/s/files/1/0622/6942/3871/files/JMH_Typewriter.ttf?v=1677280528') format("ttf"),
+         url('https://cdn.shopify.com/s/files/1/0622/6942/3871/files/JMH_Typewriter.otf?v=1677280529') format("otf");
+
+}
+  
+</style>
+<div  style="background:black !important; color:white !important;" id="section-id-{{ section.id }}" class="bfcard {% if section.settings.use_alt_bg %}use-alt-bg fully-padded-row--medium{% else %}fully-spaced-row--medium{% endif %}">
+  {% style %}
+    {%- for block in section.blocks -%}
+    #section-id-{{ section.id }} #block-id-{{ block.id }} .text-column__image {
+      max-width: {{ block.settings.image_width }}px;
+    }
+    {%- endfor -%}
+  {% endstyle %}
+
+  <div class="container">
+    <div class="contenedor-textos"
+>    {% if section.settings.title != blank %}
+
+       {% if request.locale.iso_code == 'es'  %}
+              {{- section.settings.title  -}}
+              {% elsif request.locale.iso_code == 'en'  %}
+          {{- section.settings.titleen  -}}
+              {% elsif request.locale.iso_code == 'fr' %}
+           {{- section.settings.titlefr  -}}
+              {% elsif request.locale.iso_code == 'de' %}
+  {{- section.settings.titlede -}}
+              {% elsif request.locale.iso_code == 'it' %}
+              {{- section.settings.titleit  -}}
+                    {% elsif request.locale.iso_code == 'pt-PT' %}
+            {{- section.settings.titlept  -}}
+              {% else  %}
+              {{- section.settings.titlept  -}}
+              {% endif %}
+  
+       
+ 
+    {% endif %}
+</div>
+    <div class="flexible-layout flexible-layout--variable-columns flexible-layout--columns-{{ section.blocks.size }} align-{{ section.settings.text_alignment }}">
+      {% for block in section.blocks %}
+
+        <div id="block-id-{{ block.id }}" class="column text-column"  {{ block.shopify_attributes }} 
+             data-cc-animate="cc-fade-in-up" data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
+        <div class=""  style="background:white ; color:black;"> 
+          {% if block.settings.enable_image %}
+            <div class="text-column__image lightly-spaced-row">
+              {%- if block.settings.link != blank -%}<a href="{{ block.settings.link }}">{%- endif -%}
+
+              {%- if block.settings.image != blank -%}
+                {%- render 'responsive-image', image: block.settings.image -%}
+              {%- else -%}
+                <div class="placeholder-image">
+                  {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
+                </div>
+              {%- endif -%}
+
+              {%- if block.settings.link != blank -%}</a>{% endif -%}
+            </div>
+          {% endif %}
+
+          {% if block.settings.title != blank %}
+ {% if request.locale.iso_code == 'es'  %}
+            <h3 class="h3h3 h3aa{{ forloop.index }} text-column__title">{{ block.settings.title }}</h3>
+              {% elsif request.locale.iso_code == 'en'  %}
+          <h3 class="h3h3 h3aa{{ forloop.index }} text-column__title">{{ block.settings.titleen }}</h3>
+              {% elsif request.locale.iso_code == 'fr' %}
+            <h3 class="h3h3 h3aa{{ forloop.index }} text-column__title">{{ block.settings.titlefr }}</h3>
+              {% elsif request.locale.iso_code == 'de' %}
+  <h3 class="h3h3 h3aa{{ forloop.index }} text-column__title">{{ block.settings.titlede }}</h3>
+              {% elsif request.locale.iso_code == 'it' %}
+   <h3 class="h3h3 h3aa{{ forloop.index }} text-column__title">{{ block.settings.titleit }}</h3>
+                    {% elsif request.locale.iso_code == 'pt-PT' %}
+      <h3 class="h3h3 h3aa{{ forloop.index }} text-column__title">{{ block.settings.titlept }}</h3>
+              {% else  %}
+          <h3 class="h3h3 h3aa{{ forloop.index }} text-column__title">{{ block.settings.titlept }}</h3>
+              {% endif %}
+          
+            
+          {% endif %}
+
+          {% if block.settings.text != blank %}
+             {% if request.locale.iso_code == 'es'  %}
+              <div class="text-column__text rte">{{ block.settings.text }}</div>
+              {% elsif request.locale.iso_code == 'en'  %}
+          <div class="text-column__text rte">{{ block.settings.texten }}</div>
+              {% elsif request.locale.iso_code == 'fr' %}
+                  <div class="text-column__text rte">{{ block.settings.textfr }}</div>
+              {% elsif request.locale.iso_code == 'de' %}
+        <div class="text-column__text rte">{{ block.settings.textde }}</div>
+              {% elsif request.locale.iso_code == 'it' %}
+           <div class="text-column__text rte">{{ block.settings.textit }}</div>
+                    {% elsif request.locale.iso_code == 'pt-PT' %}
+       <div class="text-column__text rte">{{ block.settings.textpt }}</div>
+              {% else  %}
+                  <div class="text-column__text rte">{{ block.settings.textpt }}</div>
+              {% endif %}
+     
+          {% endif %}
+
+          {% if block.settings.button_label != blank %}
+            <div class="text-column__button-row text-column__button-row--{{ section.settings.button_style }}">
+              <a class="text-column__button {% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.link }}"
+                style="width: 100%;
+    text-align: center !important;">{{ block.settings.button_label }}</a>
+            </div>
+          {% endif %}
+        </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Multi-column",
+  "class": "section-multi-column",
+  "settings": [
+    {
+      "type": "html",
+      "id": "title",
+      "label": "Heading es",
+      "default": "Multi-column"
+    },
+    {
+      "type": "html",
+      "id": "titleen",
+      "label": "Heading en",
+      "default": "Multi-column"
+    },
+    {
+      "type": "html",
+      "id": "titlefr",
+      "label": "Heading fr",
+      "default": "Multi-column"
+    },
+    {
+      "type": "html",
+      "id": "titleit",
+      "label": "Heading it",
+      "default": "Multi-column"
+    },
+    {
+      "type": "html",
+      "id": "titlede",
+      "label": "Heading de",
+      "default": "Multi-column"
+    },
+    {
+      "type": "html",
+      "id": "titlept",
+      "label": "Heading pt",
+      "default": "Multi-column"
+    },
+    
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button style",
+      "default": "primary",
+      "options": [
+        {
+          "label": "Button - primary",
+          "value": "primary"
+        },
+        {
+          "label": "Button - secondary",
+          "value": "secondary"
+        },
+        {
+          "label": "Link",
+          "value": "link"
+        }
+      ]
+    },
+    {
+      "id": "use_alt_bg",
+      "type": "checkbox",
+      "label": "Use alternate section color",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_block",
+      "name": "Column",
+      "settings": [
+        {
+          "id": "enable_image",
+          "type": "checkbox",
+          "label": "Enable image",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "min": 60,
+          "max": 700,
+          "step": 10,
+          "label": "Image width",
+          "unit": "px",
+          "default": 700
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "text",
+          "id": "titleen",
+          "label": "Heading",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "text",
+          "id": "titlefr",
+          "label": "Heading",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "text",
+          "id": "titlede",
+          "label": "Heading",
+          "default": "Add a title or tagline"
+        },{
+          "type": "text",
+          "id": "titleit",
+          "label": "Heading",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "text",
+          "id": "titlept",
+          "label": "Heading",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "texten",
+          "label": "Text",
+          "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "textfr",
+          "label": "Text",
+          "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "textde",
+          "label": "Text",
+          "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "textit",
+          "label": "Text",
+          "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "textpt",
+          "label": "Text",
+          "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multi-column Novedad",
+      "settings": {
+      },
+      "blocks": [
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

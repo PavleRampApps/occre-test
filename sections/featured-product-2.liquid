@@ -1,0 +1,190 @@
+{% liquid
+    if section.settings.product != blank
+        assign product = section.settings.product  
+    endif
+%}
+
+<div class="fully-spaced-row--large">
+    <div class="container">
+        <div class="flexible-layout valign-middle justify-end">
+            <div class="column column--third">
+                <div class="number">01</div>
+                <div class="featured-product-info">
+                    {% if section.settings.subheading != blank %}
+                        {% assign bold_subheading = section.settings.bold_subheading %}
+                        <div class="subheading subheading--over primary_color {% if bold_subheading %}text_bold{% endif %}"><div class="border-primary" style="width: {{ section.settings.border_width }}px"></div>{{ section.settings.subheading | escape }}</div>
+                    {% endif %}
+        
+                    {% if product %}
+                        <h2 class="majortitle in-content h1-style secondary_color text_default">{{ product.title | escape }}</h2>
+                        <div class="rte secondary_color text_bold">{{ product.description | strip_html }}</div>
+                        <div class="lightly-spaced-row-above">
+                            <a class="{% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %} primary_color" href="{{ product.link }}">{{ section.settings.button_label | escape }}</a>
+                        </div>
+                    {% else %}
+                        {% if section.settings.title != blank %}
+                            <h2 class="majortitle in-content h1-style secondary_color text_default text-uppercase-mobile title_large">{{ section.settings.title | escape }}</h2> 
+                        {% endif %}
+    
+                        {% if section.settings.text != blank %}
+                            <div class="rte secondary_color">{{ section.settings.text }}</div> 
+                        {% endif %}
+    
+                        {% if section.settings.button_label != blank %}
+                            <div class="lightly-spaced-row-above">
+                                <a class="{% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %} primary_color" href="{{ section.settings.button_link }}">{{ section.settings.button_label | escape }}</a>{% if section.settings.button_style == 'link' %}{% render 'icons-rocket', icon: 'arrow-left' %}{% endif %}   
+                            </div>
+                        {% endif %}
+                    {% endif %}
+                </div>
+            </div>
+            
+            {% if product or section.settings.image != blank %}
+                <div class="column column--half">
+                    <div class="image-overlap__image">
+                        {%- if product -%}
+                            {%- render 'responsive-image', image: product.featured_image, animate: true, animate_delay: "0.1s", animate_type: "cc-fade-in-up" -%}
+                        {% elsif section.settings.image != blank %}
+                                {%- render 'responsive-image', image: section.settings.image, animate: true, animate_delay: "0.1s", animate_type: "cc-fade-in-up" -%}
+                        {% else %}
+                            <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                        {%- endif -%}
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+{% unless section.settings.show_entire_description %}
+    {% style %}
+        .featured-product-alt .rte {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: {{ section.settings.truncate_description }};
+            -webkit-box-orient: vertical;
+        }
+    {% endstyle %}
+{% endunless %}
+
+{% schema %}
+{
+    "name": "Featured Product 2",
+    "class": "featured-product-alt",
+    "settings": [
+        {
+            "type": "product",
+            "id": "product",
+            "label": "Product"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "If no product is selected, this image will be shown"
+        },
+        {
+            "type": "text",
+            "id": "subheading",
+            "label": "Subheading",
+            "default": "Subtítulo"
+        },
+        {
+            "type": "checkbox",
+            "id": "bold_subheading",
+            "label": "Bold subheading",
+            "default": true
+        },
+        {
+            "type": "range",
+            "id": "border_width",
+            "label": "Border width",
+            "unit": "px",
+            "min": 50,
+            "max": 100,
+            "step": 10,
+            "default": 50
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Título",
+            "info": "This will show in case there is no product selected"
+        },
+        {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "info": "This will show in case there is no product selected"
+        },
+        {
+            "type": "checkbox",
+            "id": "show_entire_description",
+            "label": "Show entire description",
+            "default": false,
+            "info": "This will show the whole product description"
+        },
+        {
+            "type": "range",
+            "id": "truncate_description",
+            "label": "Truncate description",
+            "min": 1,
+            "max": 10,
+            "step": 1,
+            "default": 5,
+            "info": "Choose the maximum lines of the product description / text"
+        },
+        {
+            "type": "header",
+            "content": "Button"        
+        },
+        {
+            "type": "text",
+            "id": "button_label",
+            "label": "Label",
+            "default": "Comprar ahora"
+        },
+        {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
+        },
+        {
+            "type": "select",
+            "id": "button_style",
+            "label": "Button style",
+            "default": "primary",
+            "options": [
+                {
+                    "label": "Button - primary",
+                    "value": "primary"
+                },
+                {
+                    "label": "Button - secondary",
+                    "value": "secondary"
+                },
+                {
+                    "label": "Button - ternary",
+                    "value": "ternary"
+                },
+                {
+                    "label": "Button - quaternary",
+                    "value": "quaternary"
+                },
+                {
+                    "label": "Link",
+                    "value": "link"
+                }
+            ],
+            "default": "link"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Featured product 2",
+            "settings": {}
+        }
+    ]
+}
+{% endschema %}

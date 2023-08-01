@@ -1,0 +1,135 @@
+{
+  "sections": {
+    "75a42639-bbe2-45fe-80a1-3040ff02984d": {
+      "type": "image-with-reviews",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bg_banner.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/occre-banner.jpg",
+        "author": "shopify:\/\/shop_images\/Roberto_Sanchez_1.png",
+        "reviews": "shopify:\/\/shop_images\/Frame_21_1.png",
+        "image_position": "center center",
+        "mobile_image_position": "center top",
+        "height": "fixed",
+        "height_desktop": 540,
+        "height_mobile": 780,
+        "image_link": "",
+        "subheading": "",
+        "title": "La opción perfecta para<br class=\"only-desktop\"> mantener la <br class=\"only-mobile\"><strong>mente activa<\/strong>",
+        "title-en": "La opción perfect para<br class=\"only-desktop\"> mantener la <br class=\"only-mobile\"><strong>mente activa<\/strong>",
+        "title-fr": "La opción perfecta para<br class=\"only-desktop\"> mantener la <br class=\"only-mobile\"><strong>mente activa<\/strong>",
+        "title-de": "La opción perfecta para<br class=\"only-desktop\"> mantener la <br class=\"only-mobile\"><strong>mente activa<\/strong>",
+        "title-it": "La opción perfecta para<br class=\"only-desktop\"> mantener la <br class=\"only-mobile\"><strong>mente activa<\/strong>",
+        "title-pt": "La opción perfecta para<br class=\"only-desktop\"> mantener la <br class=\"only-mobile\"><strong>mente activa<\/strong>",
+        "title_size": 34,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "<p>Desafía tu mente, desafía tus propios límites.<\/p>",
+        "texten": "<p>Desafía tu mente, desafía tus propios límits.<\/p>",
+        "textfr": "<p>Desafía tu mente, desafía tus propios límites.<\/p>",
+        "textde": "<p>Desafía tu mente, desafía tus propios límites.<\/p>",
+        "textit": "<p>Desafía tu mente, desafía tus propios límites.<\/p>",
+        "textpt": "<p>Desafía tu mente, desafía tus propios límites.<\/p>",
+        "author-name": "Paul",
+        "author-role": "Modelista",
+        "review": "<p>Perfecto for both beginner and expert alike.<br\/>Like me, bring your model making dreams to life with a kit from OcCre - 100%<br\/> recommended!<\/p>",
+        "review-en": "<p>Perfect for both beginner and expert alike.<br\/>Like me, bring your model making dreams to life with a kit from OcCre - 100%<br\/> recommended!<\/p>",
+        "review-fr": "<p>Perfect for both beginner and expert alike.<br\/>Like me, bring your model making dreams to life with a kit from OcCre - 100%<br\/> recommended!<\/p>",
+        "review-de": "<p>Perfect for both beginner and expert alike.<br\/>Like me, bring your model making dreams to life with a kit from OcCre - 100%<br\/> recommended!<\/p>",
+        "review-it": "<p>Perfect for both beginner and expert alike.<br\/>Like me, bring your model making dreams to life with a kit from OcCre - 100%<br\/> recommended!<\/p>",
+        "review-pt": "<p>Perfect for both beginner and expert alike.<br\/>Like me, bring your model making dreams to life with a kit from OcCre - 100%<br\/> recommended!<\/p>",
+        "reviews-total": "+ de 2.000 reseñas y contando",
+        "enlarge_text": true,
+        "button_label_1": "empieza el desafío",
+        "button_url_1": "shopify:\/\/collections\/todos-los-productos",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center left",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": true
+      }
+    },
+    "165276578350b291f4": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    },
+    "165276575739ddb1e6": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    },
+    "fc11a5fc-45d2-45bf-a736-ac55c904d5d7": {
+      "type": "cross-page-promos-banner",
+      "blocks": {
+        "af14c90f-7c94-414a-b6be-a963bd84c7ee": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon.png",
+            "image_size": "icon",
+            "text": "Garantía de por vida",
+            "link_url": ""
+          }
+        },
+        "2ca83273-1c0c-4472-8194-e2fa0c7c4e95": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fi_truck.png",
+            "image_size": "icon",
+            "text": "Envío rápido y seguro",
+            "link_url": ""
+          }
+        },
+        "e80c61f7-78ab-4f30-8de6-cd98c31cb556": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/u_shield-check.png",
+            "image_size": "icon",
+            "text": "Pago seguro y fácil",
+            "link_url": ""
+          }
+        },
+        "f0377df5-bfd8-423a-bfa1-4262b8c40602": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/u_smile-beam.png",
+            "image_size": "icon",
+            "text": "+23,321 clientes felices",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "af14c90f-7c94-414a-b6be-a963bd84c7ee",
+        "2ca83273-1c0c-4472-8194-e2fa0c7c4e95",
+        "e80c61f7-78ab-4f30-8de6-cd98c31cb556",
+        "f0377df5-bfd8-423a-bfa1-4262b8c40602"
+      ],
+      "settings": {
+        "css_text": "",
+        "visibility": "all"
+      }
+    }
+  },
+  "order": [
+    "75a42639-bbe2-45fe-80a1-3040ff02984d",
+    "main",
+    "165276578350b291f4",
+    "165276575739ddb1e6",
+    "fc11a5fc-45d2-45bf-a736-ac55c904d5d7"
+  ]
+}

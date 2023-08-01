@@ -1,0 +1,526 @@
+<div id="section-id-{{ section.id }}" class="{% unless section.settings.full_width %}container fully-spaced-row{% endunless %}" data-section-type="background-video" data-cc-animate>
+  {% style %}
+    #section-id-{{ section.id }} .video-container {
+      height: {{ section.settings.height_mobile }}px;
+    }
+    #section-id-{{ section.id }} .overlay-text__title {
+      font-size: {{ section.settings.title_size_mobile }}px;
+      {% if section.settings.title_size_mobile >= 90 %}
+      line-height: 1em;
+      {% endif %}
+    }
+    @media (min-width: 768px) {
+      #section-id-{{ section.id }} .video-container {
+        height: {{ section.settings.height_desktop }}px;
+      }
+      #section-id-{{ section.id }} .overlay-text__title {
+        {% assign title_size_medium = section.settings.title_size | times: 0.7 | at_least: section.settings.title_size_mobile %}
+        font-size: {{ title_size_medium }}px;
+        {% if title_size_medium >= 90 %}
+        line-height: 1em;
+        {% endif %}
+      }
+    }
+       .imagen-video-count2 {
+         width:450px !important;
+       }
+    @media (min-width: 1100px) {
+      #section-id-{{ section.id }} .overlay-text__title {
+        font-size: {{ section.settings.title_size }}px;
+        {% if section.settings.title_size >= 90 %}
+        line-height: 1em;
+        {% endif %}
+      }
+    }
+ 
+     @media (max-width:980px) {
+       .btn-landing-video2 {
+         font-size:14px !important;
+         line-height:20px;
+       }
+        .landing-2 h2.anima {
+       
+        
+
+    font-size: 18px !important;
+      line-height:22px !important;
+        }
+       .imagen-video-count2 {
+         width:300px !important;
+       }
+      
+  .full-width-count {
+    padding-left:30px;
+    padding-right:30px;
+  }
+  .needsclick   button {
+    font-size:16px !important;
+  }
+  .count-video .timer-block .countdown_title {
+    font-size:12px !important;
+  }
+  .count-video .timer-block span {
+    font-size:35px !important;
+  }
+     }
+  .count2page {
+    display:none;
+  }
+
+</style>
+
+    
+  {% endstyle %}
+
+  {% if section.settings.video != blank %}
+    <div class="height--fixed video-container video-container--background image-overlay image-overlay--bg-full image-overlay--bg-shadow count-video"
+      data-video-url="{{ section.settings.video | escape }}"
+      data-video-autoplay="true"
+      data-video-loop="true"
+      data-cc-animate>
+      <div class="video-container__video"></div>
+      {% if section.settings.placeholder_image %}
+        <div class="video-container__fallback rimage-outer-wrapper rimage-background lazyload fade-in"
+          data-bgset="{% render 'bgset', image: section.settings.placeholder_image %}"
+          data-sizes="auto"
+          data-parent-fit="cover">
+          <noscript>
+            <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: section.settings.placeholder_image.aspect_ratio | times: 100 }}%">
+              <img src="{{ section.settings.placeholder_image | img_url: '1024x1024' }}" alt="{{ section.settings.placeholder_image.alt | escape }}" class="rimage__image">
+            </div>
+          </noscript>
+        </div>
+      {% endif %}
+
+      {% assign show_overlay_text = false %}
+      {% if section.settings.title != blank or section.settings.subheading != blank or section.settings.text != blank or section.settings.button_label_1 != blank or section.settings.button_label_2 != blank %}
+        {% assign show_overlay_text = true %}
+      {% endif %}
+
+      {% if show_overlay_text == false %}
+        <div class="overlay-text overlay-text--for-banner overlay--v-{{ section.settings.text_alignment | split: ' ' | first }} overlay--h-{{ section.settings.text_alignment | split: ' ' | last }} image-overlay__over">
+          <div class="overlay-text__inner">
+            <div class="overlay-text__text" data-cc-animate="cc-fade-in-up" data-cc-animate-delay="0.5s">
+
+        <style>
+         .landing-2  h2.anima {
+        margin-top:30px;
+     color:white;
+     text-align:center;
+
+    font-family: Montserrat;
+font-size: 42px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+
+     margin-bottom:60px;
+   }
+       .landing-2 .form_klaviyo {
+    padding-bottom: 0px !important;
+}
+        .btn-landing-video2 {
+        color:black;
+        background:#F3B01C;
+        font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.085em;
+text-align: center;
+        padding:10px 15px;
+        text-transform:uppercase;
+
+        }
+  
+        </style>
+        <div class="landing-2">
+      
+              {% if request.locale.iso_code == 'es'  %}
+<img src="{{ section.settings.image | img_url: 'master'  }}"  class="imagen-video-count2">
+
+
+{% elsif request.locale.iso_code == 'en'  %}
+ <img src="{{ section.settings.image_en | img_url: 'master'  }}" class="imagen-video-count2">
+
+
+  {% elsif request.locale.iso_code == 'fr' %}
+<img src="{{ section.settings.image_fr | img_url: 'master'  }}" class="imagen-video-count2">
+   {% elsif request.locale.iso_code == 'de' %}
+<img src="{{ section.settings.image_de | img_url: 'master'  }}" class="imagen-video-count2">
+
+     {% elsif request.locale.iso_code == 'it' %}
+<img src="{{ section.settings.image_it | img_url: 'master'  }}" class="imagen-video-count2">
+  {% else  %}
+      
+  <img src="{{ section.settings.image_en | img_url: 'master'  }}" class="imagen-video-count2">
+{% endif %}
+  <h2 style="text-align:center" class="anima"><ly-as-753941>Te animás a embarcarte</ly-as-753941><br> <ly-as-753942>en esta aventura de</ly-as-753942><br> <ly-as-753943>navegar eternamente?</ly-as-753943>
+                  </h2>
+
+        <a href="https://occre.com/products/promotion-flying-dutchman" class="btn-landing-video2"><ly-as-753944>embarcarme en el desafío</ly-as-753944></a>
+        </div>
+              
+              {% if section.settings.subheading != blank and section.settings.button_url_1 != blank %}
+                {% assign enlarge_subheading = section.settings.enlarge_subheading %}
+
+                
+                <div class="overlay-text__subheading subheading subheading--over {% if enlarge_subheading %}enlarge_subheading{% endif %}">{{ section.settings.subheading | escape }}</div>
+              {% endif %}
+              {% if section.settings.title != blank %}
+                {% if section.settings.use_h1 %}
+                  <h1 class="overlay-text__title">{{ section.settings.title | newline_to_br }}</h1>
+                {% else %}
+                  <h2 class="overlay-text__title h1-style">{{ section.settings.title | newline_to_br }}</h2>
+                {% endif %}
+              {% endif %}
+              {% if section.settings.text != blank %}
+                <div class="overlay-text__rte rte {% if section.settings.enlarge_text %}large-text{% endif %}">{{ section.settings.text }}</div>
+              {% endif %}
+              {% if section.settings.button_url_1 != blank or section.settings.button_url_1 != blank %}
+                <div class="overlay-text__button-row">
+                  {% if section.settings.button_url_1 != blank %}
+                    <a class="overlay-text__button {% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ section.settings.button_url_1 }}" {% if section.settings.open_url_new_tab %}target="_blank"{% endif  %}>{{ section.settings.button_label_1 }}</a>
+                  {% endif %}
+                  {% if section.settings.button_url_2 != blank %}
+                    <a class="overlay-text__button {% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ section.settings.button_url_2 }}" {% if section.settings.open_url_new_tab %}target="_blank"{% endif  %}>{{ section.settings.button_label_2 }}</a>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+          {% for block in section.blocks %}
+            {% case block.type %}
+              {% when 'sticker' %}
+                {% if block.settings.sticker != blank %}
+                  {% assign align = section.settings.text_alignment | split: ' ' | last %}
+                  <div class="background-video__sticker {% if align == 'right' %}left{% endif %}">
+                    <img src="{{block.settings.sticker | img_url: 'master'}}">
+                  </div>  
+                {% endif %}
+            {% endcase %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% else %}
+    {% unless template.name contains 'product' %}
+      <div class="fully-padded-row--large align-center">{{ 'homepage.onboarding.no_content' | t }}</div>
+    {% endunless %}
+  {% endif %}
+</div>
+<div class="desafio oscuro">
+  <div class="container">
+    <div class="dos_columnas">
+       <div class="column2 nomobile">
+        <img src="{{ section.settings.image_desafio2 | img_url: 'master'  }}" class="gris">
+         <style>
+         .gris {
+    filter: grayscale(1);
+           }
+         </style>
+            <img src="{{ section.settings.image_desafio3 | img_url: 'master'  }}"  class="gris">
+      </div>
+      <div class="column1">
+
+        <h2 style="color: #F3B01C !important;margin-bottom:30px;text-align:left;"><ly-as-753945>QUE INCLUYEN NUESTROS KITS</ly-as-753945></h2>
+        <p class="p2a" style="text-align:left;">
+<ly-as-753946>Te acompañamos de principio a fin en la construcción de tu maqueta. Disfruta de la experiencia. Nosotros nos ocupamos del resto.</ly-as-753946> <br>
+        <b>  <ly-as-753947>Siempre a tu lado.</ly-as-753947></b>
+<br><br>
+<b> <ly-as-753948>+ Instrucciones paso a paso en 5 idiomas</ly-as-753948><br><br>
+
+<ly-as-753949>+ Fotos paso a paso HD</ly-as-753949><br><br>
+
+<ly-as-753950>+ Listas de piezas con medidas y materiales</ly-as-753950><br><br>
+
+<ly-as-753951>+ Ficha IP para identificar piezas</ly-as-753951><br><br>
+
+<ly-as-753952>+ Planos a escala</ly-as-753952> <br><br>
+
+<ly-as-753953>+ Video tutoriales paso a paso</ly-as-753953></b>
+          </p>
+     
+     
+        
+      </div>
+      <div class="column2 simobile">
+        <img src="{{ section.settings.image_desafio2 | img_url: 'master'  }}" class="gris">
+         <style>
+         .gris {
+    filter: grayscale(1);
+           }
+         </style>
+            <img src="{{ section.settings.image_desafio3 | img_url: 'master'  }}"  class="gris">
+      </div>
+    </div>
+  </div>
+ 
+</div>
+
+{% schema %}
+  {
+    "name": "Background 24 landing",
+    "class": "section-background-video",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Background videos play on loop, with no sound. If you need a video with sound use the Video section."
+      },
+      {
+        "id": "video",
+        "type": "text",
+        "label": "Video link",
+        "info": "Supports mp4, YouTube and Vimeo. Please read documentation before using. [Read more](https://cleancanvas.co.uk/support/general/background-video)",
+        "default": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+      },
+      {
+        "id": "placeholder_image",
+        "type": "image_picker",
+        "label": "Placeholder image",
+        "info": "Required. Shows while the video is loading, or if it cannot autoplay."
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading",
+        "default": "Tell your story"
+      },
+      {
+        "type": "checkbox",
+        "id": "enlarge_subheading",
+        "label": "Enlarge subheading",
+        "default": true
+      },
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "Heading",
+        "default": "Background video"
+      },
+      {
+        "type": "range",
+        "id": "title_size",
+        "min": 20,
+        "max": 150,
+        "step": 2,
+        "unit": "px",
+        "label": "Desktop heading text size",
+        "default": 84
+      },
+      {
+        "type": "range",
+        "id": "title_size_mobile",
+        "min": 20,
+        "max": 150,
+        "step": 2,
+        "unit": "px",
+        "label": "Mobile heading text size",
+        "default": 32
+      },
+      {
+        "type": "checkbox",
+        "id": "use_h1",
+        "label": "Set as primary page heading",
+        "info": "Uses <h1> tag (used for SEO and accessibility). One per page recommended.",
+        "default": false
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<p>Use a video to get a customer's attention<\/p>"
+      },
+      {
+        "type": "checkbox",
+        "id": "enlarge_text",
+        "label": "Enlarge text",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "button_label_1",
+        "label": "Button 1 label"
+      },
+      {
+        "type": "url",
+        "id": "button_url_1",
+        "label": "Button 1 link"
+      },
+      {
+        "type": "text",
+        "id": "button_label_2",
+        "label": "Button 2 label"
+      },
+      {
+        "type": "url",
+        "id": "button_url_2",
+        "label": "Button 2 link"
+      },
+      {
+        "type": "checkbox",
+        "id": "open_url_new_tab",
+        "label": "Open URL in a new tab",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Button style",
+        "default": "primary",
+        "options": [
+          {
+            "label": "Button - primary",
+            "value": "primary"
+          },
+          {
+            "label": "Button - secondary",
+            "value": "secondary"
+          },
+          {
+            "label": "Button - tertiary",
+            "value": "tertiary"
+          },
+          {
+            "label": "Button - quaternary",
+            "value": "quaternary"
+          },
+          {
+            "label": "Link",
+            "value": "link"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text overlay position",
+        "options": [
+          {
+            "value": "top left",
+            "label": "Top left"
+          },
+          {
+            "value": "top center",
+            "label": "Top center"
+          },
+          {
+            "value": "top right",
+            "label": "Top right"
+          },
+          {
+            "value": "center left",
+            "label": "Middle left"
+          },
+          {
+            "value": "center center",
+            "label": "Middle center"
+          },
+          {
+            "value": "center right",
+            "label": "Middle right"
+          },
+          {
+            "value": "bottom left",
+            "label": "Bottom left"
+          },
+          {
+            "value": "bottom center",
+            "label": "Bottom center"
+          },
+          {
+            "value": "bottom right",
+            "label": "Bottom right"
+          }
+        ],
+        "default": "center center"
+      },
+      {
+        "type": "header",
+        "content": "Layout"
+      },
+      {
+        "type": "range",
+        "id": "height_desktop",
+        "min": 200,
+        "max": 1000,
+        "step": 20,
+        "unit": "px",
+        "label": "Desktop fixed height",
+        "default": 600
+      },
+      {
+        "type": "range",
+        "id": "height_mobile",
+        "min": 100,
+        "max": 1000,
+        "step": 20,
+        "unit": "px",
+        "label": "Mobile fixed height",
+        "default": 500
+      },
+      {
+        "id": "full_width",
+        "type": "checkbox",
+        "label": "Full page width",
+        "default": true
+      },
+       {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_en",
+          "label": "Image en"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_fr",
+          "label": "Image fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_de",
+          "label": "Image de"
+        },{
+          "type": "image_picker",
+          "id": "image_it",
+          "label": "Image it"
+        },
+         {
+          "type": "image_picker",
+          "id": "image_desafio2",
+          "label": "Image"
+        
+        },
+         {
+          "type": "image_picker",
+          "id": "image_desafio3",
+          "label": "Image"
+        
+        }
+    ],
+    "blocks": [
+      {
+        "type": "sticker",
+        "name": "Sticker",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "sticker",
+            "label": "Sticker"
+          }
+        ]
+      }
+    ], 
+    "presets": [
+      {
+        "name": "Bg 24 video para landing"
+      }
+    ]
+  }
+{% endschema %}

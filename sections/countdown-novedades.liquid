@@ -1,0 +1,695 @@
+  <div class="full-width-count {{ section.settings.css_text }} novedades" id="formklaviyo">
+  <h2 style="text-align:center" class="h2-full">
+   {% if request.locale.iso_code == 'es'  %}
+25 de Febrero 2023  | 19:00 (CEST)
+ <br>
+Lanzamiento exclusivo por Youtube
+
+{% elsif request.locale.iso_code == 'en'  %}
+February 25, 2023 | 19:00 (CEST) <br>
+Exclusive release by youtube
+
+
+
+  {% elsif request.locale.iso_code == 'fr' %}
+25 Février 2023 | 19h (CEST)
+ <br>
+Lancement exclusif sur YOUTUBE
+   {% elsif request.locale.iso_code == 'de' %}
+25. Februar 2023 | 19:00 (MEZ)
+ <br>
+Exklusive Lancierung auf YouTube
+     {% elsif request.locale.iso_code == 'it' %}
+25 febbraio 2023 | 19:00 (CEST)
+ <br>
+Lancio esclusivo su YouTube
+  {% else  %}
+25 de Fevereiro de 2023 | 19:00 (CEST)
+ <br>
+Lançamento exclusivo no youtube
+{% endif %}
+
+    
+    
+</h2>
+{% if request.locale.iso_code == 'es'  %}
+<img src="{{ section.settings.image | img_url: 'master'  }}">
+
+
+{% elsif request.locale.iso_code == 'en'  %}
+<img src="{{ section.settings.image_en | img_url: 'master'  }}">
+
+
+  {% elsif request.locale.iso_code == 'fr' %}
+<img src="{{ section.settings.image_fr | img_url: 'master'  }}">
+   {% elsif request.locale.iso_code == 'de' %}
+<img src="{{ section.settings.image_de | img_url: 'master'  }}">
+
+     {% elsif request.locale.iso_code == 'it' %}
+<img src="{{ section.settings.image_it | img_url: 'master'  }}">
+  {% else  %}
+      
+  <img src="{{ section.settings.image_pt | img_url: 'master'  }}">
+{% endif %}
+
+
+    <div class="countdown_wrap">
+      <div class="countdown_time" id="js_set_time" >
+        <div class="timer-block">
+          <span class="countdown_number js-days">00</span>
+          <span class="countdown_title">{% if request.locale.iso_code == 'es'  %}
+Días{% else %}
+            
+Dias
+            {% endif %}</span>
+        </div>
+        <div class="timer-block">
+          <span class="countdown_number js-hours">00</span>
+          <span class="countdown_title">Horas</span>
+        </div>
+        <div class="timer-block">
+          <span class="countdown_number js-minutes">00</span>
+          <span class="countdown_title">Minutos</span>
+        </div>
+        <div class="timer-block">
+          <span class="countdown_number js-seconds">00</span>
+          <span class="countdown_title">Segundos</span>
+        </div>
+      </div>
+    </div>
+<div class="form_klaviyo">
+  <div class="klaviyo-form-UD5iCH"></div> 
+  <div class="klaviyo-form-YAa7kd"></div>
+  <div class="klaviyo-form-Ud2LZQ"></div>
+  <div class="klaviyo-form-Rgx8FX"></div>
+  <div class="klaviyo-form-Xs6kwP"></div>
+  <div class="klaviyo-form-XFZyaE"></div>
+</div>
+
+<!-- LINK YOUTUBE    <a class="link-youtube-coming-soon" href="https://www.youtube.com/watch?v=WKoIT_t1xfc" target="_blank">YouTube</a> -->
+<!-- <div>
+
+</div> -->
+
+<style>
+  /* 
+  .link-youtube-coming-soon {
+    background-color:#f3b01c;
+    color: black !important;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  */
+
+  .full-width-count  {
+    background-size:cover;
+  }
+</style>
+
+</div>
+<div class="second-section" style="background-image:url({{ section.settings.image3 | img_url: 'master'  }})";>
+  <div class="container container-second">
+  {% if request.locale.iso_code == 'es'  %}
+   <h2 class="font-1 color1 margin-bottom">Beneficios de Suscribirte al lanzamiento</h2>
+   <div class="content-second font-2 color2 margin-bottom line-height-p">
+  <p>
+     ✅      Serás el <b>primero</b> en enterarte del nuevo desafío <br>
+✅       <b>Acceso anticipado</b> para la  <b>PREcompra</b> de todas las novedades<br>
+✅      Ofertas especiales de lanzamiento  <b>SOLO</b> para suscriptores<br>
+✅      Te mantenemos informado del  <b>calendario de novedades</b> OcCre </p>
+   </div>
+    <a href="#formklaviyo" class="btn font-btn">suscribirme al NUEVO desafío</a>
+
+{% elsif request.locale.iso_code == 'en'  %}
+ <h2 class="font-1 color1 margin-bottom">Benefits of Subscribing to the launch</h2>
+   <div class="content-second font-2 color2 margin-bottom line-height-p">
+      <p>
+     ✅ You will be the first to find out about the new challenge<br>
+    ✅ Early access for the PRE-purchase in all the news<br>
+    ✅ Special introductory offers ONLY for subscribers<br>
+    ✅ We keep you informed of the OcCre news calendar </p>
+  </div>
+    <a href="#formklaviyo" class="btn font-btn">SUBSCRIBE TO THE NEW CHALLENGE</a>
+ 
+
+  {% elsif request.locale.iso_code == 'fr' %}
+ <h2 class="font-1 color1 margin-bottom">Voici les bénéfices de s’abonner au lancement </h2>
+   <div class="content-second font-2 color2 margin-bottom line-height-p">
+     <p>
+  ✅   Vous serez le premier à être informé du nouveau défi<br>
+  ✅ Accès anticipé à la Précommande de toutes les nouveautés<br>
+  ✅ Offres spéciales de lancement SEULEMENT pour les abonnés<br>
+  ✅ Nous vous tiendrons au courant des nouveautés du calendrier de OcCre </p>
+   </div>
+    <a href="#formklaviyo" class="btn font-btn">M’ABONNER AU NOUVEAU DÉFI ! </a>
+   {% elsif request.locale.iso_code == 'de' %}
+ <h2 class="font-1 color1 margin-bottom">Vorteile des Abonnierens der Lancierung</h2>
+   <div class="content-second font-2 color2 margin-bottom line-height-p">
+     <p>
+     ✅     Sie werden die erste Person sein, die von der neuen Herausforderung erfährt<br>
+   ✅ Vorzeitiger Zugriff zur VORkauf aller Neuheiten<br>
+   ✅ Sonderangebote zur Lancierung, NUR für Abonnenten<br>
+   ✅ Wir informieren Sie über die Neuheiten-Kalender von OcCre
+ </p>
+   </div>
+    <a href="#formklaviyo" class="btn font-btn">DIE NEUE HERAUSFORDERUNG ABONNIEREN</a>
+
+     {% elsif request.locale.iso_code == 'it' %}
+ <h2 class="font-1 color1 margin-bottom">Vantaggi per chi si iscrive all´evento di lancio </h2>
+   <div class="content-second font-2 color2 margin-bottom line-height-p">
+     <p>
+     ✅    Avrai la primizia della nuova sfida<br>
+ ✅ Accesso anticipato al PREacquisto di tutte le novità<br>
+ ✅ Offerte speciali di lancio SOLO per i membri scritti<br>
+ ✅ Sarai aggiornato sul calendario di novità  OcCre
+ </p>
+   </div>
+    <a href="#formklaviyo" class="btn font-btn">ISCRIVERMI PER PARTECIPARE ALLA NUOVA SFIDA </a>
+  {% else  %}
+      <h2 class="font-1 color1 margin-bottom">Vantagens de subscrever o lançamento </h2>
+   <div class="content-second font-2 color2 margin-bottom line-height-p">
+     <p>
+     ✅     Será o primeiro a saber sobre o novo desafio<br>
+
+  ✅    Acesso antecipado à pré-compra de todos os novos produtos<br>
+  ✅    Ofertas especiais de lançamento SOMENTE para subscritores<br>
+  ✅    Vamos mantê-lo informado sobre o calendário de notícias da OcCre
+ </p>
+   </div>
+    <a href="#formklaviyo" class="btn font-btn">SUBSCREVER O NOVO DESAFIO </a>
+{% endif %}
+
+
+    
+   
+  </div>
+</div>
+<div class="third-section" style="background:black;">
+  <div class="container container-third">
+        {% if request.locale.iso_code == 'es'  %}
+   <h2 class="font-3 color2">25 de Febrero 2023 | 19:00hs (CEST)</h2>
+    <h3 class="font-4 color1 margin-bottom">Lanzamiento exclusivo en YouTube</h3>
+     <a href="https://www.youtube.com/@Occre" class="btn font-btn">suscribiTE al CANAL</a>
+
+{% elsif request.locale.iso_code == 'en'  %}
+   <h2 class="font-3 color2">February 25, 2023 | 19:00 (CEST)</h2>
+    <h3 class="font-4 color1 margin-bottom">Exclusive release by youtube</h3>
+     <a href="https://www.youtube.com/@Occre" class="btn font-btn">SUBSCRIBE TO THE CHANNEL</a>
+
+
+
+  {% elsif request.locale.iso_code == 'fr' %}
+   <h2 class="font-3 color2">25 Février 2023 | 19h (CEST)</h2>
+    <h3 class="font-4 color1 margin-bottom">Lancement exclusif sur YOUTUBE</h3>
+     <a href="https://www.youtube.com/@Occre" class="btn font-btn"> ABONNEZ VOUS À NOTRE CHAÎNE</a>
+
+   {% elsif request.locale.iso_code == 'de' %}
+   <h2 class="font-3 color2">25. Februar 2023 | 19:00 (MEZ)</h2>
+    <h3 class="font-4 color1 margin-bottom">Exklusive Lancierung auf YouTube</h3>
+     <a href="https://www.youtube.com/@Occre" class="btn font-btn">ABONNIEREN SIE DEN KANAL</a>
+
+
+     {% elsif request.locale.iso_code == 'it' %}
+   <h2 class="font-3 color2">25 febbraio 2023 | 19:00 (CEST)</h2>
+    <h3 class="font-4 color1 margin-bottom">Lancio esclusivo su YOUTUBE</h3>
+     <a href="https://www.youtube.com/@Occre" class="btn font-btn">ISCRIVITI AL CANALE</a>
+
+  {% else  %}
+   <h2 class="font-3 color2">25 de Fevereiro 2023 | 19:00hs (CEST)</h2>
+    <h3 class="font-4 color1 margin-bottom">Lançamento exclusivo no YouTube</h3>
+     <a href="https://www.youtube.com/@Occre" class="btn font-btn">INSCREVA-SE NO CANAL</a>
+
+{% endif %}
+
+    
+  </div>
+</div>
+<div class="four-section">
+  <a href="https://www.youtube.com/@Occre"> <img src="{{ section.settings.image4 | img_url: 'master'  }}" class="no-mobile">
+   <img src="{{ section.settings.image5 | img_url: 'master'  }}" class="no-desktop" ></a>
+</div>
+
+
+
+<style>
+  .line-height-p {
+    min-height:50px;
+    max-width:800px;
+    text-align:left;
+    margin:0 auto;
+  }
+  .content-second, .margin-bottom  {
+    margin-bottom:40px;
+  }
+.font-1 {
+  font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0em;
+
+
+}
+  .font-2 {
+    font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+
+letter-spacing: -0.02em;
+
+
+
+  }
+  .font-3 {
+    font-family: Montserrat;
+font-size: 38px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0em;
+
+
+  }
+  .font-4 {
+    font-family: JMH Typewriter;
+font-size: 46px;
+font-weight: 900;
+line-height: 51px;
+letter-spacing: 0em;
+
+
+  }
+  .font-btn {
+    font-family: Montserrat;
+font-size: 19px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color:black;
+      background: #F3B01C !important;
+  }
+  .color1 {
+    color: #F3B01C;
+
+  }
+  .color2 {
+    color: #FFFFFF;
+
+  }
+  .four-section img {
+    width:100%;
+  }
+  .no-mobile {
+    display:none;
+  }
+  .second-section {
+    text-align:center;
+    padding:90px 0px;
+    border-top:10px solid  #FFB71B;
+    border-bottom:10px solid  #7C3830;
+  }
+  .second-section .container {
+    max-width:1240px;
+    margin:0 auto;
+  }
+  .third-section {
+     text-align:center;
+    padding:90px 0px;
+      border-top:10px solid  #FFB71B;
+    border-bottom:10px solid  #7C3830;
+  }
+    .third-section .container {
+    max-width:1240px;
+    margin:0 auto;
+  }
+.novedades {
+  border-bottom:10px solid  #7C3830;
+
+}
+.novedades.full-width-count h2 {
+  text-shadow:1px 1px 0px #000;
+}
+  .countdown_number {
+    color: #7C3830;
+
+    
+  }
+  
+  @font-face {
+  font-family: "Font name";
+  src: url({{ Nowharehouse.woff | asset_url }}) format("woff");
+}
+
+  .font1 {
+    font-family: Nowharehouse;
+font-size: 86px;
+font-weight: 400;
+line-height: 95px;
+letter-spacing: 0em;
+text-align: center;
+
+
+  }
+  .font2 {
+    font-family: Nowharehouse;
+font-size: 52px;
+font-weight: 400;
+line-height: 57px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+  .form_klaviyo input {
+    text-align:center !important;
+    color: #040404;
+
+  }
+  .form_klaviyo {
+    padding-bottom:100px;
+  }
+  .countdown_time{
+
+
+        background: transparent;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width:800px;
+    margin:0 auto;
+    
+  }
+  .countdown_wrap { 
+    padding-top: 30px;
+    padding-bottom:36px;
+  }
+  .countdown_time .timer-block{
+    width: 25%;
+  }
+  .countdown_time .timer-block span{
+    display: block;
+        text-align: center;
+    font-family: Montserrat;
+font-size: 49px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+
+
+  }
+   .countdown_time .timer-block .countdown_title {
+    font-family: Montserrat;
+font-size: 19px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+   color: #5C5C5C;
+
+
+  }
+   .full-width-count  h2 {
+     color:white;
+     text-align:center;
+
+     font-family: Montserrat;
+font-size: 26px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: -0.02em;
+text-align: center;
+     margin-bottom:80px;
+   
+
+   }
+  
+      .full-width-count {
+        padding-top:60px;
+    text-align: center;
+    background-color: black;
+    background-image:  url({{ section.settings.image2  | img_url: 'master' }});
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+      .section-gallery {
+      margin:0 auto !important;
+      background:black !important;
+       padding-top:50px;
+      padding-bottom:50px;
+      }
+      .masde15000 {
+      background:black;
+        padding-top:50px;
+      padding:0px;
+  
+          margin:0 auto !important;
+      }
+      .masde15000  .container  {
+      max-width:1200px;
+      
+      }
+      .masde15000  h2.h1-style  {
+      font-family: Montserrat;
+font-size: 41px !important;
+font-weight: 700 !important;
+line-height: 45px !important;
+letter-spacing: 0em;
+text-align: center;
+      margin-bottom:0px;
+
+      color: #F5F5F5 !important;
+
+      }
+      .section-apps {
+      background:black;
+        padding-top:20px;
+      padding-bottom:50px;
+          margin:0 auto !important;
+      }
+        #looxReviews #menu-btn  {
+      background:white !important;
+      color:black;
+        }
+      .form_klaviyo input {
+      padding-left:0px !important;
+      }
+
+      @media (max-width:980px) {
+    .countdown_time .timer-block .countdown_title {
+    font-size:12px !important;
+    }
+    
+.full-width-count {
+  padding-left:0px !important;
+    padding-right:0px !important;}
+    .novedades img, .countdown_wrap {
+    width:90%;
+    margin:0 auto; }
+ .h2-full {
+    
+    background:rgba(0,0,0,0.7);
+    }
+.font-1 {
+
+font-size:25px;
+
+line-height: 30px;
+
+
+
+}
+  .font-2 {
+
+font-size: 18px;
+
+
+
+
+
+
+  }
+  .font-3 {
+
+font-size: 28px;
+
+line-height: 35px;
+
+
+
+  }
+  .font-4 {
+ 
+font-size: 35px;
+
+line-height: 45px;
+
+
+
+  }
+  .font-btn {
+    
+font-size: 16px;
+
+line-height: 20px;
+
+  }
+
+        .no-desktop {
+    display:none;
+  }
+    .no-mobile {
+    display:block;
+  }
+  
+        .full-width-count h2 {
+
+    font-size: 18px;
+      line-height:22px;}
+      }
+  .full-width-count {
+    padding-left:30px;
+    padding-right:30px;
+  }
+  .klaviyo-form-UD5iCH button {
+    font-size:16px !important;
+  }
+  .countdown_time .timer-block .countdown_title {
+    font-size:14px;
+     
+    
+    border-top: 2px solid #5C5C5C;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  .countdown_time .timer-block span {
+    font-size:40px;
+  }
+  .count2page {
+    display:none;
+  }
+    }
+
+</style>
+
+<script type="text/javascript">
+  var settime = "2023/02/25 19:00:00";
+  (function (){
+    if(settime.length  > 0 ){
+      var countDownDate = new Date(settime).getTime();
+      var x = setInterval(function() { 
+        // Get todays date and time
+        var now = new Date().getTime(); 
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now; 
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        if(days < 10 )
+        {
+          var days = '0' + days;
+        }else{
+          days = days;
+        }
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        if(hours  < 10 )
+        {
+          var hours = '0' + hours;
+        }else{
+          hours = hours;
+        }
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        if(minutes  < 10 )
+        {
+          var minutes = '0' + minutes;
+        }else{
+          minutes = minutes;
+        }
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000); 
+        document.querySelector('.js-days').innerText = days;
+        document.querySelector('.js-hours').innerText = hours;
+        document.querySelector('.js-minutes').innerText = minutes;
+        document.querySelector('.js-seconds').innerText = seconds;
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("js_set_time").innerHTML = "Out of date";
+        }
+      }, 1000);
+    }
+  })();
+</script>
+{% comment %}
+{% endcomment %} 
+{% schema %}
+{
+  "name": "Count Down",
+   "settings": [
+           {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_en",
+          "label": "Image en"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_fr",
+          "label": "Image fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_de",
+          "label": "Image de"
+        },{
+          "type": "image_picker",
+          "id": "image_it",
+          "label": "Image it"
+        },{
+          "type": "image_picker",
+          "id": "image_pt",
+          "label": "Image pt"
+        },
+         {
+          "type": "image_picker",
+          "id": "image2",
+          "label": "Image bg"
+        
+        },
+     {
+          "type": "image_picker",
+          "id": "image3",
+          "label": "Image bg2"
+        
+        },
+     {
+          "type": "image_picker",
+          "id": "image4",
+          "label": "Image Mobile"
+        
+        },
+     {
+          "type": "image_picker",
+          "id": "image5",
+          "label": "Image Desktop"
+        
+        },
+     {
+       "type": "text",
+       "id": "css_text",
+      "label": "insertar css"
+     }
+            ],
+    "presets": [
+      {
+        "name": "Count Down"
+       
+      }
+    ]
+  
+}
+{% endschema %}

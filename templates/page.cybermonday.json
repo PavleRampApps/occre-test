@@ -1,0 +1,374 @@
+{
+  "sections": {
+    "93657871-df5c-4ffd-83fd-7f8b4051087e": {
+      "type": "rich-text-bf",
+      "disabled": true,
+      "blocks": {
+        "template--16613274812671__93657871-df5c-4ffd-83fd-7f8b4051087e-1668035332e1269ca8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>25-26-27-28 NOVIEMBRE 2022<\/p>",
+            "enlarge_text": false,
+            "color": "base_color",
+            "bold_text": false
+          }
+        },
+        "template--16613274812671__93657871-df5c-4ffd-83fd-7f8b4051087e-1668035332e1269ca8-0": {
+          "type": "heading",
+          "settings": {
+            "title": "BLACK FRIDAY & CYBER MONDAY",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16613274812671__93657871-df5c-4ffd-83fd-7f8b4051087e-1668035332e1269ca8-1",
+        "template--16613274812671__93657871-df5c-4ffd-83fd-7f8b4051087e-1668035332e1269ca8-0"
+      ],
+      "settings": {
+        "css_text": "tituloprincipal",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "use_alt_bg": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": true
+      }
+    },
+    "19cc8ed3-c469-48a0-ad04-9a5ee1e35484": {
+      "type": "background-video-cm",
+      "settings": {
+        "video": "b",
+        "placeholder_image": "shopify:\/\/shop_images\/Captura_de_Pantalla_2022-10-30_a_la_s_20.33_2_da606c20-1660-4eec-bb9a-953a4275e90b.jpg",
+        "image2": "shopify:\/\/shop_images\/25off.png",
+        "subheading": "28 NOVIEMBRE 2022",
+        "enlarge_subheading": false,
+        "title": "CYBER MONDAY 2022",
+        "title_size": 84,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "<p>accesorios, peanas, herramientas y más<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "comprar peanas",
+        "button_url_1": "shopify:\/\/collections\/peanas",
+        "button_label_2": "comprar ACCESORIOS",
+        "button_url_2": "shopify:\/\/collections\/accesorios",
+        "open_url_new_tab": false,
+        "button_style": "secondary",
+        "text_alignment": "center center",
+        "height_desktop": 580,
+        "height_mobile": 500,
+        "full_width": true
+      }
+    },
+    "e73215b6-81aa-4a79-9dba-e9673d9b12d0": {
+      "type": "collection-cybermonday",
+      "settings": {
+        "title": "",
+        "collection": "cyber-monday-occre",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 48,
+        "background_style": "use-prim-bg",
+        "show_view_all": false,
+        "full_width": true
+      }
+    },
+    "cd27a895-c960-4ce1-bd1f-aaa84296c98c": {
+      "type": "feature-collection2",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "collection": "cyber-monday-occre",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 5,
+        "background_style": "use-prim-bg",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "2bcc4608-0f3e-405d-a223-8fe5b7414ac7": {
+      "type": "feature-collection-white",
+      "disabled": true,
+      "settings": {
+        "title": "Accesorios",
+        "subtitle": "",
+        "collection": "accesorios",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "background_style": "use-prim-bg",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "ddd665ed-3bd4-49dd-84a7-bfdf935c793d": {
+      "type": "feature-collection-white",
+      "disabled": true,
+      "settings": {
+        "title": "Herramientas",
+        "subtitle": "",
+        "collection": "herramientas",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "background_style": "use-prim-bg",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "59d28f94-73da-4ac2-8304-40008f00ce48": {
+      "type": "feature-collection-white",
+      "disabled": true,
+      "settings": {
+        "title": "Peanas",
+        "subtitle": "",
+        "collection": "peanas",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "background_style": "use-prim-bg",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "c907984e-4779-4a44-a251-f686aa60b574": {
+      "type": "multi-column-bf",
+      "blocks": {
+        "template--16613274812671__c907984e-4779-4a44-a251-f686aa60b574-16680354161451e051-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "¡TAN GENIAL DE RECIBIR COMO DE REGALAR!",
+            "text": "<p>Si no sabes que comprar\/regalar, no te la juegues, acierta seguro con las tarjetas regalo OcCre. Es una excelente opción para regalar ahora y aprovechar durante navidad, reyes o cumpleaños<\/p>",
+            "button_label": "VER OPCIONES",
+            "link": "shopify:\/\/products\/gift-card-1"
+          }
+        },
+        "template--16613274812671__c907984e-4779-4a44-a251-f686aa60b574-16680354161451e051-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Group_133_1.png",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/products\/gift-card-1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16613274812671__c907984e-4779-4a44-a251-f686aa60b574-16680354161451e051-0",
+        "template--16613274812671__c907984e-4779-4a44-a251-f686aa60b574-16680354161451e051-1"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "left",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "915e3056-ab88-4328-9a02-933298205698": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "<style>\n\/* slider *\/\n.section-background-video .subheading {\ncolor: #10069F;\nfont-family: Montserrat;\nfont-size: 18px;\nfont-weight: 700;\nline-height: 22px;\n\ntext-align: center;\n\n}\n#section-id-template--16626522816767__19cc8ed3-c469-48a0-ad04-9a5ee1e35484 .overlay-text__title {\nfont-family: Montserrat;\nfont-size: 49px;\nfont-weight: 900;\nline-height: 54px;\nletter-spacing: 0em;\ntext-align: center;\n\n}\n.overlay--h-center .overlay-text__rte p {\nfont-family: Montserrat;\nfont-size: 28px;\nfont-weight: 800;\nline-height: 34px;\nletter-spacing: 0em;\ntext-align: center;\ncolor:#10069F;\n}\n.video-container .overlay-text__text {\nbackground:rgba(0,0,0,0);\n}\n.overlay-text__text {\nwidth:100% !important;\nbackground:black;\n}\n.overlay-text__hover-logo {\ndisplay:none;}\n.section-gallery .image-overlay--bg-box .overlay-text .overlay-text__text {\ncolor:white;\n}\n.overlay-text__text__container {\nwidth:100%;\nbackground:black !important;\n \n}\n.majortitle {\ncolor: #09080C;\n\nfont-family: Montserrat;\nfont-size: 49px;\nfont-weight: 900;\nline-height: 54px;\nletter-spacing: 0em;\ntext-align: center;\n}\n.tituloprincipal .rte  p {\ncolor: #F3B01C;\n\nfont-family: Montserrat;\nfont-size: 18px;\nfont-weight: 700;\nline-height: 22px;\nletter-spacing: -0.02em;\ntext-align: center;\n }\n.black-collection {\nbackground:black;\npadding-top:20px;\npadding-bottom:20px;\n}\n.hometitle span  {\nfont-family: Montserrat;\nfont-size: 30px;\nfont-weight: 700;\nline-height: 37px;\nletter-spacing: -0.02em;\ntext-align: center;\n    color: #F5F5F5 !IMPORTANT;\n\n\n}\n.subtitlecollection {\n}\n\n.h3h3.text-column__title {\n    font-family: Montserrat;\n    font-size: 28px;\n    font-weight: 800;\n    line-height: 31px;\n    letter-spacing: 0em;\n    text-align: left;\n    margin-top: 20px;\n    margin-bottom: 20px;\n}\n<\/style>"
+      }
+    },
+    "330a7732-096a-4076-8762-f3d16b507037": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16613274812671__330a7732-096a-4076-8762-f3d16b507037-16682116956622bd30-0": {
+          "type": "heading",
+          "settings": {
+            "title": "23.321 CLIENTES FELICES",
+            "color": "primary_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "template--16613274812671__330a7732-096a-4076-8762-f3d16b507037-16682116956622bd30-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>querido por miles<\/p>",
+            "enlarge_text": true,
+            "color": "secondary_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16613274812671__330a7732-096a-4076-8762-f3d16b507037-16682116956622bd30-0",
+        "template--16613274812671__330a7732-096a-4076-8762-f3d16b507037-16682116956622bd30-1"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "09f17a7d-810f-4122-b3ad-21276e727417": {
+      "type": "gallery",
+      "disabled": true,
+      "blocks": {
+        "template--16613274812671__09f17a7d-810f-4122-b3ad-21276e727417-16680353895caf3fd7-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Captura_de_Pantalla_2022-10-30_a_la_s_20.26_4_1.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "VER MAS",
+            "link": "shopify:\/\/collections\/50-bfcm-occre",
+            "open_link_new_tab": false,
+            "text_alignment": "bottom center"
+          }
+        },
+        "template--16613274812671__09f17a7d-810f-4122-b3ad-21276e727417-16680353895caf3fd7-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Captura_de_Pantalla_2022-10-30_a_la_s_20.27_1_4317f2a9-5209-4d57-81fe-632fa6f9a5d1.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "VER MAS",
+            "link": "shopify:\/\/collections\/40-bfcm-occre",
+            "open_link_new_tab": false,
+            "text_alignment": "bottom center"
+          }
+        },
+        "template--16613274812671__09f17a7d-810f-4122-b3ad-21276e727417-16680353895caf3fd7-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Captura_de_Pantalla_2022-10-30_a_la_s_20.26_4_5802d99a-a816-4cc0-bd41-4f69825d4f86.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "VER MAS",
+            "link": "shopify:\/\/collections\/35-bfcm-occre",
+            "open_link_new_tab": false,
+            "text_alignment": "bottom center"
+          }
+        },
+        "0e2e5acd-685d-4105-9afd-79f04d34144b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_117_1.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "VER MAS",
+            "link": "shopify:\/\/collections\/30-bfcm-occre",
+            "open_link_new_tab": false,
+            "text_alignment": "bottom center"
+          }
+        },
+        "dd7a0ea4-9d97-4a36-ae66-727ba2e403cf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_119.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "VER MAS",
+            "link": "shopify:\/\/collections\/25-bfcm-occre",
+            "open_link_new_tab": false,
+            "text_alignment": "bottom center"
+          }
+        },
+        "e565853b-3848-4947-abcc-d9af483f28be": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_122.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "VER MAS",
+            "link": "shopify:\/\/collections\/20-bfcm-occre",
+            "open_link_new_tab": false,
+            "text_alignment": "bottom center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16613274812671__09f17a7d-810f-4122-b3ad-21276e727417-16680353895caf3fd7-1",
+        "template--16613274812671__09f17a7d-810f-4122-b3ad-21276e727417-16680353895caf3fd7-2",
+        "template--16613274812671__09f17a7d-810f-4122-b3ad-21276e727417-16680353895caf3fd7-3",
+        "0e2e5acd-685d-4105-9afd-79f04d34144b",
+        "dd7a0ea4-9d97-4a36-ae66-727ba2e403cf",
+        "e565853b-3848-4947-abcc-d9af483f28be"
+      ],
+      "settings": {
+        "grid": 3,
+        "desktop_image_height": 330,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "full_width": false,
+        "use_alt_bg": false,
+        "enable_carousel": false
+      }
+    },
+    "1668211749aaba6ecb": {
+      "type": "apps",
+      "blocks": {
+        "b12be3de-821f-4085-8347-a25a4e58ba0d": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "b12be3de-821f-4085-8347-a25a4e58ba0d"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "93657871-df5c-4ffd-83fd-7f8b4051087e",
+    "main",
+    "19cc8ed3-c469-48a0-ad04-9a5ee1e35484",
+    "e73215b6-81aa-4a79-9dba-e9673d9b12d0",
+    "cd27a895-c960-4ce1-bd1f-aaa84296c98c",
+    "2bcc4608-0f3e-405d-a223-8fe5b7414ac7",
+    "ddd665ed-3bd4-49dd-84a7-bfdf935c793d",
+    "59d28f94-73da-4ac2-8304-40008f00ce48",
+    "c907984e-4779-4a44-a251-f686aa60b574",
+    "915e3056-ab88-4328-9a02-933298205698",
+    "330a7732-096a-4076-8762-f3d16b507037",
+    "09f17a7d-810f-4122-b3ad-21276e727417",
+    "1668211749aaba6ecb"
+  ]
+}

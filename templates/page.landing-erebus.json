@@ -1,0 +1,832 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": true
+      }
+    },
+    "a99d6410-7c83-41f5-8a5d-bade911a43af": {
+      "type": "image-with-text-overlay-countdown2",
+      "custom_css": [
+        ".form-klaviyo {display: none;}",
+        ".countdown_wrap {display: none;}",
+        ".author-review {display: none;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img_banner.jpg",
+        "author": "shopify:\/\/shop_images\/guarantee.png",
+        "reviews": "shopify:\/\/shop_images\/HMS_EREBUS_2.png",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 660,
+        "height_mobile": 360,
+        "image_link": "",
+        "subheading": "",
+        "title": "",
+        "title-en": "",
+        "title-fr": "",
+        "title-de": "",
+        "title-it": "",
+        "title-pt": "",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "<p>Sumate a la expedición del terror<br\/>con la construcción del  <\/p>",
+        "texten": "<p>Join the terror expedition with the construction of the<\/p>",
+        "textfr": "<p>Un nouveau lancement très excitant arrive bientôt chez OcCre...C’est à vous couper le souffle<\/p>",
+        "textde": "<p>Schließen Sie sich der schrecklicher Expedition, bei dem Bau des<\/p>",
+        "textit": "<p>Unisciti alla´spedizione del terrore con la costruzione della <\/p>",
+        "textpt": "<p>Junte-se à expedição de terror com a construção do<\/p>",
+        "author-name": "",
+        "author-role": "",
+        "review": "",
+        "review-en": "",
+        "review-fr": "",
+        "review-de": "",
+        "review-it": "",
+        "review-pt": "",
+        "reviews-total": "",
+        "enlarge_text": true,
+        "button_label_1": "COMPRA AHORA",
+        "button_url_1": "shopify:\/\/products\/hms-erebus",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "e2ce867e-8aa1-4c9c-8073-2cd0f7acb796": {
+      "type": "rich-text-with-erebus",
+      "blocks": {
+        "530adc70-8752-4322-b780-022eeca31daa": {
+          "type": "person1",
+          "settings": {
+            "image": "Perfecto tanto para principiantes como para expertos. \nAl igual que yo, haz realidad tus sueños de modelismo \ncon un kit de OcCre: ¡100% recomendado!",
+            "image_en": "Perfect for both beginner and expert alike.\nLike me, bring your model making dreams to life with a kit from OcCre - 100% recommended!",
+            "image_fr": "Idéal pour les novices et les experts.\n Comme moi, réalisez vos rêves de modélisme avec un kit de OcCre : Je le recommande à 100% !",
+            "image_de": "Ideal sowohl für Anfänger als auch für Experten. Genauso wie ich, verwirklichen Sie Ihre Modellbau-Träume mit einem Set von OcCre: 100% empfohlen!",
+            "image_it": "Perfetto, sia per principianti, sia per esperti.\nRealizza i tuoi sogni con un kit OcCre, come l´ho fatto io: Raccomandato al 100% !",
+            "image_br": "Perfeito  para principiantes quanto para especialistas. \nComo eu, torne os seus sonhos de modelação em realidade com um kit OcCre \ncom um kit OcCre: 100% recomendado!"
+          }
+        },
+        "dd77d13d-171d-473c-b5d2-e60bb59fbedb": {
+          "type": "person2",
+          "settings": {
+            "image": "¡OcCre es una empresa que convertirá tus sueños en realidad! ¡Es una empresa que no solo te sigue acompaña sino que también se pone tan feliz por tus resultados contigo! ...",
+            "image_en": "OcCre is a company that will turn your dreams into reality! This is a company that follows you and is happy for your results together with you! I also took into account that the company has everything necessary for a beginner, from desktop equipment to a wide variety of ships for any taste and your skill level! It's like your own little world where you're always welcome and where managers are always in touch and ready to help you)) Become a part of this family",
+            "image_fr": "OcCre est une entreprise qui transforme vos rêves en réalité ! C’est une entreprise, qui en plus de vous accompagner, est heureuse de voir vos résultats ! Je me suis rendu compte que l’entreprise a tout le nécessaire pour les débutants, des équipements comme des bureaux et une variété de bateaux pour tout les gouts et niveaux. C’est comme votre petit monde où vous êtes toujours le bienvenu et les gérants sont toujours à disposition et prêts à vous aider\n Rejoignez cette famille !",
+            "image_de": "OcCre ist ein Unternehmen, das Ihre Träume wahr werden lässt! Es ist eine Firma, die Sie nicht nur begleitet, sondern auch so glücklich über Ihre Ergebnisse wird! Ich habe auch berücksichtigt, dass die Firma alles hat. Was Sie, für einen Anfänger, benötigen, von Geräten und Mobiliar zum Modellbau bis hin zu einer Vielzahl von Schiffen für jeden Geschmack und Handfertigkeit. Es ist wie Ihre eigene kleine Welt, wo Sie immer willkommen sind, und wo Manager immer in Kontakt und bereit stehen, um Ihnen zu helfen. Werden Sie ein Teil dieser Familie!",
+            "image_it": "Grazie a OcCre i tuoi sogni diventeranno realtà! Occre non solo ti segue e ti accompagna ma anche è felice per i tuoi risultati! Ricordatevi che l'azienda ha tutto il necessario per un principiante, dal materiale di scrivania fino a una ampia varietà di navi per tutti i gusti e livelli di difficoltà. È come un piccolo mondo tutto tuo dove sempre sarai benvenuto e tutti i responsabili OcCre saranno sempre in contatto e pronti ad aiutarti. Diventa parte di questa famiglia!",
+            "image_br": "A OcCre é uma empresa que vai tornar os seus sonhos realidade! É uma empresa que não só o segue  e acompanha, mas também fica tão feliz com os seus resultados consigo! Tive também em conta que a empresa tem tudo o que precisa um principiante, desde equipamento de secretária a uma grande variedade de barcos para qualquer nível de gosto e habilidade. É como o seu próprio pequeno mundo onde é sempre bem-vindo e onde os gestores estão sempre em contacto e prontos para o ajudar. Torne-se parte desta família!"
+          }
+        },
+        "b907fbb6-6a06-40d4-bd37-6ca6857806a4": {
+          "type": "person3",
+          "settings": {
+            "image": "Los modelos de barcos de OcCre son una obra maestra en artesanía y atención al detalle. Construir estos modelos ha sido una experiencia calmante y meditativa ...",
+            "image_en": "Occre ship models are a masterpiece in craftsmanship and attention to detail. Building these models has been a calming and meditative experience, allowing me to tap into my creativity and find peace. I highly recommend Occre to anyone seeking a high-quality, spiritual building experience.",
+            "image_fr": "I modelli di navi OcCre sono un capolavoro artigianale, curati in ogni dettaglio. Costruire questi modelli è stata un´ ́esperienza rilassante e meditativa, che mi permette sviluppare la mia creatività e trovare la pace. Consiglio assolutamente la marca OcCre a chi cerca un'esperienza di costruzione spirituale di ottima qualità.",
+            "image_de": "Die Schiffsmodelle von OcCre sind ein Meisterwerk der Handwerkskunst und Liebe zum Detail. Diese Modelle zu bauen, war eine beruhigende und besinnliche Erfahrung, die mir ermöglichte, meiner Kreativität freien Lauf zu lassen und Frieden zu finden. Ich kann OcCre wärmstens jedem empfehlen, der eine hochwertige Qualität und spirituell erbauende Erfahrung sucht.",
+            "image_it": "I modelli di navi OcCre sono un capolavoro artigianale, curati in ogni dettaglio. Costruire questi modelli è stata un´ ́esperienza rilassante e meditativa, che mi permette sviluppare la mia creatività e trovare la pace. Consiglio assolutamente la marca OcCre a chi cerca un'esperienza di costruzione spirituale di ottima qualità.",
+            "image_br": "Os modelos de navios da OcCre são uma obra-prima de artesanato e atenção aos detalhes. A construção destes modelos tem sido uma experiência calmante e meditativa, permitindo-me aceder à minha criatividade e encontrar a paz. Recomendo altamente o OcCre a qualquer pessoa que procure uma experiência de construção espiritual de alta qualidade."
+          }
+        },
+        "c08783a0-9a96-4eee-b5fe-7b18f57dad2c": {
+          "type": "reviews",
+          "settings": {
+            "image": "Más de 2,000 reseñas y contando",
+            "image_en": "Over 2,000 reviews and counting",
+            "image_fr": "Plus de 2000 avis et ça continue",
+            "image_de": "Mehr als 2,000 Bewertungen und noch zu zählen",
+            "image_it": "Più di 2,000 recensioni",
+            "image_br": "Mais de 2.000 comentários e contagem"
+          }
+        },
+        "096a8329-3049-464f-a5e2-313d2b35c832": {
+          "type": "text1",
+          "settings": {
+            "image": "<h3>2350<\/h3><p>piezas en total aprox<\/p>",
+            "image_en": "<h3>2350<\/h3>\n<p>Approximately pieces<\/p>",
+            "image_fr": "<h3>2350<\/h3>\n<p>pièces au total<\/p>",
+            "image_de": "<h3>2350<\/h3>\n<p>ca. 2350 Stück insgesamt<\/p>",
+            "image_it": "<h3>2350<\/h3>\n<p>Circa 2350 pezzi in tutto<\/p>",
+            "image_br": "<h3>2350<\/h3>\n<p>peças no total, aproximadamente.<\/p>"
+          }
+        },
+        "26e67c84-f086-424c-b856-49ddd6cc7e07": {
+          "type": "text2",
+          "settings": {
+            "image": "<h3>1\/75<\/h3>\n<p>escala<\/p>",
+            "image_en": "<h3>1\/75<\/h3>\n<p>Scale<\/p>",
+            "image_fr": "<h3>1\/75<\/h3>\n<p>Echelle<\/p>",
+            "image_de": "<h3>1\/75<\/h3>\n<p>Maßstab<\/p>",
+            "image_it": "<h3>1\/75<\/h3>\n<p>scala<\/p>",
+            "image_br": "<h3>1\/75<\/h3>\n<p>escala<\/p>"
+          }
+        },
+        "e15192b3-1c19-4959-91ff-96d6fe209095": {
+          "type": "text3",
+          "settings": {
+            "image": "<h3>INTERMEDIO<\/h3>\n<p>NIVEL DE APRENDIZAJE REQUERIDO<\/p>",
+            "image_en": "<h3>INTERMEDIATE <\/h3>\n<p>REQUIRED LEARNING LEVEl <\/p>",
+            "image_fr": "<h3>INTERMÉDIAIRE<\/h3>\n<p>NIVEAU REQUIS <\/p>",
+            "image_de": "<h3>MITTLERER<\/h3>\n<p>NERFORDERLICHER KENNTNISSTAND <\/p>",
+            "image_it": "<h3>INTERMEDIO<\/h3>\n<p>LIVELLO DI DIFFICOLTÀ<\/p>",
+            "image_br": "<h3>INTERMÉDIO<\/h3>\n<p>NÍVEL DE APRENDIZAGEM NECESSÁRIO<\/p>"
+          }
+        },
+        "69e20136-1ec0-45b4-912a-cf6ada4bd832": {
+          "type": "text4",
+          "disabled": true,
+          "settings": {
+            "image": "Recibirás <b>ofertas especiales de lanzamientos<\/b> que están reservadas únicamente para los suscriptores.",
+            "image_en": "You'll receive <b>special launch offers that are reserved only for subscribers.<\/b>",
+            "image_fr": "Vous recevrez des <b>offres spéciales de lancement qui sont réservées aux abonnés.<\/b>",
+            "image_de": "Sie erhalten <b>besondere Angebote von Lancierungen<\/b>, die nur für Abonnenten reserviert sind.",
+            "image_it": "Riceverai <b>offerte speciali di lancio<\/b>  riservate unicamente agli abbonati.",
+            "image_br": "Receberá <b>ofertas especiais de lançamento <\/b> que são reservadas apenas para assinantes."
+          }
+        },
+        "449e5b4f-4fb9-4446-ba6d-a76307d9d067": {
+          "type": "titulo1",
+          "settings": {
+            "image": "Conviértete en un explorador y descubre un mundo <br>\nen el que la fortaleza y la convicción son tus mejores aliados.<br>\n<b>¡Te animamos a sacar el explorador que llevas dentro!<\/b>",
+            "image_en": "Become an explorer and discover a world where strength and conviction are your best allies. We encourage you to unleash the explorer within you!",
+            "image_fr": "Devenez un explorateur et découvrez un monde\noù la force et la conviction sont vos meilleurs alliés. \nNous vous encourageons à sortir l’explorateur qui est en vous !",
+            "image_de": "Vorteile des Abonnierens der Lancierung",
+            "image_it": "Diventa un esploratore e scopre un mondo\nIn cui la fortezza e la convinzione sono i tuoi migliori alleati. \nTi incoraggiamo a tirar fuori l´esploratore che c'è dentro di te!",
+            "image_br": "Torne-se um explorador e descubra um mundo onde a força e a convicção são os seus melhores aliados.\nNós encorajamos você a tirar o explorador que leva dentro!"
+          }
+        },
+        "2d98a5a5-737e-489a-818c-ec244942d697": {
+          "type": "h4",
+          "settings": {
+            "image": "¡No pierdas la oportunidad de embarcarte en esta <br>increíble aventura",
+            "image_en": "Don't miss the opportunity to embark on this incredible<br> adventure",
+            "image_fr": "Ne ratez pas l’opportunité d’embarquer dans cette <br>aventure incroyable",
+            "image_de": "Verpasse nicht die Gelegenheit, dich auf dieses<br> \nunglaubliche Abenteuer einzulassen!",
+            "image_it": "Non perdere l'occasione di imbarcarti in questa <br>incredibile avventura",
+            "image_br": "Não perca a oportunidade de embarcar nesta <br> incrível \n aventura"
+          }
+        },
+        "5e5e0ff1-9561-4c0c-9a87-db75e41a3719": {
+          "type": "h3",
+          "disabled": true,
+          "settings": {
+            "image": "CON LA PRECOMPRA DEL HMS EREBUS TE REGALAMOS:",
+            "image_en": "WITH THE PRE-PURCHASE OF HMS EREBUS, YOU TAKE FOR FREE",
+            "image_fr": "EN PRÉCOMMANDANT LE HMS EREBUS NOUS VOUS OFFRONS :",
+            "image_de": "Exklusive Lancierung auf YouTube",
+            "image_it": "CON IL PREACQUISTO DELLA HMS EREBUS TI REGALIAMO:",
+            "image_br": "Lançamento exclusivo no YouTube"
+          }
+        },
+        "5d40fdd5-4234-4a95-b1a5-4121bc13bf26": {
+          "type": "h2",
+          "disabled": true,
+          "settings": {
+            "image": "PACK DE PINTURAS",
+            "image_en": "THE PAINT PACK",
+            "image_fr": "PACK DE PEINTURE",
+            "image_de": "Verpassen Sie nicht den Vorkauf mit der neuen Lancierung",
+            "image_it": "PACCHETTO DI VERNICI",
+            "image_br": "Não perca a oferta de pré-compra com o novo lançamento"
+          }
+        },
+        "48288cd7-cc4e-487e-a2d5-463b5dd0f60b": {
+          "type": "btn",
+          "settings": {
+            "image": "COMPRAR AHORA",
+            "image_en": "BUY NOW",
+            "image_fr": "ACHETER MAINTENANTE",
+            "image_de": "JETZT KAUFEN",
+            "image_it": "COMPRARE ADESSO",
+            "image_br": "COMPRAR AGORA"
+          }
+        },
+        "eb1e27a8-90fb-4349-9e60-ea00bc4d4c8b": {
+          "type": "h2h2",
+          "disabled": true,
+          "settings": {
+            "image": "OFERTA VALIDA HASTA EL 23 DE ABRIL A LAS 23:59 (CET)",
+            "image_en": "Don't miss out on the pre-order offer for the new release",
+            "image_fr": "Ne ratez pas la précommande du nouveau lancement",
+            "image_de": "Verpassen Sie nicht den Vorkauf mit der neuen Lancierung",
+            "image_it": "Non farti scappare l'offerta di preacquisto del nuovo lancio",
+            "image_br": "Não perca a oferta de pré-compra com o novo lançamento"
+          }
+        },
+        "0729d2c0-09c9-412d-abe9-c003c2eddc81": {
+          "type": "h2h2h2",
+          "disabled": true,
+          "settings": {
+            "image": "PACK DE PINTURAS",
+            "image_en": "THE PAINT PACK",
+            "image_fr": "PACK DE PEINTURE",
+            "image_de": "FARBEN-SET",
+            "image_it": "PACCHETTO DI VERNICI",
+            "image_br": "PACOTE DE TINTAS"
+          }
+        },
+        "2ba0f5f3-97d2-4049-9051-5dc36279102f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_6.jpg",
+            "image_es-us": "shopify:\/\/shop_images\/img_6_7d01d436-b818-4e17-8c00-2342586efe23.jpg",
+            "image_en": "shopify:\/\/shop_images\/img_6_4e533f39-f9d1-4233-b6bd-e9e82303b1ea.jpg",
+            "image_en-us": "shopify:\/\/shop_images\/img_6_4e533f39-f9d1-4233-b6bd-e9e82303b1ea.jpg",
+            "image_en-ca": "shopify:\/\/shop_images\/img_6_4e533f39-f9d1-4233-b6bd-e9e82303b1ea.jpg",
+            "image_fr": "shopify:\/\/shop_images\/img_6_4e533f39-f9d1-4233-b6bd-e9e82303b1ea.jpg",
+            "image_de": "shopify:\/\/shop_images\/img_6_4e533f39-f9d1-4233-b6bd-e9e82303b1ea.jpg",
+            "image_it": "shopify:\/\/shop_images\/img_6_4e533f39-f9d1-4233-b6bd-e9e82303b1ea.jpg",
+            "image_br": "shopify:\/\/shop_images\/img_6_4e533f39-f9d1-4233-b6bd-e9e82303b1ea.jpg"
+          }
+        },
+        "e0d6973d-d021-4fd2-a9c1-c7cf9989cd3a": {
+          "type": "h4h4",
+          "settings": {
+            "image": "Dale el toque final a la maqueta <br>con los colores originales. ",
+            "image_en": "Give your model the final touch",
+            "image_fr": "Donnez la touche finale à votre",
+            "image_de": "",
+            "image_it": "Da´ un tocco finale ai tuoi modellini",
+            "image_br": "Dar o toque final ao modelo com as cores originais."
+          }
+        }
+      },
+      "block_order": [
+        "530adc70-8752-4322-b780-022eeca31daa",
+        "dd77d13d-171d-473c-b5d2-e60bb59fbedb",
+        "b907fbb6-6a06-40d4-bd37-6ca6857806a4",
+        "c08783a0-9a96-4eee-b5fe-7b18f57dad2c",
+        "096a8329-3049-464f-a5e2-313d2b35c832",
+        "26e67c84-f086-424c-b856-49ddd6cc7e07",
+        "e15192b3-1c19-4959-91ff-96d6fe209095",
+        "69e20136-1ec0-45b4-912a-cf6ada4bd832",
+        "449e5b4f-4fb9-4446-ba6d-a76307d9d067",
+        "2d98a5a5-737e-489a-818c-ec244942d697",
+        "5e5e0ff1-9561-4c0c-9a87-db75e41a3719",
+        "5d40fdd5-4234-4a95-b1a5-4121bc13bf26",
+        "48288cd7-cc4e-487e-a2d5-463b5dd0f60b",
+        "eb1e27a8-90fb-4349-9e60-ea00bc4d4c8b",
+        "0729d2c0-09c9-412d-abe9-c003c2eddc81",
+        "2ba0f5f3-97d2-4049-9051-5dc36279102f",
+        "e0d6973d-d021-4fd2-a9c1-c7cf9989cd3a"
+      ],
+      "settings": {
+        "url": "shopify:\/\/products\/hms-erebus"
+      }
+    },
+    "94ed189f-c056-4b7a-a62d-de74cfd49f12": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "h2 {text-align: center; padding-top: 30px; color: #242c5f;}",
+        ".container {margin-top: 40px; display: flex; flex-wrap: wrap; column-gap: 10%; row-gap: 20px;}",
+        ".column14 {font-size: 16px; width: 45%; position: relative;}",
+        ".column14 img {position: absolute; width: 15px; top: 5px; left: -25px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "code": "<h2>Beneficios de Suscribirte al lanzamiento<\/h2>\n<div class=\"container\"  style=\"position:relative;\">\n<div class=\"column14\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/arrow_8c965f4f-e36d-4b57-8295-8e04926851b5.png?v=1680784116\" \n> Serás el primero en recibir las noticias del nuevo lanzamiento.<\/div>\n<div class=\"column14\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/arrow_8c965f4f-e36d-4b57-8295-8e04926851b5.png?v=1680784116\" > Podrás acceder a contenido adicional como guías, tutoriales, recursos exclusivos.<\/div>\n<div class=\"column14\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/arrow_8c965f4f-e36d-4b57-8295-8e04926851b5.png?v=1680784116\" > Tendrás acceso anticipado a los beneficios exclusivos de la PREcompra que no están disponibles para el público en general.<\/div>\n<div class=\"column14\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/arrow_8c965f4f-e36d-4b57-8295-8e04926851b5.png?v=1680784116\" > Recibirás ofertas especiales de lanzamientos que están reservadas únicamente para los suscriptores.<\/div>\n<\/div>"
+      }
+    },
+    "51ae9b94-3d99-4a8e-960a-79a4c9c20df5": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/38044914f9f4448ba667aa972bbffe7d.mp4",
+        "subheading": "Tell your stor",
+        "enlarge_subheading": false,
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "open_url_new_tab": true,
+        "button_style": "primary",
+        "text_alignment": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true
+      }
+    },
+    "91df1ca4-f288-4bf3-bc7a-8305ead78897": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "h2,h3,h4 {text-align: center; color: white;}",
+        "div {background: #000; color: white;}",
+        ".flex-3 {display: flex; column-gap: 15px;}",
+        ".flex-3 > div {width: 30%; color: black; background: white; font-weight: normal; font-size: 13px; border-radius: 20px;}",
+        ".flex-3 > div > div {border-radius: 20px 20px 0px 0px; padding: 20px; background: #feb71a; text-align: center; font-weight: bold; font-size: 18px; color: black;}",
+        ".flex-3 p {padding: 20px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "code": ""
+      }
+    },
+    "c58952c0-90f6-4bbd-a997-9298acc4af1e": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        "@media (min-width: 750px) {.overlay-text--for-banner .overlay-text__inner {max-width: 700px; margin: 0 auto; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_group_4.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "",
+        "titleen": "",
+        "titlefr": "",
+        "titlede": "",
+        "titleit": "",
+        "titlePT": "",
+        "title_size": 92,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "<p>Este modelo es el barco gemelo del HMS Terror, y el kit también lleva chapas de aluminio para la parte frontal del casco.<br\/><br\/>Únete a la expedición antartíca del terror con el modelo del HMS  Erebus de OcCre.<\/p>",
+        "texten": "<p>This model is the twin ship of the HMS Terror, and the kit also includes aluminum plates for the front of the hull. <\/p><p>Join the Antarctic terror expedition with the OcCre HMS Erebus model.<\/p>",
+        "textfr": "<p>Ce modèle est le bateau jumeau du HMS Terror, le kit inclut des plaques d’aluminium pour l’avant de la coque.<\/p><p>Rejoignez l’expédition vers l’antarctique du Terror avec la maquette du HMS Erebus de OcCre.<\/p>",
+        "textde": "<p>Dieses Modell ist das Zwillingschiff des HMS Terror, und das Set kommt auch mit Aluminiumblechen für den Vorderteil des Rumpfes.<\/p><p> Schließen Sie sich der schrecklichen antarktischen Expedition mit dem Modell des HMS Erebus von OcCre an.<\/p>",
+        "textit": "<p>Questo modello è la nave gemella della HMS Terror, il kit include anche lastre di alluminio per la parte frontale dello scafo. <\/p><p>Unisciti alla spedizione antartica del terrore con il modello del HMS Erebus OcCre.<\/p>",
+        "textpt": "<p>Este modelo é o navio gémeo do HMS Terror, e o kit também apresenta placas de alumínio para a parte da frente do casco.<\/p><p> Junte-se à expedição de terror com o modelo HMS Erebus do OcCre.<\/p>",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "6b6a7fff-bc8a-4f99-9446-af914c8a0d55": {
+      "type": "rich-text-with-erebus2",
+      "blocks": {
+        "c4f1cbfd-a81c-43c7-a3f1-5ac18b6743e5": {
+          "type": "titulo1",
+          "settings": {
+            "image": "beneficios de construir la maqueta hms erebus",
+            "image_en": "Benefits of building the HMS Erebus model",
+            "image_fr": "Les bénéfices de construire la maquette du HMS Erebus",
+            "image_de": "Vorteile das Modell hms erebus zu bauen",
+            "image_it": "Vantaggi di costruire il modellino HMS Erebus",
+            "image_br": "Vantagens de construir o modelo hms erebus"
+          }
+        },
+        "12c71fd0-1d4a-46d4-a4ac-d11d7f76afce": {
+          "type": "title01",
+          "settings": {
+            "image": "Profundizar aprendizaje histórico:",
+            "image_en": "Deepen historical learning:",
+            "image_fr": "Approfondir ses connaissances en histoire :",
+            "image_de": "Das historische Wissen zu vertiefen",
+            "image_it": "Approfondire le conoscenze storiche:",
+            "image_br": "Approfondire le conoscenze storiche:"
+          }
+        },
+        "21540123-ac96-4f6a-9b1a-882fe8d86e3a": {
+          "type": "text1",
+          "settings": {
+            "image": "Te ayudara a profundizar en la historia de la exploración ártica y la marina británica. \n\nDescubrir los detalles y la tecnología utilizada en la nave original, y cómo estos factores afectaron su éxito en la exploración.",
+            "image_en": "This model will help you dig into the history of Arctic exploration and the British Navy. \nDiscover the details and technology used on the original ship, and how these factors affected exploration success.",
+            "image_fr": "cette maquette vous aidera à en savoir plus sur l’histoire de l’exploration de l’Arctique et sur la marine britannique. Découvrir les détails et la technologie utilisée sur le navire d’origine, et comment ces éléments ont eu un effet sur son succès dans l’exploration.",
+            "image_de": "dieses Modell wird Ihnen helfen, tiefer in die Geschichte der antarktischen Exploration und von der britischen Marine zu ergründen. Details und die Technologie des ursprünglichen Schiffes zu entdecken und wie diese Faktoren den Erfolg der Exploration beeinflussten.",
+            "image_it": "Questo modellino ti aiuterà ad approfondire le tue conoscenze sulla storia dell'esplorazione artica e la marina britannica. Scoprire i dettagli e la tecnologia utilizzata nella nave originale e come questi fattori hanno influenzato sul successo dell ́esplorazione.",
+            "image_br": "este modelo irá ajudá-lo a mergulhar na história da exploração do Árctico e da marinha britânica. Descubra os detalhes e a tecnologia utilizada no navio original, e como estes factores afectaram o seu sucesso na exploração."
+          }
+        },
+        "af251629-f2dc-4d0e-992f-3f469cc3042e": {
+          "type": "title02",
+          "settings": {
+            "image": "Desarrollar habilidades manuales y mentales",
+            "image_en": "Develop manual and mental skills:",
+            "image_fr": "Développer des compétences manuelles et mentales :",
+            "image_de": "Manuelle und mentale Fertigkeiten zu entwickeln:",
+            "image_it": "Sviluppare delle abilità manuali e mentali:",
+            "image_br": "Desenvolver competências manuais e mentais:"
+          }
+        },
+        "c4520039-3611-48f6-b770-4f59fadd9c7d": {
+          "type": "text2",
+          "settings": {
+            "image": "El uso de instrucciones detalladas, herramientas precisas, y trabajar con piezas pequeñas y delicadas implica desarrollar destrezas que puede ser útiles en otros aspectos de la vida cotidiana.",
+            "image_en": "Using detailed instructions, precise tools, and working with small, delicate pieces involves developing skills useful in daily life.",
+            "image_fr": "l’utilisation d’instructions détaillées, d’outils de précision et de petites pièces fragiles vous permet de développer des aptitudes qui peuvent vous être utiles dans d’autres domaines de la vie de tous les jours.",
+            "image_de": "detaillierte Anweisungen, genaue Werkzeuge zu verwenden, und die Arbeit mit kleinen empfindlichen Teilen erfordert die Entwicklung von Fertigkeiten, die in anderen Bereichen des täglichen Lebens nützlich sein können.",
+            "image_it": "l'uso di istruzioni dettagliate, utensili precisi e lavorare con pezzi piccoli e delicati implica sviluppare destrezze che possono essere utili in altri aspetti della vita quotidiana.",
+            "image_br": "utilizar instruções detalhadas, ferramentas precisas, e trabalhar com peças pequenas e delicadas significa desenvolver competências que podem ser úteis em outros aspectos da vida cotidiana."
+          }
+        },
+        "fd4dc52f-de77-4d2f-8686-35473edd7510": {
+          "type": "title03",
+          "settings": {
+            "image": "Fomentar la paciencia y la perseverancia:",
+            "image_en": "Encourage patience and perseverance:",
+            "image_fr": "Renforcer la patience et la persévérance :",
+            "image_de": "Konzentrierung zu verbessern und der Stress zu senken:",
+            "image_it": "Promuovere la pazienza e la perseveranza:",
+            "image_br": "Incentivar a paciência e perseverança:"
+          }
+        },
+        "5c76c1ca-a972-4bd9-85b2-9440799a034b": {
+          "type": "text3",
+          "settings": {
+            "image": "La construcción de la maqueta HMS EREBUS es un proyecto a largo plazo que requiere paciencia y perseverancia para completarlo.\n\nPuedes experimentar la satisfacción de superar desafíos y obstáculos en el camino hacia la finalización del proyecto.",
+            "image_en": "Building the HMS EREBUS model is a long-term project that requires patience and perseverance to complete.\nYou can experience the satisfaction of overcoming challenges and obstacles while completing the project.",
+            "image_fr": "La construction de la maquette HMS EREBUS est un projet de longue haleine qui requiert de la patience et de la persévérance pour le finir. Expérimentez le plaisir de surmonter des défis et des obstacles sur le chemin de la finalisation de votre projet.",
+            "image_de": "Das Modell HMS EREBUS zu bauen, ist ein langfristiges Projekt, dass es Geduld und Ausdauer erfordert, um es zu vollenden. Sie können die Befriedigung erleben, Herausforderungen und Hindernisse auf dem Weg zum Abschluss des Projekts zu übertrumpfen.",
+            "image_it": "La costruzione del modellino HMS EREBUS è un progetto a lungo termine che richiede pazienza e perseveranza per realizzarlo.  Puoi sperimentare la soddisfazione di superare sfide e ostacoli lungo il percorso di realizzazione del progetto.",
+            "image_br": "utilizar instruções detalhadas, ferramentas precisas, e trabalhar com peças pequenas e delicadas significa desenvolver competências que podem ser úteis em outros aspectos da vida cotidiana."
+          }
+        },
+        "5530d57e-a2ab-4638-8c6e-f1918403fb2a": {
+          "type": "title04",
+          "settings": {
+            "image": "Mejorar la concentración y reducir el estrés:",
+            "image_en": "Améliorer la concentration et réduire le stress",
+            "image_fr": "Améliorer la concentration et réduire le stress :",
+            "image_de": "Konzentrierung zu verbessern und der Stress zu senken:",
+            "image_it": "Migliorare la concentrazione e ridurre lo stress:",
+            "image_br": "Melhorar a concentração e reduzir o stress:"
+          }
+        },
+        "2c9fabf4-d40c-4f6f-a9dc-cf92179e3447": {
+          "type": "text4",
+          "settings": {
+            "image": "La construcción de la maqueta HMS EREBUS puede ser una actividad meditativa y relajante que ayuda a reducir el estrés y mejorar la concentración y el enfoque.",
+            "image_en": "Building the HMS EREBUS model can be a meditative and relaxing activity that helps reduce stress and improve concentration and focus.",
+            "image_fr": "La construction de la maquette HMS EREBUS est une activité méditative et relaxante qui vous aidera à réduire votre stress et améliorer votre concentration.",
+            "image_de": "das Modell HMS EREBUS zu bauen, kann eine besinnliche und entspannende Aktivität sein, die hilft, Stress abzubauen, Konzentrierung Aufgabenschwerpunkt zu verbessern.",
+            "image_it": "La costruzione del modellino HMS EREBUS può risultare un'attività meditativa e rilassante che aiuta a ridurre lo stress e migliorare la concentrazione e la capacità di focalizzarsi.",
+            "image_br": "A construção do modelo HMS EREBUS é um projeto a longo prazo que requer paciência e perseverança para ser concluído. Pode experimentar a satisfação de ultrapassar desafios e obstáculos no caminho para a conclusão do projeto."
+          }
+        },
+        "1c878829-2fa9-4447-9d5b-4d34d1f8fc6e": {
+          "type": "h2",
+          "settings": {
+            "image": "El barco del <b>INFIERNO<\/b> y el<br class=\"br-desktop\"> barco del <b>TERROR<\/b><brclass>  atrapados por el hielo<\/brclass>",
+            "image_en": "The ship from HELL and the ship of TERROR caught in the ice.",
+            "image_fr": "Le bateau de l’ENFER et le bateau de la TERREUR pris dans la glace.",
+            "image_de": "Das Schiff der HÖLLE und das Schiff des SCHRECKENS im Eis gefangen",
+            "image_it": "La nave dell'INFERNO e la nave del TERRORE intrappolate nel ghiaccio.",
+            "image_br": "O navio do INFERNO e o navio do TERROR preso pelo gelo"
+          }
+        },
+        "5fe970e5-df7a-4a4b-848a-5d6bfa4ca235": {
+          "type": "person1",
+          "settings": {
+            "image": "El HMS Erebus fue un barco de la Marina Real británica que participó en varias expediciones a la Antártida y al Ártico en el siglo XIX.<br>\n<br>\nEn 1845, el HMS TERROR y su hermano gemelo el HMS EREBUS, partieron en una expedición para encontrar el Paso del Noroeste, una ruta marítima que conecta los océanos Atlántico y Pacífico a través del Ártico.",
+            "image_en": "HMS Erebus was a British Royal Navy ship that participated in several expeditions to Antarctica and the Arctic in the 19th century.<br>\n<br> In 1845, the HMS TERROR and its twin brother, HMS EREBUS, embarked on an expedition to find the Northwest Passage, a sea route connecting the Atlantic and Pacific oceans through the Arctic.",
+            "image_fr": "Le HLS Erebus est un navire de la Marine Royale Britannique qui a participé à plusieurs expéditions vers l’Antarctique et l’Arctique au XIX siècle. <br>\n<br>En 1845, le HMS TERROR et son frère jumeau le HMS EREBUS, sont partis pour une expédition à la recherche du Passage du Nord-Ouest, une route maritime permettant de relier l’océan Atlantique à l’océan Pacifique en passant par l’Arctique.",
+            "image_de": "Das HMS Erebus war ein Schiff der britischen Royal Navy, dass es im 19. Jahrhundert an mehreren Expeditionen in die Antarktis und die Arktis teilnahm. 1845 unternahmen das HMS TERROR und sein Zwillingsbruder HMS EREBUS eine Expedition, um den Nordwestpass zu finden. Eine Seeroute, die verbindet den Atlantik mit dem Pazifik durch die Arktis.\nLeider war die Expedition nicht erfolgreich. Sowohl das HMS Erebus als auch das HMS Terror blieben jahrelang im arktischen Eis gefangen, und ihre Besatzungen litten unter schrecklichen Bedingungen. Der Mangel an ausreichenden Vorräten, extreme Kälte, Krankheit und Tod befielen den Männern. Schließlich war die Besatzung gezwungen, die Schiffe zu verlassen und auf dem Eis zu überleben.",
+            "image_it": "HMS Erebus fu una nave della Marina Reale britannica che partecipò in varie spedizioni in Antartide e nell'Artico nel secolo XIX.<br>\n<br> Nel 1845, la HMS TERROR e sua sorella gemella la HMS EREBUS, sono partite in spedizione per trovare il Passaggio a Nord-Ovest, un percorso marittimo che collega gli oceani Atlantico e Pacifico attraverso l'Artico.\nPurtroppo, la spedizione non ha avuto successo. Sia la HMS Erebus come la HMS Terror sono rimaste intrappolate nel ghiaccio artico  durante diversi anni ed i suoi membri dell'equipaggio hanno subito condizioni terribili. La mancanza di forniture adeguate, il freddo estremo, la malattia e la morte hanno colpito gli uomini. Finalmente, i membri dell'equipaggio sono stati costretti ad abbandonare le navi e trattare di sopravvivere nel ghiaccio.",
+            "image_br": "O HMS Erebus foi um navio da Marinha Real Britânica que participou em várias expedições à Antártida e ao Árctico no século XIX. Em 1845, HMS TERROR e seu irmão gêmeo o HMS EREBUS, partiram numa expedição para encontrar a passagem do noroeste, uma rota marítima que liga os oceanos Atlântico e Pacífico através do Árctico."
+          }
+        },
+        "49f425ee-687d-48e9-aa1c-4f2c18f81ab4": {
+          "type": "person2",
+          "settings": {
+            "image": "Desafortunadamente, la expedición no tuvo éxito. Tanto el HMS Erebus y el HMS Terror quedaron atrapados en el hielo ártico durante varios años, y sus tripulaciones sufrieron condiciones terribles. La falta de suministros adecuados, el frío extremo, la enfermedad y la muerte afectaron a los hombres. Finalmente, la tripulación se vio obligada a abandonar los barcos y tratar de sobrevivir en el hielo.<br><br>\nDebido a las condiciones desesperadas en las que se encontraron, el HMS Erebus y el HMS Terror fueron apodados el \"barco del Infierno\" y el \"barco del Terror\", respectivamente. Ambas naves desaparecieron durante muchos años, y se convirtieron en leyendas de la exploración ártica.",
+            "image_en": "Unfortunately, the expedition was not successful. The HMS Erebus and the HMS Terror became trapped in Arctic ice for several years, and their crews suffered terrible conditions. Lack of adequate supplies, extreme cold, disease, and death affected the men. Finally, the crew was forced to abandon the ships and try to survive on the ice.",
+            "image_fr": "Malheureusement, l’expédition n’a pas abouti. Le HMS Erebus et le HMS Terror sont restés coincés dans la glace Arctique pendant plusieurs années, son équipage a dû survivre dans des conditions terribles.  Le manque de provisions, le froid extrême, la maladie et la mort ont touché ces hommes. Finalement, l’équipage a été contraint d’abandonner les bateaux et d’essayer de survivre dans la glace.",
+            "image_de": "Leider war die Expedition nicht erfolgreich. Sowohl das HMS Erebus als auch das HMS Terror blieben jahrelang im arktischen Eis gefangen, und ihre Besatzungen litten unter schrecklichen Bedingungen. Der Mangel an ausreichenden Vorräten, extreme Kälte, Krankheit und Tod befielen den Männern. Schließlich war die Besatzung gezwungen, die Schiffe zu verlassen und auf dem Eis zu überleben.",
+            "image_it": "Purtroppo, la spedizione non ha avuto successo. Sia la HMS Erebus come la HMS Terror sono rimaste intrappolate nel ghiaccio artico  durante diversi anni ed i suoi membri dell'equipaggio hanno subito condizioni terribili. La mancanza di forniture adeguate, il freddo estremo, la malattia e la morte hanno colpito gli uomini. Finalmente, i membri dell'equipaggio sono stati costretti ad abbandonare le navi e trattare di sopravvivere nel ghiaccio.",
+            "image_br": "Infelizmente, a expedição não foi bem sucedida. Tanto o HMS Erebus como o HMS Terror ficaram presos no gelo árctico durante vários anos, e as suas tripulações sofreram condições terríveis. A falta de suprimentos adequados, o frio extremo, a doença e a morte afetaram os homens. Finalmente, as tripulações foram forçadas a abandonar os navios e a tentar sobreviver no gelo."
+          }
+        },
+        "c567960c-6288-45c5-bfaa-1dc7ca9e7419": {
+          "type": "person3",
+          "settings": {
+            "image": "Debido a las condiciones desesperadas en las que se encontraron, el HMS Erebus y el HMS Terror fueron apodados el \"barco del Infierno\" y el \"barco del Terror\", respectivamente. Ambas naves desaparecieron durante muchos años, y se convirtieron en leyendas de la exploración ártica.",
+            "image_en": "Due to the desperate conditions, they found themselves in, HMS Erebus and HMS Terror were nicknamed the \"Ship of Hell\" and the \"Ship of Terror,\" respectively. Both ships disappeared for many years, becoming legends of Arctic exploration.",
+            "image_fr": "Dû aux conditions désespérantes dans lesquelles ils se sont retrouvés, le HMS Erebus et le HMS Terror ont été surnommés respectivement le « Bateau de l’Enfer » et le « bateau de la Terreur ». Les deux bateaux ont disparu pendant de nombreuses années et sont devenus des légendes de l’expédition arctique.",
+            "image_de": "Aufgrund der verzweifelten Zustände, unter denen sie sich befanden, wurden das HMS Erebus und das HMS Terror, \"Schiff der Hölle\" oder \"Schiff des Schreckens \" genannt. Beide Schiffe verschwanden für viele Jahre und sie wurden zu Legenden der Arktisforschung.",
+            "image_it": "A causa delle condizioni disperate in cui si trovavano, la HMS Erebus e la HMS Terror sono state soprannominate “la nave dell´inferno” e la \"nave del Terrore\", rispettivamente. Entrambe navi sono sparite durante molti anni, e sono diventate leggende dell'esplorazione artica.",
+            "image_br": "Devido às condições desesperadas em que se encontravam, HMS Erebus e HMS Terror foram apelidados de \"Navio do Inferno\" e \"Navio do Terror\" respectivamente. Ambos os navios desapareceram durante muitos anos, e se tornaram lendas da exploração do Árctico."
+          }
+        },
+        "cf890d1c-3064-4f7c-b3a7-4532601863a9": {
+          "type": "reviews",
+          "settings": {
+            "image": "Fue hasta el 2014 cuando se encontraron los restos del HMS Erebus en el fondo del mar en el Ártico, lo que ha permitido reconstruir la historia de la expedición y honrar a los hombres que lucharon en condiciones tan extremas.",
+            "image_en": "It was not until 2014 that the remains of HMS Erebus were found at the bottom of the Arctic Sea, which has allowed the expedition’s history to be reconstructed and the men who fought under such extreme conditions to be honored.",
+            "image_fr": "C’est seulement en 2014 que l’épave du HMS Erebus a été retrouvée dans le fond de la mer Arctique, ce qui a permis de reconstruire l’histoire de l’expédition et de faire honneur aux hommes qui ont essayé de survivre dans ces conditions extrêmes.",
+            "image_de": "Im Jahr 2014 wurden die Überreste des HMS Erebus im Grunde des Nordpolarmeers gefunden. Dies ermöglichte, die Geschichte der Expedition zu rekonstruieren und die Männer, die unter so extremen Bedingungen kämpften, zu ehren.",
+            "image_it": "Quando nel 2014 sono stati trovati i resti della HMS Erebus nel fondo del mare Artico, è stato possibile ricostruire la storia della spedizione ed onorare gli uomini che hanno lottato in condizioni estreme.",
+            "image_br": "Não foi até 2014 que os restos do HMS Erebus foram encontrados no fundo do mar no Ártico, o que nos permitiu reconstruir a história da expedição e honrar os homens que lutaram em condições tão extremas."
+          }
+        }
+      },
+      "block_order": [
+        "c4f1cbfd-a81c-43c7-a3f1-5ac18b6743e5",
+        "12c71fd0-1d4a-46d4-a4ac-d11d7f76afce",
+        "21540123-ac96-4f6a-9b1a-882fe8d86e3a",
+        "af251629-f2dc-4d0e-992f-3f469cc3042e",
+        "c4520039-3611-48f6-b770-4f59fadd9c7d",
+        "fd4dc52f-de77-4d2f-8686-35473edd7510",
+        "5c76c1ca-a972-4bd9-85b2-9440799a034b",
+        "5530d57e-a2ab-4638-8c6e-f1918403fb2a",
+        "2c9fabf4-d40c-4f6f-a9dc-cf92179e3447",
+        "1c878829-2fa9-4447-9d5b-4d34d1f8fc6e",
+        "5fe970e5-df7a-4a4b-848a-5d6bfa4ca235",
+        "49f425ee-687d-48e9-aa1c-4f2c18f81ab4",
+        "c567960c-6288-45c5-bfaa-1dc7ca9e7419",
+        "cf890d1c-3064-4f7c-b3a7-4532601863a9"
+      ],
+      "settings": {
+        "url": "shopify:\/\/products\/hms-erebus"
+      }
+    },
+    "57295da4-3039-40fb-8bdb-ec62536974cb": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        "b {color: #feb71a;}",
+        ".h1-style {text-transform: uppercase;}",
+        "@media (min-width: 750px) {.overlay-text--for-banner .overlay-text__inner {max-width: 900px; margin: 0 auto; }}",
+        "@media (max-width: 749px) {p {font-size: 14px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/EREBUS.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 1000,
+        "image_link": "",
+        "subheading": "",
+        "title": "<b>El estilo de vida OcCre<\/b> es una búsqueda constante de <b>descubrir nuevos mundos y\nenfrentar desafíos<\/b> sin temores.",
+        "titleen": "The OcCre lifestyle is a constant search for new worlds and facing challenges without fear.",
+        "titlefr": "Le style de vie de OcCre est une recherche constante de nouveaux mondes et défis à surmonter.",
+        "titlede": "Der Lebensstil von OcCre ist ein ständiges Streben, um neue Welten zu entdecken und Herausforderungen ohne Angst zu meistern.",
+        "titleit": "Lo stile di vita OcCre è una ricerca costante per scoprire mondi nuovi e far fronte a nuove sfide senza timori.",
+        "titlePT": "O estilo de vida OcCre é uma busca constante para descobrir novos mundos e enfrentar destemidamente desafios.",
+        "title_size": 28,
+        "title_size_mobile": 20,
+        "use_h1": false,
+        "text": "<p>Al igual que el barco HMS Erebus, que se adentra en territorios desconocidos en busca del Paso del Noroeste, un modelista OcCre trabaja con pasión y convicción en la construcción de maquetas, explorando nuevas técnicas y superando obstáculos en cada proyecto. La vida de un modelista se asemeja al viaje del Erebus al infierno en el sentido de que ambos implican sumergirse en una experiencia única y transformadora que implica fortaleza, creatividad y perseverancia.<\/p><p><strong>Al igual que el barco HMS Erebus, que se adentra en territorios desconocidos en busca del Paso del Noroeste, un modelista OcCre trabaja con pasión y convicción en la construcción de maquetas, explorando nuevas técnicas y superando obstáculos en cada proyecto. La vida de un modelista se asemeja al viaje del Erebus al infierno en el sentido de que ambos implican sumergirse en una experiencia única y transformadora que implica fortaleza, creatividad y perseverancia.<\/strong><\/p>",
+        "texten": "<p>Just like the HMS Erebus, which ventures into unknown territories in search of the Northwest Passage, an OcCre modeler works with passion and conviction in the construction of models, exploring new techniques and overcoming obstacles in each project. The life of a modeler resembles the journey of the Erebus to hell in the sense that both involve immersing oneself in a unique and transformative experience that requires strength, creativity, and perseverance.<br\/><br\/><strong>The OcCre lifestyle is a way of life that allows you to escape from routine and enjoy a relaxing and therapeutic activity while developing your creativity, manual skills, and building a piece of art as unique and special as you are.<\/strong><\/p>",
+        "textfr": "<p> Tout comme le HMS Erebus qui s’enfonce dans des terres inconnues pour trouver le Passage du Nord-Ouest, un modéliste de OcCre construit passionnément et avec conviction ses maquettes, en essayant de nouvelles techniques et en surmontant des obstacles dans chaque projet. La vie d’un modéliste est similaire au voyage de l’Erebus en enfer dans le sens que tous les deux s’immergent dans une expérience unique et bouleversante qui implique de la force, de la créativité et de la persévérance.<br\/><br\/><strong>Le style de vie de OcCre est un mode de vie qui vous permet de vous échapper de la routine et de profiter d’une activité relaxante et thérapeutique, en même temps que vous développez votre créativité, vos aptitudes manuelles et créez une œuvre d’art aussi unique et spéciale que vous.<\/strong><\/p>",
+        "textde": "<p>Genauso wie das HMS Erebus, dass es vorfährt auf der Suche nach dem Nordwestpass in unbekannte Gebiete, arbeitet ein OcCre-Modellbauer mit Leidenschaft und Überzeugung am Bau von Modellen, der Erforschung neuer Techniken und der Überwindung von Hindernissen bei jedem Projekt. Das Leben eines Modellbauers gleicht der Reise des Erebus in die Hölle, denn beide beinhalten das Eintauchen in eine einzigartige und transformative Erfahrung, die Kraft, Kreativität und Ausdauer beinhaltet.<\/p><p><strong>Der OcCre-Lebensstil ist eine Lebensweise, die ermöglicht Ihnen, der Routine zu entfliehen. Eine entspannende und therapeutische Aktivität zu genießen, während <\/strong><\/p>",
+        "textit": "<p>Come la nave HMS Erebus, che entra in territori sconosciuti alla ricerca del Passaggio a Nord - Ovest, un modellista OcCre lavora con passione e convinzione nella costruzione di modellini, esplorando nuove tecniche e superando ostacoli in ogni progetto. La vita di un modellista si assomiglia al viaggio dell ́ Erebus all’inferno perché entrambi implicano immergersi in un'esperienza unica di trasformazione che richiede fortezza, creatività e perseveranza.<br\/><br\/><strong>Lo stile di vita OcCre è una forma di vivere che ti permette sfuggire alla routine e godere di un'attività rilassante e terapeutica, mentre sviluppi la tua creatività, le abilità manuali e costruisci un´opera d´arte così unica e speciale come te.<br\/><\/strong><\/p>",
+        "textpt": "<p>Tal como o navio HMS Erebus, que navega em território desconhecido em busca da Passagem do Noroeste, um modelista OcCre trabalha com paixão e convicção na construção de modelos, explorando novas técnicas e ultrapassando obstáculos em cada projeto. A vida de um modelista é semelhante à viagem do Erebus para o inferno, em que ambos envolvem a imersão numa experiência única e transformadora envolvendo força, criatividade e perseverança.<\/p><p><strong>O estilo de vida OcCre é um modo de vida que lhe permite escapar à rotina e desfrutar de uma atividade relaxante e terapêutica, enquanto desenvolve a sua criatividade, habilidades manuais e constrói uma obra de arte tão única e especial como você é.<\/strong><\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "a3f3dc9c-2ff0-495a-ad39-064cbba3dce5": {
+      "type": "rich-text-erebus3",
+      "blocks": {
+        "b90d03bf-10ab-4f90-8468-6c3013920ad3": {
+          "type": "h3",
+          "disabled": true,
+          "settings": {
+            "image": "¡No pierdas la oportunidad de embarcarte en esta increíble<br> aventura con los beneficios de la PREcompra!",
+            "image_en": "Don't miss the opportunity to embark on this incredible adventure with the benefits of PRE-purchase!",
+            "image_fr": "Ne ratez pas l’opportunité d’embarquer dans cette aventure incroyable avec les bénéfices de la PREcommande !",
+            "image_de": "Verpassen Sie nicht die Chance,  Sie sich auf dieses unglaubliche Abenteuer einlassen, und Sie alle Vorteilen zu genießen!",
+            "image_it": "Non perdere l'occasione di imbarcarti in questa incredibile avventura con tutti i suoi vantaggi!",
+            "image_br": "Não perca a oportunidade de embarcar nesta incrível aventura com todos os benefícios!"
+          }
+        },
+        "091f225d-c51c-44e8-8a32-4e67fa60f882": {
+          "type": "h4",
+          "disabled": true,
+          "settings": {
+            "image": "CON LA PRECOMPRA DEL HMS EREBUS TE REGALAMOS:",
+            "image_en": "WITH THE PRE-PURCHASE OF HMS EREBUS, WE GIVE YOU:",
+            "image_fr": "EN PRÉCOMMANDANT LE HMS EREBUS NOUS VOUS OFFRONS:",
+            "image_de": "MIT DEM VORKAUF, SCHENKEN WIR IHNEN:",
+            "image_it": "CON IL PREACQUISTO TI REGALIAMO:",
+            "image_br": "COM A PRÉ-COMPRA LHE DAMOS DE PRESENTE:"
+          }
+        },
+        "345f6531-443f-4fc5-bac4-134d33ddb6cb": {
+          "type": "h2",
+          "disabled": true,
+          "settings": {
+            "image": "PACK DE PINTURAS",
+            "image_en": "PAINT PACK",
+            "image_fr": "PACK DE PEINTURE",
+            "image_de": "FARBEN-SET",
+            "image_it": "PACCHETTO DI VERNICE",
+            "image_br": "PACOTE DE TINTAS"
+          }
+        },
+        "9865a8e7-a969-46a8-9ddc-f1d2fe60a393": {
+          "type": "btn",
+          "disabled": true,
+          "settings": {
+            "image": "compra ahora y llevate el pack de pinturas gratis",
+            "image_en": "And get the paint pack for FREE",
+            "image_fr": "Achetez-le maintenant et recevez un pack de peinture OFFERT",
+            "image_de": "Kaufen Sie jetzt und greifen Sie das Farben-Set ab.. GRATIS",
+            "image_it": "Compra adesso e riceverai un pacchetto di vernici GRATIS",
+            "image_br": "Compre já e receba o pacote de tintas GRÁTIS!"
+          }
+        },
+        "4b4ffbce-a853-470b-8af7-1ea5c4b1da0b": {
+          "type": "text1",
+          "settings": {
+            "image": "¿CONOCES EL HERMANO GEMELO <br>DEL  HMS  EREBUS?",
+            "image_en": "DO YOU KNOW THE TWIN BROTHER<br> OF THE HMS EREBUS?",
+            "image_fr": "Connaissez-vous le frère <br>jumeau du HMS Erebus ?",
+            "image_de": "Kennst du den Zwillingsbruder <br>des HMS Erebus?",
+            "image_it": "Conosci il fratello<br> gemello dell'HMS Erebus?",
+            "image_br": "Você conhece o irmão gêmeo do HMS Erebus?"
+          }
+        },
+        "b6ebb132-304f-4fa6-9e55-c8f378b7c187": {
+          "type": "h2h2",
+          "settings": {
+            "image": "EL    HMS    TERROR",
+            "image_en": "THE HMS TERROR",
+            "image_fr": "LE HMS TERROR",
+            "image_de": "Die HMS Terror.",
+            "image_it": "L'HMS Terror",
+            "image_br": ""
+          }
+        },
+        "b4e930dd-6f09-4abb-a026-06fdb43f24ca": {
+          "type": "text2",
+          "settings": {
+            "image": "Juntos se aventuraron en la expedición para encontrar el Paso del Noroeste, una ruta marítima que conecta los océanos Atlántico y Pacífico a través del Ártico.",
+            "image_en": "Together they ventured on the expedition to find the Northwest Passage, a sea route connecting the Atlantic and Pacific oceans through the Arctic.",
+            "image_fr": "Ensemble, ils se sont aventurés dans l'expédition pour trouver le Passage du Nord-Ouest, une route maritime reliant les océans Atlantique et Pacifique à travers l'Arctique.",
+            "image_de": "Gemeinsam wagten sie sich auf die Expedition, um den Nordwestpassage zu finden, eine Seeroute, die den Atlantischen und Pazifischen Ozean durch die Arktis verbindet.",
+            "image_it": "Insieme si sono avventurati nell'esplorazione per trovare il Passaggio a Nord-Ovest, una rotta marittima che collega gli oceani Atlantico e Pacifico attraverso l'Artico.",
+            "image_br": "Juntos, eles se aventuraram na expedição para encontrar a Passagem do Noroeste, uma rota marítima que conecta os oceanos Atlântico e Pacífico através do Ártico."
+          }
+        },
+        "7bdf9d85-2bc2-4505-9c4e-e45623f22db5": {
+          "type": "text3",
+          "disabled": true,
+          "settings": {
+            "image": "PUEDE SER UNA GRAN OPORTUNIDAD PARA OBTENER LA COLECCIóN DE LA EXPEDICIóN PASO DEL NOROESTE. \n<br><br>\n<b>CON LA COMPRA DEL EREBUS Y EL TERROR OBTIENES\nEL PACK DE PINTURAS DE REGALO!<\/b>",
+            "image_en": "IT CAN BE A GREAT OPPORTUNITY TO OBTAIN THE NORTHWEST PASSAGE EXPEDITION COLLECTION.<br><br>\n<b>WITH THE PURCHASE OF EREBUS AND TERROR, YOU GET THE PAINT PACK AS A GIFT!<\/b>",
+            "image_fr": "Cela peut être une excellente occasion d'obtenir la collection de l'expédition du Passage du Nord-Ouest.<br><br>\n<b>\nAvec l'achat d'Erebus et de Terror, vous recevez un pack de peinture cadeau !\n<\/b>",
+            "image_de": "Es könnte eine großartige Gelegenheit sein, die Northwest Passage Expedition-Sammlung zu erhalten.<br><br>\n<b>\nMit dem Kauf von Erebus und Terror erhalten Sie ein Geschenk-Farbpaket!\n<\/b>",
+            "image_it": "Potrebbe essere un'ottima opportunità per ottenere la collezione dell'esplorazione del Passaggio a Nord-Ovest.<br><br>\n<b>\nCon l'acquisto di Erebus e Terror, ricevi un pacchetto di vernici in regalo!<\/b>",
+            "image_br": "Pode ser uma ótima oportunidade para obter a coleção da Expedição da Passagem do Noroeste.<br><br>\n<b>\nCom a compra do Erebus e do Terror, você recebe um pacote de tinta de presente!<\/b>"
+          }
+        },
+        "7d6eb8fa-e907-4258-8b51-d976deab5761": {
+          "type": "btn2",
+          "settings": {
+            "image": "COMPRAR LOS BARCOS GEMELOS",
+            "image_en": "BUY THE TWIN SHIPS",
+            "image_fr": "Achetez les navires jumeaux.",
+            "image_de": "Kaufe die Zwillingsboote",
+            "image_it": "Acquista le navi gemelle.",
+            "image_br": "Compre os navios gêmeos."
+          }
+        },
+        "a7e6e015-48a5-46e8-be61-c17b38e5729f": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_311.png",
+            "image_es-us": "shopify:\/\/shop_images\/Group_335.jpg",
+            "image_en": "shopify:\/\/shop_images\/Group_318_1.jpg",
+            "image_en-us": "shopify:\/\/shop_images\/Group_312_1_9279de0a-22c8-4a78-a8c0-900c1e5028b9.jpg",
+            "image_en-ca": "shopify:\/\/shop_images\/Group_311_1_41a5ba3d-d8b8-446c-8ed9-d2f598e747db.jpg",
+            "image_fr": "shopify:\/\/shop_images\/Group_316.jpg",
+            "image_de": "shopify:\/\/shop_images\/Group_315_3.jpg",
+            "image_it": "shopify:\/\/shop_images\/Group_317.jpg",
+            "image_br": "shopify:\/\/shop_images\/Group_314.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "b90d03bf-10ab-4f90-8468-6c3013920ad3",
+        "091f225d-c51c-44e8-8a32-4e67fa60f882",
+        "345f6531-443f-4fc5-bac4-134d33ddb6cb",
+        "9865a8e7-a969-46a8-9ddc-f1d2fe60a393",
+        "4b4ffbce-a853-470b-8af7-1ea5c4b1da0b",
+        "b6ebb132-304f-4fa6-9e55-c8f378b7c187",
+        "b4e930dd-6f09-4abb-a026-06fdb43f24ca",
+        "7bdf9d85-2bc2-4505-9c4e-e45623f22db5",
+        "7d6eb8fa-e907-4258-8b51-d976deab5761",
+        "a7e6e015-48a5-46e8-be61-c17b38e5729f"
+      ],
+      "custom_css": [
+        ".with-reviews1 > .container {display: none;}"
+      ],
+      "settings": {
+        "url": "shopify:\/\/products\/hms-erebus",
+        "url2": "shopify:\/\/products\/hms-terror"
+      }
+    },
+    "1681340791db9995a4": {
+      "type": "apps",
+      "blocks": {
+        "54c2d18b-9189-4c3e-818b-2f1b2b034035": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": true,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": false,
+            "data-limit": 20,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "54c2d18b-9189-4c3e-818b-2f1b2b034035"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "7374ce26-ecc5-4291-b2a8-9f36cbe76378": {
+      "type": "cross-page-promos-landing",
+      "blocks": {
+        "bef6830d-68ce-4ca4-8f73-7ba6bcb9a373": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/guarantee.png",
+            "image_size": "icon",
+            "text": "Garantía de por vida",
+            "link_url": ""
+          }
+        },
+        "c62ec08f-476e-4761-9540-a8834ea03582": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/delivery.png",
+            "image_size": "icon",
+            "text": "Envío rápido y seguro",
+            "link_url": ""
+          }
+        },
+        "a0e4f17f-a1b0-472f-bcda-5164edabee5e": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lock.png",
+            "image_size": "icon",
+            "text": "Pago seguro y fácil",
+            "link_url": ""
+          }
+        },
+        "1c577543-7fc2-4ed3-98ec-2e6cb4b0175c": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lock_1.png",
+            "image_size": "icon",
+            "text": "+23,321 clientes felices",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "bef6830d-68ce-4ca4-8f73-7ba6bcb9a373",
+        "c62ec08f-476e-4761-9540-a8834ea03582",
+        "a0e4f17f-a1b0-472f-bcda-5164edabee5e",
+        "1c577543-7fc2-4ed3-98ec-2e6cb4b0175c"
+      ],
+      "settings": {
+        "css_text": "",
+        "visibility": "all"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a99d6410-7c83-41f5-8a5d-bade911a43af",
+    "e2ce867e-8aa1-4c9c-8073-2cd0f7acb796",
+    "94ed189f-c056-4b7a-a62d-de74cfd49f12",
+    "51ae9b94-3d99-4a8e-960a-79a4c9c20df5",
+    "91df1ca4-f288-4bf3-bc7a-8305ead78897",
+    "c58952c0-90f6-4bbd-a997-9298acc4af1e",
+    "6b6a7fff-bc8a-4f99-9446-af914c8a0d55",
+    "57295da4-3039-40fb-8bdb-ec62536974cb",
+    "a3f3dc9c-2ff0-495a-ad39-064cbba3dce5",
+    "1681340791db9995a4",
+    "7374ce26-ecc5-4291-b2a8-9f36cbe76378"
+  ]
+}

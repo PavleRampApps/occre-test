@@ -1,0 +1,350 @@
+  <div class="full-width-count {{ section.settings.css_text }} novedades">
+  <h2 style="text-align:center">25 de Febrero 2023  | 19:00 (CEST) <br>
+Lanzamiento exclusivo por Youtube
+</h2>
+{% if request.locale.iso_code == 'es'  %}
+<img src="{{ section.settings.image | img_url: 'master'  }}">
+
+
+{% elsif request.locale.iso_code == 'en'  %}
+<img src="{{ section.settings.image_en | img_url: 'master'  }}">
+
+
+  {% elsif request.locale.iso_code == 'fr' %}
+<img src="{{ section.settings.image_fr | img_url: 'master'  }}">
+   {% elsif request.locale.iso_code == 'de' %}
+<img src="{{ section.settings.image_de | img_url: 'master'  }}">
+
+     {% elsif request.locale.iso_code == 'it' %}
+<img src="{{ section.settings.image_it | img_url: 'master'  }}">
+  {% else  %}
+      
+  <img src="{{ section.settings.image_en | img_url: 'master'  }}">
+{% endif %}
+
+
+    <div class="countdown_wrap">
+      <div class="countdown_time" id="js_set_time" >
+        <div class="timer-block">
+          <span class="countdown_number js-days">00</span>
+          <span class="countdown_title">{% if request.locale.iso_code == 'es'  %}
+Días{% else %}
+            
+Dias
+            {% endif %}</span>
+        </div>
+        <div class="timer-block">
+          <span class="countdown_number js-hours">00</span>
+          <span class="countdown_title">Horas</span>
+        </div>
+        <div class="timer-block">
+          <span class="countdown_number js-minutes">00</span>
+          <span class="countdown_title">Minutos</span>
+        </div>
+        <div class="timer-block">
+          <span class="countdown_number js-seconds">00</span>
+          <span class="countdown_title">Segundos</span>
+        </div>
+      </div>
+    </div>
+<div class="form_klaviyo">
+  <div class="klaviyo-form-UD5iCH"></div>
+<div class="klaviyo-form-XQinXF"></div>
+  <div class="klaviyo-form-WSLiXu"></div>
+  <div class="klaviyo-form-T8E3fJ"></div>
+<div class="klaviyo-form-U8NmsN"></div>
+  <div class="klaviyo-form-TnxNhU"></div>
+</div>
+
+</div> 
+
+</div> 
+
+<style>
+  /* 
+  .link-youtube-coming-soon {
+    background-color:#f3b01c;
+    color: black !important;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  */
+
+  .full-width-count  {
+    background-size:cover;
+  }
+</style>
+
+
+<style>
+.novedades .full-width-count h2 {
+  text-shadow:1px 1px 0px #000;
+}
+  
+  @font-face {
+  font-family: "Font name";
+  src: url({{ Nowharehouse.woff | asset_url }}) format("woff");
+}
+
+  .font1 {
+    font-family: Nowharehouse;
+font-size: 86px;
+font-weight: 400;
+line-height: 95px;
+letter-spacing: 0em;
+text-align: center;
+
+
+  }
+  .font2 {
+    font-family: Nowharehouse;
+font-size: 52px;
+font-weight: 400;
+line-height: 57px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+  .form_klaviyo input {
+    text-align:center !important;
+    color: #040404;
+
+  }
+  .form_klaviyo {
+    padding-bottom:100px;
+  }
+  .countdown_time{
+   
+        background: transparent;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width:800px;
+    margin:0 auto;
+    
+  }
+  .countdown_wrap { 
+    padding-top: 30px;
+    padding-bottom:36px;
+  }
+  .countdown_time .timer-block{
+    width: 25%;
+  }
+  .countdown_time .timer-block span{
+    display: block;
+        text-align: center;
+    font-family: Montserrat;
+font-size: 49px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+color: #F5F5F5;
+
+  }
+   .countdown_time .timer-block .countdown_title {
+    font-family: Montserrat;
+font-size: 19px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+    color: #F5F5F5;
+
+  }
+   .full-width-count  h2 {
+     color:white;
+     text-align:center;
+
+     font-family: Montserrat;
+font-size: 26px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: -0.02em;
+text-align: center;
+     margin-bottom:80px;
+   
+
+   }
+  
+      .full-width-count {
+        padding-top:60px;
+    text-align: center;
+    background-color: black;
+    background-image:  url({{ section.settings.image2  | img_url: 'master' }});
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+      .section-gallery {
+      margin:0 auto !important;
+      background:black !important;
+       padding-top:50px;
+      padding-bottom:50px;
+      }
+      .masde15000 {
+      background:black;
+        padding-top:50px;
+      padding:0px;
+  
+          margin:0 auto !important;
+      }
+      .masde15000  .container  {
+      max-width:1200px;
+      
+      }
+      .masde15000  h2.h1-style  {
+      font-family: Montserrat;
+font-size: 41px !important;
+font-weight: 700 !important;
+line-height: 45px !important;
+letter-spacing: 0em;
+text-align: center;
+      margin-bottom:0px;
+
+      color: #F5F5F5 !important;
+
+      }
+      .section-apps {
+      background:black;
+        padding-top:20px;
+      padding-bottom:50px;
+          margin:0 auto !important;
+      }
+        #looxReviews #menu-btn  {
+      background:white !important;
+      color:black;
+        }
+      .form_klaviyo input {
+      padding-left:0px !important;
+      }
+
+      @media (max-width:980px) {
+        .full-width-count h2 {
+
+    font-size: 18px;
+      line-height:22px;}
+      }
+  .full-width-count {
+    padding-left:30px;
+    padding-right:30px;
+  }
+  .klaviyo-form-UD5iCH button {
+    font-size:16px !important;
+  }
+  .countdown_time .timer-block .countdown_title {
+    font-size:14px;
+     
+    
+    border-top: 2px solid #fff;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  .countdown_time .timer-block span {
+    font-size:40px;
+  }
+  .count2page {
+    display:none;
+  }
+
+</style>
+
+<script type="text/javascript">
+  var settime = "2023/04/15 00:00:00";
+  (function (){
+    if(settime.length  > 0 ){
+      var countDownDate = new Date(settime).getTime();
+      var x = setInterval(function() { 
+        // Get todays date and time
+        var now = new Date().getTime(); 
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now; 
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        if(days < 10 )
+        {
+          var days = '0' + days;
+        }else{
+          days = days;
+        }
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        if(hours  < 10 )
+        {
+          var hours = '0' + hours;
+        }else{
+          hours = hours;
+        }
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        if(minutes  < 10 )
+        {
+          var minutes = '0' + minutes;
+        }else{
+          minutes = minutes;
+        }
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000); 
+        document.querySelector('.js-days').innerText = days;
+        document.querySelector('.js-hours').innerText = hours;
+        document.querySelector('.js-minutes').innerText = minutes;
+        document.querySelector('.js-seconds').innerText = seconds;
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("js_set_time").innerHTML = "Out of date";
+        }
+      }, 1000);
+    }
+  })();
+</script>
+{% comment %}
+{% endcomment %} 
+{% schema %}
+{
+  "name": "Count Down",
+   "settings": [
+           {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_en",
+          "label": "Image en"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_fr",
+          "label": "Image fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_de",
+          "label": "Image de"
+        },{
+          "type": "image_picker",
+          "id": "image_it",
+          "label": "Image it"
+        },
+         {
+          "type": "image_picker",
+          "id": "image2",
+          "label": "Image"
+        
+        },
+     {
+       "type": "text",
+       "id": "css_text",
+      "label": "insertar css"
+     }
+            ],
+    "presets": [
+      {
+        "name": "Count Down"
+       
+      }
+    ]
+  
+}
+{% endschema %}

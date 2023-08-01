@@ -1,0 +1,98 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+<div class="pm_title_countdown">
+  
+      {% if request.locale.iso_code == 'es' %}
+              {% if section.settings.title_es %}
+                <span>{{section.settings.title_es}}</span>
+              {% endif %}
+    
+      {% elsif request.locale.iso_code == 'fr' %}
+              {% if section.settings.title_fr %}
+                <span>{{section.settings.title_fr}}</span>
+              {% endif %}
+    
+      {% elsif request.locale.iso_code == 'it' %}
+              {% if section.settings.title_it %}
+                <span>{{section.settings.title_it}}</span>
+              {% endif %}
+    
+      {% elsif request.locale.iso_code == 'de' %}
+              {% if section.settings.title_de %}
+                <span>{{section.settings.title_de}}</span>
+              {% endif %}
+    
+      {% elsif request.locale.iso_code == 'pt-PT' %}
+              {% if section.settings.title_pt-PT %}
+                <span>{{section.settings.title_pt-PT}}</span>
+              {% endif %}
+
+      {% else %}
+              {% if section.settings.title_en %}
+                <span>{{section.settings.title_en}}</span>
+              {% endif %}
+              {% endif %}
+
+</div>
+
+{% schema %}
+  {
+    "name": "Pm Title Countdown",
+    "settings": [
+      
+        {
+            "type": "text",
+            "id": "title_es",
+            "label": "Title ES"
+            
+        },
+      {
+            "type": "text",
+            "id": "title_en",
+            "label": "Title EN"
+            
+        },
+      {
+            "type": "text",
+            "id": "title_fr",
+            "label": "Title FR"
+            
+        },
+      {
+            "type": "text",
+            "id": "title_it",
+            "label": "Title IT"
+            
+        },
+      {
+            "type": "text",
+            "id": "title_de",
+            "label": "Title DE"
+            
+        },
+      {
+            "type": "text",
+            "id": "title_pt-PT",
+            "label": "Title pt-PT"
+            
+        }
+    ],
+  "presets": [
+    {
+      "name": "Pm Title Countdown",
+      "category": "Custom"
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

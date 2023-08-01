@@ -1,0 +1,606 @@
+{%- liquid 
+  assign blocked_countries = settings.blocked_countries
+  assign current_country = localization.country.iso_code
+  assign blocked_price = settings.block_price
+  assign blocked_buying_properties = settings.block_buy
+
+  if blocked_price 
+    assign blocked_buying_properties = true
+  endif
+
+  assign enable_free_plate = section.settings.enable_free_plate
+
+  assign free_kit = 'No'
+  if enable_free_plate
+    assign free_kit = 'Yes'
+  endif
+-%}
+<div class="container fully-spaced-row" data-section-type="cart-template" data-ajax-update="true">
+  {% if section.settings.show_page_title %}
+    <div class="page-header" data-cc-animate>
+      <h1 class="majortitle">{{ 'cart.general.title' | t }}</h1>
+    </div>
+  {% endif %}
+  
+  {% if blocked_countries contains current_country and blocked_buying_properties %}
+    <div class="fully-spaced-row align-centre" data-cc-animate>
+      <p>{{ 'general.blocked_countries.description' | t }}</p>
+    </div>
+  {% elsif cart.items == empty %}
+    <div class="fully-spaced-row align-centre" data-cc-animate>
+      <p>{{ 'cart.general.empty' | t }}</p>
+    </div>
+
+    <style>
+
+    
+
+      .page-header {
+        display: none;
+      }
+      .page-header + div {
+        display: none;
+      }
+
+      .cart_empty_title, .cart_empty_collections_title {
+        text-align: center;
+      }
+      .cart_empty_title {
+        font-size: 28px;
+        color: #fbb742;
+        text-transform: uppercase;
+      }
+
+
+      .cart_empty_collections_title {
+        text-transform: capitalize;
+        color: #ababab;
+        font-size: 22px;
+      }
+
+      .page-section-spacing {
+        margin-top: 0;
+      }
+
+      .cart_empty_collections_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .cart_empty_collections {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+      }
+     
+
+      .cart_empty_collection {
+        width: 22%;
+        min-width: 140px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .collection_title {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #494949;
+        text-align: center;
+      }
+
+
+
+      @media screen and (max-width: 778px) {
+        .cart_empty_collections {
+          padding: 25px;
+        }
+
+        .cart_empty_collection {
+          min-width: 40%;
+          width: 40%;
+        }
+
+        .shop_all_link {
+          font-size: 16px;
+        }
+
+        .collection_title {
+          font-size: 12px;
+        }
+        
+
+       
+      }
+
+      @media screen and (max-width: 500px) {
+
+        
+        .collection_title {
+
+          font-size: 10px;
+        }
+
+       }
+    </style>
+
+    <div class="cart_empty_container">
+      <h3 class="cart_empty_title">
+       
+        {% if request.locale.iso_code == 'es' %}
+        Tu carrito esta vacío
+{% elsif request.locale.iso_code == 'en' %}
+Your cart is empty
+{% elsif request.locale.iso_code == 'de' %}
+Ihr Warenkorb ist leer
+{% elsif request.locale.iso_code == 'fr' %}
+Votre panier est vide
+{% elsif request.locale.iso_code == 'pt-PT' %}
+Seu carrinho está vazio
+{% elsif request.locale.iso_code == 'ru' %}
+Your cart is empty
+{% else %}
+il tuo carrello è vuoto
+{% endif %}
+      </h3>
+
+      <div class="cart_empty_collections_container">
+        <h4 class="cart_empty_collections_title">
+
+          {% if request.locale.iso_code == 'es' %}
+          Comprar por colección
+  {% elsif request.locale.iso_code == 'en' %}
+  Shop By Collection
+  {% elsif request.locale.iso_code == 'de' %}
+  Nach Kollektion einkaufen
+  {% elsif request.locale.iso_code == 'fr' %}
+  Magasiner par collection
+  {% elsif request.locale.iso_code == 'pt-PT' %}
+  Comprar por coleção
+  {% elsif request.locale.iso_code == 'ru' %}
+  Shop By Collection
+  {% else %}
+  Acquista per collezione
+  {% endif %}
+
+          
+        </h4>
+
+        {% assign ship_collection = collections['modelismo-naval'] %}
+        <div class="cart_empty_collections">
+
+          
+          <div class="cart_empty_collection">
+    <a href="{{ ship_collection.url }}">
+            <div class="collection_img">
+              <img src="https://cdn.shopify.com/s/files/1/0622/6942/3871/products/Maqueta_barco_de_madera_holandes_errante_occre_luces_40f1e7e3-91b8-4a54-8411-369c20942368_720x.webp?v=1676020822" />
+            </div>
+            <div class="collection_title">
+              {{ship_collection.title}} 
+            </div>
+          </a>
+          </div>
+
+
+          {% assign tram_collection = collections['modelismo-de-tranvias'] %}
+
+          <div class="cart_empty_collection">
+            <a href="{{tram_collection.url}}"> 
+            <div class="collection_img">
+              <img src="https://cdn.shopify.com/s/files/1/0622/6942/3871/products/OcCre_Maqueta_Tranvia_Metal_Madera_San_Francisco_Perfil_460x.webp?v=1675319967" />
+            </div>
+            <div class="collection_title">
+            {{tram_collection.title}}
+            </div>
+            </a>
+          </div>
+
+          {% assign train_collection = collections['modelismo-ferroviario'] %}
+
+          <div class="cart_empty_collection">
+            <a href="{{train_collection.url}}"> 
+            <div class="collection_img">
+              <img src="https://cdn.shopify.com/s/files/1/0622/6942/3871/products/jupiter-portada_1_460x.jpg?v=1649226533" />
+            </div>
+            <div class="collection_title">
+            {{train_collection.title}}
+            </div>
+            </a>
+          </div>
+
+          {% assign paint_collection = collections['pintura'] %} 
+       
+
+          
+          <div class="cart_empty_collection">
+            <a href="{{paint_collection.url}}"> 
+            <div class="collection_img">
+              <img src="https://cdn.shopify.com/s/files/1/0622/6942/3871/products/OcCre_19384-GRIS_1__complemento_modelismo_460x.webp?v=1654680179" />
+            </div>
+            <div class="collection_title">
+            {{paint_collection.title}}
+            </div>
+      </a>
+          </div>
+           
+        </div>
+
+
+
+
+        <style>
+          .shop_all_link {
+            padding: 15px 25px;
+            color: #fff;
+            background: #000;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 20px;
+            border-radius: 6px;
+            text-align: center;
+          }
+        </style>
+  
+        {% assign all_products_collection = collections['todos-los-productos'] %}
+
+        <a class="shop_all_link" href="{{all_products_collection.url}}">
+          {% if request.locale.iso_code == 'es' %}
+          Comprar todos los productos
+  {% elsif request.locale.iso_code == 'en' %}
+  Shop All products
+
+  {% elsif request.locale.iso_code == 'de' %}
+  Alle Produkte kaufen
+
+  {% elsif request.locale.iso_code == 'fr' %}
+
+  Magasinez tous les produits
+  {% elsif request.locale.iso_code == 'pt-PT' %}
+  Compre todos os produtos
+  {% elsif request.locale.iso_code == 'ru' %}
+  Shop All products
+  {% else %}
+  Acquista Tutti i prodotti
+  {% endif %}   
+        </a>
+
+      </div>
+      
+      
+
+      </div>
+
+
+  {% else %}
+    <form action="{{ routes.cart_url }}" method="post" id="cartform">
+      <div class="cart-item-list content-divider">
+        <div class="cart-item-list__head" data-cc-animate>
+          <div class="cart-item-list-heading cart-item-list-heading--product">{{ 'cart.label.product' | t }}</div>
+          <div class="cart-item-list-heading cart-item-list-heading--price">{{ 'cart.label.price' | t }}</div>
+          <div class="cart-item-list-heading cart-item-list-heading--quantity">{{ 'cart.label.quantity' | t }}</div>
+          <div class="cart-item-list-heading cart-item-list-heading--total">{{ 'cart.label.total' | t }}</div>
+        </div>
+        <div class="cart-item-list__body">
+          {% for item in cart.items %}
+            
+            <div class="cart-item product-{{ item.product.handle }}" data-cc-animate>
+              {%- comment -%}
+              Determining the handle of the collection that was last seen for the 'continue shopping' link.
+              {%- endcomment -%}
+
+              {%- if forloop.first -%}
+                {%- capture collection_url -%}{{ item.product.collections.first.url }}{%- endcapture -%}
+                {%- if collection_url == empty or collection_url contains '/frontpage' -%}{%- capture collection_url -%}{{ routes.all_products_collection_url }}{%- endcapture -%}{%- endif -%}
+              {%- endif -%}
+              <div class="cart-item__container">
+
+                <div class="kit__first-line">
+                  <div class="cart-item__column cart-item__image" id="cart-item-image-{{ item.id }}">
+                    <a href="{{ item.url }}">
+                      {% render 'responsive-image', image: item.image, max_height: 100 %}
+                    </a>
+                  </div>
+    
+                  <div class="cart-item__not-image">
+                    <div class="cart-item__column cart-item__description">
+                      <div>
+                        <a class="name" href="{{ item.url }}">{{ item.product.title }}</a>
+                        <div class="small-text">
+                          {% if item.product.variants.size > 1 %}
+                          <div class="variant">{{ item.variant.title }}</div>
+                          {% endif %}
+    
+                          {%- for p in item.properties -%}
+                              {% if p.first.first == "_" %}{% continue %}{% endif %}
+                            {% unless p.last == blank %}
+                              <div class="line-item-property">{{ p.first }}:
+                                {% if p.last contains '/uploads/' %}
+                                <a href="{{ p.last }}">{{ p.last | split: '/' | last }}</a>
+                                {% else %}
+                                {{ p.last }}
+                                {% endif %}
+                              </div>
+                            {% endunless %}
+                          {%- endfor -%}
+    
+                          {% if item.selling_plan_allocation %}
+                            <div class="subscription-description">{{ item.selling_plan_allocation.selling_plan.name }}</div>
+                          {% endif %}
+    
+                          {% if section.settings.show_backorder_text == true %}
+                            {% render 'backorder', product: item.product, variant: item.variant %}
+                          {% endif %}
+    
+                          {% if settings.prod_pre_order_label_show and item.product.template_suffix == 'preorder' %}
+                            <div class="price-label price-label--preorder">{{ 'products.product.preorder' | t }}</div>
+                          {% endif %}
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="cart-item__column cart-item__price">
+                      {% if item.original_line_price > item.final_line_price %}
+                        <div class="struck-out-price"><span class="theme-money"><div class="pn-price-item" data-id="{{ item.key }}">{{ item.original_price | money }}</div></span></div>
+                      {% endif %}
+                      <div><span class="theme-money">{{ item.final_price | money }}</span></div>
+    
+                      {% render 'unit-price', variant: item %}
+    
+                      {% if item.line_level_discount_allocations.size > 0 %}
+                        <ul class="cart-discount-list">
+                        {% for discount_allocation in item.line_level_discount_allocations %}
+                          <li class="cart-discount">
+                            <div class="cart-discount__label">
+                                <span class="cart-discount__icon">{% render 'icon-label' %}</span>
+                                <span class="cart-discount__title">{{ discount_allocation.discount_application.title }}</span>
+                            </div>
+                            <div class="cart-discount__amount theme-money">{{ discount_allocation.amount | money }}</div>
+                          </li>
+                        {% endfor %}
+                        </ul>
+                      {% endif %}
+                    </div>
+    
+                    {% if item.variant.inventory_management == 'shopify' and item.variant.inventory_policy == 'deny' and item.variant.inventory_quantity <= item.quantity %}
+                      {% assign can_increase = false %}
+                    {% else %}
+                      {% assign can_increase = true %}
+                    {% endif %}
+                    <div class="cart-item__column cart-item__quantity">
+                      <div class="quantity buttoned-input">
+                        <a id="updates_dec_{{ forloop.index }}" class="notabutton quantity-down {% if item.quantity < 2 %}unusable{% endif %}" href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity={{ item.quantity | minus: 1 }}" aria-label="{{ 'cart.label.decrease' | t | escape }}">{% render 'svg-minus' %}</a>
+                        <input
+                          class="cart-item__quantity-input"
+                          type="text"
+                          size="2"
+                          id="updates_{{ forloop.index }}"
+                          name="updates[]"
+                          value="{{ item.quantity }}"
+                          data-initial-value="{{ item.quantity }}"
+                          data-line="{{ forloop.index }}"
+                          {% if item.variant.inventory_management == 'shopify' and item.variant.inventory_policy == 'deny' %}data-max="{{ item.variant.inventory_quantity }}"{% endif %}
+                          aria-label="{{ 'cart.general.quantity' | t | escape }}" />
+                        <a id="updates_inc_{{ forloop.index }}" class="notabutton quantity-up {% unless can_increase %}unusable{% endunless %}" href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity={{ item.quantity | plus: 1 }}" aria-label="{{ 'cart.label.increase' | t | escape }}">{% render 'svg-plus' %}</a>
+                      </div>
+                      <a class="remove" onclick="return confirm('{{ 'cart.general.confirm_remove' | t }}')" href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity=0">
+                        {{ 'cart.general.remove' | t }}
+                        {% render 'svg-x' %}
+                      </a>
+                    </div>
+    
+                    <div class="cart-item__column cart-item__total" data-line="{{ forloop.index }}">
+                      {% if item.original_line_price != item.final_line_price %}
+                        <div class="theme-money struck-out-price"><div class="pn-total-line-item" data-id="{{ item.key }}">{{ item.original_line_price | money }}</div></div>
+                        <span class="theme-money">{{ item.final_line_price | money }}</span>
+                      {% else %}
+                        <span class="theme-money">{{ item.final_line_price | money }}</span>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+  
+                <input type="hidden" id="free-kit__{{forloop.index}}" value="{{free_kit}}" name="attributes[freeKit{{forloop.index}}]">
+                {% if item.product.tags contains 'Kit' and enable_free_plate and section.settings.kit_input_text != blank %}
+                  <div class="kit__second-line">
+                    <div class="kit__input">
+                      <label for="free-kit-name__{{forloop.index}}">
+                        <div class="rte">{{ section.settings.kit_input_text }}</div>
+                      </label>
+                      <input type="text" id="free-kit-name__{{forloop.index}}" name="attributes[freeKitName{{forloop.index}}]" placeholder="{{'contact.form.name' | t}}">
+                    </div>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="checkout-subtotal-container spaced-row" data-cc-animate>
+        <div class="flexible-layout">
+          <div class="checkout-subtotal-container__left column column--half">
+            {% if section.settings.enable_cart_notes %}
+              <div class="checkout-note">
+                <label for="note">{{ 'cart.label.note' | t }}</label>
+                <div class="textareawrapper"><textarea id="note" name="note">{{ cart.note }}</textarea></div>
+              </div>
+            {% endif %}
+
+            {% if section.settings.show_shipping_calculator %}
+              <button class="notabutton" data-toggle-shipping data-toggle-html="{{ 'cart.shipping_calculator.button_hide' | t | escape }}">{{ 'cart.shipping_calculator.button_show' | t }}</button>
+              {% render 'shipping-calculator', default_country: section.settings.shipping_calculator_default_country %}
+            {% endif %}
+          </div>
+
+          <div class="checkout-subtotal-container__right column column--half">
+            {%- if cart.cart_level_discount_applications != blank -%}
+              <ul class="cart-discount-list">
+                {%- for discount_application in cart.cart_level_discount_applications -%}
+                  <li class="cart-discount cart-discount--inline">
+                    <span class="cart-discount__label">
+                        <span class="cart-discount__icon">{% render 'icon-label' %}</span>
+                        <span class="cart-discount__title">{{ discount_application.title }}</span>
+                    </span>
+                    <span class="cart-discount__amount theme-money">{{ discount_application.total_allocated_amount | money }}</span>
+                  </li>
+                {%- endfor -%}
+              </ul>
+            {%- endif -%}
+            <h2 class="subtotal h2-style">
+              {{ 'cart.general.subtotal' | t }}:
+              <span class="theme-money">
+                {%- if settings.cart_currency_code_enabled -%}
+                  {{- cart.total_price | money_with_currency -}}
+                {%- else -%}
+                  {{- cart.total_price | money -}}
+                {%- endif -%}
+              </span>
+            </h2>
+
+            {%- if section.settings.show_tax_and_shipping -%}
+              {%- capture taxes_shipping_checkout -%}
+                {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
+                  {{ 'cart.general.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                {%- elsif cart.taxes_included -%}
+                  {{ 'cart.general.taxes_included_but_shipping_at_checkout' | t }}
+                {%- elsif shop.shipping_policy.body != blank -%}
+                  {{ 'cart.general.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
+                {%- else -%}
+                  {{ 'cart.general.taxes_and_shipping_at_checkout' | t }}
+                {%- endif -%}
+              {%- endcapture -%}
+
+              <div class="cart-policies">{{ taxes_shipping_checkout }}</div>
+            {%- endif -%}
+
+            {% if section.settings.cart_terms_page != blank %}
+              <div class="termsagreement">
+                <input type="checkbox" id="terms" />
+                <label for="terms">{{ 'cart.terms.agreement_html' | t: terms_url: section.settings.cart_terms_page }}</label>
+              </div>
+            {% endif %}
+
+            <div class="checkout-col">
+              <div class="checkout-buttons">
+                <span class="update-cart-container">
+                  <input type="submit" class="notabutton" name="update" value="{{ 'cart.general.update' | t }}" /> {{ 'cart.general.or' | t }}
+                </span>
+
+               <input onclick="ga('send','event','Cart','Button Click','Cart to Checkout');" type="submit" class="button button--large" id="update-cart" name="checkout" value="{{ 'cart.general.checkout' | t }}" />
+
+                {% if section.settings.show_additional_checkout_buttons and additional_checkout_buttons and section.settings.cart_terms_page == blank %}
+                <div class="additional-checkout-buttons">
+                  {{ content_for_additional_checkout_buttons }}
+                </div>
+                {% endif %}
+              </div>
+
+              <a class="continue-shopping" href="{{ routes.collections_url }}/todos-los-productos">{{ 'cart.general.continue' | t }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Invoice language for online stores using Langify app. Used by Sufio for Shopify (http://www.sufio.com/shopify). -->
+      <div class="invoice-language">
+         <input type="hidden" id="invoice_language" name="attributes[Invoice Language]" value="{{ shop.locale }}"/>
+      </div>
+    </form>
+  {% endif %}
+</div>
+  <style>
+.cart_message_icons {
+  display : flex !important;
+}
+
+.icons_landing {
+  display : none !important;
+}
+</style>
+
+{% schema %}
+  {
+    "name": "Cart page",
+    "class": "page-section-spacing",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_page_title",
+        "label": "Show page title",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_cart_notes",
+        "label": "Enable cart notes",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_tax_and_shipping",
+        "label": "Show tax status and shipping policy link",
+        "default": true
+      },
+      {
+        "type": "url",
+        "id": "cart_terms_page",
+        "label": "Terms and Conditions link",
+        "info": "Additional checkout buttons will be hidden when cart terms are shown"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_additional_checkout_buttons",
+        "label": "Show additional checkout options",
+        "default": true,
+        "info": "Display other gateways and quick checkout buttons. [Read more](https://help.shopify.com/en/manual/payments/accelerated-checkouts)"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_backorder_text",
+        "label": "Show backorder text",
+        "default": true,
+        "info": "Only shows for products which use Shopify inventory tracking and are available to purchase when out of stock."
+      },
+      {
+        "type": "header",
+        "content": "Shipping rates calculator"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_shipping_calculator",
+        "label": "Show",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "shipping_calculator_default_country",
+        "label": "Default country selection",
+        "default": "United States"
+      },
+      {
+        "type": "paragraph",
+        "content": "If your customer is logged-in, the country in his default shipping address will be selected. If you are not sure about the spelling to use here, refer to your first checkout page dropdown."
+      },
+      {
+        "type": "header",
+        "content": "Free wooden plate"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_free_plate",
+        "label": "Enable free plate (for kits) feature",
+        "default": false
+      },
+      {
+        "type": "richtext",
+        "id": "kit_input_text",
+        "label": "Free Plate Text"
+      }
+  ]
+  }
+{% endschema %}

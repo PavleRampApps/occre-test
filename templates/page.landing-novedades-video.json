@@ -1,0 +1,779 @@
+{
+  "sections": {
+    "16635431120bfa1cd6": {
+      "type": "background-video-he",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0d8321e3b359453d9dfb6e47c8aac3f0.mp4",
+        "subheading": "",
+        "enlarge_subheading": false,
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "open_url_new_tab": true,
+        "button_style": "primary",
+        "text_alignment": "center center",
+        "height_desktop": 580,
+        "height_mobile": 300,
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/El_Remolcador_HERCULES.png",
+        "image_en": "shopify:\/\/shop_images\/Frame_381.png",
+        "image_fr": "shopify:\/\/shop_images\/Frame_381_1.png",
+        "image_de": "shopify:\/\/shop_images\/Frame_381_4.png",
+        "image_it": "shopify:\/\/shop_images\/Frame_381_3.png",
+        "image2": "shopify:\/\/shop_images\/Frame_381_5.png"
+      }
+    },
+    "fd64c734-d18f-4df1-a42e-d825e326ce54": {
+      "type": "two-columns-grid-gallery",
+      "blocks": {
+        "0a89e71a-60ef-4e3a-8851-c9473e76c40d": {
+          "type": "imagen2",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/003_1.jpg",
+            "image_en": "shopify:\/\/shop_images\/003_1.jpg",
+            "image_fr": "shopify:\/\/shop_images\/003_1.jpg"
+          }
+        },
+        "3cba6c18-f5db-4f44-b9cc-563d9d35d874": {
+          "type": "titulo03",
+          "settings": {
+            "image": "El HÉRCULES te desafia  a un estilo de vida OCCRE",
+            "image_en": "HERCULES challenges you to an OCCRE lifestyle.",
+            "image_fr": "L’HERCULES est une invitation à mener un style de vie de OCCRE",
+            "image_de": "Der HERCULES fordert dich zu einem OcCre-Lifestyle heraus",
+            "image_it": "Il rimorchiatore HÉRCULES ti sfida ad adottare uno stile di vita OCCRE",
+            "image_br": "O HERCULES desafia-o para um estilo de vida OCCRE"
+          }
+        },
+        "0658bab5-4308-4eb7-99b7-4e689b4290f5": {
+          "type": "text2",
+          "settings": {
+            "image": "<p>La construcción del Hércules te llevará entre otras cosas a:<\/p><ul><li>Disfrutar de tu pasión con un nuevo modelo. <\/li><li>Mantener la mente activa.Mejorar destrezas, precisión, concentración.<\/li><li>Desarrollar la imaginación y crea una obra única.<\/li><li>Aprender sobre historia naval y cultura al expandir tus conocimientos y apreciar la diversidad del mundo.<\/li><\/ul>",
+            "image_en": "<p>Building the Hercules will bring you, among other things:<\/p><ul><li>Enjoy your passion with a new model.<\/li><li>Keep your mind active.<\/li><li>Improve skills, precision, concentration.<\/li><li>Develop imagination and create a unique work.<\/li><li>Learn about naval history and culture by expanding your knowledge and appreciating the diversity of the world.<\/li><\/ul>",
+            "image_fr": "<p>La construction de l’Hercules vous permettra, entre autres :<\/p><ul><li>De vivre votre passion avec une nouvelle maquette.<\/li><li>De maintenir votre esprit actif.<\/li><li>D’améliorer votre dextérité, votre précision et votre concentration.<\/li><li>De développer votre imagination en créant une œuvre unique.<\/li><li>D’en apprendre davantage sur l’histoire navale, la culture et d’apprécier la diversité du monde.<\/li><\/ul>",
+            "image_de": "<p>Der Bau des Hercules wird dich unter anderem dazu bringen:<\/p><ul><li>Deine Leidenschaft mit einem neuen Modell zu genießen.<\/li><li>Deinen Geist aktiv zu halten.<\/li><li>Fertigkeiten, Präzision und Konzentration zu verbessern.<\/li><li>Die Vorstellungskraft zu entwickeln und ein einzigartiges Werk zu schaffen.<\/li><li>Über maritime Geschichte und Kultur zu lernen und dein Wissen zu erweitern, um die Vielfalt der Welt zu schätzen.<\/li><\/ul>",
+            "image_it": "<p>La costruzione del HÉRCULES ti permetterà,  tra l’altro, di:<\/p><ul><li>Vivere la tua passione scoprendo un nuovo modello.<\/li><li>Mantenere la mente attiva.<\/li><li>﻿﻿Migliorare le proprie abilità, la precisione, la concentrazione.<\/li><li>Sviluppare la fantasia e creare un’opera unica.<\/li><li>Imparare la storia navale e la cultura, espandendo le tue conoscenze ed apprezzando la diversità del mondo.<\/li><\/ul>",
+            "image_br": "<p>A construção do Hércules vai levá-lo a, entre outras coisas:<\/p><p>* Desfrutar da sua paixão com um novo modelo.<\/p><ul><li>Manter a sua mente activa.<\/li><li>Melhorar as suas destrezas, precisão e concentração.<\/li><li>Desenvolver a sua imaginação e criar uma peça de trabalho única.<\/li><li>Aprender sobre história e cultura naval expandindo os seus conhecimentos e apreciando a diversidade do mundo.<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "0a89e71a-60ef-4e3a-8851-c9473e76c40d",
+        "3cba6c18-f5db-4f44-b9cc-563d9d35d874",
+        "0658bab5-4308-4eb7-99b7-4e689b4290f5"
+      ],
+      "settings": {
+        "gallery1": "shopify:\/\/shop_images\/0U3A6912.jpg",
+        "gallery2": "shopify:\/\/shop_images\/0U3A6908.jpg",
+        "gallery3": "shopify:\/\/shop_images\/IMG_7881.jpg",
+        "gallery4": "shopify:\/\/shop_images\/IMG_7882.jpg",
+        "gallery5": "shopify:\/\/shop_images\/IMG_7878.jpg",
+        "gallery6": "shopify:\/\/shop_images\/IMG_7879.jpg",
+        "gallery7": "shopify:\/\/shop_images\/IMG_7900.jpg",
+        "gallery8": "shopify:\/\/shop_images\/0U3A6802.jpg",
+        "formk": ""
+      }
+    },
+    "6faf9053-3855-4b4d-84e7-b44836667f17": {
+      "type": "rich-text-leads",
+      "blocks": {
+        "template--16681676767487__6faf9053-3855-4b4d-84e7-b44836667f17-16770958018c7442a2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>El estilo de vida OcCre es una forma de vida que te permite escapar de la rutina y disfrutar de una actividad relajante y terapéutica, mientras desarrollas tu creatividad, habilidades manuales y construyes una obra de arte tan única y especial como tú.<\/p>",
+            "texten": "<p>The OcCre lifestyle is a way of life that allows you to escape the routine and enjoy a relaxing and therapeutic activity, while developing your creativity, manual skills and building a work of art as unique and special as you are.<\/p>",
+            "textfr": "<p>Le mode de vie de OcCre permet de s’échapper de la routine et de profiter d’une activité relaxante et bienfaisante, de développer votre créativité, vos aptitudes manuelles et de créer, en même temps une œuvre d’art aussi unique et spéciale que vous.<\/p>",
+            "textde": "<p>Der OcCre-Lifestyle ist eine Lebensweise, die es dir ermöglicht, der Routine zu entfliehen und eine entspannende und therapeutische Aktivität zu genießen, während du deine Kreativität und manuellen Fähigkeiten entwickelst und ein Kunstwerk erschaffst, das genauso einzigartig und besonders ist wie du selbst.<\/p>",
+            "textit": "<p>Lo stile di vita OcCre è una forma di vivere che ti permette di sfuggire alla routine e godere di un’attività rilassante e terapeutica, mentre sviluppi la tua creatività, le abilità manuali e costruisci un’opera d’arte così unica e speciale come te.<\/p>",
+            "textpt": "<p>O estilo de vida OcCre é um modo de vida que lhe permite fugir da rotina e desfrutar de uma atividade relaxante e terapêutica, enquanto desenvolve a sua criatividade, habilidades manuais e você constrói uma obra de arte tão única e especial como você.<\/p>",
+            "enlarge_text": true,
+            "color": "default_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16681676767487__6faf9053-3855-4b4d-84e7-b44836667f17-16770958018c7442a2-1"
+      ],
+      "custom_css": [
+        "div {font-family: Montserrat; font-size: 24px; font-weight: 400; line-height: 28px; letter-spacing: 0em; text-align: center; color: #7c3830;}"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "2d60c466-6cf3-4755-a256-25925a2dfc00": {
+      "type": "multi-column-novedad",
+      "disabled": true,
+      "blocks": {
+        "template--16681676767487__2d60c466-6cf3-4755-a256-25925a2dfc00-16771226374fb515a4-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/PackMaquetabarcodemaderaremolcadorHERCULESRC_Base_KitLucesOcCre_1.jpg",
+            "image_width": 700,
+            "title": "PEANA Y KIT DE LUCES DE REGALO",
+            "titleen": "PEDESTAL AND LIGHT KIT AS A GIFT",
+            "titlefr": "SOCLE ET KIT DE LUMIÈRE OFFERTS",
+            "titlede": "GESCHENKTER SOCKEL UND LICHTKIT",
+            "titleit": "PEDANA E KIT DI LUCI IN OMAGGIO",
+            "titlept": "BASE E KIT DE LUZ DE PRESENTE",
+            "text": "<p>Este pack incluye:La maqueta del remolcador Hércules<\/p><ul><li>Kit de luces led gratis<\/li><li>Base peana negra gratis<\/li><\/ul><p>¡No pierdas la oportunidad de llevarte este increíble pack a un precio especial de pre compra!<\/p>",
+            "texten": "<p>This pack includes:<\/p><ul><li>The Hercules tugboat KIT <\/li><li>Free led light kit<\/li><li>Free black pedestal base<\/li><\/ul><p>Don't miss the chance to get this incredible pack at a special pre-purchase price.<\/p>",
+            "textfr": "<p>Ce pack inclut :<\/p><ul><li>La maquette du remorqueur Hercules<\/li><li>Le kit de leds gratuit<\/li><li>Le socle noir gratuit <\/li><\/ul><p>Ne ratez pas la possibilité de recevoir ce pack incroyable à un prix spécial « précommande ».<\/p>",
+            "textde": "<p>Dieses Paket beinhaltet:<\/p><ul><li>Das Modell des Schleppers Hercules<\/li><li>Kostenlose LED-Licht-Kit<\/li><li>Kostenlose schwarze Basis<\/li><\/ul><p>Verpassen Sie nicht die Gelegenheit, dieses unglaubliche Paket zu einem Sonderpreis für Vorbestellungen zu erhalten.<\/p>",
+            "textit": "<p>Questo pacchetto include:<\/p><ul><li>Il modellino del rimorchiatore Hércules<\/li><li>Il Kit di luci led gratis<\/li><li>﻿﻿Base pedana nera gratis<\/li><\/ul><p>Non farti sfuggire l’opportunità di prendere questo incredibile pacchetto a un prezzo speciale di pre-acquisto.e to display recent reviews or FAQs.<\/p>",
+            "textpt": "<p>Este pacote inclui:<\/p><ul><li>O modelo do rebocador Hércules <\/li><li>Kit de luzes led grátis<\/li><li>Base preta grátis<\/li><\/ul><p>Não perca a oportunidade de obter este incrível pacote a um preço especial de pré-compra.<\/p>",
+            "button_label": "Comprar ahora",
+            "link": "shopify:\/\/products\/pack-precompra-hercules-peana-luces"
+          }
+        },
+        "template--16681676767487__2d60c466-6cf3-4755-a256-25925a2dfc00-16771226374fb515a4-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/PackMaquetabarcodemaderaremolcadorHERCULESRC_Lijadores_SoporteTrabajoOcCre.jpg",
+            "image_width": 700,
+            "title": "Soporte de Trabajo y Pack Lijadores de regalo",
+            "titleen": "WORK SUPPORT AND  SANDING PACK AS A GIFT",
+            "titlefr": "SUPPORT DE TRAVAIL ET PACK DE PONCEUSES OFFERTS",
+            "titlede": "GESCHENKTE ARBEITSUNTERSTÜTZUNG UND SCHLEIFPACKUNG",
+            "titleit": "SUPPORTO DI LAVORO E PACCHETTO DI FOGLI ABRASIVI IN OMAGGIO",
+            "titlept": "SUPORTE DE TRABALHO E PACK DE LIXADEIRAS GRÁTIS",
+            "text": "<p>Este pack incluye:<\/p><ul><li>La maqueta del remolcador Hércules<\/li><li>Soporte de trabajo gratis<\/li><li>Pack de 3 lijadores gratis¡<\/li><\/ul><p>No pierdas la oportunidad de llevarte este increíble pack a un precio especial de pre-compra!<\/p>",
+            "texten": "<p>This pack includes:<\/p><ul><li>The Hercules tugboat kit<\/li><li>Free work support<\/li><li>Pack of 3 sanders for free<\/li><\/ul><p>Don't miss the chance to get this incredible pack at a special pre-purchase price!<\/p>",
+            "textfr": "<p>Ce pack inclut :<\/p><ul><li>La maquette du remorqueur Hercules <\/li><li>Le support de travail gratuit<\/li><li>Pack de trois ponceuses gratuit<\/li><\/ul><p>Ne ratez pas la possibilité de vous offrir ce pack incroyable à un prix spécial « précommande ».<\/p>",
+            "textde": "<p>Dieses Paket beinhaltet:<\/p><ul><li>Das Modell des Schleppers Hercules<\/li><li>Kostenlose Arbeitsunterstützung<\/li><li>Kostenlose Packung mit 3 Schleifern<\/li><\/ul><p>Verpassen Sie nicht die Gelegenheit, dieses unglaubliche Paket zu einem Sonderpreis für Vorbestellungen zu erhalten!<\/p>",
+            "textit": "<p>Questo pacchetto include:<\/p><p>• Il modellino del rimorchiatore Hércules <\/p><p>* Il supporto di lavoro gratis<\/p><p>* ﻿Pacchetto di 3 fogli abrasivi gratis<\/p><p>Non farti sfuggire l’opportunità di prendere questo incredibile pacchetto a un prezzo speciale di pre-acquisto.<\/p>",
+            "textpt": "<p>Este pacote inclui:<\/p><p>* O modelo do rebocador Hércules <\/p><p>* O suporte de trabalho grátis<\/p><p>* Pacote de 3 lixadeiras grátis<\/p><p>Não perca a oportunidade de obter este incrível pacote a um preço especial de pré-compra!<\/p>",
+            "button_label": "Comprar ahora",
+            "link": "shopify:\/\/products\/pack-precompra-hercules-soporte-lijadores"
+          }
+        },
+        "template--16681676767487__2d60c466-6cf3-4755-a256-25925a2dfc00-16771226374fb515a4-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/PackMaquetabarcodemaderaremolcadorHERCULESRC_PinturasOcCre.jpg",
+            "image_width": 700,
+            "title": "pack pinturas de regalo",
+            "titleen": "PACK OF PAINTINGS AS A GIFT",
+            "titlefr": "PACK DE PEINTURE OFFERT",
+            "titlede": "GESCHENKTES FARBENSET",
+            "titleit": "PACCHETTO PITTURE IN OMAGGIO",
+            "titlept": "PACOTE DE TINTAS DE PRESENTE",
+            "text": "<p>Este pack incluye:<\/p><ul><li>La maqueta del remolcador Hércules<\/li><li>Pack completo de 12 pinturas y 2 tintes gratis<\/li><\/ul><p>¡No te pierdas esta oportunidad única y lleva tu maqueta al siguiente nivel!<\/p>",
+            "texten": "<p>This pack includes:<\/p><ul><li>The Hercules tugboat kit<\/li><li>Complete pack of 12 paints and 2 dyes FOR FREE<\/li><\/ul><p>Don't miss this unique opportunity and take your model to the next level!<\/p>",
+            "textfr": "<p>Ce pack inclut :<\/p><ul><li>La maquette du remorqueur Hercules<\/li><li>Un pack complet de 12 peintures et 2 teintes gratuites<\/li><\/ul><p>Ne ratez pas cette offre unique d’amener votre maquette à un niveau supérieur !<\/p>",
+            "textde": "<p>Dieses Paket beinhaltet:<\/p><ul><li>Das Modell des Schleppers Hercules<\/li><li>Das komplette Set aus 12 Farben und 2 Tinten kostenlos<\/li><\/ul><p>Verpassen Sie nicht diese einzigartige Gelegenheit und bringen Sie Ihr Modell auf das nächste Level!<\/p>",
+            "textit": "<p>Questo pacchetto include:<\/p><p>• Il modellino del rimorchiatore Hércules<br\/>• Il pacchetto completo di 12 pitture e 2 coloranti gratis<\/p><p>Non farti sfuggire questa opportunità unica di portare il tuo modellino a un livello superiore!<\/p>",
+            "textpt": "<p>Este pacote inclui:<\/p><ul><li>O modelo do rebocador Hércules<\/li><li>O pacote completo de 12 tintas e 2 corantes grátis<\/li><\/ul><p>Não perca esta oportunidade única e leve o seu modelo para o próximo nível!<\/p>",
+            "button_label": "Comprar ahora",
+            "link": "shopify:\/\/products\/pack-precompra-hercules-pinturas"
+          }
+        },
+        "76e01f7a-a383-494c-8f48-2843d4a8caf2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/PackMaquetabarcodemaderaremolcadorHERCULESRC_MuebleTallerOcCre.jpg",
+            "image_width": 700,
+            "title": "MUEBLE TALLER DE REGALO",
+            "titleen": "WORKSHOP FURNITURE GIFT",
+            "titlefr": "MEUBLE ORGANISEUR D’ATELIER OFFERT",
+            "titlede": "GESCHENKTES WERKSTATTMÖBEL",
+            "titleit": "MOBILE ORGANIZZATORE IN OMAGGIO",
+            "titlept": "MOBILIÁRIO DE OFICINA DE PRESENTE",
+            "text": "<p>Este pack incluye:<\/p><ul><li>La maqueta del remolcador Hércules<\/li><li>Mueble Taller Organizador gratis<\/li><\/ul><p>¡No pierdas la oportunidad de llevarte este increíble pack a un precio especial de pre-compra!<\/p>",
+            "texten": "<p>This pack includes:<\/p><ul><li>The Hercules tugboat model kit<\/li><li>Free Workshop Organizer Furniture<\/li><\/ul><p>Don't miss the chance to get this incredible pack at a special pre-purchase price!<\/p>",
+            "textfr": "<p>Ce pack inclut :<\/p><ul><li>La maquette du remorqueur Hercules<\/li><li>Meuble organiseur d’atelier gratuit<\/li><\/ul><p>Ne ratez pas la possibilité de vous offrir ce pack incroyable à un prix spécial « précommande ».<\/p>",
+            "textde": "<p>Dieses Paket beinhaltet:<\/p><ul><li>Das Modell des Schleppers Hercules<\/li><li>Kostenlose Werkstattmöbel<\/li><\/ul><p>Verpassen Sie nicht die Gelegenheit, dieses unglaubliche Paket zu einem Sonderpreis für Vorbestellungen zu erhalten!<\/p>",
+            "textit": "<p>Questo pacchetto include:<\/p><p>• Il modellino del rimorchiatore Hércules<\/p><p>* ﻿﻿Mobile organizzatore gratis<\/p><p>Non farti sfuggire l’opportunità di prendere questo incredibile pacchetto a un prezzo speciale di pre-acquisto.<\/p>",
+            "textpt": "<p>Este pacote inclui:<\/p><p>* O modelo do rebocador Hércules<\/p><p>* Mobiliário de oficina organizador grátis<\/p><p>Não perca a oportunidade de obter este incrível pacote a um preço especial de pré-compra!<\/p>",
+            "button_label": "Comprar ahora",
+            "link": "shopify:\/\/products\/pack-precompra-hercules-taller"
+          }
+        }
+      },
+      "block_order": [
+        "template--16681676767487__2d60c466-6cf3-4755-a256-25925a2dfc00-16771226374fb515a4-0",
+        "template--16681676767487__2d60c466-6cf3-4755-a256-25925a2dfc00-16771226374fb515a4-1",
+        "template--16681676767487__2d60c466-6cf3-4755-a256-25925a2dfc00-16771226374fb515a4-2",
+        "76e01f7a-a383-494c-8f48-2843d4a8caf2"
+      ],
+      "custom_css": [
+        "h2 {color: #f3b01c; font-family: Montserrat; font-size: 36px; font-weight: 700; line-height: 45px; letter-spacing: 0em; text-align: center;}",
+        "span {font-weight: 400;}",
+        "b {color: #f3b01c;}",
+        "h3 {text-transform: uppercase; color: #cc1a1a; font-family: JMH Typewriter; font-size: 18px; font-weight: 900; line-height: 23px; padding-left: 15%; padding-right: 15%; letter-spacing: 0.085em; text-align: center;}"
+      ],
+      "settings": {
+        "title": "<h2 style=\"margin-top:20px;\">¡AHORRA HASTA UN 20% con la Pre-compra!<\/h2>\n<p>¡Elige el pack que más te gusta y llévate el complemento del pack <b>GRATIS<\/b> para que puedas disfrutar de este modelo de la forma más completa!<\/p>\n<p><span>¡Esta oferta solo está disponible por tiempo limitado!<\/span><\/p>",
+        "titleen": "<h2 style=\"margin-top:20px;\">LIMITED-TIME OPPORTUNITY SAVE UP TO 20% WITH PRE-PURCHASE!<\/h2>\n<p>Choose the pack you like the most and get the complementary pack for <b>FREE<\/b>!\nWE GIVE YOU THE COMPLEMENT to enjoy this model in the most complete way.\n\n<\/p>\n<p><span>THIS OFFER IS ONLY AVAILABLE FOR A LIMITED TIME!<\/span><\/p>",
+        "titlefr": "<h2 style=\"margin-top:20px;\">UNE OCCASION UNIQUE PENDANT UN TEMPS LIMITÉ\nÉCONOMISEZ JUSQU’A 20 % GR CE À LA PRÉCOMMANDE\n<\/h2>\n<p>Choisissez le pack qui vous plaît le plus et recevez les compléments du pack <b>GRATUITEMENT !<\/b>\nNOUS VOUS OFFRONS LES COMPLÉMENTS nécessaires pour que vous puissiez profiter le plus possible de cette maquette.\n<\/p>\n<p><span>CETTE OFFRE EST DISPONIBLE PENDANT UN TEMPS LIMITÉ<\/span><\/p>",
+        "titleit": "<h2 style=\"margin-top:20px;\">OPPORTUNITÀ UNICA DURANTE UN PERIODO LIMITATO\nRISPARMIA FINO AL 20% CON IL PRE-ACQUISTO!\n<\/h2>\n<p>Scegli il pacchetto che ti piace di più e prendi un complemento <b>GRATIS!<\/b>\nTI OFFRIAMO IL COMPLEMENTO per farti approfittare di questo modello nel modo più completo.\n<\/p>\n<p><span>QUESTA OPPORTUNITÀ SARÀ DISPONIBILE SOLO DURANTE UN PERIODO LIMITATO!<\/span><\/p>",
+        "titlede": "<h2 style=\"margin-top:20px;\">EINZIGARTIGE GELEGENHEIT FÜR BEGRENZTE ZEIT\nSPARE BIS ZU 20% MIT DEM VORBESTELLUNGSANGEBOT!\n<\/h2>\n<p>Wähle das Pack, das dir am besten gefällt, und erhalte das kostenlose Pack-Upgrade <b>GRATIS<\/b> dazu!\nWIR SCHENKEN DIR DAS UPGRADE, damit du dieses Modell auf die bestmögliche Weise genießen kannst.\n\n\n<\/p>\n<p><span>DIESES ANGEBOT IST NUR FÜR BEGRENZTE ZEIT VERFÜGBAR!<\/span><\/p>",
+        "titlept": "<h2 style=\"margin-top:20px;\">OPORTUNIDADE ÚNICA POR UM TEMPO LIMITADO POUPAR ATÉ 20% COM A PRÉ-COMPRA!\n<\/h2>\n<p>Escolha o pacote que mais lhe agrada e obtenha o complemento do pacote <b>GRÁTIS!<\/b>\n\nDAMOS-LHE DE PRESENTE O COMPLEMENTO para que possa desfrutar deste modelo da forma mais completa.\n<\/p>\n<p><span>ESTA OFERTA SÓ ESTÁ DISPONÍVEL POR UM TEMPO LIMITADO!\n<\/span><\/p>",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "9e932cc2-6464-4bab-9c59-0816abe03926": {
+      "type": "two-colimns-grid-gallery-2",
+      "blocks": {
+        "8e9c3a85-38bf-47b4-b31c-46f6de23f8b4": {
+          "type": "imagen2",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hercules_3-32_1.jpg"
+          }
+        },
+        "2e415e62-2cfa-48c5-ac70-19d54e7decd5": {
+          "type": "titulo03",
+          "settings": {
+            "image": "TE CONTAMOS UN POCO SOBRE  LAS LABORES DEL HÉRCULES",
+            "image_en": "LET US TELL YOU A BIT ABOUT HERCULES' TASKS",
+            "image_fr": "QUELQUES MOTS SUR LES MISSIONS DE L’HERCULES",
+            "image_de": "WIR ERZÄHLEN IHNEN ETWAS ÜBER DIE AUFGABEN DES HÉRCULES",
+            "image_it": "ECCO UNA BREVE DESCRIZIONE DELLE CARATTERISTICHE DEL HÉRCULES",
+            "image_br": "FALAMOS-LHE UM POUCO SOBRE O TRABALHO DO HERCULES"
+          }
+        },
+        "aa10ab65-5d8a-4da1-bc22-bafbd6ce521e": {
+          "type": "text2",
+          "settings": {
+            "image": "<p>​​El bote remolcador Hércules fue una embarcación diseñada para remolcar y ayudar a mover otras embarcaciones más grandes o inmóviles.<\/p><p>Algunas de sus tareas comunes fueron:<\/p><ul><li>Remolque de barcos y buques: El bote remolcador Hercules podia ser contratado para remolcar barcos y buques que necesitan ser trasladados de un lugar a otro.<\/li><li>Asistencia en puertos y muelles: También pudo ser utilizado para ayudar en la maniobra de barcos y buques en puertos y muelles, especialmente en situaciones difíciles o peligrosas.<\/li><li>Salvamento marítimo: En situaciones de emergencia como rescatar a tripulantes de un barco hundido o asegurar un barco que está a punto de hundirse.<\/li><li>Trabajos de construcción marítima: fue utilizado para ayudar en proyectos de construcción como la colocación de tuberías submarinas o la instalación de estructuras en el mar.<\/li><\/ul>",
+            "image_en": "<p>The Hercules tugboat was a vessel designed to tow and help move other larger or immobile vessels.<\/p><p>Some of its common tasks were:<\/p><ul><li>Towing of ships and vessels: The Hercules tugboat could be hired to tow ships and vessels that need to be moved from one place to another.<\/li><li>Assistance in ports and docks: It could also be used to help maneuver ships and vessels in ports and docks, especially in difficult or dangerous situations.<\/li><li>Maritime rescue: In emergency situations such as rescuing crew members from a sinking ship or securing a ship that is about to sink.<\/li><li>Maritime construction work: it was used to assist in construction projects such as laying underwater pipes or installing structures at sea.<\/li><\/ul>",
+            "image_fr": "<p>Le remorqueur Hercules était un navire conçu pour remorquer et aider d’autres embarcations plus grandes ou immobiles à se déplacer.<\/p><p>Ses tâches les plus fréquentes :<\/p><ul><li>Remorquage de bateaux et de navires : le remorqueur Hercules pouvait être chargé de remorquer des bateaux et des navires qui avaient besoin d’être déplacés d’un endroit à un autre.<\/li><li>*Assistance dans les ports et les jetées : il était aussi utilisé pour aider les bateaux et des navires dans les ports et les quais à accomplir des manœuvres, spécialement dans des situations difficiles ou dangereuses.<\/li><li>Sauvetage maritime : dans des cas d’urgence, il portait secours aux équipages des bateaux naufragés ou sécurisait les bateaux sur le point de sombrer.<\/li><li>Travaux de construction maritime : il a servi dans des projets de constructions comme la pose de tuyaux sous-marins ou l’installation de structures sur le fond de mer.<\/li><\/ul>",
+            "image_de": "<p>Der Schlepper Hercules war ein Boot, das für das Schleppen und Bewegen größerer oder unbeweglicher Schiffe konzipiert wurde.<\/p><p>Einige seiner häufigsten Aufgaben waren:<\/p><ul><li>Schleppen von Schiffen und Booten: Der Schlepper Hercules konnte gemietet werden, um Schiffe und Boote von einem Ort zum anderen zu schleppen.<\/li><li>Unterstützung in Häfen und Anlegestellen: Es konnte auch eingesetzt werden, um bei der Manövrierung von Schiffen und Booten in Häfen und Anlegestellen zu helfen, insbesondere in schwierigen oder gefährlichen Situationen.<\/li><li>Meeresrettung: In Notfällen wie dem Retten von Besatzungsmitgliedern eines gesunkenen Schiffes oder dem Sichern eines Schiffes, das kurz vor dem Sinken steht.<\/li><li>Meeresbauarbeiten: Es wurde eingesetzt, um bei Bauprojekten wie der Verlegung von Unterwasserrohren oder der Installation von Strukturen im Meer zu helfen.<\/li><\/ul><p><\/p>",
+            "image_it": "<p>Il rimorchiatore Hércules fu una nave progettata per rimorchiare ed aiutare a spostare navi più grandi di lui o immobili.<\/p><p>Alcune delle sue funzioni furono:<\/p><ul><li>* Rimorchio di navi ed imbarcazioni: Il rimorchiatore Hércules era contrattato per il traino e spostamento di navi ed imbarcazioni.<\/li><li>Assistenza nei porti e nelle banchine: Si utilizzava anche nelle manovre di navi ed imbarcazioni nei porti e nelle banchine, in particolare in situazioni difficili e pericolose.<\/li><li>Salvataggio marittimo: In situazioni di emergenza come il salvataggio dei membri dell’equipaggio di una nave affondata o per rinforzare una nave che stava per affondare.<\/li><li>Lavori di costruzione marittima: fu utilizzato per aiutare in progetti di costruzione come il posizionamento di condotte sottomarine o strutture marittime.<\/li><\/ul>",
+            "image_br": "<p>O rebocador Hércules era uma embarcação concebida para rebocar e ajudar a mover embarcações maiores ou imóveis.<\/p><p>Algumas das suas tarefas comuns eram:<\/p><ul><li>Rebocagem de barcos e navios: O rebocador Hércules podia ser contratado para rebocar barcos e navios que precisavam ser movidas de um lugar para outro.<\/li><li>Assistência em portos e cais: Também podia ser utilizado para ajudar a manobrar barcos e navios em portos e cais, especialmente em situações difíceis ou perigosas.<\/li><li>Salvamento marítimo: Em situações de emergência como o salvamento de tripulantes de um navio naufragado ou a fixação de um navio que está prestes a afundar-se.<\/li><li>Trabalhos de construção marítima: foi utilizado para ajudar em projectos de construção tais como a colocação de tubagens submarinas ou a instalação de estruturas no mar.<\/li><\/ul>"
+          }
+        },
+        "02546f80-70e2-4c51-950a-7c0b7504224a": {
+          "type": "tituloprincipal",
+          "settings": {
+            "image": "EL DESAFÍO MÁS GRANDE PARA EL HÉRCULES FUE CUANDO REMOLCÓ A GOLIAT DEL OCÉANO ATLÁNTICO AL OCÉANO PACIFICO",
+            "image_en": "THE BIGGEST CHALLENGE FOR HERCULES WAS WHEN IT TOWED GOLIATH FROM THE ATLANTIC OCEAN TO THE PACIFIC OCEAN",
+            "image_fr": "LE DÉFI LE PLUS GRAND QUE L’HERCULE AIT RELEVÉ EST LE REMORQUAGE DU GOLIAT DE L'OCÉAN ATLANTIQUE À L'OCÉAN PACIFIQUE",
+            "image_de": "DIE GRÖSSTE HERAUSFORDERUNG FÜR DEN HÉRCULES WAR, ALS ER GOLIATH VON DEM ATLANTIK IN DEN PAZIFIK SCHLEPPTE.",
+            "image_it": "LA PIÙ GRANDE SFIDA FU IL TRAINO DEL GOLIAT DALL’OCEANO ATLANTICO ALL’OCEANO PACIFICO",
+            "image_br": "O MAIOR DESAFIO PARA O HERCULES FOI QUANDO REBOCOU O GOLIATH DO OCEANO ATL NTICO PARA O OCEANO PACÍFICO."
+          }
+        },
+        "c2bc7422-37d8-4bba-bcdb-c3a6f68bbcaf": {
+          "type": "titulo1",
+          "settings": {
+            "image": "Descripción del producto:",
+            "image_en": "Product Description:",
+            "image_fr": "Description du produit :",
+            "image_de": "Beschreibung des Produkts:",
+            "image_it": "Descrizione del prodotto:",
+            "image_br": "Descrição do produto:"
+          }
+        },
+        "8511344f-9a3e-4bbb-a618-92493f34e9b2": {
+          "type": "text1",
+          "settings": {
+            "image": "<p><strong>Cantidad de piezas <br\/><\/strong>Aproximadamente 2100 piezas. En los modelos anteriores, seguramente no se tuvieron en cuenta las puntas. <\/p><p><strong>Materiales<\/strong> <br\/>Tablero contrachapado, chapas y listones de tilo, fotograbados de latón, piezas de metal fundido, hilos de algodón, hilos de latón y banderas de tela. <\/p><p><strong>Modelo<\/strong> <br\/>Con alto grado de detalles y preparado para Radio Control y motorización, (navegable).<\/p>",
+            "image_en": "<p><strong>Number of pieces<\/strong><br\/>Approximately 2100 pieces. <\/p><p><strong>Materials<\/strong><br\/>Plywood board, lime wood strips and sheets, brass photoetched parts, cast metal parts, cotton threads, brass threads and fabric flags.<\/p><p><strong>Model<\/strong><br\/>With a high level of detail this model is prepared for Radio<\/p><p>Control and motorization (navigable).<\/p><p><\/p>",
+            "image_fr": "<p><strong>Quantité de pièces<\/strong><br\/>Environ 2100 pièces.<\/p><p><strong>Matériaux<\/strong><br\/>Panneau de contreplaqué, plaques et lattes en tilleul, photogravure en laiton, pièces en métal fondu, fil en coton, fil en laiton et drapeaux en tissu. <\/p><p><strong>Maquette<\/strong><br\/>Cette maquette très détaillé est prête pour le<\/p><p>Téléguidage et la motorisation, (navigable).<\/p>",
+            "image_de": "<p><strong>Stückzahl<\/strong><\/p><p>Ungefähr 2100 Teile.<\/p><p><strong>Materialien<\/strong><\/p><p>Sperrholzplatte, Lindenholzsperrholz und Leisten, Messingätzteile, gegossene Metallteile, Baumwoll- und Messingfäden und Stoffflaggen.<\/p><p><strong>Modell<\/strong><\/p><p>Mit hohem Detailgrad ist dieses Modell für Fernsteuerung und Motorisierung (manövrierfähig) vorbereitet.<\/p>",
+            "image_it": "<p><strong>Numero di pezzi<\/strong><br\/>Circa 2100 pezzi.<\/p><p><strong>Materiali<\/strong><br\/>Pannello di compensato, lamiere e listelli di tiglio, fotoincisioni in ottone, pezzi in metallo fuso, fili di cotone, fili di ottone e bandiere in tessuto. <\/p><p><strong>Modello<\/strong><br\/>Questo modello offre un alto livello di dettagli ed è previsto per funzionare con telecomando e motorizzazione (navigabile).<\/p>",
+            "image_br": "<p><strong>Quantidade de peças.<\/strong><br\/>Aproximadamente 2100 peças.<\/p><p><strong>Materiais<\/strong><br\/>Placa de contraplacado, chapas e tiras de madeira de tília, fotogravados em latão, peças de metal fundido, fios de algodão, fios de latão e bandeiras de tecido.<\/p><p><strong>Modelo<\/strong><br\/>Com um elevado grau de detalhe, este modelo está preparado para a Rádio<\/p><p>Controlo e motorização, (navegável).<\/p>"
+          }
+        },
+        "8febf086-c9ad-494e-8678-a454ac99c06b": {
+          "type": "text01",
+          "settings": {
+            "image": "<p>El kit, además de todas las piezas para su construcción, contiene los siguientes elementos técnicos para Radio Control:<\/p><ul><li>Hélice<\/li><li>Eje de la hélice<\/li><li>Bocina del eje de la hélice con cojinetes auto <\/li><li>Lubricados<\/li><li>Pala de timón para Radio Control con mecanismos de anclaje al casco y a servo.<\/li><\/ul><p>Este modelo lleva varias aperturas en la cubierta para poder acceder a los mecanismos de Radio Control y motorización.<\/p>",
+            "image_en": "<p>The kit, in addition to all the parts for its construction, includes the following technical elements for Radio Control:<\/p><ul><li>Propeller<\/li><li>Propeller shaft<\/li><li>Propeller shaft bushing with self-lubricating bearings<\/li><li>Rudder blade for Radio Control with anchoring mechanisms to the hull and to a servo.<\/li><\/ul><p>This model has several openings in the deck to access the Radio Control and motorization mechanisms.<\/p>",
+            "image_fr": "<p>Le kit, en plus de toutes les pièces pour la construction, contient les accessoires techniques suivants pour le téléguidage :<\/p><ul><li>Hélice<\/li><li>Axe de l’hélice<\/li><li>Douille pour l’arbre de l’hélice avec roulements autolubrifiés<\/li><li>Lame de safran pour le téléguidage avec mécanisme d’ancrage à la coque et au servomoteur.<\/li><\/ul><p>La maquette est dotée d’ouvertures sur le capot pour accéder aux mécanismes téléguidés et au moteur.<\/p>",
+            "image_de": "<p>Zusätzlich zu allen Teilen für den Bau enthält das Kit die folgenden technischen Elemente für die Fernsteuerung:<\/p><ul><li>Propeller<\/li><li>Propellerwelle<\/li><li>Propellerwellenbremse mit selbstschmierenden Lagern<\/li><li>Ruderblatt für Fernsteuerung mit Verankerungsmechanismen am Rumpf und Servo.<\/li><\/ul><p>Dieses Modell hat mehrere Öffnungen auf dem Deck, um Zugang zu den Fernsteuerungs- und Motorisierungsmechanismen zu ermöglichen.<\/p>",
+            "image_it": "<p>Inoltre a tutti i pezzi di assemblaggio, il kit include i seguenti elementi tecnici di telecomando:<\/p><ul><li>﻿Elica<\/li><li>Asse dell’elica<\/li><li>Boccola asse dell’elica con cuscinetti autolubrificanti<\/li><li>﻿Pala del timone per telecomando con meccanismo di fissaggio scafo e servo.<\/li><\/ul><p>Questo modello ha diverse aperture nella piattaforma della nave per accedere ai sistemi di telecomando e motorizzazione.<\/p>",
+            "image_br": "<p>O kit, além de todas as peças para a sua construção, contém os seguintes elementos técnicos para o controlo de Rádio:<\/p><ul><li>Hélice<\/li><li>Eixo da hélice<\/li><li>Buzina do eixo da hélice com rolamentos autolubrificantes <\/li><li>Pá do timão controlo de rádio com mecanismos de ancoragem no casco e servo<\/li><li>Lâmina do leme de controlo de rádio com mecanismos de ancoragem do casco e servo.<\/li><\/ul><p>Este modelo tem várias aberturas no convés para acesso ao Radio Control e mecanismos motorizados.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8e9c3a85-38bf-47b4-b31c-46f6de23f8b4",
+        "2e415e62-2cfa-48c5-ac70-19d54e7decd5",
+        "aa10ab65-5d8a-4da1-bc22-bafbd6ce521e",
+        "02546f80-70e2-4c51-950a-7c0b7504224a",
+        "c2bc7422-37d8-4bba-bcdb-c3a6f68bbcaf",
+        "8511344f-9a3e-4bbb-a618-92493f34e9b2",
+        "8febf086-c9ad-494e-8678-a454ac99c06b"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "gallery1": "shopify:\/\/shop_images\/hercules1-08_1.jpg",
+        "gallery2": "shopify:\/\/shop_images\/IMG_7879_c9213cd6-53d3-405c-8463-995562cac163.jpg",
+        "gallery3": "shopify:\/\/shop_images\/IMG_7879-1.jpg",
+        "gallery4": "shopify:\/\/shop_images\/IMG_7879-2.jpg",
+        "gallery5": "shopify:\/\/shop_images\/IMG_7879-3.jpg",
+        "gallery6": "shopify:\/\/shop_images\/IMG_7879-4.jpg",
+        "gallery7": "shopify:\/\/shop_images\/0U3A6807_1.jpg",
+        "gallery8": "shopify:\/\/shop_images\/0U3A6788_1.jpg",
+        "gallery9": "shopify:\/\/shop_images\/hercules.jpg",
+        "formk": ""
+      }
+    },
+    "5cf337b5-1e4b-49f9-9180-7eeac909dba3": {
+      "type": "rich-text-leads",
+      "blocks": {
+        "8a58eb16-0e95-48b8-b5f6-df3bd61ad2db": {
+          "type": "heading",
+          "settings": {
+            "title": "Nivel de aprendizaje requerido",
+            "titleen": "REQUIRED LEVEL OF EXPERTISE",
+            "titlefr": "NIVEAU D’APPRENTISSAGE REQUIS",
+            "titlede": "ERFORDERLICHES LERNNIVEAU",
+            "titleit": "LIVELLO DI DIFFICOLTÀ",
+            "titlept": "NÍVEL DE APRENDIZAGEM NECESSÁRIO",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "7db531d4-639f-41f8-be6e-8d24182a2295": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "INTERMEDIO",
+            "color": "default_color"
+          }
+        },
+        "template--16681676767487__5cf337b5-1e4b-49f9-9180-7eeac909dba3-16771966228babd22a-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "titleen": "Rich text",
+            "titlefr": "Rich text",
+            "titlede": "Rich text",
+            "titleit": "Rich text",
+            "titlept": "Rich text",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "template--16681676767487__5cf337b5-1e4b-49f9-9180-7eeac909dba3-16771966228babd22a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>ficha técnica<\/strong><\/em><\/p><p><strong>Modelo: <\/strong>Hercules <strong>| REFERENCIA: <\/strong>61002 <strong>| Escala:<\/strong> 1\/50<\/p><p><strong>Anchura: <\/strong>163mm<strong> | longitud: <\/strong>915mm <strong>| Altura: <\/strong>420mm<\/p>",
+            "texten": "<p><em><strong>TECHNICAL SPECIFICATIONS<\/strong><\/em><\/p><p><strong>MODEL: <\/strong>HERCULES<strong> | REFERENCE: <\/strong>61002 <strong>| SCALE: <\/strong>1\/50<\/p><p><strong>WIDTH:<\/strong> 163mm <strong>| LENGTH: <\/strong>915mm<strong> | HEIGHT:<\/strong> 420mm<\/p>",
+            "textfr": "<p><em><strong>FICHE TECHNIQUE<\/strong><\/em><\/p><p><strong>MODÈLE :<\/strong> HERCULES <strong>| RÉFÉRENCE : <\/strong>61002 <strong>| ÉCHELLE: <\/strong>1\/50<\/p><p><strong>LARGEUR : <\/strong>163 mm <strong>| LONGUEUR : <\/strong>915 mm<strong> | HAUTEUR :<\/strong> 420 mm<\/p>",
+            "textde": "<p><em><strong>TECHNISCHE DATEN<\/strong><\/em><\/p><p><strong>MODELL:<\/strong> HERCULES <strong>| REFERENZ: <\/strong>61002<strong> | MASSSTAB: <\/strong>1\/50<\/p><p><strong>BREITE: <\/strong>163 mm<strong> | LÄNGE:<\/strong> 915 mm <strong>| HÖHE: <\/strong>420 mm<\/p>",
+            "textit": "<p><em><strong>SCHEDA TECNICA<\/strong><\/em><\/p><p><strong>MODELLO:<\/strong> HERCULES <strong>| RIFERIMENTO: <\/strong>61002 | SCALA: 1\/50<\/p><p><strong>LARGHEZZA: <\/strong>163mm <strong>| LUNGHEZZA:<\/strong> 915mm <strong>| ALTEZZA:<\/strong> 420mm<\/p>",
+            "textpt": "<p><em><strong>DADOS TÉCNICOS<\/strong><\/em><\/p><p><strong>MODELO: <\/strong>HERCULES <strong>|<\/strong> <strong>REFERÊNCIA : <\/strong>61002 <strong>|<\/strong> <strong>ESCALA : <\/strong>1\/50<\/p><p><strong>LARGURA:<\/strong> 163mm<strong> | LONGITUDE: <\/strong>915mm <strong>| ALTURA: <\/strong>420mm<\/p>",
+            "enlarge_text": true,
+            "color": "default_color",
+            "bold_text": false
+          }
+        },
+        "3886a4c9-7c5a-486d-8508-56488bcfc3ae": {
+          "type": "button",
+          "settings": {
+            "button_label": "Comprar ahora",
+            "button_link": "#section-id-template--16681676767487__2d60c466-6cf3-4755-a256-25925a2dfc00",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "8a58eb16-0e95-48b8-b5f6-df3bd61ad2db",
+        "7db531d4-639f-41f8-be6e-8d24182a2295",
+        "template--16681676767487__5cf337b5-1e4b-49f9-9180-7eeac909dba3-16771966228babd22a-0",
+        "template--16681676767487__5cf337b5-1e4b-49f9-9180-7eeac909dba3-16771966228babd22a-1",
+        "3886a4c9-7c5a-486d-8508-56488bcfc3ae"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "css_text": "nopaddingnomargin",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "c3430d10-d910-4e47-9ba4-e032544dd15b": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        ".subheading--over {font-family: \"JMH Typewriter\"; font-size: 25px; font-weight: 700; line-height: 46px; letter-spacing: 0.085em; text-align: center; color: #7c3830;}",
+        ".overlay-text__text {background: white; color: black; padding: 60px 0px; font-family: Century Gothic; font-size: 16px; font-weight: 400; line-height: 20px; letter-spacing: 0em; text-align: center;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/006_1.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 860,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "Un poco más de historia del Hércules",
+        "title": "",
+        "titleen": "Two line\ntext heading",
+        "titlefr": "Two line\ntext heading",
+        "titlede": "Two line\ntext heading",
+        "titleit": "Two line\ntext heading",
+        "titlePT": "Two line\ntext heading",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "<p>El remolcador Hércules estaba destinado a una vida de extenuantes desafíos<\/p><p>Fue construido para trabajar remolcando en el Pacífico abierto fuera de San Francisco, a lo largo de la imponente costa de sotavento que es la costa oesteAstucia y fuerza bruta, al igual que su homónimo mítico, el remolcador Hércules necesitaba tanto la astucia humana como la fuerza bruta para realizar sus abrumadoras tareas.<\/p><p>Su tripulación de cubierta y sus oficiales eran maestros en maniobrar con precisión cargas increíblemente pesadas. Hombres y barco unidos a entregar la fuerza crítica precisamente en el momento correcto.<\/p>",
+        "texten": "<p>The Hercules tugboat was destined for a life of grueling challenges<\/p><p>It was built to work towing in the open Pacific off San Francisco, along the imposing leeward coast that is the west coast.<\/p><p>Cunning and brute force, like its mythical namesake, the Hercules tugboat needed both human cunning and brute force to perform its overwhelming tasks.<\/p><p>Its deck crew and officers were masters at maneuvering incredibly heavy loads with precision. Men and ship united to deliver critical force precisely at the right moment.<\/p>",
+        "textfr": "<p>Le remorqueur Hercules était destiné à une vie de défis éprouvants<\/p><p>Il a été construit pour le remorquage sur l’océan Pacifique depuis San Francisco, au large de la magnifique côte sous le vent qu’est la côte ouest des États-Unis.<\/p><p>Rusé et doté d’une force brute, comme l’évoque son homonyme mythologique, le remorqueur Hercules avait aussi besoin de la ruse de l’homme brute pour accomplir des missions époustouflantes. <\/p><p>Son équipage de pont et ses officiers étaient des experts qui manœuvraient avec précision des cargaisons incroyablement lourdes. Les hommes et leur bateau unis pour délivrer la force critique au moment précis où elle est nécessaire.<\/p>",
+        "textde": "<p>Der Schlepper Hércules war für ein Leben voller anstrengender Herausforderungen bestimmt. Er wurde gebaut, um im offenen Pazifik vor San Francisco entlang der imposanten Leeseite der Westküste zu arbeiten. <\/p><p>Mit List und roher Gewalt, genau wie sein mythologisches Namensschild, brauchte der Schlepper Hércules sowohl menschliche List als auch rohe Gewalt, um seine überwältigenden Aufgaben zu erfüllen. <\/p><p>Seine Deckbesatzung und Offiziere waren Meister darin, unglaublich schwere Lasten präzise zu manövrieren. Mann und Schiff vereint, um die entscheidende Kraft zum richtigen Zeitpunkt genau zu liefern.<\/p>",
+        "textit": "<p>Il rimorchiatore Hércules era destinato a una vita di sfide intense<\/p><p>Fu costruito per lavorare rimorchiando navi nell’Oceano Pacifico aperto, fuori di San Francisco, lungo l’imponente riva di Sotavento, riviera ovest.<\/p><p>Astuzia e forza bruta, come il suo mitico omonimo, il rimorchiatore Hércules aveva bisogno sia dell’astuzia umana come della forza bruta per eseguire ardue missioni.<\/p><p>L’equipaggio di coperta e gli ufficiali erano esperti in manovre di precisione con carichi incredibilmente pesanti. Uomini e navi uniti per offrire forza critica nel momento preciso.<\/p>",
+        "textpt": "<p>O rebocador Hércules estava destinado a uma vida de desafios extenuantes.<\/p><p>Foi construído para trabalhos de reboque no Pacífico aberto, fora de São Francisco, ao longo da imponente linha costeira de sotavento que é a Costa Oeste.<\/p><p>Astúcia e força bruta, como o seu mítico homónimo, o rebocador Hércules precisou tanto de astúcia humana como de força bruta para desempenhar as suas assustadoras tarefas.<\/p><p>A sua tripulação de convés e oficiais eram mestres em manobrar cargas incrivelmente pesadas com precisão. Homens e navios estavam unidos na entrega de força crítica precisamente no momento certo.<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "fc8c5c62-6423-4d5d-8e31-51e11ff792fb": {
+      "type": "rich-text-leads",
+      "blocks": {
+        "2318432e-3ffd-40e0-8a29-01a88a2268df": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Capa_2.png",
+            "image_width": 260,
+            "url": ""
+          }
+        },
+        "template--16681676767487__fc8c5c62-6423-4d5d-8e31-51e11ff792fb-16771966228babd22a-0": {
+          "type": "heading",
+          "settings": {
+            "title": "¡Estás a solo un paso de tener en tus manos el Remolcador Hércules, de AHORRARTE HASTA UN 20% y recibir algunos de los complementos gratis!",
+            "titleen": "YOU ARE JUST ONE STEP AWAY FROM HAVING THE HERCULES TUGBOAT IN YOUR HANDS, SAVING UP TO 20% AND RECEIVING SOME FREE ADD-ONS!",
+            "titlefr": "VOUS N’ÊTES QU’À UN PAS D’AVOIR ENTRE VOS MAINS LE REMORQUEUR HERCULES, D’ÉCONOMISER JUSQU'À 20 % ET DE RECEVOIR NOS COMPLÉMENTS GRATUITS !",
+            "titlede": "DU BIST NUR EINEN SCHRITT ENTFERNT, DEN HÉRCULES-SCHLEPPER IN DEINEN HÄNDEN ZU HALTEN, BIS ZU 20% ZU SPAREN UND EINIGE KOSTENLOSE ADD-ONS ZU ERHALTEN!",
+            "titleit": "SEI A UN PASSO DI AVERE NELLE TUE MANI IL RIMORCHIATORE HÉRCULES, RISPARMIARE FINO AL 20% E RICEVERE ALCUNI COMPLEMENTI GRATIS!",
+            "titlept": "ESTÁ APENAS A UM PASSO DE TER EM SUAS MÃOS O REBOCADOR HÉRCULES, POUPANDO ATÉ 20% E OBTENDO ALGUNS DOS SUPLEMENTOS DE GRAÇA!",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "template--16681676767487__fc8c5c62-6423-4d5d-8e31-51e11ff792fb-16771966228babd22a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No esperes mucho, ¡Esta oferta solo está disponible por un tiempo limitado!<\/p>",
+            "texten": "<p>Don't wait too long, THIS OFFER IS ONLY AVAILABLE FOR A LIMITED TIME!<\/p>",
+            "textfr": "<p>N’attendez plus, CETTE OFFRE EST DISPONIBLE PENDANT UN TEMPS LIMITÉ<\/p>",
+            "textde": "<p>Warte nicht zu lange, DIESES ANGEBOT IST NUR FÜR EINE BEGRENZTE ZEIT VERFÜGBAR!<br\/><\/p>",
+            "textit": "<p>Non aspettare più, QUESTA OPPORTUNITÀ SARÀ DISPONIBILE SOLO DURANTE UN PERIODO LIMITATO!<\/p>",
+            "textpt": "<p>Não espere muito, ESTA OFERTA SÓ ESTÁ DISPONÍVEL POR UM TEMPO LIMITADO!<\/p>",
+            "enlarge_text": true,
+            "color": "default_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "2318432e-3ffd-40e0-8a29-01a88a2268df",
+        "template--16681676767487__fc8c5c62-6423-4d5d-8e31-51e11ff792fb-16771966228babd22a-0",
+        "template--16681676767487__fc8c5c62-6423-4d5d-8e31-51e11ff792fb-16771966228babd22a-1"
+      ],
+      "custom_css": [
+        "div {background: black; color: white;}",
+        "h2 {font-family: Montserrat; font-size: 28px; font-weight: 600; line-height: 32px; letter-spacing: 0em; text-align: center; color: #f3b01c;}"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "db1a47ab-a264-482c-a638-26462999dc76": {
+      "type": "multi-column-novedad",
+      "disabled": true,
+      "blocks": {
+        "template--16681676767487__2d60c466-6cf3-4755-a256-25925a2dfc00-16771226374fb515a4-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/PackMaquetabarcodemaderaremolcadorHERCULESRC_Base_KitLucesOcCre_1.jpg",
+            "image_width": 700,
+            "title": "PEANA Y KIT DE LUCES DE REGALO",
+            "titleen": "PEDESTAL AND LIGHT KIT AS A GIFT",
+            "titlefr": "SOCLE ET KIT DE LUMIÈRE OFFERTS",
+            "titlede": "GESCHENKTER SOCKEL UND LICHTKIT",
+            "titleit": "PEDANA E KIT DI LUCI IN OMAGGIO",
+            "titlept": "BASE E KIT DE LUZ DE PRESENTE",
+            "text": "<p>Este pack incluye:La maqueta del remolcador Hércules<\/p><ul><li>Kit de luces led gratis<\/li><li>Base peana negra gratis<\/li><\/ul><p>¡No pierdas la oportunidad de llevarte este increíble pack a un precio especial de pre compra!<\/p>",
+            "texten": "<p>This pack includes:<\/p><ul><li>The Hercules tugboat KIT <\/li><li>Free led light kit<\/li><li>Free black pedestal base<\/li><\/ul><p>Don't miss the chance to get this incredible pack at a special pre-purchase price.<\/p>",
+            "textfr": "<p>Ce pack inclut :<\/p><ul><li>La maquette du remorqueur Hercules<\/li><li>Le kit de leds gratuit<\/li><li>Le socle noir gratuit <\/li><\/ul><p>Ne ratez pas la possibilité de recevoir ce pack incroyable à un prix spécial « précommande ».<\/p>",
+            "textde": "<p>Dieses Paket beinhaltet:<\/p><ul><li>Das Modell des Schleppers Hercules<\/li><li>Kostenlose LED-Licht-Kit<\/li><li>Kostenlose schwarze Basis<\/li><\/ul><p>Verpassen Sie nicht die Gelegenheit, dieses unglaubliche Paket zu einem Sonderpreis für Vorbestellungen zu erhalten.<\/p>",
+            "textit": "<p>Questo pacchetto include:<\/p><ul><li>Il modellino del rimorchiatore Hércules<\/li><li>Il Kit di luci led gratis<\/li><li>﻿﻿Base pedana nera gratis<\/li><\/ul><p>Non farti sfuggire l’opportunità di prendere questo incredibile pacchetto a un prezzo speciale di pre-acquisto.e to display recent reviews or FAQs.<\/p>",
+            "textpt": "<p>Este pacote inclui:<\/p><ul><li>O modelo do rebocador Hércules <\/li><li>Kit de luzes led grátis<\/li><li>Base preta grátis<\/li><\/ul><p>Não perca a oportunidade de obter este incrível pacote a um preço especial de pré-compra.<\/p>",
+            "button_label": "Comprar ahora",
+            "link": "shopify:\/\/products\/pack-precompra-hercules-peana-luces"
+          }
+        },
+        "template--16681676767487__2d60c466-6cf3-4755-a256-25925a2dfc00-16771226374fb515a4-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/PackMaquetabarcodemaderaremolcadorHERCULESRC_Lijadores_SoporteTrabajoOcCre.jpg",
+            "image_width": 700,
+            "title": "Soporte de Trabajo y Pack Lijadores de regalo",
+            "titleen": "WORK SUPPORT AND  SANDING PACK AS A GIFT",
+            "titlefr": "SUPPORT DE TRAVAIL ET PACK DE PONCEUSES OFFERTS",
+            "titlede": "GESCHENKTE ARBEITSUNTERSTÜTZUNG UND SCHLEIFPACKUNG",
+            "titleit": "SUPPORTO DI LAVORO E PACCHETTO DI FOGLI ABRASIVI IN OMAGGIO",
+            "titlept": "SUPORTE DE TRABALHO E PACK DE LIXADEIRAS GRÁTIS",
+            "text": "<p>Este pack incluye:<\/p><ul><li>La maqueta del remolcador Hércules<\/li><li>Soporte de trabajo gratis<\/li><li>Pack de 3 lijadores gratis¡<\/li><\/ul><p>No pierdas la oportunidad de llevarte este increíble pack a un precio especial de pre-compra!<\/p>",
+            "texten": "<p>This pack includes:<\/p><ul><li>The Hercules tugboat kit<\/li><li>Free work support<\/li><li>Pack of 3 sanders for free<\/li><\/ul><p>Don't miss the chance to get this incredible pack at a special pre-purchase price!<\/p>",
+            "textfr": "<p>Ce pack inclut :<\/p><ul><li>La maquette du remorqueur Hercules <\/li><li>Le support de travail gratuit<\/li><li>Pack de trois ponceuses gratuit<\/li><\/ul><p>Ne ratez pas la possibilité de vous offrir ce pack incroyable à un prix spécial « précommande ».<\/p>",
+            "textde": "<p>Dieses Paket beinhaltet:<\/p><ul><li>Das Modell des Schleppers Hercules<\/li><li>Kostenlose Arbeitsunterstützung<\/li><li>Kostenlose Packung mit 3 Schleifern<\/li><\/ul><p>Verpassen Sie nicht die Gelegenheit, dieses unglaubliche Paket zu einem Sonderpreis für Vorbestellungen zu erhalten!<\/p>",
+            "textit": "<p>Questo pacchetto include:<\/p><p>• Il modellino del rimorchiatore Hércules <\/p><p>* Il supporto di lavoro gratis<\/p><p>* ﻿Pacchetto di 3 fogli abrasivi gratis<\/p><p>Non farti sfuggire l’opportunità di prendere questo incredibile pacchetto a un prezzo speciale di pre-acquisto.<\/p>",
+            "textpt": "<p>Este pacote inclui:<\/p><p>* O modelo do rebocador Hércules <\/p><p>* O suporte de trabalho grátis<\/p><p>* Pacote de 3 lixadeiras grátis<\/p><p>Não perca a oportunidade de obter este incrível pacote a um preço especial de pré-compra!<\/p>",
+            "button_label": "Comprar ahora",
+            "link": "shopify:\/\/products\/pack-precompra-hercules-soporte-lijadores"
+          }
+        },
+        "template--16681676767487__2d60c466-6cf3-4755-a256-25925a2dfc00-16771226374fb515a4-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/PackMaquetabarcodemaderaremolcadorHERCULESRC_PinturasOcCre.jpg",
+            "image_width": 700,
+            "title": "pack pinturas de regalo",
+            "titleen": "PACK OF PAINTINGS AS A GIFT",
+            "titlefr": "PACK DE PEINTURE OFFERT",
+            "titlede": "GESCHENKTES FARBENSET",
+            "titleit": "PACCHETTO PITTURE IN OMAGGIO",
+            "titlept": "PACOTE DE TINTAS DE PRESENTE",
+            "text": "<p>Este pack incluye:<\/p><ul><li>La maqueta del remolcador Hércules<\/li><li>Pack completo de 12 pinturas y 2 tintes gratis<\/li><\/ul><p>¡No te pierdas esta oportunidad única y lleva tu maqueta al siguiente nivel!<\/p>",
+            "texten": "<p>This pack includes:<\/p><ul><li>The Hercules tugboat kit<\/li><li>Complete pack of 12 paints and 2 dyes FOR FREE<\/li><\/ul><p>Don't miss this unique opportunity and take your model to the next level!<\/p>",
+            "textfr": "<p>Ce pack inclut :<\/p><ul><li>La maquette du remorqueur Hercules<\/li><li>Un pack complet de 12 peintures et 2 teintes gratuites<\/li><\/ul><p>Ne ratez pas cette offre unique d’amener votre maquette à un niveau supérieur !<\/p>",
+            "textde": "<p>Dieses Paket beinhaltet:<\/p><ul><li>Das Modell des Schleppers Hercules<\/li><li>Das komplette Set aus 12 Farben und 2 Tinten kostenlos<\/li><\/ul><p>Verpassen Sie nicht diese einzigartige Gelegenheit und bringen Sie Ihr Modell auf das nächste Level!<\/p>",
+            "textit": "<p>Questo pacchetto include:<\/p><p>• Il modellino del rimorchiatore Hércules<br\/>• Il pacchetto completo di 12 pitture e 2 coloranti gratis<\/p><p>Non farti sfuggire questa opportunità unica di portare il tuo modellino a un livello superiore!<\/p>",
+            "textpt": "<p>Este pacote inclui:<\/p><ul><li>O modelo do rebocador Hércules<\/li><li>O pacote completo de 12 tintas e 2 corantes grátis<\/li><\/ul><p>Não perca esta oportunidade única e leve o seu modelo para o próximo nível!<\/p>",
+            "button_label": "Comprar ahora",
+            "link": "shopify:\/\/products\/pack-precompra-hercules-pinturas"
+          }
+        },
+        "76e01f7a-a383-494c-8f48-2843d4a8caf2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/PackMaquetabarcodemaderaremolcadorHERCULESRC_MuebleTallerOcCre.jpg",
+            "image_width": 700,
+            "title": "MUEBLE TALLER DE REGALO",
+            "titleen": "WORKSHOP FURNITURE GIFT",
+            "titlefr": "MEUBLE ORGANISEUR D’ATELIER OFFERT",
+            "titlede": "GESCHENKTES WERKSTATTMÖBEL",
+            "titleit": "MOBILE ORGANIZZATORE IN OMAGGIO",
+            "titlept": "MOBILIÁRIO DE OFICINA DE PRESENTE",
+            "text": "<p>Este pack incluye:<\/p><ul><li>La maqueta del remolcador Hércules<\/li><li>Mueble Taller Organizador gratis<\/li><\/ul><p>¡No pierdas la oportunidad de llevarte este increíble pack a un precio especial de pre-compra!<\/p>",
+            "texten": "<p>This pack includes:<\/p><ul><li>The Hercules tugboat model kit<\/li><li>Free Workshop Organizer Furniture<\/li><\/ul><p>Don't miss the chance to get this incredible pack at a special pre-purchase price!<\/p>",
+            "textfr": "<p>Ce pack inclut :<\/p><ul><li>La maquette du remorqueur Hercules<\/li><li>Meuble organiseur d’atelier gratuit<\/li><\/ul><p>Ne ratez pas la possibilité de vous offrir ce pack incroyable à un prix spécial « précommande ».<\/p>",
+            "textde": "<p>Dieses Paket beinhaltet:<\/p><ul><li>Das Modell des Schleppers Hercules<\/li><li>Kostenlose Werkstattmöbel<\/li><\/ul><p>Verpassen Sie nicht die Gelegenheit, dieses unglaubliche Paket zu einem Sonderpreis für Vorbestellungen zu erhalten!<\/p>",
+            "textit": "<p>Questo pacchetto include:<\/p><p>• Il modellino del rimorchiatore Hércules<\/p><p>* ﻿﻿Mobile organizzatore gratis<\/p><p>Non farti sfuggire l’opportunità di prendere questo incredibile pacchetto a un prezzo speciale di pre-acquisto.<\/p>",
+            "textpt": "<p>Este pacote inclui:<\/p><p>* O modelo do rebocador Hércules<\/p><p>* Mobiliário de oficina organizador grátis<\/p><p>Não perca a oportunidade de obter este incrível pacote a um preço especial de pré-compra!<\/p>",
+            "button_label": "Comprar ahora",
+            "link": "shopify:\/\/products\/pack-precompra-hercules-taller"
+          }
+        }
+      },
+      "block_order": [
+        "template--16681676767487__2d60c466-6cf3-4755-a256-25925a2dfc00-16771226374fb515a4-0",
+        "template--16681676767487__2d60c466-6cf3-4755-a256-25925a2dfc00-16771226374fb515a4-1",
+        "template--16681676767487__2d60c466-6cf3-4755-a256-25925a2dfc00-16771226374fb515a4-2",
+        "76e01f7a-a383-494c-8f48-2843d4a8caf2"
+      ],
+      "custom_css": [
+        "h2 {color: #f3b01c; font-family: Montserrat; font-size: 36px; font-weight: 700; line-height: 45px; letter-spacing: 0em; text-align: center;}",
+        "span {font-weight: 400;}",
+        "b {color: #f3b01c;}",
+        "h3 {text-transform: uppercase; color: #cc1a1a; font-family: JMH Typewriter; font-size: 18px; font-weight: 900; line-height: 25px; letter-spacing: 0.085em; padding: 0 15%; text-align: center;}"
+      ],
+      "settings": {
+        "title": "",
+        "titleen": "",
+        "titlefr": "",
+        "titleit": "",
+        "titlede": "",
+        "titlept": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": true
+      }
+    },
+    "ff01032e-cf13-4109-a693-bb452549a310": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_7879_2080ca20-a04c-4da2-9d7d-41feed642240.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "",
+        "titleen": "Two line\ntext heading",
+        "titlefr": "Two line\ntext heading",
+        "titlede": "Two line\ntext heading",
+        "titleit": "Two line\ntext heading",
+        "titlePT": "Two line\ntext heading",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "texten": "",
+        "textfr": "<p>And optional subtext<\/p>",
+        "textde": "",
+        "textit": "",
+        "textpt": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "b3e277d4-a54b-412d-9327-f2521691f54d": {
+      "type": "rich-text-leads",
+      "blocks": {
+        "template--16681676767487__b3e277d4-a54b-412d-9327-f2521691f54d-1683544812c1207820-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "titleen": "Rich text",
+            "titlefr": "Rich text",
+            "titlede": "Rich text",
+            "titleit": "Rich text",
+            "titlept": "Rich text",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "template--16681676767487__b3e277d4-a54b-412d-9327-f2521691f54d-1683544812c1207820-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Además, recuerda que sumandote al estilo de vida OcCre estarás experimentando la emoción de la construcción artesanal y detallada de maquetas de barco, trenes y tranvía lo cual puede brindarte una experiencia relajante y satisfactoria. <\/p>",
+            "texten": "<p>Also, remember that by joining the OcCre lifestyle, you will be experiencing the excitement of crafting a detailed model which can provide you with a relaxing and satisfying experience.<\/p>",
+            "textfr": "<p>En outre, rappelez-vous qu’en adoptant le style de vie de OcCre, vous vivrez l’émotion de la construction artisanale et minutieuse de maquettes de bateaux, de trains et de tramways, une expérience relaxante et satisfaisante à la fois.<\/p>",
+            "textde": "<p>Also, remember that by joining the OcCre lifestyle, you will be experiencing the excitement of crafting a detailed model which can provide you with a relaxing and satisfying experience.<\/p>",
+            "textit": "<p>Inoltre, ricorda che adottando lo stile di vita  OcCre starai sperimentando l’emozione della costruzione artigianale e dettagliata di modellini di navi, treni e tram che ti offre un’esperienza rilassante e soddisfacente.<\/p>",
+            "textpt": "<p>Lembre-se também que ao juntar-se ao estilo de vida OcCre estará a experimentar a emoção da construção artesanal e detalhada de modelos de navios, trens e eléctricos que podem ser uma experiência relaxante e satisfatória.<\/p>",
+            "enlarge_text": true,
+            "color": "default_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16681676767487__b3e277d4-a54b-412d-9327-f2521691f54d-1683544812c1207820-0",
+        "template--16681676767487__b3e277d4-a54b-412d-9327-f2521691f54d-1683544812c1207820-1"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "332489fa-158a-4cf6-8748-4bcdfc1384c6": {
+      "type": "image-with-text-overlay-v3",
+      "custom_css": [
+        ".subheading--over {font-family: \"JMH Typewriter\"; font-size: 25px; font-weight: 700; line-height: 46px; letter-spacing: 0.085em; text-align: center; color: #7c3830;}",
+        ".overlay-text__text {background: white; color: black; padding: 60px 0px; font-family: Century Gothic; font-size: 16px; font-weight: 400; line-height: 20px; letter-spacing: 0em; text-align: center;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/006_1.jpg",
+        "logo": "shopify:\/\/shop_images\/Capa_2_1.png",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 620,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "texten": "",
+        "textfr": "",
+        "textde": "",
+        "textit": "",
+        "textpt": "",
+        "enlarge_text": false,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "afb43382-4429-4650-82b0-1256c663c483": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "<style>\n#section-id-template--16681676767487__db1a47ab-a264-482c-a638-26462999dc76  { \npadding-top:0px;}\n#shopify-section-template--16681676767487__fc8c5c62-6423-4d5d-8e31-51e11ff792fb \n .fully-spaced-row--medium\n {\nmargin:0px !important;\npadding:0px !important;\npadding-bottom:30px !important;}\n.text-column__text.rte {\npadding-left:10%;\npadding-right:10%;}\n.text-column__text.rte p, .text-column__text.rte  ul  {\nfont-family: Montserrat;\nfont-size: 12px;\nfont-weight: 400;\nline-height: 18px;\nletter-spacing: 0em;\ntext-align: left;\n\ncolor:black !important;\n\ntext-align: left; }\n.contenedor-textos  h2 + p,\n.contenedor-textos  p {\n    color: white;\n    font-family: Montserrat;\n    font-size: 20px;\n    font-weight: 600;\n    line-height: 24px;\n    letter-spacing: 0em;\n    text-align: center;\n}\n\n#shopify-section-template--16681676767487__9e932cc2-6464-4bab-9c59-0816abe03926 p, #shopify-section-template--16681676767487__9e932cc2-6464-4bab-9c59-0816abe03926 ul li { font-family: Montserrat;\nfont-size: 14px;\nfont-weight: 400;\nline-height: 26px;\nletter-spacing: 0em;\ntext-align: left;\ncolor: #FFFFFF;\n}\n#shopify-section-template--16681676767487__9e932cc2-6464-4bab-9c59-0816abe03926 .titulo031  {\nmargin-bottom:30px;\nfont-family: Montserrat;\nfont-size: 22px;\nfont-weight: 400;\nline-height: 24px;\nletter-spacing: 0em;\ntext-align: left;\ncolor: #F3B01C;\n\n}\n#shopify-section-template--16681676767487__9e932cc2-6464-4bab-9c59-0816abe03926 \n.texto  {\nfont-family: Montserrat;\nfont-size: 24px;\nfont-weight: 600;\nline-height: 28px;\nletter-spacing: 0em;\ntext-align: center;\n\ncolor: #F3B01C;\nmax-width:900px;\nmargin:20px auto;\npadding-bottom:50px;\n\n}\n\n.h3aa2 {\npadding-top: 33px!important;}\n\n.h3aa3 { \n    padding-top: 25px !important;\n}\n\n.nopaddingnomargin   .rte\n{ \nfont-family: Montserrat;\nfont-size: 20px;\nfont-weight: 500;\nline-height: 24px;\nletter-spacing: 0.085em;\ntext-align: center;\ntext-transform:uppercase;\nmargin-bottom:20px;\n}\n.nopaddingnomargin   .rte em {\nmargin-bottom:20px;\nfont-size:24px; \n}\n\n.nopaddingnomargin  .subheading  \n{\nfont-family: Montserrat;\nfont-size: 22px;\nfont-weight: 700;\nline-height: 28px;\nletter-spacing: 0.085em;\ntext-align: center;\ntext-transform:uppercase;\n}\n\n\n.nopaddingnomargin  .subheading  \n{\nfont-family: JMH Typewriter;\nfont-size: 36px;\nfont-weight: 700;\nline-height: 46px;\nletter-spacing: 0.085em;\ntext-align: center;\ncolor:#7C3830;\ntext-transform:uppercase;}\n\n.nopaddingnomargin  \n h2.majortitle  {\ntext-transform:uppercase;\nfont-family: Montserrat;\nfont-size: 26px;\nfont-weight: 700;\nline-height: 39px;\nletter-spacing: 0.085em;\ntext-align: center;\n}\n\n\n\n<\/style>"
+      }
+    }
+  },
+  "order": [
+    "16635431120bfa1cd6",
+    "fd64c734-d18f-4df1-a42e-d825e326ce54",
+    "6faf9053-3855-4b4d-84e7-b44836667f17",
+    "2d60c466-6cf3-4755-a256-25925a2dfc00",
+    "9e932cc2-6464-4bab-9c59-0816abe03926",
+    "5cf337b5-1e4b-49f9-9180-7eeac909dba3",
+    "c3430d10-d910-4e47-9ba4-e032544dd15b",
+    "fc8c5c62-6423-4d5d-8e31-51e11ff792fb",
+    "db1a47ab-a264-482c-a638-26462999dc76",
+    "main",
+    "ff01032e-cf13-4109-a693-bb452549a310",
+    "b3e277d4-a54b-412d-9327-f2521691f54d",
+    "332489fa-158a-4cf6-8748-4bcdfc1384c6",
+    "afb43382-4429-4650-82b0-1256c663c483"
+  ]
+}

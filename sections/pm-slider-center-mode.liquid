@@ -1,0 +1,163 @@
+<div id="section-id-{{ section.id }}" class="pm-slider-center-mode pm-slick">
+  <div class="pmSlickCenterMode">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'slide' %}
+          <div>
+            {% if request.locale.iso_code == 'es' %}
+              {% if block.settings.image_desktop_es %}
+                <img class="img-slide-desktop" src="{{ block.settings.image_desktop_es | image_url }}">
+              {% endif %}
+              {% if block.settings.image_mobile_es %}
+                <img class="img-slide-mobile" src="{{ block.settings.image_mobile_es | image_url }}">
+              {% endif %}
+
+            {% elsif request.locale.iso_code == 'fr' %}
+              {% if block.settings.image_desktop_fr %}
+                <img class="img-slide-desktop" src="{{ block.settings.image_desktop_fr | image_url }}">
+              {% endif %}
+              {% if block.settings.image_mobile_fr %}
+                <img class="img-slide-mobile" src="{{ block.settings.image_mobile_fr | image_url }}">
+              {% endif %}
+
+            {% elsif request.locale.iso_code == 'it' %}
+              {% if block.settings.image_desktop_it %}
+                <img class="img-slide-desktop" src="{{ block.settings.image_desktop_it | image_url }}">
+              {% endif %}
+              {% if block.settings.image_mobile_it %}
+                <img class="img-slide-mobile" src="{{ block.settings.image_mobile_it | image_url }}">
+              {% endif %}
+
+            {% elsif request.locale.iso_code == 'de' %}
+              {% if block.settings.image_desktop_de %}
+                <img class="img-slide-desktop" src="{{ block.settings.image_desktop_de | image_url }}">
+              {% endif %}
+              {% if block.settings.image_mobile_de %}
+                <img class="img-slide-mobile" src="{{ block.settings.image_mobile_de | image_url }}">
+              {% endif %}
+
+            {% elsif request.locale.iso_code == 'pt-PT' %}
+              {% if block.settings['image_desktop_pt-PT'] %}
+                <img class="img-slide-desktop" src="{{ block.settings.image_desktop_pt-PT | image_url }}">
+              {% endif %}
+              {% if block.settings['image_mobile_pt-PT'] %}
+                <img class="img-slide-mobile" src="{{ block.settings.image_mobile_pt-PT | image_url }}">
+              {% endif %}
+
+            {% else %}
+              {% if block.settings.image_desktop_en %}
+                <img class="img-slide-desktop" src="{{ block.settings.image_desktop_en | image_url }}">
+              {% endif %}
+              {% if block.settings.image_mobile_en %}
+                <img class="img-slide-mobile" src="{{ block.settings.image_mobile_en | image_url }}">
+              {% endif %}
+            {% endif %}
+          </div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Slider Center Mode",
+  "settings": [],
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image_desktop_es",
+           "label": "Image desktop ES"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_mobile_es",
+           "label": "Image mobile ES"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_desktop_en",
+           "label": "Image desktop EN"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_mobile_en",
+           "label": "Image mobile EN"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_desktop_fr",
+           "label": "Image desktop FR"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_mobile_fr",
+           "label": "Image mobile FR"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_desktop_it",
+           "label": "Image desktop IT"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_mobile_it",
+           "label": "Image mobile IT"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_desktop_de",
+           "label": "Image desktop DE"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_mobile_de",
+           "label": "Image mobile DE"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_desktop_pt-PT",
+           "label": "Image desktop pt-PT"
+         },
+         {
+           "type": "image_picker",
+           "id": "image_mobile_pt-PT",
+           "label": "Image mobile pt-PT"
+         }
+       ]
+     }
+  ],
+  "presets": [
+    {
+      "name": "Slider Center Mode",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+{% javascript %}
+  window.addEventListener('DOMContentLoaded', () => {
+      jQuery('.pmSlickCenterMode').slick({
+          infinite: true,
+          centerMode: true,
+          centerPadding: '17%',
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          swipeToSlide: true,
+          responsive: [
+              {
+                  breakpoint: 768,
+                  settings: {
+                      arrows: false,
+                  }
+              }
+          ]
+      });
+  }); 
+{% endjavascript %}

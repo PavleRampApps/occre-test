@@ -1,0 +1,814 @@
+{% comment %}
+THE BACKGROUND OVERLAY HAS THE FIXED HEIGHT FROM THE BUILDER
+{% endcomment %}
+
+{% comment %}<div class="nodesktop" style="background:black; padding:10px 30px;">
+    <img src="{{ 'occre.png' | asset_url }}" style="width:85px;">
+</div>
+{% endcomment %}
+
+<div id="section-id-{{ section.id }}" data-section-type="image-with-text-overlay">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+    </style>
+    {% style %}      
+      #section-id-{{ section.id }} {
+        background:black !important;
+      }
+      
+      #section-id-{{ section.id }} .columns-v1 {
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 50px;
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 85vw;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      {%- if section.settings.height == 'fixed' -%}
+        #section-id-{{ section.id }} .fixed-height-item {
+          height: {{ section.settings.height_mobile }}px;
+        }
+      {%- endif -%}
+  
+      #section-id-{{ section.id }} .overlay-text__title {
+        font-size: {{ section.settings.title_size_mobile }}px;
+        {%- if section.settings.title_size_mobile >= 90 -%}
+          line-height: 1em;
+        {%- endif %}
+      }
+  
+      @media (min-width: 768px) {
+        {%- if section.settings.height == 'fixed' -%}
+          #section-id-{{ section.id }} .fixed-height-item {
+            height: {{ section.settings.height_desktop }}px;
+          }
+        {%- endif -%}
+  
+        #section-id-{{ section.id }} .overlay-text__title {
+          {%- assign title_size_medium = section.settings.title_size | times: 0.7 | at_least: section.settings.title_size_mobile -%}
+          font-size: {{ title_size_medium }}px;
+          {%- if title_size_medium >= 90 -%}
+            line-height: 1em;
+          {%- endif %}
+        }
+      }
+      
+      @media (min-width: 1100px) {
+        #section-id-{{ section.id }} .overlay-text__title {
+          font-size: {{ section.settings.title_size }}px;
+          {%- if section.settings.title_size >= 90 -%}
+            line-height: 1em;
+          {%- endif %}
+        }
+      }
+     .text-v1  {
+               text-align: center !important;
+         }
+      
+      .columns-v1 {
+        display:flex;
+        column-gap:120px;
+      }
+      
+      .columns-v1 > div {
+        width:50%;
+      }
+      
+      .nodesktop {
+        display:none;
+      }
+      
+      .h1-v1 {
+        color:#F3B01C !important;
+        text-align:left;
+        max-width: 890px;
+      }
+      
+      .h2-v1 {
+        text-align: left;
+        color:white;
+        font-size: 18px;      
+      }
+      
+      .rte2 {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        text-align:left;
+      }
+      
+      .rte1 {
+        text-align:left;
+        font-weight:bold;
+        line-height:22px;
+        font-size:20px;
+        margin-bottom:20px;
+      }
+      
+      .text-v1 {
+        text-align:left;
+      }
+      
+      .column-klaviyo2  {
+        background: #272727;
+        padding:20px 40px;
+      }
+      
+      .text-san {
+        color:white;
+      }
+      
+      @media (max-width:980px) {
+        .nomobile {
+          display:none;
+        }
+        
+        .nodesktop {
+          display:block;
+        }
+        
+        .columns-v1 {
+          display:flex;
+          row-gap:40px;
+          flex-wrap: wrap;
+        }
+        
+        .columnas {
+          display:flex;
+          row-gap:40px;
+          flex-wrap: wrap;
+        }
+        
+        .columnas > div,
+        .columns-v1 > div {
+          width:100%;        
+        }
+
+        .overlay-text {
+          align-items: flex-start;
+        }
+        
+        #section-id-{{ section.id }} .overlay-text {          
+          background-position: top center;
+          background-image: url("https://occre.com/cdn/shop/files/Group_348_1296x.png?v=1685319060");
+          position: relative;
+        }
+        
+        .overlay--h-center .overlay-text__rte br {
+          display:none;
+        }
+        
+        .h2-v1 {
+          text-align: left;
+          color:white;
+          font-size: 14px;
+        }
+        
+        .overlay--h-center .overlay-text__rte {
+          font-size: 13px;
+          text-shadow: 1px 1px 0px #000;
+        }
+        
+        .columna2de2 {
+          padding: 2% 0% !important;  
+        }
+      }
+
+      @media (min-width:1100px) and (max-width:1310px) {
+        #section-id-{{ section.id }} .overlay-text__title {
+          font-size: 50px !important;
+        }
+      }
+    {% endstyle %}
+  
+    {%- unless section.settings.full_width -%}
+      <div class="container container--not-mobile fully-spaced-row--medium fully-spaced-row--not-mobile">{%- endunless -%}
+  
+    {%- liquid
+      assign show_overlay_text = false
+      if section.settings.title != blank or section.settings.subheading != blank or section.settings.text != blank or section.settings.button_label_1 != blank or section.settings.button_label_2 != blank
+        assign show_overlay_text = true
+        assign wrap_image_with_link = true
+        if section.settings.image_link == blank or section.settings.text contains '</a>' or section.settings.button_url_1 != blank or section.settings.button_url_2 != blank
+          assign wrap_image_with_link = false
+        endif
+      endif
+    -%}
+    <div class="height--{{ section.settings.height }} image-overlay image-overlay--bg-{{ section.settings.overlay_style }} {% if section.settings.mobile_overlay_under %}overlay-text-parent--mobile-stack{% endif %}" data-cc-animate data-cc-animate-delay="0.2s">
+      {%- if wrap_image_with_link -%}
+        <a class="image-overlay__image-link" href="{{ section.settings.image_link }}">
+      {%- endif -%}
+  
+      {%- if section.settings.image == blank -%}
+        <div class="placeholder-image placeholder--banner{% if show_overlay_text %} dark{% endif %}{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}" {% if section.settings.height == 'adapt' %}style="padding-top: 50%"{% endif %}>
+          {% capture current %}{% cycle 1, 2 %}{% endcapture %}
+          {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+        </div>
+      {%- else -%}
+        <div class="nomobile rimage-background-wrapper lazyload--placeholder {% if section.settings.mobile_image != blank %}desktop-only{% endif %}">
+          <div class="rimage-outer-wrapper rimage-background lazyload fade-in{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}"
+              data-bgset="{% render 'bgset', image: section.settings.image %}"
+              data-sizes="auto"
+              data-parent-fit="cover"
+              style="background-position: {{ section.settings.image_position }}">
+            {%- if section.settings.height == 'adapt' -%}
+              {%- assign aspect_ratio = section.blocks.first.settings.image.aspect_ratio | default: 2.0 -%}
+              <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: aspect_ratio | times: 100 }}%"></div>
+            {%- endif -%}
+            <noscript>
+              <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%">
+                <img src="{{ section.settings.image | img_url: '1024x1024' }}" alt="{{ section.settings.image.alt | escape }}" class="rimage__image">
+              </div>
+            </noscript>
+          </div>
+        </div>
+  
+        {% if section.settings.mobile_image != blank %}
+          <div class="rimage-outer-wrapper rimage-background lazyload mobile-only fade-in{% if section.settings.height == 'fixed' %} fixed-height-item{% endif %}"
+                data-bgset="{% render 'bgset', image: section.settings.mobile_image %}"
+                data-sizes="auto"
+                data-parent-fit="cover"
+                style="background-position: {{ section.settings.mobile_image_position }}">
+            {%- if section.settings.height == 'adapt' -%}
+              {%- assign aspect_ratio = section.blocks.first.settings.mobile_image.aspect_ratio | default: 2.0 -%}
+              <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: aspect_ratio | times: 100 }}%"></div>
+            {%- endif -%}
+            <noscript>
+              <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: section.settings.mobile_image.aspect_ratio | times: 100 }}%">
+                <img src="{{ section.settings.mobile_image | img_url: '1024x1024' }}" alt="{{ section.settings.mobile_image.alt | escape }}" class="rimage__image">
+              </div>
+            </noscript>
+          </div>
+        {% endif %}
+      {%- endif -%}
+  
+     
+        <div class="overlay-text overlay-text--for-banner overlay--v-{{ section.settings.text_alignment | split: ' ' | first }} overlay--h-{{ section.settings.text_alignment | split: ' ' | last }} image-overlay__over">
+          <div class="overlay-text__inner columns-v1">
+            <div class="overlay-text__text text-v1 ">
+              {%- if section.settings.subheading != blank and request.locale.iso_code == 'es' -%}
+                <div class="overlay-text__subheading subheading subheading--over">{{ section.settings.subheading | escape }}</div>
+              {%- elsif section.settings.subheadingen != blank and request.locale.iso_code == 'en' -%}
+                <div class="overlay-text__subheading subheading subheading--over">{{ section.settings.subheadingen | escape }}</div>
+              {%- endif -%}
+              
+  {% if request.locale.iso_code == 'es'  %}
+     
+    {% if request.path contains 'es-us' %}
+      <img src="{{ section.settings.imageesus | img_url: '1024x1024' }}" alt="{{ section.settings.logo.alt | escape }}" class="rimage__image">
+    {% elsif  request.path contains 'es-ca' %}
+      <img src="{{ section.settings.imageesca | img_url: '1024x1024' }}" alt="{{ section.settings.logo.alt | escape }}" class="rimage__image">
+              {% else %}
+        <img src="{{ section.settings.logo | img_url: '1024x1024' }}" alt="{{ section.settings.logo.alt | escape }}" class="rimage__image">
+    {% endif %}
+    
+  {% else %}
+     {% if request.path contains 'en-us' %}
+      <img src="{{ section.settings.imageen | img_url: '1024x1024' }}" alt="{{ section.settings.logo.alt | escape }}" class="rimage__image">
+          {% elsif request.path contains 'en-ca' %}
+      <img src="{{ section.settings.imageenca | img_url: '1024x1024' }}" alt="{{ section.settings.logo.alt | escape }}" class="rimage__image">
+              {% else %}
+          <img src="{{ section.settings.imageen | img_url: '1024x1024' }}" alt="{{ section.settings.logo.alt | escape }}" class="rimage__image">
+      {% endif %}
+ 
+    {% endif %}
+    
+ 
+    
+
+  
+              {%- if section.settings.title != blank -%}
+  
+  {% if request.locale.iso_code == 'es'  %}
+  <h2 class="overlay-text__title h1-style h1-v1">{{ section.settings.title | newline_to_br }}</h2>
+  {% elsif request.locale.iso_code == 'en'  %}
+  <h2 class="overlay-text__title h1-style h1-v1">{{ section.settings.titleen | newline_to_br }}</h2>
+  {% elsif request.locale.iso_code == 'fr' %}
+  <h2 class="overlay-text__title h1-style h1-v1">{{ section.settings.titlefr | newline_to_br }}</h2>
+  {% elsif request.locale.iso_code == 'de' %}
+  <h2 class="overlay-text__title h1-style h1-v1">{{ section.settings.titlede | newline_to_br }}</h2>
+  {% elsif request.locale.iso_code == 'it' %}
+  <h2 class="overlay-text__title h1-style h1-v1">{{ section.settings.titleit | newline_to_br }}</h2>
+  {% elsif request.locale.iso_code == 'pt-PT' %}
+  <h2 class="overlay-text__title h1-style h1-v1">{{ section.settings.titlept | newline_to_br }}</h2>
+  {% else  %}
+  <h2 class="overlay-text__title h1-style h1-v1">{{ section.settings.title | newline_to_br }}</h2>
+  {% endif %}
+  
+  
+  {%- endif -%}
+             
+              {%- if section.settings.button_label_1 != blank or section.settings.button_label_2 != blank -%}
+                <div class="overlay-text__button-row">
+                  {%- if wrap_image_with_link -%}
+                    {%- if section.settings.button_label_1 != blank -%}
+                      <span class="overlay-text__button button altcolour">{{ section.settings.button_label_1 }}</span>
+                    {%- endif -%}
+                    {%- if section.settings.button_label_2 != blank -%}
+                      <span class="overlay-text__button button altcolour">{{ section.settings.button_label_2 }}</span>
+                    {%- endif -%}
+                  {%- else -%}
+                    {%- if section.settings.button_label_1 != blank -%}
+                      <a class="overlay-text__button button altcolour" href="{{ section.settings.button_url_1 }}">{{ section.settings.button_label_1 }}</a>
+                    {%- endif -%}
+                    {%- if section.settings.button_label_2 != blank -%}
+                      <a class="overlay-text__button button altcolour" href="{{ section.settings.button_url_2 }}">{{ section.settings.button_label_2 }}</a>
+                    {%- endif -%}
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+            </div>
+            
+         
+          </div>
+        </div>
+   
+  
+      {%- if wrap_image_with_link -%}
+        </a>
+      {%- endif -%}
+    </div>
+  
+    {%- unless section.settings.full_width -%}</div>{%- endunless -%}
+  </div>
+  </div>
+   {% comment %} <div class="nodesktop page-width container">
+        <div class="column-klaviyo">
+            
+            <div class="klaviyo-form-X3UuB2"></div>
+            <div class="klaviyo-form-Saqn9V"></div>
+            <div class="klaviyo-form-WGNdb6"></div>
+            <div class="klaviyo-form-V5CQmp"></div>
+            <div class="klaviyo-form-SBzE3q"></div>
+            <div class="klaviyo-form-S2zBzi"></div>
+            <div class="klaviyo-form-XtXLMU"></div>
+        </div>
+    </div>  {% endcomment %}
+  </div>
+  
+  {% schema %}
+    {
+      "name": "Image with hotsale 2023",
+      "class": "section-image-with-text-overlay",
+      "settings": [
+          {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Image hot sale",
+          "info": "2048 x 1024px recommended"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "2048 x 1024px recommended"
+        },
+        {
+           "type": "image_picker",
+          "id": "imageesus",
+          "label": "Image es us",
+          "info": "2048 x 1024px recommended"
+        },
+         {
+          "type": "image_picker",
+          "id": "imageenca",
+          "label": "Image enca",
+          "info": "2048 x 1024px recommended"
+        },{
+          "type": "image_picker",
+          "id": "imageen",
+          "label": "Image en us",
+          "info": "2048 x 1024px recommended"
+        },
+         {
+          "type": "image_picker",
+          "id": "imageesca",
+          "label": "Image esca",
+          "info": "2048 x 1024px recommended"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "Mobile image",
+          "info": "1024px x 1024px recommended"
+        },
+        {
+          "type": "select",
+          "id": "image_position",
+          "label": "Image alignment",
+          "info": "Used to keep the subject of your image in view",
+          "default": "center center",
+          "options": [
+            {
+              "value": "top left",
+              "label": "Top left"
+            },
+            {
+              "value": "top center",
+              "label": "Top center"
+            },
+            {
+              "value": "top right",
+              "label": "Top right"
+            },
+            {
+              "value": "center left",
+              "label": "Middle left"
+            },
+            {
+              "value": "center center",
+              "label": "Middle center"
+            },
+            {
+              "value": "center right",
+              "label": "Middle right"
+            },
+            {
+              "value": "bottom left",
+              "label": "Bottom left"
+            },
+            {
+              "value": "bottom center",
+              "label": "Bottom center"
+            },
+            {
+              "value": "bottom right",
+              "label": "Bottom right"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "mobile_image_position",
+          "label": "Mobile image alignment",
+          "options": [
+            {
+              "value": "left top",
+              "label": "Top left"
+            },
+            {
+              "value": "center top",
+              "label": "Top center"
+            },
+            {
+              "value": "right top",
+              "label": "Top right"
+            },
+            {
+              "value": "left center",
+              "label": "Middle left"
+            },
+            {
+              "value": "center center",
+              "label": "Middle center"
+            },
+            {
+              "value": "right center",
+              "label": "Middle right"
+            },
+            {
+              "value": "left bottom",
+              "label": "Bottom left"
+            },
+            {
+              "value": "center bottom",
+              "label": "Bottom center"
+            },
+            {
+              "value": "right bottom",
+              "label": "Bottom right"
+            }
+          ],
+          "default": "center center"
+        },
+        {
+          "type": "radio",
+          "id": "height",
+          "label": "Image height",
+          "options": [
+            {
+              "value": "adapt",
+              "label": "Natural"
+            },
+            {
+              "value": "full",
+              "label": "Full screen"
+            },
+            {
+              "value": "fixed",
+              "label": "Fixed height"
+            }
+          ],
+          "default": "fixed"
+        },
+        {
+          "type": "range",
+          "id": "height_desktop",
+          "min": 200,
+          "max": 1000,
+          "step": 20,
+          "unit": "px",
+          "label": "Desktop fixed height",
+          "default": 600
+        },
+        {
+          "type": "range",
+          "id": "height_mobile",
+          "min": 100,
+          "max": 1000,
+          "step": 20,
+          "unit": "px",
+          "label": "Mobile fixed height",
+          "default": 460
+        },
+        {
+          "type": "url",
+          "id": "image_link",
+          "label": "Image link",
+          "info": "Not used if buttons or text contain links"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Tell your story"
+        },
+          {
+          "type": "text",
+          "id": "subheadingen",
+          "label": "Subheading en",
+          "default": "Tell your story"
+        },
+        {
+          "type": "textarea",
+          "id": "title",
+          "label": "Heading",
+          "default": "Two line\ntext heading"
+        },
+          {
+          "type": "textarea",
+          "id": "titleen",
+          "label": "Heading en",
+          "default": "Two line\ntext heading"
+        },
+          {
+          "type": "textarea",
+          "id": "titlees",
+          "label": "Heading es",
+          "default": "Two line\ntext heading"
+        },
+          {
+          "type": "textarea",
+          "id": "titlefr",
+          "label": "Heading fr",
+          "default": "Two line\ntext heading"
+        },
+          {
+          "type": "textarea",
+          "id": "titlede",
+          "label": "Heading de",
+          "default": "Two line\ntext heading"
+        },
+          {
+          "type": "textarea",
+          "id": "titleit",
+          "label": "Heading it",
+          "default": "Two line\ntext heading"
+        },
+          {
+          "type": "textarea",
+          "id": "titlept",
+          "label": "Heading pt",
+          "default": "Two line\ntext heading"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Heading",
+          "default": "Two line\ntext heading"
+        },
+          {
+          "type": "textarea",
+          "id": "texten",
+          "label": "Text en",
+          "default": "Two line\ntext heading"
+        },
+          {
+          "type": "textarea",
+          "id": "textfr",
+          "label": "Text fr",
+          "default": "Two line\ntext heading"
+        },
+          {
+          "type": "textarea",
+          "id": "textde",
+          "label": "Text de",
+          "default": "Two line\ntext heading"
+        },
+          {
+          "type": "textarea",
+          "id": "textit",
+          "label": "Text it",
+          "default": "Two line\ntext heading"
+        },
+          {
+          "type": "textarea",
+          "id": "textpt",
+          "label": "Text pt",
+          "default": "Two line\ntext heading"
+        },
+        {
+          "type": "range",
+          "id": "title_size",
+          "min": 20,
+          "max": 150,
+          "step": 2,
+          "unit": "px",
+          "label": "Desktop heading text size",
+          "default": 84
+        },
+        {
+          "type": "range",
+          "id": "title_size_mobile",
+          "min": 20,
+          "max": 150,
+          "step": 2,
+          "unit": "px",
+          "label": "Mobile heading text size",
+          "default": 46
+        },
+        {
+          "type": "checkbox",
+          "id": "use_h1",
+          "label": "Set as primary page heading",
+          "info": "Uses <h1> tag (used for SEO and accessibility). One per page recommended.",
+          "default": false
+        },
+        {
+          "type": "textarea",
+          "id": "text2",
+          "label": "Text",
+          "default": "<p>And optional subtext</p>"
+        },
+         {
+          "type": "textarea",
+          "id": "text2en",
+          "label": "Text en",
+          "default": "<p>And optional subtext</p>"
+        },
+         {
+          "type": "textarea",
+          "id": "text2fr",
+          "label": "Text fr",
+          "default": "<p>And optional subtext</p>"
+        },
+         {
+          "type": "textarea",
+          "id": "text2de",
+          "label": "Text de" ,
+          "default": "<p>And optional subtext</p>"
+        },
+         {
+          "type": "textarea",
+          "id": "text2it",
+          "label": "Text it",
+          "default": "<p>And optional subtext</p>"
+        },
+         {
+          "type": "textarea",
+          "id": "text2pt",
+          "label": "Text pt",
+          "default": "<p>And optional subtext</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "enlarge_text",
+          "label": "Enlarge text",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "button_label_1",
+          "label": "Button 1 label",
+          "default": "Shop this"
+        },
+        {
+          "type": "url",
+          "id": "button_url_1",
+          "label": "Button 1 link"
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "label": "Button 2 label",
+          "default": "Shop all"
+        },
+        {
+          "type": "url",
+          "id": "button_url_2",
+          "label": "Button 2 link"
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "label": "Text overlay position",
+          "options": [
+            {
+              "value": "top left",
+              "label": "Top left"
+            },
+            {
+              "value": "top center",
+              "label": "Top center"
+            },
+            {
+              "value": "top right",
+              "label": "Top right"
+            },
+            {
+              "value": "center left",
+              "label": "Middle left"
+            },
+            {
+              "value": "center center",
+              "label": "Middle center"
+            },
+            {
+              "value": "center right",
+              "label": "Middle right"
+            },
+            {
+              "value": "bottom left",
+              "label": "Bottom left"
+            },
+            {
+              "value": "bottom center",
+              "label": "Bottom center"
+            },
+            {
+              "value": "bottom right",
+              "label": "Bottom right"
+            }
+          ],
+          "default": "center center"
+        },
+        {
+          "type": "header",
+          "content": "Layout"
+        },
+        {
+          "id": "full_width",
+          "type": "checkbox",
+          "label": "Full page width",
+          "default": true
+        },
+        {
+          "id": "mobile_overlay_under",
+          "type": "checkbox",
+          "label": "Show text below image on mobile",
+          "default": false
+        },
+        {
+          "id": "overlay_style",
+          "type": "select",
+          "label": "Overlay style",
+          "default": "shadow",
+          "options": [
+            {
+              "value": "full",
+              "label": "Tint"
+            },
+            {
+              "value": "box",
+              "label": "Box"
+            },
+            {
+              "value": "shadow",
+              "label": "Text shadow"
+            },
+            {
+              "value": "full image-overlay--bg-shadow",
+              "label": "Text shadow and tint"
+            },
+            {
+              "value": "no_background",
+              "label": "No background"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "image with hot sale  2023",
+          "settings": {
+          }
+        }
+      ]
+    }
+  {% endschema %}
+  

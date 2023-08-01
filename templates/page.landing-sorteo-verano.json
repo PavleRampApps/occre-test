@@ -1,0 +1,337 @@
+{
+  "sections": {
+    "16592124507e7a6d25": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "<style>\n    #section-id-template--16284960620799__16592124507e7a6d25 {\n        margin-top: 0;\n    }\n\n    body {\n        background-color: white;\n    }\n\n    .sorteo-verano-header,\n    .sorteo-verano-footer {\n        background-color: #202223;\n        padding: 20px;\n        text-align: center;        \n    }\n\n    .sorteo-verano-header>h1,\n    .sorteo-verano-footer>span {\n        color: #ffb81c;\n        font-size: 50px;\n        margin-bottom: 0 !important;\n        font-weight: 600 !important;\n    }\n\n    @media (max-width:767px) {\n\n        .sorteo-verano-header,\n        .sorteo-verano-footer {\n            padding: 12px;\n        }\n\n        .sorteo-verano-header>h1,\n        .sorteo-verano-footer>span {\n            font-size: 30px;\n        }\n    }\n<\/style>\n\n<div class=\"sorteo-verano-header\">\n    <h1>¡Tu plan de VERANO!<\/h1>\n<\/div>"
+      }
+    },
+    "165921238749a83140": {
+      "type": "rich-text",
+      "blocks": {
+        "16592123871133708d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Imagínate en tu taller, con tu música favorita de fondo, un refresco bien frío y una maqueta nueva para armar... ¿Un planazo, verdad?<\/em><\/p>",
+            "enlarge_text": true,
+            "color": "default_color",
+            "bold_text": false
+          }
+        },
+        "c45d4cb7-427d-4c3c-acbf-6a8a2ccffb28": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/encabezado-Sorteo-de-verano-email-1.jpg",
+            "image_width": 700,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16592123871133708d-1",
+        "c45d4cb7-427d-4c3c-acbf-6a8a2ccffb28"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1659214397aedf3320": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "<style>\n    @font-face {\n        font-family: 'Bellinda Christina';\n        src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/BellindaChristina.woff2?v=1659214182') format('woff2'),\n            url('https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/BellindaChristina.woff?v=1659214182') format('woff');\n        font-weight: normal;\n        font-style: normal;\n        font-display: swap;\n    }\n\n    .sorteo-de-verano {\n        font-family: 'Bellinda Christina', Montserrat, sans-serif;\n        font-size: 6em;\n        color: #13457d;\n        text-align: center;\n        font-weight: normal;\n        padding: 0 20px;\n    }\n\n    @media (max-width:767px) {\n        .sorteo-de-verano {\n            font-size: 4em;\n        }\n    }\n\n    #shopify-section-template--16284960620799__165921238749a83140>div.article {\n        margin-bottom: 0;\n    }\n\n    #section-id-template--16284960620799__1659214397aedf3320 {\n        margin-top: 0;\n    }\n<\/style>\n\n<h2 class=\"sorteo-de-verano\">sorteo de verano<\/h2>"
+      }
+    },
+    "16461455438a3b80ec": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2022-01-20_a_las_12.06.27.png",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 480,
+        "height_mobile": 500,
+        "image_link": "",
+        "subheading": "BIENVENIDO\/A A OCCRE",
+        "title": "COMUNIDAD DE MODELISMO \nNº1 EN EL MUNDO",
+        "title_size": 48,
+        "title_size_mobile": 36,
+        "use_h1": false,
+        "text": "<p>Únete a +20.000 modelistas que confian en OcCre para disfrutar de su hobby<\/p>",
+        "enlarge_text": true,
+        "button_label_1": "Suscríbete, No Te Arrepentirás",
+        "button_url_1": "#form-container",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "165530254677e792a5": {
+      "type": "custom-row",
+      "blocks": {
+        "38437b4e-d9e4-4718-a377-a9b6b55a3752": {
+          "type": "html",
+          "disabled": true,
+          "settings": {
+            "width": "half",
+            "code": "<style>\n    \/* remove klaviyo form box shadows *\/\n    input,\n    button {\n        box-shadow: none !important;\n    }\n\n    \/* .premios {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        flex-wrap: nowrap;\n    } *\/\n\n    .premios,\n    h3.form-title {\n        text-align: center;\n    }\n\n    .premios>h3 {\n        text-transform: uppercase;\n    }\n\n    \/* .premios>img {\n        margin-right: 8px;\n    } *\/\n<\/style>\n\n<h3 class=\"form-title\">Formulario de inscripción<\/h3>\n\n<!-- Klaviyo Embed Forms: -->\n<div id=\"form-container\">\n    <!-- ES -->\n    <div class=\"klaviyo-form-YbqQJx\"><\/div>\n    <!-- EN -->\n    <div class=\"klaviyo-form-XczLBD\"><\/div>\n    <!-- FR -->\n    <div class=\"klaviyo-form-Vkm8Pz\"><\/div>\n    <!-- IT -->\n    <div class=\"klaviyo-form-X3yvWi\"><\/div>\n    <!-- DE -->\n    <div class=\"klaviyo-form-Xb3gw2\"><\/div>\n<\/div>\n\n<div class=\"premios\">\n    <!-- <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/premio-dorado.png?v=1659215491\" width=\"35\"> -->\n    <h3>6 premios, 6 ganadores<\/h3>\n<\/div>"
+          }
+        },
+        "8c329873-a027-4dab-8b4d-e0e2f8059759": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "subheading": "",
+            "title": "",
+            "text": "<p><em>La inscripción ha finalizado.<\/em><\/p><p>Sigue la <a href=\"https:\/\/www.instagram.com\/occremania\/\" target=\"_blank\" title=\"Instagram OcCre\">cuenta de Instagram de OcCre<\/a> así podrás ver a l@s ganadores y\/o ganadoras en las historias de Instagram!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "38437b4e-d9e4-4718-a377-a9b6b55a3752",
+        "8c329873-a027-4dab-8b4d-e0e2f8059759"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "main": {
+      "type": "main-contact",
+      "disabled": true,
+      "blocks": {
+        "name": {
+          "type": "name_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "email": {
+          "type": "email_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "956dd030-c9a3-403f-a646-e634f5e5f251": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Teléfono",
+            "type": "text",
+            "required": false,
+            "half_width": true
+          }
+        },
+        "148f28c1-bbd8-4fe1-8857-dac3c093f9bc": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Modelo",
+            "type": "text",
+            "required": true,
+            "half_width": true
+          }
+        },
+        "12153d92-6124-42fd-a9d7-e7cdb419f8dd": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Referencia producto",
+            "type": "text",
+            "required": false,
+            "half_width": true
+          }
+        },
+        "message": {
+          "type": "message_input",
+          "settings": {
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "name",
+        "email",
+        "956dd030-c9a3-403f-a646-e634f5e5f251",
+        "148f28c1-bbd8-4fe1-8857-dac3c093f9bc",
+        "12153d92-6124-42fd-a9d7-e7cdb419f8dd",
+        "message"
+      ],
+      "settings": {
+        "show_page_title": false,
+        "use_columns": true,
+        "contact_title": "",
+        "contact_text": "<p>¡Te ayudamos! Cuándo, cómo y dónde quieras.<\/p><p>Nuestro servicio de atención al cliente estará encantado de responder tus preguntas en menos de 24 horas. <\/p><p>Gracias por confiar en OcCre ;)<\/p>"
+      }
+    },
+    "1659213066244f282c": {
+      "type": "multi-column",
+      "blocks": {
+        "165921306697dcffa1-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/premio-1-1.jpg",
+            "image_width": 700,
+            "title": "Maqueta de cualquier barco que elijas",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "165921306697dcffa1-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/premio-2.jpg",
+            "image_width": 700,
+            "title": "Maqueta de cualquier tren que elijas",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "165921306697dcffa1-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/premio-3-1.jpg",
+            "image_width": 700,
+            "title": "Maqueta de cualquier tranvía que elijas",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "7b7fa1ac-9f78-4557-9bf9-fe5f758f541c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/premio-4.jpg",
+            "image_width": 700,
+            "title": "Mueble Taller Organizador",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "7ad1409c-5b16-4535-ab03-cbb95e4be3e3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/premio-5.jpg",
+            "image_width": 700,
+            "title": "Tabla de corte",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "04b1c415-d177-42ad-886c-a3f6a469b934": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/premio-6.jpg",
+            "image_width": 700,
+            "title": "Gift Card",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165921306697dcffa1-0",
+        "165921306697dcffa1-1",
+        "165921306697dcffa1-2",
+        "7b7fa1ac-9f78-4557-9bf9-fe5f758f541c",
+        "7ad1409c-5b16-4535-ab03-cbb95e4be3e3",
+        "04b1c415-d177-42ad-886c-a3f6a469b934"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "1659224720fa4e4869": {
+      "type": "rich-text",
+      "blocks": {
+        "1659224720d3af488e-0": {
+          "type": "heading",
+          "settings": {
+            "title": "TÉRMINOS Y CONDICIONES",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "1659224720d3af488e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Podrán participar tod@s aquell@s que completen el formulario, a partir del 31\/07\/22 al 13\/08\/22. El anuncio de los ganadores se realizará en el <a href=\"https:\/\/www.instagram.com\/occremania\/\" target=\"_blank\" title=\"Instagram OcCre\">Instagram de OcCre<\/a> el día 14\/08\/22.<\/p><p>Los ganadores se seleccionarán al azar, lo que permite que todos los que participen tengan las mismas posibilidades de ganar.<\/p><p>Serán 6 los premios en juego.<\/p><p>El primer ganador seleccionado podrá elegir entre los 6 premios, el segundo ganador podrá elegir entre los premios restantes y así sucesivamente.<\/p>",
+            "enlarge_text": false,
+            "color": "default_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1659224720d3af488e-0",
+        "1659224720d3af488e-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1659225476963b055b": {
+      "type": "custom-row",
+      "blocks": {
+        "ff33469c-20f0-45ac-b77f-d56b33c87311": {
+          "type": "html",
+          "settings": {
+            "width": "two-thirds",
+            "code": "<p style=\"font-size:.6em;text-align:center;\">Al registrarte por SMS, aceptas recibir mensajes automatizados de marketing recurrentes al número de teléfono proporcionado, incluyendo recordatorios de carritos. El consentimiento no es una condición de compra. Responde STOP para darte de baja. Responde HELP para obtener ayuda. La frecuencia de los mensajes varía. Pueden aplicarse tarifas de mensajes y datos. Ver nuestra <a style=\"text-decoration:underline;\" href=\"https:\/\/occre.com\/policies\/privacy-policy\" target=\"_blank\">Política de privacidad<\/a> y nuestros <a style=\"text-decoration:underline;\" href=\"https:\/\/occre.com\/policies\/terms-of-service\" target=\"_blank\">Términos del servicio<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ff33469c-20f0-45ac-b77f-d56b33c87311"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "165921503244a2cf38": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "<style>\n    #section-id-template--16284960620799__165921503244a2cf38 {\n        margin-bottom: 0;\n    }\n\n    \/* footer style in header custom liquid *\/\n<\/style>\n\n<div class=\"sorteo-verano-footer\">\n    <span>¡Mucha suerte!<\/span>\n<\/div>"
+      }
+    }
+  },
+  "order": [
+    "16592124507e7a6d25",
+    "165921238749a83140",
+    "1659214397aedf3320",
+    "16461455438a3b80ec",
+    "165530254677e792a5",
+    "main",
+    "1659213066244f282c",
+    "1659224720fa4e4869",
+    "1659225476963b055b",
+    "165921503244a2cf38"
+  ]
+}

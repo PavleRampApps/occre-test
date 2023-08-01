@@ -1,0 +1,383 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> 
+
+<style> 
+    .quick-nav-story-wrapper{
+        display: none;
+    }
+
+    .swiper-scrollbar-drag {
+      background-color: #ffb81c;
+    }
+    .swiper.quick-nav-story-swiper {
+            width: 100%;
+            height: 100%;
+            margin: 10px auto;
+          }
+          .quick-nav-story-swiper .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+          }
+          .quick-nav-story-block-image {
+            width: 80px;
+            height: 80px;
+            {%if section.settings.have_borders%}
+            border:{{section.settings.border_width}}px {{section.settings.border_line_style}} {{section.settings.border_color}};
+            {%endif%}
+        }
+          .quick-nav-story-block-image img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+        .quick-nav-story-block-image,.quick-nav-story-block-image img{
+            border-radius: 50%;
+        }
+        .quick-nav-story-block-title a{
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+            color: {{section.settings.link_color}};
+        }
+    @media only screen and (max-width:778px) {
+      {% if template.name == 'index' %}
+        .quick-nav-story-wrapper{
+            display: flex;
+            width: 100%;
+            border-top: 1px solid #295135;
+        }
+        .quick-nav-story-block {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .quick-nav-story-swiper .swiper-wrapper {
+          margin-bottom: 15px;
+        }
+        {% endif %}
+        }
+    
+    </style>
+    
+    {%assign collectionBlocks = section.blocks | where:"type","qns-collection"%}
+    {%assign productBlocks = section.blocks | where:"type","qns-product"%}
+    {%assign customBlocks = section.blocks | where:"type","qns-custom"%}
+    
+    
+    <div class="quick-nav-story-wrapper">
+        <div class="swiper quick-nav-story-swiper">
+            <div class="swiper-wrapper">
+                {%render 'qns-collections', collections:collectionBlocks%}
+                {%render 'qns-products', products:productBlocks%}
+                {%render 'qns-customs', blocks:customBlocks%}
+    
+            </div>
+            <div class="swiper-scrollbar"></div>
+          </div>
+    
+          <!-- Swiper JS -->
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".quick-nav-story-swiper", {
+              slidesPerView: 3,
+              spaceBetween: 15,
+              scrollbar: {
+                el: ".swiper-scrollbar",
+                draggable: true,
+              },
+            });
+
+
+ window.addEventListener("load", () => {
+   const quickNavBlocks = document.querySelectorAll(".quick-nav-story-block");
+   quickNavBlocks.forEach(quickNav => {
+    quickNav.addEventListener("click", function() {
+     console.log("GA FIRED");
+     ga('send', 'event', 'HP', 'Nav Click', 'Quick Nav')
+    })
+   })
+
+  })
+
+
+         
+          </script>
+    </div>
+    
+    {% schema %}
+    {
+        "name": "Quick nav mobile story",
+        "settings": [
+        {
+            "type": "color",
+            "id": "link_color",
+            "label": "Link color",
+            "default": "#000000"
+          },{
+            "type": "checkbox",
+            "id": "have_borders",
+            "label": "Images have borders",
+            "default": false
+          },
+          {
+            "type": "color",
+            "id": "border_color",
+            "label": "Border color",
+            "default": "#000000"
+          },
+          {
+            "type": "range",
+            "id": "border_width",
+            "min": 1,
+            "max": 10,
+            "step": 1,
+            "unit": "px",
+            "label": "Border width",
+            "default": 1
+          },
+          {
+            "type": "select",
+            "id": "border_line_style",
+            "label": "Border styles",
+            "options": [
+              {
+                "value": "dotted",
+                "label": "Dotted"
+              },
+              {
+                "value": "dashed",
+                "label": "Dashed"
+              },
+              {
+                "value": "solid",
+                "label": "Solid"
+              },
+              {
+                "value": "double",
+                "label": "Double"
+              },
+              {
+                "value": "groove",
+                "label": "Groove"
+              },
+              {
+                "value": "ridge",
+                "label": "Ridge"
+              }, 
+              {
+                "value": "inset",
+                "label": "Inset"
+              },
+              {
+                "value": "outset",
+                "label": "Outset"
+              }
+            ],
+            "default": "solid"
+          }
+    
+    
+    
+    
+        ],
+      "blocks": [
+         {
+           "name": "QNS Collection",
+           "type": "qns-collection",
+           "settings": [
+            {
+                "type": "collection",
+                "id": "collection",
+                "label": "Collection"
+            },
+            {
+                "type": "radio",
+                "id": "qns-collection-image-options",
+                "label": "Collection image",
+                "options": [
+                  {
+                    "value": "default",
+                    "label": "Collection featured image"
+                  },
+                  {
+                    "value": "custom",
+                    "label": "Custom collection custom image"
+                  }
+                ],
+                "default": "default"
+              },
+              {
+                "type": "image_picker",
+                "id": "qns-collection_custom_image",
+                "label": "Collection custom image"
+              },          
+            {
+                "type": "radio",
+                "id": "qns-collection-title-options",
+                "label": "Collection title",
+                "options": [
+                  {
+                    "value": "default",
+                    "label": "Collection title"
+                  },
+                  {
+                    "value": "custom",
+                    "label": "Custom collection title"
+                  }
+                ],
+                "default": "default"
+              },
+              {
+                "type": "text",
+                "id": "qns-custom_collection_title",
+                "label": "Custom collection title"
+              },
+              {
+                "type": "radio",
+                "id": "qns-collection-url-options",
+                "label": "Collection url",
+                "options": [
+                  {
+                    "value": "default",
+                    "label": "Collection default url"
+                  },
+                  {
+                    "value": "custom",
+                    "label": "Custom collection url"
+                  }
+                ],
+                "default": "default"
+              },
+              {
+                "type": "url",
+                "id": "qns-custom-collection-url",
+                "label": "Custom collection url"
+               }   
+    
+    
+    
+           ]
+         },
+         {
+            "name": "QNS Product",
+            "type": "qns-product",
+            "settings": [
+             {
+                 "type": "product",
+                 "id": "product",
+                 "label": "product"
+             },
+             {
+                 "type": "radio",
+                 "id": "qns-product-image-options",
+                 "label": "Product image",
+                 "options": [
+                   {
+                     "value": "default",
+                     "label": "Product featured image"
+                   },
+                   {
+                     "value": "custom",
+                     "label": "Custom product image"
+                   }
+                 ],
+                 "default": "default"
+               },
+               {
+                 "type": "image_picker",
+                 "id": "qns-product_custom_image",
+                 "label": "Product custom image"
+               },          
+             {
+                 "type": "radio",
+                 "id": "qns-product-title-options",
+                 "label": "Product title",
+                 "options": [
+                   {
+                     "value": "default",
+                     "label": "Product title"
+                   },
+                   {
+                     "value": "custom",
+                     "label": "Custom product title"
+                   }
+                 ],
+                 "default": "default"
+               },
+               {
+                 "type": "text",
+                 "id": "qns-custom_product_title",
+                 "label": "Custom product title"
+               },
+               {
+                 "type": "radio",
+                 "id": "qns-product-url-options",
+                 "label": "Product url",
+                 "options": [
+                   {
+                     "value": "default",
+                     "label": "Product default url"
+                   },
+                   {
+                     "value": "custom",
+                     "label": "Custom product url"
+                   }
+                 ],
+                 "default": "default"
+               },
+               {
+                 "type": "url",
+                 "id": "qns-custom-product-url",
+                 "label": "Custom product url"
+                }
+    
+    
+    
+            ]
+          },
+          {
+            "name": "QNS Custom",
+            "type": "qns-custom",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "qns-custom_image",
+                    "label": "Custom image"
+              }
+            ,{
+                "type": "text",
+                "id": "qns-custom-title",
+                "label": "Title"
+              },
+              {
+                "type": "url",
+                "id": "qns-custom-url",
+                "label": "Custom link"
+              }
+    
+    
+            ]
+          }
+       ],
+        "presets": [{
+            "name": "Quick nav mobile story"
+    
+    
+      }]
+    }
+    {% endschema %}

@@ -1,0 +1,345 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "afc384fa-6dc0-4205-99a4-df984025f1ac": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{% for variant in product.variants %}\nprecio sin descuento: {{ variant.compare_at_price }} - {{ product.compare_at_price }}\n<br>\nprecio con descuento: \n{{ variant.price }}\n{% endfor %}",
+            "show_in_quickbuy": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": false
+          }
+        },
+        "8ad52a72-846f-40f2-b1a0-025c6d5cd405": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "0",
+            "bottomPadding": "0"
+          }
+        },
+        "a482390e-8dcf-400b-a7e7-576847b557bd": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-trust-badge\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "layout": "horizontal-slim",
+            "alignment": "fillContainer",
+            "scheme-type": "default",
+            "review-title": "reviews",
+            "rating-icon": true,
+            "average-rating": true,
+            "review-count": true,
+            "show-border": true,
+            "border-radius": 8,
+            "font-size": 16,
+            "background-color": "",
+            "secondary-background-color": "",
+            "text-color": "",
+            "rating-icon-color": "",
+            "border-color": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_backorder_text": true,
+            "show_pickup_availability": true
+          }
+        },
+        "1a96cfa9-115e-475a-8f62-402e3311294f": {
+          "type": "text",
+          "settings": {
+            "text": "Garantía de por vida.",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": true
+          }
+        },
+        "e0f357d2-c116-4786-a58b-543a3a7037af": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p><strong>Medidas<\/strong><\/p>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "ac1a2aed-7ca1-4e3b-b939-1923e651f3b1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.rocket.escala.value }}",
+            "icon": "ruler",
+            "custom_icon": "shopify:\/\/shop_images\/ESCALA.png",
+            "icon_size": "large",
+            "enable_box": false,
+            "box_color": "#ffb81c",
+            "show_in_quickbuy": false
+          }
+        },
+        "bd130c27-41dc-43a8-8865-2460307cab62": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.rocket.longitud.value }}",
+            "icon": "",
+            "custom_icon": "shopify:\/\/shop_images\/Longitud.png",
+            "icon_size": "large",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "0486b0a1-e636-4f1f-b474-40649058a66d": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.rocket.anchura.value }}",
+            "icon": "",
+            "custom_icon": "shopify:\/\/shop_images\/Anchura.png",
+            "icon_size": "large",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "a9d97b80-e4e9-4f61-bdb9-3d012c49518e": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.rocket.altura.value }}",
+            "icon": "",
+            "custom_icon": "shopify:\/\/shop_images\/Altura.png",
+            "icon_size": "large",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "6504a0e9-86b6-411c-89cd-505c9f809384": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.rocket.doble_forro.value }}",
+            "icon": "",
+            "custom_icon": "shopify:\/\/shop_images\/Doble_forro_BARCOS.png",
+            "icon_size": "large",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "bf9f343b-bde4-4d2b-8c25-7892cfeafc4a": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.rocket.dificultad.value }}",
+            "icon": "",
+            "icon_size": "large",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "29eac0b4-35fa-49ac-b46c-2e992fd3c6ad": {
+          "type": "accordion",
+          "settings": {
+            "title": "Tarifas de transporte",
+            "icon": "truck",
+            "content": "<p>Collapsible tab content<\/p>",
+            "page": "tarifas-de-transporte",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "74ca5d28-2bb3-4b19-b1ba-83546830c06f": {
+          "type": "accordion",
+          "settings": {
+            "title": "Descarga las instrucciones",
+            "icon": "eye",
+            "content": "<p><a href=\"\/pages\/instrucciones\" title=\"Instrucciones\">Instrucciones<\/a><\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "a388c3e1-53bd-4b49-ae2d-a3c101843832": {
+          "type": "accordion",
+          "settings": {
+            "title": "Carta de colores",
+            "icon": "map_pin",
+            "content": "<p>Carta de <a href=\"\/pages\/carta-de-colores\" title=\"Carta de colores\">colores<\/a><\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
+        "6d137e08-1d58-49ff-a700-593fdbd1a64c": {
+          "type": "image",
+          "settings": {
+            "image_width": 700,
+            "url": "",
+            "show_in_quickbuy": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "afc384fa-6dc0-4205-99a4-df984025f1ac",
+        "price",
+        "8ad52a72-846f-40f2-b1a0-025c6d5cd405",
+        "a482390e-8dcf-400b-a7e7-576847b557bd",
+        "buy_buttons",
+        "1a96cfa9-115e-475a-8f62-402e3311294f",
+        "e0f357d2-c116-4786-a58b-543a3a7037af",
+        "ac1a2aed-7ca1-4e3b-b939-1923e651f3b1",
+        "bd130c27-41dc-43a8-8865-2460307cab62",
+        "0486b0a1-e636-4f1f-b474-40649058a66d",
+        "a9d97b80-e4e9-4f61-bdb9-3d012c49518e",
+        "6504a0e9-86b6-411c-89cd-505c9f809384",
+        "bf9f343b-bde4-4d2b-8c25-7892cfeafc4a",
+        "29eac0b4-35fa-49ac-b46c-2e992fd3c6ad",
+        "74ca5d28-2bb3-4b19-b1ba-83546830c06f",
+        "a388c3e1-53bd-4b49-ae2d-a3c101843832",
+        "description",
+        "6d137e08-1d58-49ff-a700-593fdbd1a64c"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "gallery_size": "small",
+        "prod_gall_thumbs_under": "under",
+        "enable_sticky_gallery": true,
+        "enable_zoom": false,
+        "enable_video_looping": true
+      }
+    },
+    "16443125886944575d": {
+      "type": "background-video",
+      "settings": {
+        "video": "{{ product.metafields.rocket.youtube_main_video_txt.value }}",
+        "subheading": "Descubre {{ product.title }} paso a paso",
+        "enlarge_subheading": true,
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "Ver paso a paso",
+        "button_url_1": "{{ product.metafields.rocket.youtube_playlist.value }}",
+        "button_label_2": "",
+        "button_url_2": "",
+        "open_url_new_tab": true,
+        "button_style": "primary",
+        "text_alignment": "center center",
+        "height_desktop": 420,
+        "height_mobile": 460,
+        "full_width": true
+      }
+    },
+    "16639206563f291391": {
+      "type": "rich-text",
+      "blocks": {
+        "166392065675615b88-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Opiniones de {{ product.title }} de OcCre",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "166392065675615b88-0"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "b2fd0c98-d0e4-4312-9637-034eb1bc9686": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "b2fd0c98-d0e4-4312-9637-034eb1bc9686"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "title": "También te puede gustar",
+        "show_vendor": false,
+        "grid": 4
+      }
+    },
+    "1686128793ecb6cb93": {
+      "type": "apps",
+      "blocks": {
+        "a20f757e-0eb1-4aae-bb19-029f7727b736": {
+          "type": "shopify:\/\/apps\/vitals-all-in-one-marketing\/blocks\/related-products\/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "a20f757e-0eb1-4aae-bb19-029f7727b736"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16443125886944575d",
+    "16639206563f291391",
+    "loox-product-reviews-app-section",
+    "recommendations",
+    "1686128793ecb6cb93"
+  ]
+}

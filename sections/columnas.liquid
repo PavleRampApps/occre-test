@@ -1,0 +1,54 @@
+<div class="desafio oscuro ultima">
+  <div class="container">
+    <div class="dos_columnas">
+       <div class="column2">
+        <img src="{{ section.settings.image_desafio2 | img_url: 'master'  }}"  class="gris">
+         <style>
+         .gris {
+    filter: grayscale(1);
+           }
+         </style>
+            <img src="{{ section.settings.image_desafio3 | img_url: 'master'  }}"   class="gris">
+      </div>
+      <div class="column1">
+
+        <h2 style="color: #F3B01C !important;margin-bottom:30px;">QUE INCLUYEN NUESTROS KITS</h2>
+        <p class="p2">
+Te acompañamos de principio a fin en la construcción de tu maqueta.
+          Disfruta de la experiencia. Nosotros nos ocupamos del resto. 
+          Siempre a tu lado.
+<br><br>
++ Instrucciones paso a paso en 5 idiomas<br><br>
+
++ Fotos paso a paso HD<br><br>
+
++ Listas de piezas con medidas y materiales<br><br>
+
++ Ficha IP para identificar piezas<br><br>
+
++ Planos a escala <br><br>
+
++ Video tutoriales paso a paso
+          </p>
+     
+     
+        
+      </div>
+     
+    </div>
+  </div>
+ 
+</div>
+
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

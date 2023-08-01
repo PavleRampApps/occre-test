@@ -1,0 +1,588 @@
+{
+  "sections": {
+    "16461455438a3b80ec": {
+      "type": "image-with-text-overlay-v2",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_231.png",
+        "mobile_image": "shopify:\/\/shop_images\/Group_230.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 640,
+        "height_mobile": 780,
+        "image_link": "",
+        "subheading": "",
+        "title": "BIENVENIDO<br>AL MUNDO OCCRE",
+        "title_size": 42,
+        "title_size_mobile": 24,
+        "use_h1": false,
+        "text": "<p><strong>Suscribete <\/strong>a tu lugar en el mundo, y obtén un<br\/> <strong>10% de descuento en tu  primera compra<\/strong><\/p>",
+        "texten": "<p><em><strong>TOGETHER WE BUILD: HELP US BUILD A BETTER WORLD<\/strong><\/em><\/p><ul><li>Sign Up <strong>now<\/strong> to get a<strong> 10% OFF <\/strong>on your first order.<\/li><li>Join our <strong>growing<\/strong> community and receive <strong>exclusive<\/strong> offers.<\/li><li><strong>Connect<\/strong> with <strong>Like-Minded<\/strong> People worldwide.<\/li><\/ul>",
+        "textfr": "<p><em><strong>ENSEMBLE, NOUS CONSTRUISONS : AIDEZ-NOUS À BÂTIR UN MONDE MEILLEUR.<\/strong><\/em><\/p><ul><li>Inscrivez-vous maintenant pour bénéficier de <strong>10% de réduction<\/strong> sur votre première commande.<\/li><li>Rejoignez notre <strong>communauté grandissante<\/strong> et recevez des offres exclusives.<\/li><li><strong>Connectez-vous<\/strong> avec des personnes du monde entier qui partagent les mêmes centres d'intérêt.<\/li><\/ul>",
+        "textde": "<p><strong>Suscribete <\/strong>a tu lugar en el mundo, y obtén un<br\/> <strong>10% de descuento en tu  primera compra<\/strong><\/p>",
+        "textit": "<p><strong>Suscribete <\/strong>a tu lugar en el mundo, y obtén un<br\/> <strong>10% de descuento en tu  primera compra<\/strong><\/p>",
+        "textpt": "<p><strong>Suscribete <\/strong>a tu lugar en el mundo, y obtén un<br\/> <strong>10% de descuento en tu  primera compra<\/strong><\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
+        "button_url_1": "#",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "165530254677e792a5": {
+      "type": "custom-row",
+      "blocks": {
+        "cd215fee-d362-4fdf-bda5-3045163ff34d": {
+          "type": "html",
+          "settings": {
+            "width": "three-quarters",
+            "code": "<style>\n    .pre-form-copy {\n        padding-left: 6px;\n        padding-right: 6px;\n    }\n\n    \/* remove klaviyo form box shadows *\/\n    input,\n    button {\n        box-shadow: none !important;\n    }\n.pre-form-copy .secondary_color {\nfont-family: Montserrat;\nfont-size: 26px;\nfont-weight: 600;\nline-height: 30px;\nletter-spacing: 0em;\n\ntext-align:center !important;\ncolor:#F3B01C !important;\n\n}\n.pre-form-copy p\n{\nfont-family: Montserrat;\nfont-size: 16px;\nfont-weight: 400;\nline-height: 20px;\nletter-spacing: -0.02em;\ntext-align: center;\n\ntext-align:center;}\n<\/style>\n\n<div class=\"pre-form-copy\">\n       {% if request.locale.iso_code == 'es'  %}\n          <h1 class=\"secondary_color\">El mundo de OcCre<\/h1>\n<p class=\"ocio\">Ocio Creativo<\/p>\n    <p style=\"margin-top:40px;\"> \nCon <b>23 años de experiencia<\/b>, ofrecemos a los modelistas y apasionados por la historia naval y ferroviaria la oportunidad de construir sus propias obras de arte.<\/p> <p>\nCada maqueta es única, y cada pieza es cuidadosamente seleccionada y diseñada para garantizar la máxima precisión y realismo.<\/p>\n        \n        \n        {% elsif request.locale.iso_code == 'en'  %}\n       <h1 class=\"secondary_color\">OcCre's World<\/h1>\n<p class=\"ocio\">Creative Leisure <\/p>\n    <p style=\"margin-top:40px;\"> \nWith more than 23 years of experience, we offer model makers and those passionate about naval and railway history the opportunity to build their art pieces.\n\n<\/p> <p>\nEach model is unique, and each piece is carefully selected and designed to ensure maximum precision and realism.<\/p>\n        \n        \n        {% elsif request.locale.iso_code == 'fr' %}\n        <h1 class=\"secondary_color\">Le monde de OcCre<\/h1>\n<p class=\"ocio\">Loisir Créatif<\/p>\n    <p style=\"margin-top:40px;\"> \nAvec plus de <b>23 ans d’expérience<\/b>, nous offrons aux modélistes et aux passionnés de l’histoire navale et ferroviaire la possibilité de construire leurs propres œuvres d’art.\n\n<\/p> <p>\nChaque maquette est unique, et chaque pièce est soigneusement sélectionnée et conçue pour garantir une précision et un réalisme optimal.<\/p>\n        {% elsif request.locale.iso_code == 'de' %}\n   <h1 class=\"secondary_color\">El mundo de OcCre<\/h1>\n<p class=\"ocio\">Ocio Creativo<\/p>\n    <p style=\"margin-top:40px;\"> \nCon <b>23 años de experiencia<\/b>, ofrecemos a los modelistas y apasionados por la historia naval y ferroviaria la oportunidad de construir sus propias obras de arte.<\/p> <p>\nCada maqueta es única, y cada pieza es cuidadosamente seleccionada y diseñada para garantizar la máxima precisión y realismo.<\/p>\n        \n        {% elsif request.locale.iso_code == 'it' %}\n      <h1 class=\"secondary_color\">Il mondo OcCre<\/h1>\n<p class=\"ocio\">Ozio Creativo<\/p>\n    <p style=\"margin-top:40px;\"> \nCon oltre <b>23 anni di esperienza<\/b>, offriamo ai modellisti ed appassionati di storia navale e ferroviaria l’opportunità di costruire i propri capolavori.\n<\/p> <p>\nOgni modellino è unico e ogni pezzo e selezionato con cura e progettato per garantire la massima precisione e realismo.\n<\/p>\n     \n        {% else  %}\n        \n      <h1 class=\"secondary_color\">El mundo de OcCre<\/h1>\n<p class=\"ocio\">Ocio Creativo<p>\n    <p style=\"margin-top:40px;\"> \nCon <b>23 años de experiencia<\/b>, ofrecemos a los modelistas y apasionados por la historia naval y ferroviaria la oportunidad de construir sus propias obras de arte.<\/p> <p>\nCada maqueta es única, y cada pieza es cuidadosamente seleccionada y diseñada para garantizar la máxima precisión y realismo.<\/p>\n        {% endif %}\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "cd215fee-d362-4fdf-bda5-3045163ff34d"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "57cf4193-0bde-43d4-8a65-409743bf2ad1": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f09f4389e7424ce39842a4a50bb958ea.mp4",
+        "subheading": "",
+        "enlarge_subheading": false,
+        "title": "",
+        "title_size": 34,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "open_url_new_tab": true,
+        "button_style": "primary",
+        "text_alignment": "center center",
+        "height_desktop": 420,
+        "height_mobile": 400,
+        "full_width": true
+      }
+    },
+    "7e8f1726-bbf5-4ad2-8436-817bcb956743": {
+      "type": "multi-column-bg-btn",
+      "blocks": {
+        "template--16669139239167__7e8f1726-bbf5-4ad2-8436-817bcb956743-1675621098a2656803-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "",
+            "text": "<ul><li>23 años de experiencia en la fábrica de modelos de alta calidad.<\/li><li>+ 20.000 modelistas confían en nosotros.<\/li><li>Una comunidad con más de 35.000 miembros.<\/li><li>+11.000.000 de reproducciones en YouTube Videos.<\/li><li>Video tutoriales paso a paso para la construcción de las maquetas.<\/li><\/ul>",
+            "texten": "<ul><li>+ 23 years of high-quality model factory experience.<\/li><li>Models of all scales and difficulties.<\/li><li>Find your moment of peace and calm.<\/li><li>+ 20,000 modelers trust us.<\/li><li>Join our community, a world of creativity and adventure to unleash your inner creator.<\/li><li>A community with more than 35,000 members.<\/li><\/ul><p><\/p>",
+            "textfr": "<ul><li>23 ans d’expérience dans la fabrication de maquettes de qualité supérieure.<\/li><li>Maquettes de toutes les tailles et difficultés.<\/li><li>Trouvez votre moment de paix et de tranquillité.<\/li><li>+20 000 modélistes nous font confiance.<\/li><li>Rejoignez notre communauté, un monde créatif, d’aventures et de libre cours à votre esprit créatif.<\/li><li>Une communauté de plus de 35 000 membres.<\/li><\/ul>",
+            "textde": "<ul><li>23 anni di esperienza nella elaborazione di modelli di alta qualità.<\/li><li>Modellini di tutte le scale e diverse difficoltà.<\/li><li>Trova il tuo momento di pace e tranquillità .<\/li><li>+ 20.000 modellisti si fidano di noi.<\/li><li>Unisciti alla nostra comunità, un mondo di creatività, avventura e libero sfogo al tuo creatore interiore<\/li><li>Una comunità con oltre 35.000 membri.<\/li><\/ul>",
+            "textit": "<ul><li>23 anni di esperienza nella elaborazione di modelli di alta qualità.<\/li><li>Modellini di tutte le scale e diverse difficoltà.<\/li><li>Trova il tuo momento di pace e tranquillità .<\/li><li>+ 20.000 modellisti si fidano di noi.<\/li><li>Unisciti alla nostra comunità, un mondo di creatività, avventura e libero sfogo al tuo creatore interiore<\/li><\/ul>",
+            "textpt": "<ul><li>23 anni di esperienza nella elaborazione di modelli di alta qualità.<\/li><li>Modellini di tutte le scale e diverse difficoltà.<\/li><li>Trova il tuo momento di pace e tranquillità .<\/li><li>+ 20.000 modellisti si fidano di noi.<\/li><li>Unisciti alla nostra comunità, un mondo di creatività, avventura e libero sfogo al tuo creatore interiore<\/li><li>Una comunità con oltre 35.000 membri.<\/li><\/ul>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16669139239167__7e8f1726-bbf5-4ad2-8436-817bcb956743-1675621098a2656803-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "",
+            "text": "<ul><li>Maquetas de todas las escalas y dificultades.<\/li><li>Atención al cliente 24\/7.<\/li><li>Garantia de por vida.<\/li><li>Encuentra tu momento de paz y tranquilidad.<\/li><li>Únete a nuestra comunidad, un mundo de creatividad, aventura y da rienda suelta a tu creador interior.<\/li><\/ul>",
+            "texten": "<ul><li>+11,000,000 views on YouTube Videos.<\/li><li>Video tutorials step by step for the construction of the models.<\/li><li>Get a 10% discount for your first purchase.<\/li><li>Customer Support 24\/7<\/li><li>Lifetime guarantee.<\/li><\/ul>",
+            "textfr": "<ul><li>+11 000 000 de vues sur YouTube Vidéos.<\/li><li>Tutoriels étape par étape pour construire vos maquettes.<\/li><li>Profitez de 10 % de réduction sur votre premier achat.<\/li><li>Service client.<\/li><li>Garantie à vie.<\/li><\/ul>",
+            "textde": "<ul><li>+11.000.000 di riproduzioni su YouTube.<\/li><li>Tutorial passo a passo per la costruzione di modellini.<\/li><li>Ottieni uno sconto del 10% per il tuo primo acquisto.<\/li><li>Servizio al cliente.<\/li><li>Garanzia a vita.<\/li><\/ul>",
+            "textit": "<ul><li>Una comunità con oltre 35.000 membri.<\/li><li>+11.000.000 di riproduzioni su YouTube.<\/li><li>Tutorial passo a passo per la costruzione di modellini.<\/li><li>Ottieni uno sconto del 10% per il tuo primo acquisto.<\/li><li>Servizio al cliente.<\/li><li>Garanzia a vita.<\/li><\/ul>",
+            "textpt": "<p>Share blog posts, products, or promotions with your customers. Use this text to descri+11.000.000 di riproduzioni su YouTube.<\/p><p>Tutorial passo a passo per la costruzione di modellini.<\/p><p>Ottieni uno sconto del 10% per il tuo primo acquisto.<\/p><p>Servizio al cliente.<\/p><p>Garanzia a vita.be products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16669139239167__7e8f1726-bbf5-4ad2-8436-817bcb956743-1675621098a2656803-0",
+        "template--16669139239167__7e8f1726-bbf5-4ad2-8436-817bcb956743-1675621098a2656803-1"
+      ],
+      "settings": {
+        "title": "Beneficios de ser parte del mundo OcCre",
+        "text_alignment": "left",
+        "button_style": "primary",
+        "use_alt_bg_color": "#000000",
+        "button_label": "formar parte del mundo occre",
+        "link": "#shopify-section-template--16669139239167__2f50d768-ecbc-43e7-86a9-509fda372916"
+      }
+    },
+    "6b970c14-f2e1-496e-8f26-a426cebbf880": {
+      "type": "rich-text-leads",
+      "blocks": {
+        "template--16669139239167__6b970c14-f2e1-496e-8f26-a426cebbf880-16756217799a2ab6b2-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "titleen": "Rich text",
+            "titlefr": "Rich text",
+            "titlede": "Rich text",
+            "titleit": "Rich text",
+            "titlept": "Rich text",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "template--16669139239167__6b970c14-f2e1-496e-8f26-a426cebbf880-16756217799a2ab6b2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Cada maqueta en única, como tú, y merece la pena<br\/>mostrarla al mundo con orgullo.<\/strong><\/p>",
+            "texten": "<p><strong>Each model is unique, and each piece is carefully selected and designed to ensure maximum precision and realism.<\/strong><\/p>",
+            "textfr": "<p><strong>Chaque maquette est unique, comme vous et elle vaut la peine d'être montrée au monde entier avec fierté.<\/strong><\/p>",
+            "textde": "<p><strong>Ogni modellino è unico, come te, e merita essere mostrato al mondo con orgoglio.<\/strong><\/p>",
+            "textit": "<p><strong>Ogni modellino è unico, come te, e merita essere mostrato al mondo con orgoglio.<\/strong><\/p>",
+            "textpt": "<p><strong>Ogni modellino è unico, come te, e merita essere mostrato al mondo con orgoglio.<\/strong><\/p>",
+            "enlarge_text": false,
+            "color": "primary_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16669139239167__6b970c14-f2e1-496e-8f26-a426cebbf880-16756217799a2ab6b2-0",
+        "template--16669139239167__6b970c14-f2e1-496e-8f26-a426cebbf880-16756217799a2ab6b2-1"
+      ],
+      "settings": {
+        "css_text": "no-margin color-blue",
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "654f0ab0-d399-4d59-9da2-459829552e67": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Más de 20.000 modelistas felices",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Confiado por miles en todo el mundo<\/p>",
+            "enlarge_text": false,
+            "color": "default_color",
+            "bold_text": false
+          }
+        },
+        "19f00e62-c7be-49a3-a6d3-b6c510f33bbf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_21.png",
+            "image_width": 260,
+            "url": ""
+          }
+        },
+        "2823c90d-d570-4f3d-80fc-1129cf0c5ecc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>+ 2.000 Reseñas<\/p>",
+            "enlarge_text": true,
+            "color": "default_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-0",
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-1",
+        "19f00e62-c7be-49a3-a6d3-b6c510f33bbf",
+        "2823c90d-d570-4f3d-80fc-1129cf0c5ecc"
+      ],
+      "settings": {
+        "css_text": "no-color",
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1675123540df7b06fb": {
+      "type": "apps",
+      "blocks": {
+        "ae275606-91bd-4767-8a6d-30ae1e9b732a": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 4,
+            "maxwidth": 1080
+          }
+        },
+        "6550cae8-d272-479f-a146-f68b061d4253": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 3,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "ae275606-91bd-4767-8a6d-30ae1e9b732a",
+        "6550cae8-d272-479f-a146-f68b061d4253"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "df93912b-5838-4430-8b3f-c357dc7dc26b": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_221.png",
+        "image_width": 700,
+        "subheading": "",
+        "bold_subheading": false,
+        "title": "¡Comparte tu pasión por el modelismo!",
+        "heading_type": "text_uppercase",
+        "use_h1": false,
+        "text": "<p>¡Aquí podrás conocer a otros entusiastas como tú y mejorar tus habilidades!<\/p><p><strong>Únete y aprovecha la oportunidad de formar parte de una comunidad vibrante y apasionada por el modelismo.<\/strong><\/p><p><strong>¡Te esperamos!<\/strong><\/p>",
+        "color": "default_color",
+        "button_label": "unite a la comunidad",
+        "button_link": "#shopify-section-template--16669139239167__2f50d768-ecbc-43e7-86a9-509fda372916",
+        "button_style": "secondary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "main": {
+      "type": "main-contact",
+      "disabled": true,
+      "blocks": {
+        "name": {
+          "type": "name_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "email": {
+          "type": "email_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "956dd030-c9a3-403f-a646-e634f5e5f251": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Teléfono",
+            "type": "text",
+            "required": false,
+            "half_width": true
+          }
+        },
+        "148f28c1-bbd8-4fe1-8857-dac3c093f9bc": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Modelo",
+            "type": "text",
+            "required": true,
+            "half_width": true
+          }
+        },
+        "12153d92-6124-42fd-a9d7-e7cdb419f8dd": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Referencia producto",
+            "type": "text",
+            "required": false,
+            "half_width": true
+          }
+        },
+        "message": {
+          "type": "message_input",
+          "settings": {
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "name",
+        "email",
+        "956dd030-c9a3-403f-a646-e634f5e5f251",
+        "148f28c1-bbd8-4fe1-8857-dac3c093f9bc",
+        "12153d92-6124-42fd-a9d7-e7cdb419f8dd",
+        "message"
+      ],
+      "settings": {
+        "show_page_title": false,
+        "use_columns": true,
+        "contact_title": "",
+        "contact_text": "<p>¡Te ayudamos! Cuándo, cómo y dónde quieras.<\/p><p>Nuestro servicio de atención al cliente estará encantado de responder tus preguntas en menos de 24 horas. <\/p><p>Gracias por confiar en OcCre ;)<\/p>"
+      }
+    },
+    "0861418a-9401-40cc-b0e3-1b24128a5a2c": {
+      "type": "blackfriday-2",
+      "disabled": true,
+      "settings": {
+        "title": "Maquetas de barco",
+        "collection": "maquetas-barcos-ingleses",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 3,
+        "rows": 1,
+        "background_style": "use-alt-bg",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "4959a99c-3efd-47c3-a91d-cd651aac31a3": {
+      "type": "blackfriday-2",
+      "disabled": true,
+      "settings": {
+        "title": "Maquetas de tranvía",
+        "collection": "modelismo-de-tranvias",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 3,
+        "rows": 1,
+        "background_style": "use-prim-bg",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "9fb986ac-8aee-4edc-93dd-0195a06fb58c": {
+      "type": "blackfriday-2",
+      "disabled": true,
+      "settings": {
+        "title": "Maquetas de tren",
+        "collection": "modelismo-ferroviario",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 3,
+        "rows": 1,
+        "background_style": "use-prim-bg",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "2f50d768-ecbc-43e7-86a9-509fda372916": {
+      "type": "blackfriday-3leads",
+      "blocks": {
+        "f3b98e43-731a-4766-8b6f-305d1be0b9fb": {
+          "type": "imagen1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_en": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_fr": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_de": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_it": "shopify:\/\/shop_images\/Recurso_1_4x_1.png"
+          }
+        },
+        "931662a4-d43d-4803-a209-2c8600fe2160": {
+          "type": "titulo1",
+          "settings": {
+            "image": "PARA TU PRIMERA COMPRA... <span>Te regalamos 10% de descuento al suscribirte a nuestro newsletter<\/span>",
+            "image_en": "Receive a 10% discount when subscribing to our newsletter",
+            "image_fr": "Nous vous offrons 10% de réduction en vous abonnant à notre newsletter",
+            "image_de": "Wenn Sie unseren Newsletter abonnieren, schenken wir Ihnen 10% Rabatt",
+            "image_it": "Ti regaliamo uno sconto del 10% al momento di iscrizione alla nostra newsletter",
+            "image_pt": "Damos-lhe um desconto de 10% ao subscrever a nossa newsletter"
+          }
+        },
+        "2a7fff7a-7860-4e8e-b301-9eede9876ffb": {
+          "type": "text01",
+          "settings": {
+            "image": "<p>Al ser parte de la comunidad OcCre te enviamos emails para anunciar novedades, promociones, datos históricos, sorteos, videotutoriales, trucos y mucho más.<\/p><p>Serás la primera persona en enterarte de las ofertas exclusivas para suscriptores.<\/p>",
+            "image_en": "<p>As part of the OcCre community, we send you emails to announce the news, promotions, deals, and historical and relevant data worth reading.<\/p><p>You will also be the first to hear about the sales season and the exclusive offers to save a lot of money.<\/p>",
+            "image_fr": "<p>Si  vous faites partie de la <strong>communauté <\/strong>OcCre, nous vous enverrons des e-mails pour annoncer des <strong>nouveautés, des réductions, des infos historiques pertinentes<\/strong> qui valent la peine d’être lues.<\/p><p>Vous serez également la première personne à être au courant des périodes de soldes et des offres exclusives pour que vous puissiez économiser le plus possible.<\/p>",
+            "image_de": "<p>Si  vous faites partie de la <strong>communauté <\/strong>OcCre, nous vous enverrons des e-mails pour annoncer des <strong>nouveautés, des réductions, des infos historiques pertinentes<\/strong> qui valent la peine d’être lues.<\/p><p>Vous serez également la première personne à être au courant des périodes de soldes et des offres exclusives pour que vous puissiez économiser le plus possible.<\/p>",
+            "image_it": "<p><strong>Essendo membro della comunità OcCre, ti inviamo e-mail sulle novità, sulle promozioni, sugli sconti, sui dati storici e rilevanti che meritano di essere letti.<\/strong><\/p><p>Avrai anche la primizia sui periodi di saldi e promozioni esclusive per farti risparmiare al massimo.<\/p>",
+            "image_pt": "<p><strong>Essendo membro della comunità OcCre, ti inviamo e-mail sulle novità, sulle promozioni, sugli sconti, sui dati storici e rilevanti che meritano di essere letti.<\/strong><\/p><p>Avrai anche la primizia sui periodi di saldi e promozioni esclusive per farti risparmiare al massimo.<\/p>"
+          }
+        },
+        "6e1c9480-0ad1-43b8-9d52-816aff73c982": {
+          "type": "imagenlateral",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_en": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_fr": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_de": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_it": "shopify:\/\/shop_images\/bfbottom1.png"
+          }
+        },
+        "126564f0-2813-4070-a5dd-70dae11c4376": {
+          "type": "text1",
+          "settings": {
+            "image": "<p>Sabemos que tienes mil dudas acerca del fin de semana del <strong>Black Friday<\/strong> y <strong>Cyber Monday<\/strong>, así que aquí tienes algunas de las preguntas más comunes:<\/p>",
+            "image_en": "<p>We know that you have a thousand doubts about the Black Friday and Cyber ​​Monday weekend, so here are some of the most frequent questions and their answers: <\/p>",
+            "image_fr": "<p>Nous savons que vous avez des doutes à propos du week-end du <strong>Black Friday <\/strong>et <strong>du Cyber Monday<\/strong>, donc voici quelques une des questions les plus posées :<\/p>",
+            "image_de": "<p>Wir wissen, dass Sie viele Zweifel am Black Friday und Cyber Monday haben. Hier sind einige der häufigsten Fragen:<\/p>",
+            "image_it": "<p>Sappiamo che hai tanti dubbi sul fine settimana del <strong>Black Friday<\/strong> e <strong>Cyber Monday<\/strong>, queste sono alcune delle domande più frequenti:<\/p>",
+            "image_pt": "<p>Sabemos que você tem mil perguntas sobre o fim de semana da Black Friday e Cyber ​​​​Monday, então aqui estão algumas das perguntas mais comuns:<\/p>"
+          }
+        },
+        "c687c6ae-4dd8-491a-a689-8fd1a22ecccb": {
+          "type": "titulo2",
+          "settings": {
+            "image": "¡Únete a nosotros en la aventura de construir maquetas de barcos tren y tranvías!",
+            "image_en": "Join us on the adventure of building model ships, trains, and trams!",
+            "image_fr": "Rejoignez-nous dans l’aventure et construisez une maquette de bateau, de train et de tramway!",
+            "image_de": "Join us on the adventure of building model ships, trains, and trams!",
+            "image_it": "Unisciti a noi per quest’avventura nella costruzione di modellini di navi, treni e tram!",
+            "image_pt": "Join us on the adventure of building model ships, trains, and trams!"
+          }
+        },
+        "43af8386-e26f-471c-b9ef-8d36fae1322c": {
+          "type": "imagen2",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_222_1.png",
+            "image_en": "shopify:\/\/shop_images\/Group_222_1.png",
+            "image_fr": "shopify:\/\/shop_images\/Group_222_1.png",
+            "image_de": "shopify:\/\/shop_images\/Group_222_1.png",
+            "image_it": "shopify:\/\/shop_images\/Group_222_1.png",
+            "image_pt": "shopify:\/\/shop_images\/Group_222_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "f3b98e43-731a-4766-8b6f-305d1be0b9fb",
+        "931662a4-d43d-4803-a209-2c8600fe2160",
+        "2a7fff7a-7860-4e8e-b301-9eede9876ffb",
+        "6e1c9480-0ad1-43b8-9d52-816aff73c982",
+        "126564f0-2813-4070-a5dd-70dae11c4376",
+        "c687c6ae-4dd8-491a-a689-8fd1a22ecccb",
+        "43af8386-e26f-471c-b9ef-8d36fae1322c"
+      ],
+      "settings": {
+        "formk": "<div class=\"klaviyo-form-U8Shs7\"><\/div>\n<div class=\"klaviyo-form-XNHNJk\"><\/div>\n<div class=\"klaviyo-form-XXYjr8\"><\/div><div class=\"klaviyo-form-X4tfzs\"><\/div><div class=\"klaviyo-form-Yyp7QS\"><\/div>"
+      }
+    },
+    "d1ff2931-7309-4cfd-8812-5f18789c2601": {
+      "type": "multi-column-bf",
+      "disabled": true,
+      "blocks": {
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "¡TAN GENIAL DE RECIBIR COMO DE REGALAR!",
+            "text": "<p>Si no sabes que comprar\/regalar, no te la juegues, acierta seguro con las tarjetas regalo OcCre. Es una excelente opción para regalar ahora y aprovechar durante navidad, reyes o cumpleaños<\/p>",
+            "button_label": "VER OPCIONES",
+            "link": "shopify:\/\/products\/tarjeta-regalo-occre"
+          }
+        },
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/tarjetas.jpg",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-2": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-0",
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-1",
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-2"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "left",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "2d893d13-ecf5-48cf-a469-613ef89bbb9c": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "code": "<p style=\"width:80%; margin:0 auto; margin-top:20px; font-size:9px;\">Al registrarte por SMS, aceptas recibir mensajes automatizados de marketing recurrentes al número de teléfono proporcionado, incluyendo recordatorios de carritos. El consentimiento no es una condición de compra. Responde STOP para darte de baja. Responde HELP para obtener ayuda. La frecuencia de los mensajes varía. Pueden aplicarse tarifas de mensajes y datos. Ver nuestra Política de privacidad y nuestros Términos del servicio. \n<\/p>"
+      }
+    },
+    "eb28bb05-5d3c-40de-b901-e9cdbdd75b64": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "<style>\n    #section-id-template--16605734306047__f61c1c32-1191-4c9f-b2f4-83942dcd9eab {\n    margin:0px;\n    margin-bottom:40px;\n    }\n    <\/style>\n    \n    <style>#pagefooter  div.cross-page-promos ,#pagefooter, body,\n    .container.cf {\n    background:white !important;\n    }\n    #store-messages .container.cf{\n    background: #202223 !important;\n    }\n    #shopify-section-template--16669139239167__df93912b-5838-4430-8b3f-c357dc7dc26b {\n    background: #E4E4E4;\n    \n    }\n    \n    #shopify-section-template--16669139239167__df93912b-5838-4430-8b3f-c357dc7dc26b .fully-spaced-row--medium {\n    margin-bottom:0px;}\n    .color-blue p strong {\n    color:#10069F;\n    }\n    .bf-textos-p2 p em {\n    color:#ffb81c;\n    font-size:20px;\n      font-family: Montserrat;\n    font-weight:600;\n    text-decoration: underline;\n    }\n    .tituloprincipal h1 {\n        font-family: Montserrat;\n        font-size: 30px !important;\n        font-weight: 900;\n        line-height: 34px !important; \n        letter-spacing: 0em;\n        text-align: left;\n        color: #09080C;\n        margin-bottom: 15px;\n    }\n    .columnas .columna2 {\n    padding-right:5%;\n    }\n    .columnas .bf-textos-p1 p {\n       \n        font-size: 16px;\n        \n        line-height: 22px;\n      \n    }\n    #section-id-template--16665889734911__16461455438a3b80ec .overlay-text__title {\n    \n    \n    font-family: Montserrat;\n    font-size: 24px !important;\n    font-weight: 500;\n    line-height: 28px;\n    letter-spacing: -0.02em;\n    text-align: left;\n    background:white;\n    color:black;\n    width:560px;\n    padding:5px 10px;\n    \n    }\n    .subheading--over {\n    display:none !important; }\n    .overlay-text__button-row {\n    text-align:left;\n    }\n    #section-id-template--16665889734911__16461455438a3b80ec {\n    text-align:left !important;\n    }\n    #section-id-template--16665889734911__16461455438a3b80ec .overlay-text__button.button   {\n    background:none;\n    text-align:left;\n    margin-left:0px;\n    color:white;\n    \n    }\n    .bf3 {\n    color:#F3B01C !important ;\n    font-family: Montserrat;\n    font-size:22px;\n    font-weight:600;\n    line-height: 26px;\n    letter-spacing: 0em;\n    \n    \n    \n    \n    }\n    .bf3 span {\n    display:block;\n    margin-top:30px;\n    margin-bottom:30px;\n    color:#F3B01C !important ;\n    font-family: Montserrat;\n    font-size: 18px;\n    font-weight:400;\n    line-height: 22px;\n    letter-spacing: 0em;\n    \n    \n    \n    \n    }\n    .no-margin {\n    margin-top:0px !important;\n    margin-bottom:20px;\n    }\n    .no-color h2 {\n    color:#F3B01C;\n    \n    \n    font-family: Montserrat;\n    font-size: 24px;\n    font-weight: 600;\n    line-height: 30px;\n    letter-spacing: 0em;\n    text-align: center;\n    \n    }\n      .columna1, .columna2 {\n       width:45%;\n       }\n       .columna2 {\n       width:55%;\n       padding-right:15%;\n       }\n    .columnas {\n    display:flex;\n     \n        align-items:center;\n    }\n    .columnascenter .form_klaviyo {\n    background:#000;\n    padding:20px 30px;\n    }\n    \n       .columna1de2, .columna2de2 {\n       width:50%;\n       padding: 2% 5%;\n       }\n    \n        .columna1de2a {\n          width:45%;\n            padding: 2% 2%;\n        }\n      .columna2de2a {\n       width:55%;\n          padding: 2% 2%;\n      \n       }\n    \n    @media (min-width: 1100px) {\n    .overlay-text--for-banner .overlay-text__inner {\n    padding: 80px;\n        max-width: 1440px;\n        margin: 0 auto;\n    }\n    }\n    .collection-slider {\n        position: relative;\n        margin-top: 40px;\n    }\n    <\/style>"
+      }
+    },
+    "6599e6df-a91c-4c79-8acf-b8877202c618": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "<script>\nwindow.addEventListener('klaviyoForms', (event) => {\n    if (event.detail.type === 'submit') {\n        if (window.location.href.includes('newsletter_ene_2023')) {\n            \/\/ GTM Event\n            dataLayer.push({\n                'event': 'sub-community'\n            });\n            \/\/ FB Pixel Event\n            fbq('track', 'Lead', {\n                'content_name': 'sub-community'\n            });\n        }\n    }\n});\n<\/script>"
+      }
+    }
+  },
+  "order": [
+    "16461455438a3b80ec",
+    "165530254677e792a5",
+    "57cf4193-0bde-43d4-8a65-409743bf2ad1",
+    "7e8f1726-bbf5-4ad2-8436-817bcb956743",
+    "6b970c14-f2e1-496e-8f26-a426cebbf880",
+    "654f0ab0-d399-4d59-9da2-459829552e67",
+    "1675123540df7b06fb",
+    "df93912b-5838-4430-8b3f-c357dc7dc26b",
+    "main",
+    "0861418a-9401-40cc-b0e3-1b24128a5a2c",
+    "4959a99c-3efd-47c3-a91d-cd651aac31a3",
+    "9fb986ac-8aee-4edc-93dd-0195a06fb58c",
+    "2f50d768-ecbc-43e7-86a9-509fda372916",
+    "d1ff2931-7309-4cfd-8812-5f18789c2601",
+    "2d893d13-ecf5-48cf-a469-613ef89bbb9c",
+    "eb28bb05-5d3c-40de-b901-e9cdbdd75b64",
+    "6599e6df-a91c-4c79-8acf-b8877202c618"
+  ]
+}

@@ -1,0 +1,678 @@
+{
+  "date_formats": {
+    "month_date_year": "%d %B %Y"
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "¡Aquí está su tarjeta de regalo de {{ value }} para {{ shop }}!",
+      "subtext": "¡Aquí está su tarjeta de regalo!",
+      "disabled": "Inhabilitada",
+      "expired": "Expiró en {{ expiry }}",
+      "active": "Expira en {{ expiry }}",
+      "initial_value_html": "Valor de la tarjeta de regalo: {{ value }}",
+      "remaining_html": "{{ balance }} restante",
+      "redeem": "Use este código al terminar la comprar para canjear su tarjeta de regalo",
+      "add_to_apple_wallet": "Añadir a Apple Wallet",
+      "print": "Imprimir",
+      "shop_link": "Empezar a comprar"
+    }
+  },
+  "general": {
+    "404": {
+      "title": "404 Página no encontrada",
+      "subtext_html": "La página que ha solicitado no existe. Haga clic <a href=\"\/\">aquí<\/a> para continuar la compra."
+    },
+    "blocked_countries": {
+      "description": "Este contenido no está disponible en su país"
+    },
+    "accessibility_labels": {
+      "close": "Cerrar",
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "skip_to_content": "Ir al contenido",
+      "video_play": "Reproducir video",
+      "video_stop": "Detener video",
+      "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrellas",
+      "total_reviews": "reseñas totales"
+    },
+    "meta": {
+      "tags": "Etiquetado \"{{ tags }}\"",
+      "page": "Página {{ page }}"
+    },
+    "icon_labels": {
+      "left": "Izquierda",
+      "right": "Derecha",
+      "down": "Abajo",
+      "close": "Cerrar",
+      "plus": "Más",
+      "toggle_menu": "Alternar menú",
+      "minus": "Menos",
+      "play": "Reproducir"
+    },
+    "navigation": {
+      "menu_toggle_aria_label": "Alternar menú",
+      "main_navigation_aria_label": "Navegación primaria"
+    },
+    "quick_search": {
+      "pages": "Páginas",
+      "no_results": "Lo sentimos, no pudimos encontrar ningún resultado."
+    },
+    "search": {
+      "title": "Buscar productos en nuestro sitio",
+      "results_with_count": {
+        "one": "Encontramos {{ count }} resultados",
+        "other": "Encontramos {{ count }} resultados"
+      },
+      "no_results": "Su búsqueda de \"{{ terms }}\" no tuvo resultados.",
+      "continue_reading": "Seguir leyendo"
+    },
+    "popup_section": {
+      "success": "Gracias por registrarte!",
+      "email_placeholder": "Tu dirección de correo electrónico",
+      "submit": "Enviar"
+    },
+    "language": {
+      "dropdown_label": "Idioma"
+    },
+    "currency": {
+      "dropdown_label": "Moneda"
+    },
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Siguiente"
+    },
+    "social": {
+      "share_heading": "Compartir este:",
+      "share_on_facebook": "Compartir",
+      "share_on_twitter": "Tuitear",
+      "share_on_pinterest": "Hacer pin"
+    },
+    "social_facebook_url": "https:\/\/www.facebook.com\/occremania",
+    "social_youtube_url": "https:\/\/www.youtube.com\/user\/occrekits",
+    "social_instagram_url": "https:\/\/www.instagram.com\/occremania\/"
+  },
+  "map": {
+    "errors": {
+      "address_error": "No se puede encontrar esa dirección",
+      "address_no_results": "No results for that address",
+      "address_query_limit_html": "Se ha excedido el límite de uso de la API de Google . Considere la posibilidad de actualizar a un <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Plan Premium<\/a>.",
+      "auth_error": "Hubo un problema de autenticación con su cuenta de Google Maps."
+    }
+  },
+  "cart": {
+    "terms": {
+      "confirmation": "Debe aceptar los términos y condiciones antes de continuar.",
+      "agreement_html": "Estoy de acuerdo con los <a href=\"{{ terms_url }}\" target=\"_blank\">términos y la política de reembolso<\/a>"
+    },
+    "general": {
+      "title": "Carrito de compra",
+      "empty": "Carrito actualmente vacío",
+      "quantity": "Cantidad",
+      "confirm_remove": "¿Seguro que deseas eliminar este artículo de tu orden?",
+      "remove": "Quitar",
+      "subtotal": "Subtotal",
+      "taxes_included_and_shipping_policy_html": "Impuesto incluido. Los <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pagos.",
+      "taxes_included_but_shipping_at_checkout": "En la pantalla de pagos se incluye el impuesto y se calculan los gastos de envío",
+      "taxes_and_shipping_policy_at_checkout_html": "Los impuestos y <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pagos",
+      "taxes_and_shipping_at_checkout": "Los impuestos y gastos de envío se calculan en la pantalla de pagos",
+      "update": "Actualizar carrito",
+      "or": "O",
+      "checkout": "Pago Seguro",
+      "continue": "Continuar la compra",
+      "backorder": "El producto está en espera y se enviará tan pronto como vuelva a estar en stock",
+      "kit_input_text_html": "<strong>Incluye placa personalizada<\/strong><br>Escriba el nombre que debería aparecer en la placa personalizada. En el caso de estar vacío, cogeremos el nombre del titular del pedido."
+    },
+    "label": {
+      "product": "Producto",
+      "price": "Precio",
+      "quantity": "Cantidad",
+      "total": "Total",
+      "decrease": "Reducir",
+      "increase": "Aumentar",
+      "note": "Agregar comentarios al pedido"
+    },
+    "shipping_calculator": {
+      "button_hide": "Ocultar calculadora de envíos",
+      "button_show": "Envío estimado",
+      "country": "País",
+      "province": "Provincia",
+      "zip": "Código postal",
+      "submit": "Calcular costo de envío",
+      "multiple_rates": "Tarifas de envío disponibles, comenzando en",
+      "single_rate": "Hay una tarifa de envío disponible para",
+      "no_rates": "No enviamos a este destino.",
+      "at": "en",
+      "loading": "Calculador..."
+    }
+  },
+  "products": {
+    "listing": {
+      "from": "De"
+    },
+    "product": {
+      "add_to_cart": "Agregar al carrito",
+      "unit_price_separator": " \/ ",
+      "adding_to_cart": "Añadiendo",
+      "added_to_cart": "¡Gracias!",
+      "preorder": "Hacer un pedido",
+      "view_in_space": "Ver en tu espacio",
+      "include_taxes": "IVA incluido. ",
+      "shipping_policy_html": "Los <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pagos.",
+      "reviews_link": {
+        "one": "Testimonio",
+        "other": "Testimonios"
+      },
+      "description": "Descripción",
+      "vendor": "Proveedor",
+      "sku": "SKU:",
+      "selector_label": "Opciones",
+      "quantity": "Cantidad",
+      "product_unavailable": "No disponible",
+      "backorder": "está en espera y se enviará tan pronto como vuelva a estar en stock",
+      "prev_product": "Anterior",
+      "next_product": "Siguiente",
+      "size_chart": "Guía de tallas"
+    },
+    "variant": {
+      "no_stock": "Agotado",
+      "non_existent": "No disponible"
+    },
+    "added_notification": {
+      "title": "Recién agregado",
+      "item": "Artículo",
+      "unit_price": "Precio del artículo",
+      "quantity": "Cant.",
+      "total_price": "Precio total",
+      "shipping_note": "Excl. shipping",
+      "keep_shopping": "Seguir comprando",
+      "cart": "Comprar ahora",
+      "subtotal": "Subtotal"
+    },
+    "labels": {
+      "sold_out": "Agotado",
+      "sale": "¡Oferta!",
+      "percent_reduction": "-{{ amount }}%",
+      "value_reduction_html": "-{{ amount }}",
+      "only_x_left": "{{ quantity }} en stock",
+      "x_units_available": "{{ quantity }} unidades disponibles",
+      "low_stock": "Stock limitado",
+      "in_stock": "En stock",
+      "new_in": "Nuevo"
+    },
+    "quick_buy": {
+      "close": "Cerrar Vista rápida",
+      "read_more": "Más detalles",
+      "launch": "Vista rápida"
+    },
+    "transfers": {
+      "will_not_ship_until": "Será enviado después {{ date }}",
+      "will_be_in_stock_after": "Estará disponible después {{ date }}",
+      "waiting_for_stock": "Inventario en el camino"
+    }
+  },
+  "layout": {
+    "live_search": {
+      "see_all": "Ver todos los resultados"
+    },
+    "footer": {
+      "navigation_aria_label": "Navegación secundaria"
+    },
+    "signup": {
+      "post_success": "¡Gracias por tu interés!",
+      "placeholder": "Correo electrónico",
+      "input_label": "Regístrate a nuestro Newsletter",
+      "submit": "Enviar",
+      "label": "Regístrate a nuestro Newsletter"
+    },
+    "search": {
+      "open": "Buscar",
+      "close": "Cerrar",
+      "placeholder": "Buscar en nuestra tienda",
+      "title": "Buscar productos en nuestro sitio"
+    },
+    "customer": {
+      "account": "Cuenta",
+      "log_out": "Cerrar sesión"
+    },
+    "header": {
+      "cart": "Comprar ahora",
+      "search_submit": "Enviar"
+    },
+    "breadcrumbs": {
+      "title": "Migas de pan",
+      "home": "Inicio",
+      "collections": "Catálogo"
+    }
+  },
+  "collections": {
+    "general": {
+      "see_all_subcollections": "Ver todo...",
+      "view_all": "Ver todo",
+      "product_count": {
+        "one": "{{ count }} producto",
+        "other": "{{ count }} productos"
+      },
+      "no_matches": "Lo sentimos, no hay productos que coincidan con su búsqueda.",
+      "more_swatches": "+ {{ count }} más"
+    },
+    "filtering": {
+      "filter": "Filtros",
+      "all": "Todas",
+      "heading": "Filtros",
+      "applied_filters": "Filtros seleccionados",
+      "clear_all": "Borrar todo",
+      "out_of_stock_label": "Agotado",
+      "show_label": "Mostrar",
+      "hide_label": "Ocultar",
+      "submit": "Enviar"
+    },
+    "sorting": {
+      "title": "Ordenar por"
+    },
+    "price_range": {
+      "min_label": "De",
+      "max_label": "A"
+    }
+  },
+  "homepage": {
+    "onboarding": {
+      "no_content": "Esta sección no incluye de momento ningún contenido. Añade contenido para esta sección usando la barra lateral."
+    }
+  },
+  "contact": {
+    "form": {
+      "post_success": "Gracias por contactarnos. Le responderemos lo antes posible.",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "phone": "Número de teléfono",
+      "send": "Enviar"
+    }
+  },
+  "faq": {
+    "search": {
+      "placeholder": "Buscar preguntas frecuentes",
+      "label": "Buscar preguntas frecuentes"
+    }
+  },
+  "onboarding": {
+    "blog": {
+      "empty": "¡Aún no cuentas con artículos! Al escribir el primero, se mostrará aquí"
+    },
+    "article": {
+      "title": "Título del post",
+      "excerpt": "Puedes sacar ventaja de ellos al lanzar nuevos productos, brindar consejos que estimulen la adquisición de tus productos u otro tipo de información y noticias que desees compartir con tus clientes.",
+      "author": "Nombre del autor"
+    },
+    "product": {
+      "product_title": "Título de producto",
+      "vendor": "Marca",
+      "sku": "SKU1234"
+    },
+    "collection": {
+      "collection_title": "Titulo de colección"
+    }
+  },
+  "blogs": {
+    "article": {
+      "tags": "Etiquetas",
+      "older_post": "Posts antiguos",
+      "back_to_blog_html": "Regresar a {{ blog }}",
+      "newer_post": "Posts recientes"
+    },
+    "comments": {
+      "title": "Comentarios",
+      "author_meta_said": "{{ author }} dijo:",
+      "form_title": "Dejar un comentario",
+      "success": "¡Su comentario se ha compartido con éxito! ¡Gracias!",
+      "moderated": "Por favor tenga en cuenta que los comentarios deben ser aprobados antes de ser publicados",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "post": "Publicar comentario"
+    },
+    "general": {
+      "no_matches": "¡Aún no cuentas con artículos! En cuanto añadas uno, se mostrará aquí."
+    }
+  },
+  "storefront_password": {
+    "login": {
+      "link": "Ingresar utilizando contraseña",
+      "label": "Ingresar a la tienda utilizando contraseña:",
+      "button": "Ingresar",
+      "admin_link_html": "¿ Eres propietario de esta tienda? <a href=\"\/admin\">Ingresa aquí<\/a>"
+    },
+    "signup": {
+      "success": "¡Gracias por tu interés! Nos aseguraremos de mantenerte informado."
+    },
+    "general": {
+      "powered_by": "Desarrollada por Shopify"
+    }
+  },
+  "store_availability": {
+    "general": {
+      "pick_up_available_at_html": "Retiro disponible en <strong>{{ location_name }}<\/strong>",
+      "view_store_info": "Ver información de la tienda",
+      "check_other_stores": "Verificar disponibilidad en otras tiendas",
+      "pick_up_unavailable_at_html": "Retiro no disponible actualmente en <strong>{{ location_name }}<\/strong>",
+      "miles": "mi",
+      "kilometers": "km",
+      "pick_up_available": "Retiro disponible",
+      "pick_up_currently_unavailable": "Retiro no disponible actualmente",
+      "invalid_location_address": "Contacta a la tienda para confirmar la dirección"
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "Mi cuenta",
+      "view_addresses": "Ver direcciones",
+      "return": "Volver a detalles de la cuenta"
+    },
+    "general": {
+      "return": "Volver a la tienda",
+      "or": "o"
+    },
+    "orders": {
+      "order_number": "Pedido",
+      "date": "Fecha",
+      "payment_status": "Estado del pago",
+      "fulfillment_status": "Estado de finalización",
+      "total": "Total",
+      "full_details_html": "Full details &rarr;",
+      "none": "No ha realizado algún pedido aún."
+    },
+    "activate_account": {
+      "title": "Activar cuenta",
+      "subtext": "Cree su contraseña para activar su cuenta.",
+      "password": "Contraseña",
+      "password_confirm": "Confirmar contraseña",
+      "submit": "Activar cuenta",
+      "cancel": "Rechazar invitación"
+    },
+    "addresses": {
+      "title": "Sus direcciones",
+      "add_new": "Agregar una nueva dirección",
+      "first_name": "Nombre",
+      "last_name": "Apellido",
+      "company": "Compañía",
+      "address1": "Dirección1",
+      "address2": "Dirección2",
+      "city": "Ciudad",
+      "country": "País",
+      "province": "Provincia",
+      "zip": "Código postal",
+      "phone": "Teléfono",
+      "set_default": "Fijar como dirección por defecto",
+      "add": "Agregar dirección",
+      "cancel": "Cancelar",
+      "default": "Por defecto",
+      "edit": "Editar",
+      "delete_confirm": "¿Está seguro de que desea eliminar esta dirección?",
+      "delete": "Eliminar",
+      "edit_address": "Editar dirección",
+      "update": "Actualizar dirección"
+    },
+    "login": {
+      "title": "Ingresar",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "forgot_password": "¿Olvidó su contraseña?",
+      "sign_in": "Registrarse",
+      "register": "Crear cuenta",
+      "guest_title": "Continuar como invitado",
+      "guest_continue": "Continuar"
+    },
+    "recover_password": {
+      "title": "Restablecer su contraseña",
+      "subtext": "Le enviaremos un correo electrónico para restablecer su contraseña.",
+      "success": "Hemos enviado un correo electrónico con un enlace para actualizar su contraseña.",
+      "email": "Correo electrónico",
+      "submit": "Enviar",
+      "cancel": "Cancelar"
+    },
+    "order": {
+      "title": "Pedido {{ name }}",
+      "cancelled_on": "Pedido cancelado en {{ date }}",
+      "cancelled_reason": "Motivo: {{ reason }}",
+      "date": "Realizado en {{ date }}",
+      "billing_address": "Dirección de facturación",
+      "payment_status": "Estado del pago",
+      "shipping_address": "Dirección de envío",
+      "fulfillment_status": "Estado de finalización",
+      "product": "Producto",
+      "sku": "SKU",
+      "price": "Precio",
+      "quantity": "Cantidad",
+      "total": "Total",
+      "fulfilled_on": "Surtido el {{ date }}",
+      "subtotal": "Subtotal",
+      "shipping": "Envío",
+      "tax": "Impuesto"
+    },
+    "register": {
+      "title": "Crear cuenta",
+      "first_name": "Nombre",
+      "last_name": "Apellido",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "submit": "Crear",
+      "log_in": "Ingresar con una cuenta existente",
+      "cancel": "Volver a la tienda",
+      "dni": "DNI"
+    },
+    "reset_password": {
+      "title": "Restablecer contraseña de cuenta",
+      "subtext": "Ingrese una nueva contraseña para {{ email }}",
+      "password": "Contraseña",
+      "password_confirm": "Confirmar contraseña",
+      "submit": "Restablecer contraseña"
+    }
+  },
+  "app_wishlist-king": {
+    "general": {
+      "wishlist": "Lista de deseos",
+      "wishlist_empty_note": "Tu lista de deseos esta vacía",
+      "add_to_wishlist": "Añadir a la lista de deseos",
+      "remove_from_wishlist": "Eliminar de la lista de deseos",
+      "clear_wishlist": "Limpiar lista de deseos",
+      "in_wishlist": "En lista de deseos",
+      "share_wishlist": "Compartir lista de deseos",
+      "copy_share_link": "Copiar link",
+      "share_link_copied": "Link copiado",
+      "share_by_email_body": "Aquí está el enlace a mi lista:",
+      "share_list_title": "Mi lista de deseos",
+      "share_list_description": "Echa un vistazo a algunas de mis cosas favoritas de {{ shopName }}.",
+      "login_or_signup_note_html": "Para guardar su lista de deseos, <a href='{{ login_url }}'>inicie sesión<\/a> o  <a href='{{ register_url }}'>regístrate<\/a>.",
+      "add_to_cart": "Añadir al carrito",
+      "sold_out": "Agotado",
+      "quantity": "Cantidad",
+      "view_product": "Ver producto",
+      "view_wishlist": "Ver lista de deseos",
+      "share_on_facebook": "Compartir en Facebook",
+      "share_on_twitter": "Compartir en Twitter",
+      "share_on_pinterest": "Compartir en Pinterest",
+      "share_with_whatsapp": "Compartir en WhatsApp",
+      "share_by_email": "Compartir en Email",
+      "get_link": "Obtener el link",
+      "send_to_customer_service": "Enviar a servicio al cliente",
+      "add_all_to_cart": "Agregar lista de deseos al carrito"
+    }
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
+    },
+    "checkout": {
+      "order_summary": {
+        "apply_discount_button_label": "Aplicar",
+        "shopping_cart_label": "Pago seguro"
+      },
+      "general": {
+        "cart": "Carrito"
+      }
+    }
+  },
+  "gift-card-pro": {
+    "errors": {
+      "please_select_card_image": "Please select a greeting card",
+      "please_select_card_value": "Please select a gift card value",
+      "custom_value_error_message": "Please enter a value greater than or equal to {min} and less than or equal to {max}",
+      "invalid_code_error_message": "Please enter a valid Gift Card code",
+      "invalid_email_error_message": "Please enter a valid email address",
+      "invalid_phone_error_message": "Please enter a valid phone number",
+      "invalid_recipient_error_message": "Please enter a recipient name",
+      "invalid_date_error_message": "Please enter a delivery date",
+      "invalid_timezone_error_message": "Please enter a timezone",
+      "invalid_delivery_date_error_message": "Please enter a later date",
+      "invalid_message_from_error": "Please enter who the gift card is from",
+      "invalid_message_text_error_message": "Please enter a valid message",
+      "card_not_found": "No card found",
+      "multiple_cards_found": "Please enter the email used to recieve the gift card",
+      "card_expired": "This gift card is expired",
+      "card_disabled": "This gift card is no longer valid",
+      "card_balance_not_found": "No balance could be retreived",
+      "no_code_entered": "Please enter a code",
+      "no_special_characters": "Please enter a code without special characters or spaces",
+      "invalid_code_length": "Please enter a code between 8 and 20 characters",
+      "general_error": "Something went wrong, please try again",
+      "additional_gift_card_details": "Please enter the initial value and the last time the gift card was used",
+      "contact_merchant": "Please contact us to resolve this issue",
+      "video_load_error": "Something went wrong, please refresh the page and try again"
+    },
+    "giftcard": {
+      "product_title": "Tarjeta de Regalo"
+    },
+    "landing": {
+      "in_store": "Shopping in store? Scan this code!",
+      "online": "Shopping online? Use this code at checkout:",
+      "heading": "{senders_name} sent you a gift card!",
+      "gift_card_code": "Gift Card Code",
+      "instructions_heading": "Instructions",
+      "instruction1": "Save the above code, or print this page for later.",
+      "instruction2": "Start shopping at {shop.name}, by going to {shop.domain}.",
+      "instruction3": "Find the item(s) you would like to purchase, and go to checkout.",
+      "instruction4": "Enter in the code from above in the gift card box to redeem your gift card.",
+      "instruction5": "Completar el pago",
+      "message_heading": "Text Message",
+      "video_heading": "... and they left you a video message!",
+      "audio_heading": "Audio Message",
+      "start_shopping_button_label": "Start shopping",
+      "print_button_label": "Print this giftcard",
+      "download_video": "If you&#039;re having trouble viewing the video, download it here",
+      "download_switch_browser": "If you&#039;re having trouble viewing the video, either change browsers or download it here",
+      "balance_page": "Check your balance any time at:"
+    },
+    "purchase": {
+      "balance_check_button": "Enviar",
+      "check_balance_title": "Gift Card Balance",
+      "close_preview": "Close Preview",
+      "close": "Close",
+      "code_entry_placeholder": "Enter Code",
+      "custom_label": "Custom",
+      "custom_values_notice": "Custom values are only available in {currency}",
+      "email_entry_placeholder": "Enter Email",
+      "initial_value_placeholder": "Initial Value",
+      "open_preview": "Preview Card",
+      "preview_heading": "Recipient Preview",
+      "preview_info": "Below is a preview of the page your gift recipient will be sent.",
+      "select_greeting_card_heading": "Select Greeting Card",
+      "amount_and_recipient": "Amount &amp; Recipient",
+      "gift_message": "Mensaje de la Tarjeta",
+      "review": "Review Details",
+      "card_image_breadcrumb": "Image",
+      "card_amount_breadcrumb": "Details",
+      "card_message_breadcrumb": "Message",
+      "card_summary_breadcrumb": "Summary",
+      "gift_card_value_heading": "Gift Card Value",
+      "recipient_details_heading": "Recipient Details",
+      "message_details_heading": "Message Details",
+      "delivery_date_heading": "Delivery Date",
+      "giftcard_value_placeholder": "Enter your custom value here... (e.g. 35.00)",
+      "send_to_myself_label": "Send to myself",
+      "recipient_email_label": "Email",
+      "recipient_email_placeholder": "eg) recipient@email.com",
+      "recipient_mobile_number_label": "Mobile",
+      "recipient_mobile_number_placeholder": "+1 (888) 888-8888",
+      "recipient_name_label": "Name",
+      "recipient_name_placeholder": "eg) John Smith",
+      "from_label": "From",
+      "from_placeholder": "eg) Jane Brown",
+      "message_label": "Message",
+      "send_media_label": "Send a video message?",
+      "take_video": "Take Video",
+      "edit_video": "Edit Video",
+      "loading_video": "Loading Video",
+      "audio_placeholder": "Audio",
+      "send_now_label": "Send Now",
+      "send_later_label": "Send Later",
+      "submit_button_label_continue": "Continuar",
+      "submit_button_label_add_to_cart": "Add to cart",
+      "summary_heading": "Summary",
+      "added_to_cart_modal_success_notice": "Success",
+      "added_to_cart_modal_failure_notice": "Failed",
+      "added_to_cart_modal_add_another_button": "Add another",
+      "added_to_cart_modal_view_cart_button": "View cart",
+      "gift_card_issued_after_checkout": "Once checkout is completed, you will receive a confirmation email. The purchased gift card will be sent to the recipient on the selected delivery date and time, which will contain the gift card code, your message, and instructions on how to redeem it.",
+      "breadcrumb_greeting_card": "1. Tarjeta de regalo",
+      "breadcrumb_gift_card": "2. Gift Card",
+      "breadcrumb_gift_message": "3. Mensaje de la Tarjeta",
+      "desc_greeting_card": "Select a greeting card image",
+      "desc_gift_card": "Select gift card amount and delivery details",
+      "desc_gift_message": "Enter a gift message",
+      "remove_video": "Remove video",
+      "video_recorder_status_recording": "Recording",
+      "video_recorder_status_paused": "Paused",
+      "video_recorder_button_save": "Save to card",
+      "video_recorder_button_redo": "Retake video",
+      "video_recorder_button_use": "Use video",
+      "video_recorder_record_message": "Press button to start recording",
+      "video_recorder_error_heading": "Enable Permissions",
+      "video_recorder_error_message": "Enable access to your webcam and microphone by clicking the lock symbol and enabling your Camera and Microphone permissions. If your permissions are not visible, refresh the page and try sending a video message again.",
+      "video_recorder_thumbnail_heading": "Select Thumbnail Image",
+      "video_recorder_thumbnail_message": "Choose your video thumbnail from the images above or",
+      "video_recorder_tainted_thumbnail_message": "To select a thumbnail image you must",
+      "video_recorder_thumbnail_button": "upload your own",
+      "video_recorder_loading_thumbnails": "Generating thumbnails...",
+      "preview_landing_button": "Landing",
+      "preview_email_button": "Email",
+      "ie_date_picker_month": "Month",
+      "ie_date_picker_day": "Day",
+      "ie_date_picker_year": "Year",
+      "ie_date_picker_hour": "Hour",
+      "ie_month_select_jan": "January",
+      "ie_month_select_feb": "February",
+      "ie_month_select_mar": "March",
+      "ie_month_select_apr": "April",
+      "ie_month_select_may": "May",
+      "ie_month_select_jun": "June",
+      "ie_month_select_jul": "July",
+      "ie_month_select_aug": "August",
+      "ie_month_select_sep": "September",
+      "ie_month_select_oct": "October",
+      "ie_month_select_nov": "November",
+      "ie_month_select_dec": "December"
+    },
+    "sms": {
+      "intro": "{{giftcard.message_from}} sent you a gift card!",
+      "body": "Your {{shop.currency}}{{giftcard.amount}} gift card for {{shop.name}} is active. Use the link below to redeem your gift card."
+    },
+    "email": {
+      "subject": "{{giftcard.message_from}} sent you a gift card",
+      "no_recipient_subject": "Your {{shop.name}} gift card",
+      "header": "{{giftcard.message_from}} sent you a gift card!",
+      "salutation": "Hi {{giftcard.recipient_name}}!",
+      "body_text": "Your {{shop.currency}}{{giftcard.amount}} gift card for {{shop.name}} is active. Keep this email or write down your gift card number.",
+      "footer_text": "Please feel free to contact us at {{shop.email}} if you have any questions or face any problems.",
+      "redeem_now": "REDEEM NOW",
+      "your_code": "Your code",
+      "amount": "Amount",
+      "expiry": "Expires",
+      "check_balance": "Check balance",
+      "purchaser_salutation": "Hi {{giftcard.message_from}}!",
+      "purchaser_subject": "Your gift card to {{giftcard.recipient_name}} has been delivered!",
+      "purchaser_body_text": "The {{shop.name}} gift card you purchased for {{giftcard.recipient_name}} has been delivered.",
+      "send_another": "Send another gift card",
+      "view_gift_card": "VIEW GIFT CARD"
+    }
+  }
+}

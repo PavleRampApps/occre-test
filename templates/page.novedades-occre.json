@@ -1,0 +1,55 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": true
+      }
+    },
+    "165276578350b291f4": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    },
+    "165276575739ddb1e6": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    },
+    "16621487029f7cfc84": {
+      "type": "countdown-novedades",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PROXIMAMENTE_EN_OCCRE_1.png",
+        "image_en": "shopify:\/\/shop_images\/COMMING_SOON_IN_OCCRE.png",
+        "image_fr": "shopify:\/\/shop_images\/PROCHAINEMENT_CHEZ_OCCRE.png",
+        "image_de": "shopify:\/\/shop_images\/DEMNACHST_IN_OCCRE.png",
+        "image_it": "shopify:\/\/shop_images\/PROSSIMAMENTE_IN_OCCRE_1.png",
+        "image_pt": "shopify:\/\/shop_images\/EM_BREVE_EM_OCCRE.png",
+        "image2": "shopify:\/\/shop_images\/novedades-bg.jpg",
+        "image3": "shopify:\/\/shop_images\/bg-2.jpg",
+        "image4": "shopify:\/\/shop_images\/image_4.jpg",
+        "image5": "shopify:\/\/shop_images\/image_3.jpg",
+        "css_text": ""
+      }
+    },
+    "1abfb235-47f3-416c-95d0-d11e381196d8": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "<script>\nwindow.addEventListener('klaviyoForms', (event) => {\n    if (event.detail.type === 'submit') {\n        if (window.location.href.includes('novedad-occre')) {\n            \/\/ GTM Event\n            dataLayer.push({\n                'event': 'sub_hercules'\n            });\n        }\n    }\n});\n<\/script>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165276578350b291f4",
+    "165276575739ddb1e6",
+    "16621487029f7cfc84",
+    "1abfb235-47f3-416c-95d0-d11e381196d8"
+  ]
+}

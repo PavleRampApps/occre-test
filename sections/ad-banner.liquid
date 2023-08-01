@@ -1,0 +1,122 @@
+<div class="{% if section.settings.use_alt_bg %}use-alt-bg{% endif %}">
+    <div class="flexible-layout valign-middle">
+        <div class="column column--half">
+            {% if section.settings.image != blank %}
+                <div class="background-image {% if section.settings.rounded_image %}rounded-image{% endif %}" style="background-image: url({{ section.settings.image | img_url: 'master'}})" data-cc-animate="cc-fade-in-up"></div>
+            {% else %}
+                <div class="placeholder-image {% if section.settings.rounded_image %}rounded-image{% endif %}">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+            {% endif %}
+        </div>
+
+
+        <div class="column column--half reverse-order-mobile-banner">
+            <div class="container">
+                <div class="feature-text-paired fully-padded-row--small">
+                    {%- if section.settings.subheading != blank -%}
+                        {% assign bold_subheading = section.settings.bold_subheading %}
+                        <div class="subheading subheading--over {% if bold_subheading %}text_bold{% endif %}">{{ section.settings.subheading | escape }}</div>
+                    {%- endif -%}
+
+                    {% if section.settings.title != blank %}
+                        {% if section.settings.use_h1 %}
+                            <h1 class="majortitle in-content text_bold text_default title_large">{{ section.settings.title | escape }}</h1>
+                        {% else %}
+                            <h2 class="majortitle in-content h1-style text_bold text_default title_large">{{ section.settings.title | escape }}</h2>
+                        {% endif %}
+                    {% endif %}
+
+                    {% if section.settings.body != blank %}
+                        <div class="rte">{{ section.settings.body }}</div>  
+                    {% endif %}
+
+                    <div class="user-info">
+                        <div class="user-info_avatar">
+                            {% if section.settings.customer_image != blank %}
+                                    {% liquid
+                                        assign image = section.settings.customer_image
+                                        assign image_height = section.settings.image_height
+                                        assign image_height_tag = image_height | prepend: 'x' %}
+                                    <img src="{{ image | img_url: image_height_tag }}" alt="{{ image.alt }}" class="user-avatar" style="width: {{ image_height }}px; height: {{ image_height }}px">
+                            {% endif %}
+                        </div>
+                        <div class="user-info_text">
+                            <p>{{ section.settings.customer_name }}</p>
+                            <p>{{ section.settings.customer_personal_info }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Ad banner",
+   "class": "ad-banner",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Nullam id eget sodales in nmet"
+        },
+        {
+            "type": "richtext",
+            "id": "body",
+            "label": "Text"
+        },
+        {
+            "type": "checkbox",
+            "id": "use_alt_bg",
+            "label": "Use alternate section color",
+            "default": true
+        },
+        {
+            "type": "header",
+            "content": "Customer info."
+        },
+        {
+            "type": "image_picker",
+            "id": "customer_image",
+            "label": "Image"
+        },
+        {
+            "type": "range",
+            "id": "image_height",
+            "label": "Customer avatar height",
+            "unit": "px",
+            "min": 20,
+            "max": 100,
+            "step": 1,
+            "default": 20
+        },
+        {
+            "type": "checkbox",
+            "id": "rounded_image",
+            "label": "Rounded image",
+            "default": true
+        },
+        {
+            "type": "text",
+            "id": "customer_name",
+            "label": "Name"
+        },
+        {
+            "type": "text",
+            "id": "customer_personal_info",
+            "label": "label"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Ad banner",
+            "settings": {}
+        }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,37 @@
+{%for block in collections%}
+{% assign collection =block.settings.collection %}
+{% assign collectionImage = collection.featured_image  %}
+
+{%if block.settings.qns-collection-image-options == "custom"%}
+    {% assign collectionImage = block.settings.qns-collection_custom_image %}
+{%endif%}
+{% assign collectionTitle = collection.title %}
+
+{%if block.settings.qns-collection-title-options == "custom"%}
+    {% assign collectionTitle = block.settings.qns-custom_collection_title %}
+{%endif%}
+
+{% assign collectionUrl = collection.url %}
+
+{%if block.settings.qns-collection-url-options == "custom"%}
+    {% assign collectionUrl = block.settings.qns-custom-collection-url %}
+{%endif%}
+
+
+
+
+
+
+<div class="swiper-slide">
+    <div class="quick-nav-story-block">
+        <div class="quick-nav-story-block-image">
+            <a href="{{collectionUrl}}">   <img src="{{collectionImage | img_url: 'master'}}" alt=""/></a>
+        </div>
+        <div class="quick-nav-story-block-title">
+            <a href="{{collectionUrl}}">{{collectionTitle}}</a>
+        </div>
+    </div>
+  </div>
+
+
+{%endfor%}

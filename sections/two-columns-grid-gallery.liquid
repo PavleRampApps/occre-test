@@ -1,0 +1,1430 @@
+<div style=" 
+   background-size:100%;
+   background:white !important">
+<div class="columnas  columnastext">
+   <div class="columna1de2a">
+      <div class="div-bf-textos-p2">
+         <div class=" titulo03">
+            {% for block in section.blocks %} 
+            {% case block.type %}
+            {% when 'titulo03' %}
+            {% if block.settings.image != blank %}
+            {% if request.locale.iso_code == 'es'  %}
+            {{ block.settings.image }}
+            {% elsif request.locale.iso_code == 'en'  %}
+            {{ block.settings.image_en }}
+            {% elsif request.locale.iso_code == 'fr' %}
+            {{ block.settings.image_fr }}
+            {% elsif request.locale.iso_code == 'de' %}
+            {{ block.settings.image_de }}
+            {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+                  {% elsif request.locale.iso_code == 'pt-PT' %}
+             {{ block.settings.image_br }}
+            {% else  %}
+              {{ block.settings.image_en }}
+            {% endif %}
+            {% endif %}
+            {% endcase %}
+            {% endfor %}
+         </div>
+         <div class="bf-textos-p2">
+            {% for block in section.blocks %} 
+            {% case block.type %}
+            {% when 'text2' %}
+            {% if block.settings.image != blank %}
+            {% if request.locale.iso_code == 'es'  %}
+            {{ block.settings.image }}
+            {% elsif request.locale.iso_code == 'en'  %}
+            {{ block.settings.image_en }}
+            {% elsif request.locale.iso_code == 'fr' %}
+            {{ block.settings.image_fr }}
+            {% elsif request.locale.iso_code == 'de' %}
+            {{ block.settings.image_de }}
+            {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+                   {% elsif request.locale.iso_code == 'pt-PT' %}
+               {{ block.settings.image_br }}
+            {% else  %}
+             {{ block.settings.image_en }}
+            {% endif %}
+            {% endif %}
+            {% endcase %}
+            {% endfor %}
+         </div>
+      </div>
+    
+   </div>
+    <div class="columna2de2a">
+         <div class="bf-titulo-image">
+            <div class="bf-titulo-image-ab">
+            {% for block in section.blocks %}
+            {% case block.type %}
+            {% when 'imagen2' %}
+            {% if block.settings.image != blank %}
+            {% if request.locale.iso_code == 'es'  %}
+            <img src="{{ block.settings.image | img_url: 'master'  }}">
+            {% elsif request.locale.iso_code == 'en'  %}
+            <img src="{{ block.settings.image | img_url: 'master'  }}">
+            {% elsif request.locale.iso_code == 'fr' %}
+            <img src="{{ block.settings.image | img_url: 'master'  }}">
+            {% elsif request.locale.iso_code == 'de' %}
+            <img src="{{ block.settings.image | img_url: 'master'  }}">
+            {% elsif request.locale.iso_code == 'it' %}
+            <img src="{{ block.settings.image | img_url: 'master'  }}">
+     
+          
+            {% else  %}
+               <img src="{{ block.settings.image | img_url: 'master'  }}">
+            {% endif %}
+            {% endif %}
+            {% endcase %}
+            {% endfor %}
+            </div>
+         </div>
+      </div>
+</div>
+</div>
+
+  <div class="gallery-grid">
+    <div class="gallery-grid-2">
+      <img src="{{ section.settings.gallery1 | img_url: 'master'  }}">
+           <img src="{{ section.settings.gallery2 | img_url: 'master'  }}">
+    </div>
+      <div class="gallery-grid-4">
+           <img src="{{ section.settings.gallery3| img_url: 'master'  }}">
+        <img src="{{ section.settings.gallery4 | img_url: 'master'  }}">     <img src="{{ section.settings.gallery5 | img_url: 'master'  }}">   
+        <img src="{{ section.settings.gallery6 | img_url: 'master'  }}">  
+     
+    </div>
+        <div class="gallery-grid-2">
+         <img src="{{ section.settings.gallery7 | img_url: 'master'  }}">
+         <img src="{{ section.settings.gallery8 | img_url: 'master'  }}">
+    </div>
+  </div>
+
+{% comment %}
+
+<div style=" 
+   background-size:100%;
+   background:white !important" >
+   <div class="columnas container">
+      <div class="columna1de2">
+         <p class="bf-fecha textfecha">
+            {% for block in section.blocks %} 
+              {% case block.type %}
+              {% when 'fecha' %}
+    
+                {% if block.settings.image != blank %}
+                  {% if request.locale.iso_code == 'es'  %}
+                    {{ block.settings.image }}
+                  {% elsif request.locale.iso_code == 'en'  %}
+                    {{ block.settings.image_en }}
+                  {% elsif request.locale.iso_code == 'fr' %}
+                    {{ block.settings.image_fr }}
+                  {% elsif request.locale.iso_code == 'de' %}
+                    {{ block.settings.image_de }}
+                  {% elsif request.locale.iso_code == 'it' %}
+                    {{ block.settings.image_it }}
+                {% elsif request.locale.iso_code == 'pt-PT' %}
+                     {{ block.settings.image_br2 }}
+                  {% else  %}
+                    {{ block.settings.image_en }}
+             
+                  {% endif %}
+                {% endif %}
+              {% endcase %}
+            {% endfor %}
+         </p>
+         <div class="h1a tituloprincipal">
+            {% for block in section.blocks %} 
+              {% case block.type %}
+                {% when 'tituloprincipal' %}
+                  {% if block.settings.image != blank %}
+                    {% if request.locale.iso_code == 'es'  %}
+                    {{ block.settings.image }}
+                    {% elsif request.locale.iso_code == 'en'  %}
+                    {{ block.settings.image_en }}
+                    {% elsif request.locale.iso_code == 'fr' %}
+                    {{ block.settings.image_fr }}
+                    {% elsif request.locale.iso_code == 'de' %}
+                    {{ block.settings.image_de }}
+                    {% elsif request.locale.iso_code == 'it' %}
+                    {{ block.settings.image_it }}
+                       {% elsif request.locale.iso_code == 'pt-PT' %}
+                           {{ block.settings.image_br }}
+                    {% else  %}
+                    {{ block.settings.image_en }}
+                    
+                    {% endif %}
+                  {% endif %}
+              {% endcase %}
+            {% endfor %}
+         </div>
+         <div class="text01p">
+            {% for block in section.blocks %} 
+            {% case block.type %}
+            {% when 'text01' %}
+            {% if block.settings.image != blank %}
+            {% if request.locale.iso_code == 'es'  %}
+            {{ block.settings.image }}
+            {% elsif request.locale.iso_code == 'en'  %}
+            {{ block.settings.image_en }}
+            {% elsif request.locale.iso_code == 'fr' %}
+            {{ block.settings.image_fr }}
+            {% elsif request.locale.iso_code == 'de' %}
+            {{ block.settings.image_de }}
+            {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+       {% elsif request.locale.iso_code == 'pt-PT' %}
+            {{ block.settings.image_br }}  
+            {% else  %}
+           {{ block.settings.image_en}}
+            {% endif %}
+            {% endif %}
+            {% endcase %}
+            {% endfor %}
+         </div>
+         <div class="bf-count-down" >
+            <div class="countdown_wrap">
+               <div class="countdown_time" id="js_set_time" >
+                  <div class="timer-block">
+                     <span class="countdown_number js-days">00</span>
+                     <span class="countdown_title">
+                        <ly-as-789332>Días</ly-as-789332>
+                     </span>
+                  </div>
+                  <div class="timer-block">
+                     <span class="countdown_number js-hours">00</span>
+                     <span class="countdown_title">
+                        <ly-as-789333>Horas</ly-as-789333>
+                     </span>
+                  </div>
+                  <div class="timer-block">
+                     <span class="countdown_number js-minutes">00</span>
+                     <span class="countdown_title">
+                        <ly-as-789334>Minutos</ly-as-789334>
+                     </span>
+                  </div>
+                  <div class="timer-block">
+                     <span class="countdown_number js-seconds">00</span>
+                     <span class="countdown_title">
+                        <ly-as-789335>Segundos</ly-as-789335>
+                     </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="columna2de2" id="form-btn">
+         <div class="form_klaviyo"  >
+            {{ section.settings.formk }}
+         </div>
+      </div>
+   </div>
+</div>
+
+
+<div class="container-negro" style="">
+   <div class="columnas container">
+      <div class="columna1">
+         {% for block in section.blocks %} 
+         {% case block.type %}
+         {% when 'imagenlateral' %}
+         {% if block.settings.image != blank %}
+         {% if request.locale.iso_code == 'es'  %}
+         <img src="{{ block.settings.image | img_url: 'master'  }}">
+         {% elsif request.locale.iso_code == 'en'  %}
+         <img src="{{ block.settings.image_en | img_url: 'master'  }}">
+         {% elsif request.locale.iso_code == 'fr' %}
+         <img src="{{ block.settings.image_fr | img_url: 'master'  }}">
+         {% elsif request.locale.iso_code == 'de' %}
+         <img src="{{ block.settings.image_de | img_url: 'master'  }}">
+         {% elsif request.locale.iso_code == 'it' %}
+         <img src="{{ block.settings.image_it | img_url: 'master'  }}">
+            {% elsif request.locale.iso_code == 'pt-PT' %}
+       
+             <img src="{{ block.settings.image_br | img_url: 'master'  }}">
+         {% else  %}
+       <img src="{{ block.settings.image_en | img_url: 'master'  }}">
+         {% endif %}
+         {% endif %}
+         {% endcase %}
+         {% endfor %}
+      </div>
+      <div class="columna2">
+         <p class="bf-textos-h2">
+            {% for block in section.blocks %} 
+            {% case block.type %}
+            {% when 'titulo1' %}
+            {% if block.settings.image != blank %}
+            {% if request.locale.iso_code == 'es'  %}
+            {{ block.settings.image }}
+            {% elsif request.locale.iso_code == 'en'  %}
+            {{ block.settings.image_en }}
+            {% elsif request.locale.iso_code == 'fr' %}
+            {{ block.settings.image_fr }}
+            {% elsif request.locale.iso_code == 'de' %}
+            {{ block.settings.image_de }}
+            {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+              
+             {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+                  {% elsif request.locale.iso_code == 'pt-PT' %}
+                        {{ block.settings.image_br }}
+            {% else  %}
+        {{ block.settings.image_en }}
+            {% endif %}
+            {% endif %}
+            {% endcase %}
+            {% endfor %}
+         </p>
+         <div class="bf-textos-p1">
+            {% for block in section.blocks %} 
+            {% case block.type %}
+            {% when 'text1' %}
+            {% if block.settings.image != blank %}
+            {% if request.locale.iso_code == 'es'  %}
+            {{ block.settings.image }}
+            {% elsif request.locale.iso_code == 'en'  %}
+            {{ block.settings.image_en }}
+            {% elsif request.locale.iso_code == 'fr' %}
+            {{ block.settings.image_fr }}
+            {% elsif request.locale.iso_code == 'de' %}
+            {{ block.settings.image_de }}
+            {% elsif request.locale.iso_code == 'it' %}
+            {{ block.settings.image_it }}
+                  {% elsif request.locale.iso_code == 'pt-PT' %}
+                   {{ block.settings.image_br }}
+            {% else  %}
+       {{ block.settings.image_en }}
+            {% endif %}
+            {% endif %}
+            {% endcase %}
+            {% endfor %}
+            <div class="" style="    text-align: center; display:flex;">
+               {% for block in section.blocks %} 
+               {% case block.type %}
+               {% when 'linkbtn' %}
+               {% if block.settings.image != blank %}
+               {% if request.locale.iso_code == 'es'  %}
+               <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image}} </a>
+               {% elsif request.locale.iso_code == 'en'  %}
+               <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_en }} </a>
+               {% elsif request.locale.iso_code == 'fr' %}
+               <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_fr }} </a>
+               {% elsif request.locale.iso_code == 'de' %}
+               <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_de }} </a>
+               {% elsif request.locale.iso_code == 'it' %}
+               <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_it }} </a>
+                     {% elsif request.locale.iso_code == 'pt-PT' %}
+                   <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_br }} </a>  
+               {% else  %}
+              
+             <a href="{{  block.settings.linkbtn }}" class="full-text2-btn">   {{ block.settings.image_en }} </a>  
+               {% endif %}
+               {% endif %}
+               {% endcase %}
+               {% endfor %}
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{% endcomment %}
+
+<style>
+
+  .gallery-grid {
+    padding:0 20px;
+     display: flex;
+    flex-wrap: wrap;
+}
+  
+  .gallery-grid-2 {
+    gap:1%;
+        display: flex;
+    flex-wrap: nowrap;
+    width:100%;
+
+  }
+  .gallery-grid-4 {
+    margin:15px 0px;
+    gap:1%;
+         display: flex;
+    flex-wrap: nowrap;
+        width:100%;
+
+  }
+  .gallery-grid-2 img {
+    width:49.5%;
+  }
+  .gallery-grid-4 img {
+    width:24.25%;
+  }
+
+  .containertext {
+    display:flex;
+        justify-content: space-around;
+  }
+  .bf-count-down {display:none;}
+ .section-background-video  {
+    padding: 20px;
+    background: #000;
+}
+   .container-textos {
+   font-family: 'Montserrat' !important;
+   padding-top:20px;
+   padding-bottom:20px;
+   text-align:center;
+   max-width:1200px;
+   padding-left:2em;
+   padding-right:2em;
+   }
+   .bf-btn-fecha-a img {
+   width: 750px;
+   margin-bottom:0px;
+   }
+   .bf-titulo-image-a img {
+   width: 750px;
+   }
+  .bf-titulo-image-ab img {
+      height: 600px;
+    width: 800px;
+    object-fit: cover;
+    object-position: bottom right; }
+  
+   .bf-titulo-image-a {
+   text-align:center;
+   width: 750px;
+   }
+   .textfecha {
+   font-family: Montserrat;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 22px;
+   letter-spacing: -0.02em;
+   text-align: left;
+   color: #F3B01C;
+   }
+   .tituloprincipal {
+   }
+   .tituloprincipal h1 {
+   font-family: Montserrat;
+   font-size: 46px;
+   font-weight: 900;
+   line-height: 54px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #09080C;
+   margin-bottom:15px;
+   }
+   .text01p p {
+   font-family: 'Montserrat';
+   padding:0px 0%;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: left;
+   }
+   .bf-textos {
+   text-align:center;
+   color:#09080C;
+   padding-top:40px;
+   padding-left:5%;
+   padding-right:5%;
+   }
+   .bf-textos-h2 {
+   font-family: Montserrat;
+   font-weight: 800;
+   letter-spacing: 0em;
+   text-align:left;
+   font-family: 'Montserrat' ;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 50px;
+   color:white;
+   margin-bottom:60px;
+   color: #FBBC30;
+   } 
+   .bf-textos-h2b {
+   font-family: Montserrat;
+   font-size: 60px;
+   font-weight: 800;
+   line-height: 66px;
+   letter-spacing: 0em;
+   text-align: center;
+   color:#10069F;
+   }
+   .div-bf-textos-p2 {
+   display:flex;
+   padding-top:20px;
+   flex-direction: column;
+   }
+   .columna1, .columna2 {
+   width:45%;
+   }
+   .columna2 {
+   width:55%;
+   padding-right:15%;
+   }
+.columnascenter {
+      align-items: center;
+}
+   .columna1de2, .columna2de2 {
+   width:50%;
+   padding: 2% 5%;
+   }
+    .columna1de2a {
+      width:55%;
+        padding: 2% 2%;
+      padding-top:5%;
+      padding-left:6%;
+      padding-right:0%;
+    }
+  .columna2de2a {
+ 
+    width: 45%;
+    padding: 0% 0% !important;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;  
+  
+   }
+   
+   .bf-textos-p1 p {
+   font-family: 'Montserrat' ;
+   font-size: 22px;
+   font-weight: 500;
+   line-height:40px;
+   letter-spacing: -0.02em;
+   text-align: left;
+   color:#F5F5F5;
+   } 
+  .bf3 { text-transform:uppercase;}
+   .bf3.bf4 {
+   text-align:left !important;
+   color: #FBBC30;
+     text-transform:none;
+   }
+  
+  .titulo03 {
+
+font-family: Montserrat;
+font-size: 46px;
+font-weight: 400;
+line-height: 55px;
+letter-spacing: 0em;
+text-align: left;
+    color:black;
+
+
+  }
+   .bf-textos-p2 p{
+     text-align:left;
+   }
+   .black .kl-private-reset-css-Xuajs1 label div {
+   text-align: left;
+   color: white !important;
+   }
+   .black .bf-textos-p2.pblack {
+   margin-bottom:40px;
+   }
+   .bf-textos-p2 p {
+   max-width:900px;
+   font-family: 'Montserrat' ;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 20px;
+   letter-spacing: -0.02em;
+   text-align: left;
+   margin:0 auto;
+   
+   padding-top:40px;
+   padding-bottom:20px;
+   }.section-multi-column, .section-apps{
+   background:white;
+   }
+   .section-apps .fully-spaced-row--medium {
+   padding-top:80px;
+   padding-bottom:80px;
+   margin:0 auto !important; 
+   }
+   .section-multi-column  .fully-spaced-row--medium {
+   padding-top:80px;
+   padding-bottom:80px;
+   margin:0 auto !important; 
+   }
+   .pblack p {
+   text-align: left !important;
+   max-width:100%;
+   padding:0px;
+   }
+  
+   .form_klaviyo input {
+   text-align:left !important;
+   color: #040404;
+   }
+   .form_klaviyo {
+   padding-bottom:0px;
+   }
+   .countdown_time{
+   background: transparent;
+   padding: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   max-width:800px;
+   margin:0 auto;
+   }
+   .countdown_wrap { 
+   padding-top: 20px;
+   padding-bottom:20px;
+   }
+   .countdown_time .timer-block{
+   width: 25%;
+   }
+   .countdown_time .timer-block span{
+   display: block;
+   text-align: center;
+   font-family: 'Montserrat' ;
+   font-size: 32px;
+   font-weight: 400;
+   line-height: 40px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: #09080C;
+   text-transform:uppercase;
+   }
+   .countdown_number {
+   border-bottom: 5px solid black;
+   margin:10px;
+   margin-top:0px;
+   padding-bottom: 10px;
+   }
+   .countdown_time .timer-block .countdown_title {
+   font-family: Montserrat;
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 18px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: #09080C;
+   }
+   .container-negro {
+   background:#09080C;
+   padding:30px 50px;
+   padding-right:0px;
+   }
+   .columnas {
+   display:flex;
+   }
+   .h3h3.text-column__title {
+   font-family: Montserrat;
+   font-size: 28px;
+   font-weight: 800;
+   line-height: 31px;
+   letter-spacing: 0em;
+   text-align: left;
+   margin-top:20px;
+   margin-bottom:20px;
+   }
+   .text-column__button {
+   background:#FFB71B  !important;
+   color:black  !important;
+   text-align:left  !important;
+   margin-top:20px !important;
+   }
+   .text-column__text.rte {
+   padding-right: 20%;
+   }
+  .collection-slider .hometitle a {
+    color:white;
+  }
+
+ .container-cuadro label, .container-cuadro label div {
+    color:white !important;
+  }
+   @media (max-width:980px) {
+
+     .section-background-video {
+    padding: 20px;
+    margin-top: -20px;
+    background: #000;
+}
+     .container-cuadro2 {
+       padding:20px;
+     }
+     .container {
+       padding-bottom:10px !important;
+            padding-top:10px !important;
+     }
+     .bf3.bf4 {
+       font-size:25px;
+          line-height: 29px;
+       margin-bottom:15px;
+       padding-top:10px;
+     }
+     .textfecha {
+      
+     }
+     .text01p p {
+         
+     }
+     .cc-accordion-item__content p {
+           overflow-wrap: break-word;
+     }
+   .tituloprincipal h1 {
+
+    font-size: 38px;
+ 
+    line-height: 44px;
+  
+}
+     .titulo03 {
+       margin-bottom:15px;
+        font-size: 30px;
+ 
+    line-height: 34px;
+     }
+
+     
+.columnas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+   
+     .columna1, .columna2 {
+       width:100%;
+         padding: 2% 0%;
+     }
+ 
+     .flexible-layout--variable-columns {
+       flex-direction: column-reverse;
+     }
+
+     #section-id-template--16605734306047__501f61ab-89e9-4cbc-87dd-2fecdcdc046e .overlay-text__title {
+    font-size: 24px !important;
+}
+     .overlay-text--for-banner .overlay-text__title {
+    font-size: 24px !important;
+}
+
+     
+   .text01p p, .bf-textos-p1 p, .bf-textos-p2 p{
+   padding:0px 5px;
+   font-size:13px;
+   line-height:20px;
+   }
+   .text-column__text.rte {
+   font-size:13px;
+   line-height:20px;
+   }
+   .bf-textos-p2 p {
+   padding:0px 5px;
+   margin-bottom:20px;
+   }
+   .bf-textos-h2 {
+   font-size:18px;
+   line-height:20px;
+   margin-bottom:5px;
+   padding:0px 5px;
+   }
+   .container-negro {
+   padding:0px;
+   padding-top:20px;
+   padding-bottom:20px;
+   }
+  
+   .columnas {
+   display: flex;
+   align-items: center;
+   }
+   /* .columna1 {
+   width:30%;
+   }
+   .columna2 {
+   width:70%;
+   padding-right: 10px;
+   } */
+   .countdown_number {
+   font-size:24px !important;
+   border-bottom: 2px solid black;
+   margin:5px 10px;
+   margin-top:0px;
+   padding-bottom: 0px;
+   }
+   .countdown_time .timer-block .countdown_title {
+   font-family: Montserrat;
+   font-size: 10px; }
+   .form_klaviyo button {
+   font-size:16px !important;
+   }
+   .icon-with-caption .icon-with-caption__text {
+   font-size:12px !important;
+   }
+   .collection-slider .hometitle {
+   font-size:24px !important; 
+   }
+   .collapsible-tabs__tab .cc-accordion-item__title {
+   font-size:16px !important;
+   line-height: 18px  !important;
+   }
+   .collapsible-tabs__tab p {
+   font-size: 12px  !important;
+   font-weight: 500;
+   line-height: 14px  !important;
+   }
+   .collapsible-tabs {
+   margin-left: 4% !important;
+   margin-right: auto;
+   max-width: 90% !important;
+   }
+   .h3h3.text-column__title {
+   font-size: 22px;
+   line-height: 24px;
+   }
+     .container-cuadro2 {
+       padding-top:0px;
+     }
+     .collection-slider-row {
+       padding-bottom:0px;
+     }
+   .collection-slider .hometitle span {
+     font-size:30px;
+   }
+   .columna1de2, .columna2de2 ,
+  .columna1de2a, .columna2de2a {
+  width:100%;
+  
+  padding:2% 2%;
+  }
+     #shopify-section-template--16681676767487__6faf9053-3855-4b4d-84e7-b44836667f17 div  p{
+     font-size:14px;
+     line-height:16px;
+     }
+body
+  #shopify-section-template--16681676767487__2d60c466-6cf3-4755-a256-25925a2dfc00 h2 {
+  font-size:22px;
+    line-height:26px;
+  }
+  body
+  .contenedor-textos h2 + p, body .contenedor-textos p {
+   font-size:16px;
+     line-height:18px;
+  }
+  body #section-id-template--16681676767487__2d60c466-6cf3-4755-a256-25925a2dfc00 {
+  padding-top:10px;
+  }
+  body #block-id-76e01f7a-a383-494c-8f48-2843d4a8caf2 {
+margin-bottom:20px;
+     }
+
+  body #shopify-section-template--16681676767487__9e932cc2-6464-4bab-9c59-0816abe03926 .texto {
+    font-size:16px;
+     line-height:18px;
+  
+  }
+
+  body .nopaddingnomargin h2.majortitle 
+  {
+     font-size:18px;
+     line-height:20px;
+   }
+   body .nopaddingnomargin .rte {
+font-size:16px;
+     line-height:18px;
+   }
+
+body #shopify-section-template--16681676767487__c3430d10-d910-4e47-9ba4-e032544dd15b .subheading--over {
+   font-size:18px;
+     line-height:20px;
+
+}
+body .overlay--h-center .overlay-text__rte p {
+font-size:13px;
+     line-height:16px;
+     padding-left:10px;
+     padding-right:10px;
+     }
+#shopify-section-template--16681676767487__fc8c5c62-6423-4d5d-8e31-51e11ff792fb h2 {
+   font-size:18px;
+     line-height:20px;
+}
+.columnas {
+padding:0px 15px;
+}
+body 
+.gallery-grid-2 {  gap: 5px;
+}
+body 
+.gallery-grid-4 {
+    margin: 15px 0px;
+    gap: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+
+
+
+  
+   }
+</style>
+
+  
+{% schema %}
+{
+"name": "Two Columns + Gallery",
+"settings": [
+  {
+"type": "image_picker",
+"id": "gallery1",
+"label": "gallery1"
+},
+   {
+"type": "image_picker",
+"id": "gallery2",
+"label": "gallery2"
+},
+   {
+"type": "image_picker",
+"id": "gallery3",
+"label": "gallery3"
+},
+   {
+"type": "image_picker",
+"id": "gallery4",
+"label": "gallery4"
+},
+   {
+"type": "image_picker",
+"id": "gallery5",
+"label": "gallery5"
+},
+     {
+"type": "image_picker",
+"id": "gallery6",
+"label": "gallery6"
+},
+     {
+"type": "image_picker",
+"id": "gallery7",
+"label": "gallery7"
+},
+     {
+"type": "image_picker",
+"id": "gallery8",
+"label": "gallery8"
+},
+  
+{
+"type": "textarea",
+"id": "formk",
+"label": "Form Codes"
+},
+{
+"type": "image_picker",
+"id": "imagebg",
+"label": "Imagebg"
+},
+{
+"type": "image_picker",
+"id": "image",
+"label": "Image"
+},
+{
+"type": "image_picker",
+"id": "image_en",
+"label": "Image en"
+}, 
+{
+"type": "image_picker",
+"id": "image_fr",
+"label": "Image fr"
+},
+{
+"type": "image_picker",
+"id": "image_de",
+"label": "Image de"
+},{
+"type": "image_picker",
+"id": "image_it",
+"label": "Image it"
+},
+  {
+"type": "image_picker",
+"id": "image_br",
+"label": "Image br"
+},
+{
+"type": "image_picker",
+"id": "image2",
+"label": "Image"
+}
+],
+"blocks": [
+{
+"type": "imagen1",
+"name": "imagen1",
+"limit": 1,
+"settings": [
+{
+"type": "image_picker",
+"id": "image",
+"label": "Image"
+},
+{
+"type": "image_picker",
+"id": "image_en",
+"label": "Image en"
+}, 
+{
+"type": "image_picker",
+"id": "image_fr",
+"label": "Image fr"
+},
+{
+"type": "image_picker",
+"id": "image_de",
+"label": "Image de"
+},{
+"type": "image_picker",
+"id": "image_it",
+"label": "Image it"
+} ,
+  {
+"type": "image_picker",
+"id": "image_br",
+"label": "Image br"
+}
+]
+},
+{
+"type": "imagenlateral",
+"name": "imagenlateral",
+"limit": 1,
+"settings": [
+{
+"type": "image_picker",
+"id": "image",
+"label": "Image"
+},
+{
+"type": "image_picker",
+"id": "image_en",
+"label": "Image en"
+}, 
+{
+"type": "image_picker",
+"id": "image_fr",
+"label": "Image fr"
+},
+{
+"type": "image_picker",
+"id": "image_de",
+"label": "Image de"
+},{
+"type": "image_picker",
+"id": "image_it",
+"label": "Image it"
+},
+  {
+"type": "image_picker",
+"id": "image_br",
+"label": "Image br"
+}
+]
+},
+{
+"type": "imagen2",
+"name": "imagen2",
+"limit": 1,
+"settings": [
+{
+"type": "image_picker",
+"id": "image",
+"label": "Image"
+},
+{
+"type": "image_picker",
+"id": "image_en",
+"label": "Image en"
+}, 
+{
+"type": "image_picker",
+"id": "image_fr",
+"label": "Image fr"
+},
+{
+"type": "image_picker",
+"id": "image_de",
+"label": "Image de"
+},{
+"type": "image_picker",
+"id": "image_it",
+"label": "Image it"
+},
+  {
+"type": "image_picker",
+"id": "image_br",
+"label": "Image br"
+}
+]
+},
+{
+"type": "text01",
+"name": "text01",
+"limit": 1,
+"settings": [
+{
+"type": "richtext",
+"id": "image",
+"label": "text"
+},
+{
+"type": "richtext",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "richtext",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "richtext",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "richtext",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "richtext",
+"id": "image_br",
+"label": "Image br"
+}
+]
+}  ,
+{
+"type": "titulo1",
+"name": "titulo1",
+"limit": 1,
+"settings": [
+{
+"type": "text",
+"id": "image",
+"label": "text"
+},
+{
+"type": "text",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "text",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "text",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "text",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "text",
+"id": "image_br",
+"label": "Image br"
+}
+]
+} ,
+{
+"type": "tituloprincipal",
+"name": "tituloprincipal",
+"limit": 1,
+"settings": [
+{
+"type": "textarea",
+"id": "image",
+"label": "text"
+},
+{
+"type": "textarea",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "textarea",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "textarea",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "textarea",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "textarea",
+"id": "image_br",
+"label": "Image br"
+}
+]
+},
+{
+"type": "fecha",
+"name": "fecha",
+"limit": 1,
+"settings": [
+{
+"type": "text",
+"id": "image",
+"label": "text"
+},
+{
+"type": "text",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "text",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "text",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "text",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "text",
+"id": "image_br2",
+"label": "Image br"
+},
+  {
+"type": "text",
+"id": "image_br",
+"label": "Imagebr"
+}
+]
+},
+{
+"type": "titulo03",
+"name": "titulo03",
+"limit": 1,
+"settings": [
+{
+"type": "text",
+"id": "image",
+"label": "text"
+},
+{
+"type": "text",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "text",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "text",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "text",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "text",
+"id": "image_br",
+"label": "Image br"
+}
+]
+}
+,
+{
+"type": "text1",
+"name": "text1",
+"limit": 1,
+"settings": [
+{
+"type": "richtext",
+"id": "image",
+"label": "text"
+},
+{
+"type": "richtext",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "richtext",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "richtext",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "richtext",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "richtext",
+"id": "image_br",
+"label": "Image br"
+}
+]
+},
+{
+"type": "text2",
+"name": "text2",
+"limit": 1,
+"settings": [
+{
+"type": "richtext",
+"id": "image",
+"label": "text"
+},
+{
+"type": "richtext",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "richtext",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "richtext",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "richtext",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "richtext",
+"id": "image_br",
+"label": "Image br"
+}
+]
+},
+{
+"type": "linkbtn",
+"name": "btn1",
+"limit": 1,
+"settings": [
+{
+"type": "text",
+"id": "image",
+"label": "text"
+},
+{
+"type": "text",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "text",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "text",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "text",
+"id": "image_it",
+"label": "text it"
+},
+  {
+"type": "text",
+"id": "image_br",
+"label": "Image br"
+},
+{
+"type": "url",
+"id": "linkbtn",
+"label": "Link"
+}
+]
+},
+{
+"type": "linkbtn2",
+"name": "linkbtn2",
+"limit": 1,
+"settings": [
+{
+"type": "text",
+"id": "image",
+"label": "text"
+},
+{
+"type": "text",
+"id": "image_en",
+"label": "text en"
+}, 
+{
+"type": "text",
+"id": "image_fr",
+"label": "text fr"
+},
+{
+"type": "text",
+"id": "image_de",
+"label": "text de"
+},{
+"type": "text",
+"id": "image_it",
+"label": "text it"
+},
+  
+  {
+"type": "text",
+"id": "image_br",
+"label": "Image br"
+},
+{
+"type": "url",
+"id": "linkbtn",
+"label": "Link"
+}
+]
+}
+], 
+"presets": [
+{
+"name": "Two Columns + Gallery"
+}
+]
+}
+{% endschema %}
+{% stylesheet %}
+{% endstylesheet %}
+{% javascript %}
+{% endjavascript %}

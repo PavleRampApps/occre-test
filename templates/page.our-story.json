@@ -1,0 +1,240 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    },
+    "16431314510a62e868": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "color_bg": "#f4f4f4",
+        "full_width": true,
+        "heading": "Our store",
+        "address": "<p>123 Fake St.<br\/>Toronto, Canada<\/p><p>Mon - Fri, 10am - 9pm<br\/>Saturday, 11am - 9pm<br\/>Sunday, 11am - 5pm<\/p>",
+        "button": "Directions",
+        "show_pin": true,
+        "show_feature_image": true,
+        "map_address": "80 Spadina Ave, Toronto",
+        "api_key": "",
+        "map_style": "silver"
+      }
+    },
+    "164613155883498210": {
+      "type": "rich-text",
+      "blocks": {
+        "1646131558fd413078-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Un pequeño garaje, un gran sueño.",
+            "color": "secondary_color",
+            "text_transform": "text_uppercase",
+            "use_h1": false
+          }
+        },
+        "1646131558fd413078-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hace más de 21 años, en un pequeño garaje, surgió una idea. <strong>Un sueño<\/strong>. Cuando empezamos OcCre en el año 2000, queríamos construir algo más que un producto bonito y de calidad. <\/p>",
+            "enlarge_text": true,
+            "color": "secondary_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1646131558fd413078-0",
+        "1646131558fd413078-1"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1646131369d06b9d86": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/El_fundador_de_OcCre_y_su_equipo_empezando_la_emporesa_en_un_garaje_2.webp",
+        "image_2": "shopify:\/\/shop_images\/La_marca_OCCre_poniendo_el_nuevo_rotulo_en_las_nuevas_oficinas.png",
+        "image_width": 700,
+        "subheading": "",
+        "bold_subheading": false,
+        "title": "COMUNIDAD, PASIÓN, INNOVACIÓN",
+        "heading_type": "text_uppercase",
+        "use_h1": false,
+        "text": "<p>Nuestro objetivo es crear grandes <strong>experiencias<\/strong>, <strong>recuerdos<\/strong>, <strong>anécdotas<\/strong> a través del modelismo. Crear una <strong>comunidad<\/strong> para ayudar a personas de todo el mundo a encontrar su lugar, su pasión, su motivación, su terapia. El modelismo es el medio que nos ayuda a ver el mundo con otros ojos. <\/p>",
+        "color": "secondary_color",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "1646131710ee838889": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/El_fundador_de_OcCre_y_su_equipo_empezando_la_emporesa_en_un_garaje.webp",
+        "image_width": 700,
+        "subheading": "",
+        "bold_subheading": false,
+        "title": "Un gran sueño",
+        "heading_type": "text_uppercase",
+        "use_h1": false,
+        "text": "<p>Para muchos, el modelismo es un simple hobby. Para nosotros, <strong>un sueño hecho realidad<\/strong>. Una gran familia.<\/p>",
+        "color": "default_color",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "16431314565a4f2bfa": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/ADN_OcCre.mp4?v=1646342517",
+        "subheading": "",
+        "enlarge_subheading": true,
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "open_url_new_tab": true,
+        "button_style": "primary",
+        "text_alignment": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true
+      }
+    },
+    "1646131765be6fcff1": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2022-01-25_a_las_18.14.19.png",
+        "image_width": 700,
+        "subheading": "",
+        "bold_subheading": false,
+        "title": "Nueva imagen, misma pasión",
+        "heading_type": "text_uppercase",
+        "use_h1": false,
+        "text": "<p>OcCre - Ocio Creativo. La unión del <strong>Ocio<\/strong> y la <strong>Creatividad<\/strong> nos traslada a nuestro momento más sagrado y nos dibuja una sonrisa cuando conectamos con el <strong>ADN modelista<\/strong>. En OcCre queremos compartir, visibilizar y reconocer el trabajo del modelista, porque en OcCre somos modelistas. Gracias a toda esta ilusión, existe una transmisión de conocimiento que nos hace mejorar cada vez más nuestros productos y transmitir la pasión a generaciones futuras.<\/p>",
+        "color": "secondary_color",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "1646132134d53a2912": {
+      "type": "card-information",
+      "blocks": {
+        "164613213474b88979-0": {
+          "type": "card",
+          "settings": {
+            "title_icon": "shopify:\/\/shop_images\/facebook.png",
+            "title": "Facebook",
+            "subheading": "OCCREMANIA",
+            "text": "<p>Siguenos en @Modelismo con OcCremania.<\/p><p>· Más de <strong>10.000 modelistas activos<\/strong><br\/>· Comparte tus<strong> maquetas, trucos, consultas, dudas, trucos<\/strong> y mucho más.<br\/>· Una agradable <strong>familia<\/strong><\/p><p><\/p><p><strong>Disfruta de este maravilloso hobby  con todos nosotros.<\/strong><\/p>",
+            "button_label": "Únete",
+            "button_link": "https:\/\/www.facebook.com\/occremania\/"
+          }
+        },
+        "8f5ccb30-daac-4473-9542-6ed05771e8de": {
+          "type": "card",
+          "settings": {
+            "title_icon": "shopify:\/\/shop_images\/instagram.png",
+            "title": "INSTAGRAM",
+            "subheading": "occremania",
+            "text": "<p>Síguenos en @occremania<\/p><p>· Más de <strong>10.300 seguidores<\/strong>.<br\/>· <strong>Publicaciones diarias<\/strong>.<br\/>· No te pierdas los trabajos de nuestros <strong>seguidores<\/strong>.<br\/>· Novedades y mucho más.<\/p><p><\/p><p><strong>Síguenos para estar al día  de todo lo que hacemos.<\/strong><\/p>",
+            "button_label": "Síguenos",
+            "button_link": "https:\/\/www.instagram.com\/occremania"
+          }
+        },
+        "c19ffc6f-b750-4c50-9fb5-6fc2c86b4b64": {
+          "type": "card",
+          "settings": {
+            "title_icon": "shopify:\/\/shop_images\/youtube.png",
+            "title": "YouTube",
+            "subheading": "OcCre",
+            "text": "<p>Siguenos en @OcCre. Ocio Creativo<\/p><p>· Más de <strong>20.000 suscriptores<\/strong>.<br\/>· + de <strong>12 millones de visualizaciones<\/strong>.<br\/>· Videos <strong>semanales<\/strong><br\/>· Videos <strong>tutoriales, trucos, técnicas, novedades y mucho más<\/strong>.<\/p><p><\/p><p><strong>Aprende cada día con nuestros  videos de YouTube.<\/strong><\/p>",
+            "button_label": "Suscríbete",
+            "button_link": "https:\/\/www.youtube.com\/channel\/UCfgNwN3xxeLreXX4Cg8MvdA"
+          }
+        }
+      },
+      "block_order": [
+        "164613213474b88979-0",
+        "8f5ccb30-daac-4473-9542-6ed05771e8de",
+        "c19ffc6f-b750-4c50-9fb5-6fc2c86b4b64"
+      ],
+      "settings": {
+        "title": "Únete a la pasión por el modelismo",
+        "bg_image": "shopify:\/\/shop_images\/card-information-background.png",
+        "text_align": "center",
+        "button_style": "primary"
+      }
+    },
+    "164613188551e6ddc0": {
+      "type": "rich-text",
+      "blocks": {
+        "16461318852d4b1fa4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Gracias a todos vosotros<\/strong>, hoy, OcCre es una empresa reconocida mundialmente. Gracias a todos vosotros, cada día llegamos a nuevos hogares.<strong> Cada día damos la bienvenida a nuevos modelistas a nuestra bonita comunidad<\/strong>.<\/p>",
+            "enlarge_text": true,
+            "color": "default_color",
+            "bold_text": false
+          }
+        },
+        "06e28870-357e-443b-8d97-c5cf139e5f5c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>OcCre<\/p>",
+            "enlarge_text": true,
+            "color": "default_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16461318852d4b1fa4-1",
+        "06e28870-357e-443b-8d97-c5cf139e5f5c"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16431314510a62e868",
+    "164613155883498210",
+    "1646131369d06b9d86",
+    "1646131710ee838889",
+    "16431314565a4f2bfa",
+    "1646131765be6fcff1",
+    "1646132134d53a2912",
+    "164613188551e6ddc0"
+  ]
+}

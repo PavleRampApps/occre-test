@@ -1,0 +1,889 @@
+
+
+<div class="oscuro tradicion">
+
+    {% if request.locale.iso_code == 'es'  %}
+   <img src="{{ section.settings.image_tradicion1a | img_url: '400x300'  }}" class="tradicion_image" style="margin-bottom:40px;">
+
+
+{% elsif request.locale.iso_code == 'en'  %}
+   <img src="{{ section.settings.image_tradicion1a_en | img_url: '400x300'  }}" class="tradicion_image" style="margin-bottom:40px;">
+
+  {% elsif request.locale.iso_code == 'fr' %}
+   <img src="{{ section.settings.image_tradicion1a_fr | img_url: '400x300'  }}" class="tradicion_image" style="margin-bottom:40px;">
+   {% elsif request.locale.iso_code == 'de' %}
+   <img src="{{ section.settings.image_tradicion1a_de | img_url: '400x300'  }}" class="tradicion_image" style="margin-bottom:40px;">
+
+     {% elsif request.locale.iso_code == 'it' %}
+   <img src="{{ section.settings.image_tradicion1a_it | img_url: '400x300'  }}" class="tradicion_image" style="margin-bottom:40px;">
+  {% else  %}
+      
+   <img src="{{ section.settings.image_tradicion1a_en | img_url: '400x300'  }}" class="tradicion_image" style="margin-bottom:40px;">
+{% endif %}
+
+ <p  style="margin-bottom:80px;">
+
+<ly-as-753880>El Holandés Errante es un barco que no pudo volver a puerto,</ly-as-753880> <br>
+<ly-as-753881>condenado a vagar para siempre por los océanos del mundo.</ly-as-753881><br><br>
+
+ <ly-as-753882>El velero es siempre oteado en la distancia, a veces</ly-as-753882><br> <ly-as-753883>resplandeciendo con una luz fantasmal.</ly-as-753883> <br><br>
+
+<ly-as-753884>Si otro barco lo saluda este también se verá</ly-as-753884> <br><b><ly-as-753885>condenado a vagar por las aguas oceánicas.</ly-as-753885></b>
+
+
+
+
+
+</p>
+
+<div class="simobile autoplay">
+     <div> <img src="{{ section.settings.image_tradicion1 | img_url: '300x200'  }}"></div>
+   <div> <img src="{{ section.settings.image_tradicion2 | img_url: '300x200' }}"></div>
+   <div> <img src="{{ section.settings.image_tradicion3 | img_url: '300x200'  }}"></div>
+   <div> <img src="{{ section.settings.image_tradicion4 | img_url: '300x200'  }}"></div>
+  <div>  <img src="{{ section.settings.image_tradicion5 | img_url: '300x200'  }}"></div>
+   <div> <img src="{{ section.settings.image_tradicion6 | img_url: '300x200'  }}"></div>
+ <div>   <img src="{{ section.settings.image_tradicion7 | img_url: '300x200'  }}"></div>
+ <div>   <img src="{{ section.settings.image_tradicion8 | img_url: '300x200' }}"></div>
+ <div>   <img src="{{ section.settings.image_tradicion9 | img_url: '300x200'  }}"></div>
+  <div>  <img src="{{ section.settings.image_tradicion10 | img_url: '300x200'  }}"></div>
+ <div>   <img src="{{ section.settings.image_tradicion11 | img_url: '300x200'  }}"></div>
+ <div>   <img src="{{ section.settings.image_tradicion12 | img_url: '300x200'  }}"></div>
+</div>
+  
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="{{ 'slick.js' | asset_url }}"></script>
+  <script>
+$('.autoplay').slick({
+  slidesToShow:4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+ </script>
+  
+   
+  
+
+
+  <div class="container">
+    <div class="dos_columnas">
+      <div class="column1 nomobile ">
+  <video width="540px" height="400px"   controls class="video-final nomobile" style="object-fit: cover;" >
+  <source src="https://cdn.shopify.com/videos/c/o/v/d993d9a75b5147c493289e3c70eccebe.mp4" type="video/mp4">
+
+<ly-as-753886>Your browser does not support the video tag.</ly-as-753886>
+</video>
+      </div>
+      <div class="column2">  
+   
+        <h2 class="h2"><ly-as-753887>ESTA MAQUETA</ly-as-753887><br> <ly-as-753935>ES PARA TI, SÍ:</ly-as-753935></h2>
+        <p class="p2"><ly-as-753889>+ Te gustan los desafíos nuevos</ly-as-753889><br><br>
+
+<ly-as-753936>+ Construir te ayuda a olvidar problemas</ly-as-753936><br> <ly-as-753937>y encontrar un momento de paz</ly-as-753937><br><br>
+
+<ly-as-753938>+ Quieres ser parte de la leyenda</ly-as-753938> <br><ly-as-753939>del Holandés Errante</ly-as-753939><br><br>
+
+<ly-as-753892>+ Te gustan las artesanías</ly-as-753892><br><br>
+
+<ly-as-753893>+ Sientes pasión por el modelismo</ly-as-753893></p>
+          <video width="540px" height="400px"   controls class="video-final simobile" style="object-fit: cover;">
+            <source src="https://cdn.shopify.com/videos/c/o/v/d993d9a75b5147c493289e3c70eccebe.mp4" type="video/mp4">
+
+<ly-as-753886>Your browser does not support the video tag.</ly-as-753886>
+</video>
+       <p class="a2" >
+         
+             <a href="https://occre.com/products/promotion-flying-dutchman" style="background: #F3B01C; color:black; margin-top:20px; padding:10px 20px;"><ly-as-753894>QUIERO MI MAQUETA</ly-as-753894></a></p>
+        
+      </div>
+    </div>
+  </div>
+
+</div>
+{% comment %}
+<div class="width-for oscuro" >
+ <div class="container"> 
+   <img src="{{ 'gift.png' | asset_url}}" class="gift">
+  <h3><ly-as-753895>oportunidad única</ly-as-753895></h3>
+<h2 class="h2"><ly-as-753896>Comprando la edición limitada del Holandés Errante</ly-as-753896> <b><ly-as-753897>obtienes de regalo el kit de luces, la peana y la placa de latón</ly-as-753897> <span style="color:#F3B01C;"><ly-as-753940>valoradas en + 95€</ly-as-753940></span></b></h2>
+
+  <div class="for4">
+    <div class="for">
+      <img src="{{ 'kit1.png'| asset_url  }}">
+      <p><a href="" style="text-transform:uppercase;"><ly-as-753899>kit de</ly-as-753899><br> <ly-as-753900>luces</ly-as-753900></a></p>
+    </div>
+        <div class="for">
+      <img src="{{ 'kit2.png' | asset_url   }}">
+      <p><a href="" style="text-transform:uppercase;"><ly-as-753901>peana</ly-as-753901> <br>
+<ly-as-753902>exclusiva</ly-as-753902></a></p>
+    </div>
+        <div class="for">
+      <img src="{{ 'kit3.png' | asset_url   }}">
+      <p><a href="" style="text-transform:uppercase;"><ly-as-753903>placa</ly-as-753903><br>
+<ly-as-753904>de latón</ly-as-753904></a></p>
+    </div>
+   
+       
+  </div>
+
+  <a href="https://occre.com/products/promotion-flying-dutchman" class="full-text2-btn"><ly-as-753905>Comprar edición limitada</ly-as-753905></a>
+ </div>
+ {% endcomment %}
+</div>
+
+<div class="desafio oscuro">
+  <div class="container">
+    <div class="dos_columnas">
+      <div class="column1">
+       
+            {% if request.locale.iso_code == 'es'  %}
+      <h3 class="soloen"> <img src="{{ section.settings.soloen | img_url: '250x200'  }}"></h3>
+
+
+{% elsif request.locale.iso_code == 'en'  %}
+      <h3 class="soloen"> <img src="{{ section.settings.soloen_en | img_url: '250x200'  }}"></h3>
+
+  {% elsif request.locale.iso_code == 'fr' %}
+       <h3 class="soloen"> <img src="{{ section.settings.soloen_fr | img_url: '250x200'  }}"></h3>
+   {% elsif request.locale.iso_code == 'de' %}
+        <h3 class="soloen"> <img src="{{ section.settings.soloen_de | img_url: '250x200'  }}"></h3>
+
+     {% elsif request.locale.iso_code == 'it' %}
+       <h3 class="soloen"> <img src="{{ section.settings.soloen_it | img_url: '250x200'  }}"></h3>
+  {% else  %}
+      
+     <h3 class="soloen"> <img src="{{ section.settings.soloen_en | img_url: '250x200'  }}"></h3>
+{% endif %}
+
+        <h2><ly-as-753906>Más de 500 piezas diferentes para disfrutar construyendo la maqueta.</ly-as-753906></h2>
+        <p class="p2">
+<ly-as-753907>Incluye placa de fundición con el nombre.</ly-as-753907><br>
+<ly-as-753908>Incluye la peana básica.</ly-as-753908><br>
+<ly-as-753909>Incluye las velas.</ly-as-753909><br><br>
+
+<ly-as-753910>- Casco de un solo forro con abertura lateral para dejar ver el contenido interior.</ly-as-753910><br>
+<ly-as-753911>- Posibilidad de iluminar el interior del casco y los fanales. Con el Kit Luces Led Ref. 55010.</ly-as-753911><br>
+<ly-as-753912>- Numerosos detalles en el interior del casco, cañones completos, munición, hamacas, mercancía, barriles, etc.</ly-as-753912><br><br>
+
+<ly-as-753913>- Fundición ultra realista.</ly-as-753913> <br>
+<ly-as-753914>- Videotutoriales paso a paso.</ly-as-753914><br>
+<ly-as-753915>- Instrucciones en 5 idiomas.</ly-as-753915><br>
+<ly-as-753916>- Fotos HD paso a paso.</ly-as-753916><br>
+<ly-as-753917>- Lista de piezas con medidas y materiales.</ly-as-753917><br>
+<ly-as-753918>- Ficha IP para identificar las piezas</ly-as-753918><br>
+<ly-as-753919>- Planos a escala.</ly-as-753919><br>
+<ly-as-753920>- Maqueta de alta calidad.</ly-as-753920><br>
+<ly-as-753921>- Garantía de por vida.</ly-as-753921>
+
+
+          </p>
+     
+        
+      </div>
+      <div class="column2">
+        <img src="{{ section.settings.image_desafio | img_url: 'master'  }}">
+      </div>
+    </div>
+    <div class="container" style="max-width:900px;
+      margin:0 auto;">
+    
+
+            {% if request.locale.iso_code == 'es'  %}
+ <img src="{{ section.settings.image_for |  img_url: '900x250'  }}" style="margin-bottom:30px; margin-top:20px;" class="durante">
+
+
+{% elsif request.locale.iso_code == 'en'  %}
+    <img src="{{ section.settings.image_foren |  img_url: '900x250'  }}" style="margin-bottom:30px; margin-top:20px;" class="durante">
+
+  {% elsif request.locale.iso_code == 'fr' %}
+    <img src="{{ section.settings.image_forfr |  img_url: '900x250'  }}" style="margin-bottom:30px; margin-top:20px;" class="durante">
+   {% elsif request.locale.iso_code == 'de' %}
+     <img src="{{ section.settings.image_forde |  img_url: '900x250'  }}" style="margin-bottom:30px; margin-top:20px;" class="durante">
+
+     {% elsif request.locale.iso_code == 'it' %}
+        <img src="{{ section.settings.image_forit |  img_url: '900x250'  }}" style="margin-bottom:30px; margin-top:20px;" class="durante">
+  {% else  %}
+      
+    <img src="{{ section.settings.image_foren |  img_url: '900x250'  }}" style="margin-bottom:30px; margin-top:20px;" class="durante">
+{% endif %}
+
+      
+  <p style="padding-left:25px; padding-right:25px;" class="durantep"><ly-as-753922>Durante siglos, la leyenda del Holandés Errantes, también conocido como Flying Dutchman, ha capturado la imaginación. La historia cuenta cómo las sombras de los condenados, el barco y su tripulación están condenados a vagar por los océanos del mundo por la eternidad sin llegar nunca a tierra, todo por culpa de su capitán. Fatídica decisión de navegar en mares fatales. La leyenda ha inspirado la imaginación de dramaturgos, poetas y pintores. Tiene incluso convertirse en una característica de los populares "Piratas del Caribe" franquicia, donde el barco se conoce simplemente como Dutchman y navega bajo el mando del capitán ficticio, Davy Jones.</ly-as-753922>
+</p>
+    <p style="padding-bottom:10px; margin-bottom:0px;"><br></p>
+    </div>
+  </div>
+ 
+</div>
+<div class="desafio oscuro">
+  <div class="container">
+    <div class="dos_columnas">
+       <div class="column2">
+        <img src="{{ section.settings.desafio2 | img_url: 'master'  }}">
+      </div>
+      <div class="column1">
+
+        <h2 style="color: #fff; margin-bottom:60px;"><ly-as-753923>Ficha técnica maqueta el Holandés Errante</ly-as-753923> </h2>
+        <p class="p2a" style="margin-bottom:80px;">
+<ly-as-753924>Escala: 1/50</ly-as-753924><br>
+<ly-as-753925>Anchura: 300mm</ly-as-753925><br>
+<ly-as-753926>Altura: 654mm</ly-as-753926><br>
+<ly-as-753927>Longitud: 775mm</ly-as-753927><br><br>
+
+<ly-as-753928>Complementos imprescindibles para la</ly-as-753928><br> <ly-as-753929>maqueta de barco el Holandés Errante</ly-as-753929><br><br>
+
+<ly-as-753930>- Pack Pinturas.</ly-as-753930><br><br>
+<ly-as-753931>- Peana Exposición</ly-as-753931><br> <ly-as-753932>exclusiva para esta maqueta.</ly-as-753932><br><br>
+<ly-as-753933>- Kit Luces Led.</ly-as-753933>
+
+
+          </p>
+        <p  style="text-align:left; margin-top:40px;"><a href="https://occre.com/products/promotion-flying-dutchman" class="full-text2-btn" style=""><ly-as-753934>COMPRAR AHORA</ly-as-753934></a></p>
+     
+        
+      </div>
+     
+    </div>
+  </div>
+ 
+</div>
+
+
+
+<style>
+  .container-slider {
+    padding-bottom:20px;
+    max-width:90% !important;
+  }
+.simobile {
+  display:none;
+}
+  .nomobile {}
+
+.soloen {
+  
+  font-family: Nowharehouse;
+font-size: 45px;
+font-weight: 400;
+line-height: 57px;
+letter-spacing: 0.085em;
+text-align: left;
+
+}
+  .tradicion {
+    padding-top:50px;
+    padding-bottom:50px;
+    font-family: Montserrat;
+font-size: 22px;
+font-weight: 400;
+line-height:26px;
+letter-spacing: -0.02em;
+text-align: center;
+
+
+
+  }
+  .p2a {
+  font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+  .tradicion .p2 {
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+ margin-bottom:30px;
+  }
+  .tradicion h2.h2 {
+    font-family: Montserrat;
+    
+font-size: 26px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0.085em;
+text-align: left;
+color:white;
+    margin-bottom:30px;
+  }
+   .tradicion .a2 {
+     text-align:left;
+   
+   }
+  .tradicion .a2 a {
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.085em;
+text-align: left;
+color:white;
+    padding:8px 10px;
+    
+    text-decoration:underline;
+  }
+  .edicion {
+    padding-top:50px;
+    padding-bottom:80px;
+  }
+  .edicion h3 {
+    margin-top:80px;
+    margin-bottom:20px;
+    font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.085em;
+text-align: center;    color:White;
+
+  }
+  .edicion h2 {
+    font-family: Montserrat;
+font-size: 60px;
+font-weight: 700;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: center;    color:White;
+    margin-bottom:40px;
+}
+  .container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;   
+}
+  .oscuro {
+   background: #07090C;
+    text-align:center;
+    color:White;
+    
+    
+  }
+  .width-for {
+    padding:0px 0px;
+    padding-bottom:50px;
+  }
+    .width-for h3 {
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.085em;
+text-align: center;
+color: #F3B01C;
+      text-transform:uppercase;
+
+    
+  }
+  .width-for h2.h2 {
+    font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color:#F5F5F5;
+  
+    max-width:600px;
+    margin:0 auto;
+      margin-bottom:60px;
+    margin-top:30px;
+  } 
+  .image_tradicion_container   {
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:80px;
+    flex-wrap: wrap;
+  }
+  .image_tradicion_container img {
+    margin: 20px;
+  }
+  .for4 {
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:80px;
+    
+  }
+  .for4 img {
+    width:300px;
+    
+  }
+  .for4 p a{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.085em;
+text-align: center;
+color:White !important;
+  }
+  .width-for h2.h3 {
+color:White;
+
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: center;
+    
+    max-width:950px;
+    margin:0 auto;
+    margin-bottom:50px;
+
+  }
+  .div-kits {
+    text-align:center;
+  }
+  .text-kits {
+    font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+
+    color: #0A119F;
+
+  }
+.dos_columnas {
+  display:flex;
+  flex: 1 1;
+  padding-top:50px;
+  padding-bottom:50px;
+  
+}
+  .dos_columnas .column1, .dos_columnas .column2   {
+    padding:0 50px; 
+    width:50%;
+}
+  .desafio p.p1 {
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0.085em;
+text-align: left;
+    color:White;
+}
+  .desafio h2 {
+    font-family: Montserrat;
+font-size: 26px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color:White;
+  }
+  .desafio p.p2 {
+ font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.02em;
+text-align: left;
+
+color:White;
+  }
+  .desafio p.a1 a {
+    font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.085em;
+text-align: left;
+color:White;
+  }
+
+  
+
+.full-width-text-landing  {
+  background:#000;
+  text-align:center;
+  margin:0px auto;
+  padding-top:150px;
+  padding-bottom:150px;
+  background-image:url({{ section.settings.image10 | img_url: 'master'  }}); 
+    background-size:cover;
+
+}
+  .full-width-text-landing-container {
+    max-width:900px;
+    margin:0 auto;
+      display: flex;
+    flex-direction: column;
+  }
+  .full-width-text2-img1 {
+   
+    max-width:650px;
+     margin:0px auto;
+     margin-bottom:30px;
+  }
+    .full-width-text2-img2 {
+
+      max-width:650px;
+       margin:0px auto;
+      margin-bottom:30px;
+  }
+        .full-width-text2-img3 {
+
+      max-width:650px;
+       margin:0px auto;
+      margin-bottom:60px;
+  }
+  .full-width-text-h2 {
+    
+  }
+  .full-text2-btn {
+    text-transform:uppercase;
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+background: #000;
+    color:white;
+    padding:15px 25px;
+  max-width:650px;
+       margin:0px auto;
+    color:black !important;
+    background:#F3B01C;
+
+
+  }
+   .full-text3-btn {
+    text-transform:uppercase;
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+background: #000;
+    color:white;
+    padding:15px 25px;
+  max-width:650px;
+       margin:0px auto;
+    color:black !important;
+    background:#F3B01C;
+    margin-left:0px; width:450px; display:block;
+
+  }
+  .section-multi-column-single-row p {
+    color:black;
+  }
+          .masde22000 h2.majortitle , h2.hometitle {  
+          font-family: Montserrat;
+font-size: 35px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+  text-align:center;
+color: #0A119F; 
+
+          }
+.tradicion p { 
+    font-size:18px;}
+    
+@media (max-width:980px) {
+    .tradicion .p2 {
+  font-size:14px;
+    }
+     .simobile {
+    display:block !important;
+  }
+  .nomobile {display:none !important;}
+  .full-width-text-landing  {
+  padding:50px 20px; 
+  }
+.full-width-text-landing img {
+  max-width:90%;
+}
+       .tradicion_image {
+       max-width:250px;
+       margin-top:20px;}
+       
+  .tradicion p {
+    font-size:12px;
+          line-height:14px;
+    margin-bottom:30px;
+  }
+  .tradicion {
+    padding:10px 20px !important;
+  }
+  .dos_columnas {
+    flex-direction: column;
+  }
+  .dos_columnas .column1, .dos_columnas .column2 {
+    width:100%;
+     padding:20px 0px;
+      padding-left:10px;
+  }
+
+  .tradicion h2.h2 {
+    font-size:24px;
+        line-height: 26px;
+  }
+  .width-for h2.h3, .desafio h2, .edicion h2 {
+     font-size:20px;
+        line-height: 22px;
+  }
+   .width-for h2.h2 {
+      font-size:18px;
+      line-height:22px;
+      margin:0px 20px;
+      margin-bottom:30px;
+      }
+  .desafio p.p2 {
+          font-size:20px;
+          line-height:24px;
+          margin-top:30px;
+          }
+  .masde22000 h2.majortitle , h2.hometitle  { 
+          font-family: Montserrat;
+font-size: 26px; 
+   text-align:center;}
+  .container {
+  padding-left:0px !important;
+          padding-right:0px !important;
+          
+  }
+       .video-final {
+       max-width:320px;
+          height:220px;
+         margin-left:0px;
+      margin-bottom:30px;
+       }
+      .tradicion .a2 {
+      text-align:center; }
+      
+   .width-for {
+    padding:20px 0px;
+  }
+          .for4 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-direction: column;
+      
+}
+       .for4 img {
+      margin:10px;
+      }
+  .durante {
+    max-width:350px;
+  }
+  .durantep {
+    font-size:12px !important;
+          line-height:14px !important;
+  }
+   .image_tradicion_container   {   display: flex;
+    justify-content: space-around;
+
+    flex-direction: column;}
+  .full-text3-btn {
+           width:300px;
+  }
+          .p2, .p2a {
+          font-size:14px !important; 
+          line-height:16px !important; 
+          }
+  .autoplay div {
+        margin-right:10px; }
+  .full-text2-btn { 
+      font-size:14px !important;}
+      
+      .oscuro {padding-left: 25px !important;
+    padding-right: 25px!important;}
+    .gift {
+      max-width:100px;
+      }
+  .tradicion .a2 a { 
+      font-size:14px;}
+  body {
+        overflow-x:hidden;}
+}
+</style>
+
+
+
+
+{% schema %}
+{
+  "name": "encabezado landing",
+   "settings": [
+           {
+          "type": "image_picker",
+          "id": "image7",
+          "label": "Image"
+        },
+     {
+          "type": "image_picker",
+          "id": "image8",
+          "label": "Image"
+        },
+     {
+          "type": "image_picker",
+          "id": "image9",
+          "label": "Image"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_tradicion1a",
+          "label": "Image tradicion"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_tradicion1a_en",
+          "label": "Image tradicion"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_tradicion1a_fr",
+          "label": "Image tradicion"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_tradicion1a_it",
+          "label": "Image tradicion"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_tradicion1a_de",
+          "label": "Image tradicion"
+        }
+     , {
+          "type": "image_picker",
+          "id": "image_tradicion1",
+          "label": "Image"
+        }, {
+          "type": "image_picker",
+          "id": "image_tradicion2",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_tradicion3",
+          "label": "Image"
+        }, {
+          "type": "image_picker",
+          "id": "image_tradicion4",
+          "label": "Image"
+        }, {
+          "type": "image_picker",
+          "id": "image_tradicion5",
+          "label": "Image"
+        }, {
+          "type": "image_picker",
+          "id": "image_tradicion6",
+          "label": "Image"
+        }, {
+          "type": "image_picker",
+          "id": "image_tradicion7",
+          "label": "Image"
+        }, {
+          "type": "image_picker",
+          "id": "image_tradicion8",
+          "label": "Image"
+        }, {
+          "type": "image_picker",
+          "id": "image_tradicion9",
+          "label": "Image"
+        }, {
+          "type": "image_picker",
+          "id": "image_tradicion10",
+          "label": "Image"
+        }, {
+          "type": "image_picker",
+          "id": "image_tradicion11",
+          "label": "Image"
+        }, {
+          "type": "image_picker",
+          "id": "image_tradicion12",
+          "label": "Image"
+        },
+     {
+          "type": "image_picker",
+          "id": "image10",
+          "label": "BG"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_desafio",
+          "label": "Imagen Desafio"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_for",
+          "label": "Durante Siglos"
+        },
+          {
+          "type": "image_picker",
+          "id": "image_foren",
+          "label": "Durante Siglos"
+        },
+          {
+          "type": "image_picker",
+          "id": "image_forfr",
+          "label": "Durante Siglos"
+        },
+          {
+          "type": "image_picker",
+          "id": "image_forit",
+          "label": "Durante Siglos"
+        },
+          {
+          "type": "image_picker",
+          "id": "image_forde",
+          "label": "Durante Siglos"
+        },
+     {
+          "type": "image_picker",
+          "id": "soloen",
+          "label": "Solo en"
+        },
+       {
+          "type": "image_picker",
+          "id": "soloen_en",
+          "label": "Solo es en"
+        },
+     {
+          "type": "image_picker",
+          "id": "soloen_fr",
+          "label": "Solo es fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "soloen_it",
+          "label": "Solo es it"
+        },
+      {
+          "type": "image_picker",
+          "id": "soloen_de",
+          "label": "Solo es de"
+        },
+     {
+          "type": "image_picker",
+          "id": "desafio2",
+          "label": "ficha"
+        }
+            ],
+    "presets": [
+      {
+        "name": "encabezado landing"
+       
+      }
+    ]
+  
+}
+{% endschema %}

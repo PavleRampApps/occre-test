@@ -1,0 +1,21 @@
+{%for block in blocks%}
+{%assign customTitle = block.settings.qns-custom-title%}
+
+{%assign customImage = block.settings.qns-custom_image%}
+{%assign customUrl = block.settings.qns-custom-url%}
+
+
+<div class="swiper-slide">
+    <div class="quick-nav-story-block">
+        <div class="quick-nav-story-block-image">
+            <a href="{{customUrl}}">
+            <img src="{{customImage | img_url: 'master'}}" alt=""/>
+            </a>
+        </div>
+        <div class="quick-nav-story-block-title">
+            <a href="{{customUrl}}">{{customTitle | truncate: 18, '...'}}</a>
+        </div>
+    </div>
+  </div>
+
+{%endfor%}

@@ -1,0 +1,842 @@
+{
+  "sections": {
+    "16461455438a3b80ec": {
+      "type": "image-with-text-overlay-newsletter-2023",
+      "custom_css": [
+        "p br {display: none;}",
+        "@media (max-width: 980px) {p br {display: block; } .image-overlay {height: 650px !important; } .mobile-only {height: 600px; background-position: 0px -80px !important; } .overlay--h-center .overlay-text__rte {font-size: 11px; } .column-klaviyo2 {margin-top: 210px; font-size: 10px; padding: 30px 30px; } .fixed-height-item {height: 650px !important; } .columns-v1 {row-gap: 0px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/COMUNIDAD_DE_MODELISTAS_OCCRE.webp",
+        "mobile_image": "shopify:\/\/shop_images\/Vertical_COMUNIDAD_DE_MODELISTAS_OCCRE_1.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center bottom",
+        "height": "fixed",
+        "height_desktop": 860,
+        "height_mobile": 1000,
+        "image_link": "",
+        "subheading": "",
+        "title": "SE PARTE DE ALGO GRANDE",
+        "titleen": "BE PART OF  SOMETHING BIG",
+        "titlees": "Two line\ntext heading",
+        "titlefr": "AIRE PARTIE DE QUELQUE CHOSE DE GRAND",
+        "titlede": "SEI TEIL VON ETWAS GROSSEM",
+        "titleit": "ESSERE PARTE DI QUALCOSA DI GRANDE",
+        "titlept": "FAÇA PARTE DE ALGO GRANDE",
+        "text": "<p>JUNTOS CONSTRUIMOS, <br>AYÚDANOS A CONSTRUIR<br> UN MUNDO MEJOR<\/p>",
+        "texten": "<p>TOGETHER WE BUILD<br>, HELP US BUILD<br> A BETTER WORLD<\/p>",
+        "textfr": "<p>ENSEMBLE NOUS CONSTRUISONS,<br> AIDEZ-NOUS À CONSTRUIRE<br> UN MONDE MEILLEUR<\/p>",
+        "textde": "<p>GEMEINSAM BAUEN WIR, <br>HELFEN SIE UNS, EINE BESSERE<br> WELT ZU SCHAFFEN<\/p>",
+        "textit": "<p>INSIEME COSTRUIAMO, <br>AIUTATECI A COSTRUIRE <br>UN MONDO MIGLIORE<\/p>",
+        "textpt": "<p>JUNTOS CONSTRUÍMOS, <br>AJUDE-NOS A CONSTRUIR <br>UM MUNDO MELHOR<\/p>",
+        "title_size": 46,
+        "title_size_mobile": 30,
+        "use_h1": false,
+        "text2": "<li>Únete a nuestra creciente comunidad y recibe ofertas exclusivas.<\/li>\n<li>Conecta con personas de ideas afines en todo el mundo<\/li>",
+        "text2en": "<li>Get <b>a 10% OFF<\/b> on your first order.<\/li>\n<li>Join our growing community and receive exclusive offers.<\/li>\n<li>Connect with like-minded people around the world.<\/li>",
+        "text2fr": "<li>Bénéficiez d'une <b>remise de 10%<\/b> sur votre première commande.<\/li>\n<li>Rejoignez notre communauté grandissante et recevez des offres exclusives.<\/li>\n<li>Entrez en contact avec des personnes partageant les mêmes idées dans le monde entier.<\/li>",
+        "text2de": "Treten Sie unserer wachsenden <li>Gemeinschaft bei und erhalten Sie exklusive Angebote.<\/li>\n<li>Verbinden Sie sich mit Gleichgesinnten auf der ganzen Welt.<\/li>",
+        "text2it": "<li>Unisciti alla nostra comunità in crescita e ricevi offerte esclusive.<\/li>\n<li>Connettiti con persone che la pensano come te in tutto il mondo.<\/li>",
+        "text2pt": "<li>Junte-se à nossa crescente comunidade e receba ofertas exclusivas.<\/li>\n<li>Ligue-se a pessoas com ideias semelhantes em todo o mundo.<\/li>",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "1688111978d88eb26a": {
+      "type": "apps",
+      "blocks": {
+        "97c1c418-1520-4e05-8537-7e0ac62935e4": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-trust-badge\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "layout": "horizontal",
+            "alignment": "fillContainer",
+            "scheme-type": "default",
+            "review-title": "reviews",
+            "rating-icon": true,
+            "average-rating": true,
+            "review-count": true,
+            "show-border": true,
+            "border-radius": 8,
+            "font-size": 20,
+            "background-color": "",
+            "secondary-background-color": "",
+            "text-color": "",
+            "rating-icon-color": "",
+            "border-color": ""
+          }
+        }
+      },
+      "block_order": [
+        "97c1c418-1520-4e05-8537-7e0ac62935e4"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "main": {
+      "type": "main-contact",
+      "disabled": true,
+      "blocks": {
+        "name": {
+          "type": "name_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "email": {
+          "type": "email_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "956dd030-c9a3-403f-a646-e634f5e5f251": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Teléfono",
+            "type": "text",
+            "required": false,
+            "half_width": true
+          }
+        },
+        "148f28c1-bbd8-4fe1-8857-dac3c093f9bc": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Modelo",
+            "type": "text",
+            "required": true,
+            "half_width": true
+          }
+        },
+        "12153d92-6124-42fd-a9d7-e7cdb419f8dd": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Referencia producto",
+            "type": "text",
+            "required": false,
+            "half_width": true
+          }
+        },
+        "message": {
+          "type": "message_input",
+          "settings": {
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "name",
+        "email",
+        "956dd030-c9a3-403f-a646-e634f5e5f251",
+        "148f28c1-bbd8-4fe1-8857-dac3c093f9bc",
+        "12153d92-6124-42fd-a9d7-e7cdb419f8dd",
+        "message"
+      ],
+      "settings": {
+        "show_page_title": false,
+        "use_columns": true,
+        "contact_title": "",
+        "contact_text": "<p>¡Te ayudamos! Cuándo, cómo y dónde quieras.<\/p><p>Nuestro servicio de atención al cliente estará encantado de responder tus preguntas en menos de 24 horas. <\/p><p>Gracias por confiar en OcCre ;)<\/p>"
+      }
+    },
+    "d1ff2931-7309-4cfd-8812-5f18789c2601": {
+      "type": "multi-column-bf",
+      "disabled": true,
+      "blocks": {
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "¡TAN GENIAL DE RECIBIR COMO DE REGALAR!",
+            "text": "<p>Si no sabes que comprar\/regalar, no te la juegues, acierta seguro con las tarjetas regalo OcCre. Es una excelente opción para regalar ahora y aprovechar durante navidad, reyes o cumpleaños<\/p>",
+            "button_label": "VER OPCIONES",
+            "link": "shopify:\/\/products\/tarjeta-regalo-occre"
+          }
+        },
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/tarjetas.jpg",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-2": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-0",
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-1",
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-2"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "left",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "2d893d13-ecf5-48cf-a469-613ef89bbb9c": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "code": "<p style=\"width:80%; margin:0 auto; margin-top:20px; font-size:9px;\">Al registrarte por SMS, aceptas recibir mensajes automatizados de marketing recurrentes al número de teléfono proporcionado, incluyendo recordatorios de carritos. El consentimiento no es una condición de compra. Responde STOP para darte de baja. Responde HELP para obtener ayuda. La frecuencia de los mensajes varía. Pueden aplicarse tarifas de mensajes y datos. Ver nuestra Política de privacidad y nuestros Términos del servicio. \n<\/p>"
+      }
+    },
+    "87950d05-9eb3-44a2-ad7c-eb821aea40de": {
+      "type": "rich-text-leads",
+      "blocks": {
+        "template--18956592709961__87950d05-9eb3-44a2-ad7c-eb821aea40de-16842013188fc5529a-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Desde el año 2000, OcCre es la elección preferida de más de 23.000 modelistas en todo el mundo.",
+            "titleen": "Since 2000, OcCre has been the preferred choice of +23,000 model-makers worldwide.",
+            "titlefr": "Depuis 2000, OcCre est le choix préféré de +23.000 modélistes dans le monde entier.",
+            "titlede": "Seit 2000 ist OcCre die bevorzugte Wahl von +23.000 Modellierern weltweit.",
+            "titleit": "Dal 2000, OcCre è la scelta preferita di +23.000 modellisti in tutto il mondo.",
+            "titlept": "Desde 2000, a OcCre tem sido a escolha preferida de +23.000 modelistas em todo o mundo.",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "template--18956592709961__87950d05-9eb3-44a2-ad7c-eb821aea40de-16842013188fc5529a-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Estos son algunos de los motivos para sumarte al mundo OcCre:<\/p>",
+            "texten": "<p>Here are some of the reasons to join the OcCre world:<\/p>",
+            "textfr": "<p>Voici quelques raisons de rejoindre le monde OcCre :<\/p>",
+            "textde": "<p>Hier sind einige der Gründe, sich der OcCre-Welt anzuschließen:<\/p>",
+            "textit": "<p>Ecco alcuni dei motivi per entrare a far parte del mondo OcCre:<\/p>",
+            "textpt": "<p>Aqui estão algumas das razões para se juntar ao mundo OcCre:<\/p>",
+            "enlarge_text": false,
+            "color": "default_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18956592709961__87950d05-9eb3-44a2-ad7c-eb821aea40de-16842013188fc5529a-0",
+        "template--18956592709961__87950d05-9eb3-44a2-ad7c-eb821aea40de-16842013188fc5529a-1"
+      ],
+      "custom_css": [
+        "h2 {color: #feb71a; font-size: 25px; line-height: 34px; font-weight: bold;}",
+        "p {font-weight: bold;}",
+        "@media (max-width: 980px) {h2 {font-size: 16px; line-height: 22px; }}"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "141e7937-44d6-4c4b-9c9d-033df12e5211": {
+      "type": "multi-column-single-row",
+      "blocks": {
+        "template--18956592709961__141e7937-44d6-4c4b-9c9d-033df12e5211-1684201328af460518-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Vector_3.png",
+            "title": "<p>Reducir el estrés<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18956592709961__141e7937-44d6-4c4b-9c9d-033df12e5211-1684201328af460518-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Vector_4.png",
+            "title": "<p>Mejorar tus habilidades manuales<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18956592709961__141e7937-44d6-4c4b-9c9d-033df12e5211-1684201328af460518-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/tips_and_updates_FILL0_wght400_GRAD0_opsz48_1.png",
+            "title": "<p>Desarrollar tu creatividad<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18956592709961__141e7937-44d6-4c4b-9c9d-033df12e5211-1684201328af460518-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/neurology_FILL0_wght400_GRAD0_opsz48_2.png",
+            "title": "<p>Fortalecer tu  memoria<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18956592709961__141e7937-44d6-4c4b-9c9d-033df12e5211-1684201328af460518-4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Frame_214_1.png",
+            "title": "<p>Conocer más de  historia<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "e9ba36eb-a2f7-422e-81ee-08ba34f9e5af": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/sentiment_calm_FILL0_wght400_GRAD0_opsz48_1.png",
+            "title": "<p>Encontrar tu momento de paz<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18956592709961__141e7937-44d6-4c4b-9c9d-033df12e5211-1684201328af460518-0",
+        "template--18956592709961__141e7937-44d6-4c4b-9c9d-033df12e5211-1684201328af460518-1",
+        "template--18956592709961__141e7937-44d6-4c4b-9c9d-033df12e5211-1684201328af460518-2",
+        "template--18956592709961__141e7937-44d6-4c4b-9c9d-033df12e5211-1684201328af460518-3",
+        "template--18956592709961__141e7937-44d6-4c4b-9c9d-033df12e5211-1684201328af460518-4",
+        "e9ba36eb-a2f7-422e-81ee-08ba34f9e5af"
+      ],
+      "custom_css": [
+        ".text-column__image {display: flex;}",
+        "p {font-weight: bold; font-size: 12px;}",
+        "img {width: 100px; object-fit: cover; height: 100px !important; margin: 0 auto;}",
+        "@media (max-width: 980px) {img {width: 60px; height: 60px !important; }}"
+      ],
+      "settings": {
+        "title": "Estos son algunos de los motivos para sumarte al mundo OcCre:",
+        "text_alignment": "center",
+        "use_alt_bg": true,
+        "image_height": 150,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "subheading": ""
+      }
+    },
+    "a151a29d-f9c1-4a7e-9323-82c0f04d5911": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "<div class=\"videocontainer2 container\">\n    <div class=\"video-item\">\n<video controls=\"\"  name=\"media\"><source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/dc60a7f7618f416bac12dc2be3a007a6.mp4\" type=\"video\/mp4\"><\/video>\n    \n    <\/div>\n    <div class=\"video-item\">\n<video controls=\"\"  name=\"media\"><source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b4534669540a48d09c7af80097feee2e.mp4\" type=\"video\/mp4\"><\/video>\n    \n    <\/div>\n\n    <div class=\"video-item\">\n    <video controls=\"\"  name=\"media\"><source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/88cf5402c30c40b5a8a41cff12b4fec2.mp4\" type=\"video\/mp4\"><\/video>\n \n    <\/div>\n  <\/div>\n\n <style>\n    .videocontainer2  {\n\n      display: grid;\n      grid-template-columns: 1fr 3fr 1fr;\nmax-width:100%;\n      grid-gap: 10px;\n    }\n \n    .video-item {\n       height: 100%;\n    width: 100%;\nmax-width:100%;\n    }\n\n    .video-item  video  {\n    height: auto;\nmin-height: 100%;\n    min-width: 100%;\n    width: 300px;\n    object-fit: cover;\n    width: 100%;\n\n    }\n\n    @media (max-width: 600px) {\n      .videocontainer2 {\n        grid-template-columns: 1fr;\n      }\n    }\n  <\/style>"
+      }
+    },
+    "0ab1db95-5d00-419d-8878-34821bbd5dfe": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18956592709961__0ab1db95-5d00-419d-8878-34821bbd5dfe-1685365432d81989a7-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "template--18956592709961__0ab1db95-5d00-419d-8878-34821bbd5dfe-1685365432d81989a7-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true,
+            "color": "default_color",
+            "bold_text": false
+          }
+        },
+        "0f4023d5-dda9-4bbd-90be-ea96b08fc6a8": {
+          "type": "button",
+          "settings": {
+            "button_label": "formar parte del mundo occre",
+            "button_link": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--18956592709961__0ab1db95-5d00-419d-8878-34821bbd5dfe-1685365432d81989a7-0",
+        "template--18956592709961__0ab1db95-5d00-419d-8878-34821bbd5dfe-1685365432d81989a7-1",
+        "0f4023d5-dda9-4bbd-90be-ea96b08fc6a8"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "88796c2f-90e6-472f-a255-d733a075c991": {
+      "type": "rich-text-leads",
+      "blocks": {
+        "template--18956592709961__88796c2f-90e6-472f-a255-d733a075c991-16842013188fc5529a-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Confiado por miles en todo el mundo",
+            "titleen": "Trusted by thousands worldwide",
+            "titlefr": "Des milliers de personnes dans le monde entier nous font confiance",
+            "titlede": "Tausende vertrauen uns weltweit",
+            "titleit": "Affidato da migliaia di persone in tutto il mondo",
+            "titlept": "Com a confiança de milhares de pessoas em todo o mundo",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "d87e502c-736a-42ca-a71f-cb1006f06634": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_21_3.png",
+            "image_width": 310,
+            "url": ""
+          }
+        },
+        "template--18956592709961__88796c2f-90e6-472f-a255-d733a075c991-16842013188fc5529a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>+ 2.000 Reseñas y + 23.000 modelistas felices<\/strong><\/p>",
+            "texten": "<p><strong>+2,000 Reviews and +23,000 happy model-makers<\/strong><\/p>",
+            "textfr": "<p><strong>+2.000 avis et +23.000 modélistes satisfaits<\/strong><\/p>",
+            "textde": "<p><strong>+2.000 Bewertungen und +23.000 glückliche Modellierer<\/strong><\/p>",
+            "textit": "<p><strong>+2.000 recensioni e +23.000 modellisti felici<\/strong><\/p>",
+            "textpt": "<p><strong>+2.000 comentários e +23.000 modelistas felizes<\/strong><\/p>",
+            "enlarge_text": true,
+            "color": "default_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18956592709961__88796c2f-90e6-472f-a255-d733a075c991-16842013188fc5529a-0",
+        "d87e502c-736a-42ca-a71f-cb1006f06634",
+        "template--18956592709961__88796c2f-90e6-472f-a255-d733a075c991-16842013188fc5529a-1"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1675123540df7b06fb": {
+      "type": "apps",
+      "blocks": {
+        "ae275606-91bd-4767-8a6d-30ae1e9b732a": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 4,
+            "maxwidth": 1080
+          }
+        },
+        "6550cae8-d272-479f-a146-f68b061d4253": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 5,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "1.25",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "ae275606-91bd-4767-8a6d-30ae1e9b732a",
+        "6550cae8-d272-479f-a146-f68b061d4253"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "be4cc906-6dcb-4522-8087-9c8048cf2dcb": {
+      "type": "rich-text-leads",
+      "blocks": {
+        "template--18956592709961__be4cc906-6dcb-4522-8087-9c8048cf2dcb-16842013188fc5529a-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Conecta con +50.000 personas de ideas afines en todo el mundo",
+            "titleen": "Connect with +50,000 like-minded people around the world",
+            "titlefr": "Se connecter avec plus de 50.000 personnes partageant les mêmes idées dans le monde entier",
+            "titlede": "Verbinden Sie sich mit über 50.000 Gleichgesinnten weltweit",
+            "titleit": "Connettetevi con oltre 50.000 persone che la pensano come voi in tutto il mondo",
+            "titlept": "Conecta con 50.000 personas de todo el mundo que piensan como tú",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "template--18956592709961__be4cc906-6dcb-4522-8087-9c8048cf2dcb-16842013188fc5529a-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "texten": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "textfr": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "textde": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "textit": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "textpt": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true,
+            "color": "default_color",
+            "bold_text": false
+          }
+        },
+        "b0d6f700-268e-4b37-a054-4d4ae98b3ee4": {
+          "type": "button",
+          "settings": {
+            "button_label": "formar parte del mundo occre",
+            "button_link": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--18956592709961__be4cc906-6dcb-4522-8087-9c8048cf2dcb-16842013188fc5529a-0",
+        "template--18956592709961__be4cc906-6dcb-4522-8087-9c8048cf2dcb-16842013188fc5529a-1",
+        "b0d6f700-268e-4b37-a054-4d4ae98b3ee4"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "eb28bb05-5d3c-40de-b901-e9cdbdd75b64": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "code": "<style>\n    #section-id-template--16605734306047__f61c1c32-1191-4c9f-b2f4-83942dcd9eab {\n    margin:0px;\n    margin-bottom:40px;\n    }\n    <\/style>\n    \n    <style>#pagefooter  div.cross-page-promos ,#pagefooter, body,\n    .container.cf {\n    background:white !important;\n    }\n    #store-messages .container.cf{\n    background: #202223 !important;\n    }\n    #shopify-section-template--16669139239167__df93912b-5838-4430-8b3f-c357dc7dc26b {\n    background: #E4E4E4;\n    \n    }\n    \n    #shopify-section-template--16669139239167__df93912b-5838-4430-8b3f-c357dc7dc26b .fully-spaced-row--medium {\n    margin-bottom:0px;}\n    .color-blue p strong {\n    color:#10069F;\n    }\n    .bf-textos-p2 p em {\n    color:#ffb81c;\n    font-size:20px;\n      font-family: Montserrat;\n    font-weight:600;\n    text-decoration: underline;\n    }\n    .tituloprincipal h1 {\n        font-family: Montserrat;\n        font-size: 30px !important;\n        font-weight: 900;\n        line-height: 34px !important; \n        letter-spacing: 0em;\n        text-align: left;\n        color: #09080C;\n        margin-bottom: 15px;\n    }\n    .columnas .columna2 {\n    padding-right:5%;\n    }\n    .columnas .bf-textos-p1 p {\n       \n        font-size: 16px;\n        \n        line-height: 22px;\n      \n    }\n    #section-id-template--16665889734911__16461455438a3b80ec .overlay-text__title {\n    \n    \n    font-family: Montserrat;\n    font-size: 24px !important;\n    font-weight: 500;\n    line-height: 28px;\n    letter-spacing: -0.02em;\n    text-align: left;\n    background:white;\n    color:black;\n    width:560px;\n    padding:5px 10px;\n    \n    }\n    .subheading--over {\n    display:none !important; }\n    .overlay-text__button-row {\n    text-align:left;\n    }\n    #section-id-template--16665889734911__16461455438a3b80ec {\n    text-align:left !important;\n    }\n    #section-id-template--16665889734911__16461455438a3b80ec .overlay-text__button.button   {\n    background:none;\n    text-align:left;\n    margin-left:0px;\n    color:white;\n    \n    }\n    .bf3 {\n    color:#F3B01C !important ;\n    font-family: Montserrat;\n    font-size:22px;\n    font-weight:600;\n    line-height: 26px;\n    letter-spacing: 0em;\n    \n    \n    \n    \n    }\n    .bf3 span {\n    display:block;\n    margin-top:30px;\n    margin-bottom:30px;\n    color:#F3B01C !important ;\n    font-family: Montserrat;\n    font-size: 18px;\n    font-weight:400;\n    line-height: 22px;\n    letter-spacing: 0em;\n    \n    \n    \n    \n    }\n    .no-margin {\n    margin-top:0px !important;\n    margin-bottom:20px;\n    }\n    .no-color h2 {\n    color:#F3B01C;\n    \n    \n    font-family: Montserrat;\n    font-size: 24px;\n    font-weight: 600;\n    line-height: 30px;\n    letter-spacing: 0em;\n    text-align: center;\n    \n    }\n      .columna1, .columna2 {\n       width:45%;\n       }\n       .columna2 {\n       width:55%;\n       padding-right:15%;\n       }\n    .columnas {\n    display:flex;\n     \n        align-items:center;\n    }\n    .columnascenter .form_klaviyo {\n    background:#000;\n    padding:20px 30px;\n    }\n    \n       .columna1de2, .columna2de2 {\n       width:50%;\n       padding: 2% 5%;\n       }\n    \n        .columna1de2a {\n          width:45%;\n            padding: 2% 2%;\n        }\n      .columna2de2a {\n       width:55%;\n          padding: 2% 2%;\n      \n       }\n    \n    @media (min-width: 1100px) {\n    .overlay-text--for-banner .overlay-text__inner {\n    padding: 80px;\n        max-width: 1440px;\n        margin: 0 auto;\n    }\n    }\n    .collection-slider {\n        position: relative;\n        margin-top: 40px;\n    }\n    <\/style>"
+      }
+    },
+    "26d8838a-b5ca-41ec-becf-f2288a86fc91": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {text-align: center; background: #363636; max-width: 100%;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "code": "{% if request.locale.iso_code == 'es'  %}\n           <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Frame_443-es.jpg?v=1685312702\" alt=\"occre\" style=\"max-width:900px; margin:0 auto;\" class=\"imgdesktop\">\n   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Frame_449.jpg?v=1685369575\" alt=\"occre\" style=\"max-width:900px; margin:0 auto;\" class=\"imgmobile\">\n\n              {% elsif request.locale.iso_code == 'en'  %}\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Frame_443-en.jpg?v=1685312702\" alt=\"occre\" style=\"max-width:900px; margin:0 auto;\" class=\"imgdesktop\">\n   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Frame_448.jpg?v=1685369574\" alt=\"occre\" style=\"max-width:900px; margin:0 auto;\" class=\"imgmobile\">\n\n              {% elsif request.locale.iso_code == 'fr' %}\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Frame_444.jpg?v=1685312702\" alt=\"occre\" style=\"max-width:900px; margin:0 auto;\" class=\"imgdesktop\">\n   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Frame_451.jpg?v=1685369574\" alt=\"occre\" style=\"max-width:900px; margin:0 auto;\" class=\"imgmobile\">\n              {% elsif request.locale.iso_code == 'de' %}\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Frame_446.jpg?v=1685312702\" alt=\"occre\" style=\"max-width:900px; margin:0 auto;\" class=\"imgdesktop\">\n   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Frame_453.jpg?v=1685369574\" alt=\"occre\" style=\"max-width:900px; margin:0 auto;\" class=\"imgmobile\">\n              {% elsif request.locale.iso_code == 'it' %}\n         <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Frame_445.jpg?v=1685312702\" alt=\"occre\" style=\"max-width:900px; margin:0 auto;\" \nclass=\"imgdesktop\">\n   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Frame_452.jpg?v=1685369574\" alt=\"occre\" style=\"max-width:900px; margin:0 auto;\" class=\"imgmobile\">\n                    {% elsif request.locale.iso_code == 'pt-PT' %}\n             <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Frame_447.jpg?v=1685312702\" alt=\"occre\" style=\"max-width:900px; margin:0 auto;\" class=\"imgdesktop\">\n   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Frame_454.jpg?v=1685369574\" alt=\"occre\" style=\"max-width:900px; margin:0 auto;\" class=\"imgmobile\">\n              {% else  %}\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Frame_443-es.jpg?v=1685312702\" alt=\"occre\" style=\"max-width:900px; margin:0 auto;\" class=\"imgdesktop\">\n   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/Frame_449.jpg?v=1685369574\" alt=\"occre\" style=\"max-width:900px; margin:0 auto;\" class=\"imgmobile\">\n              {% endif %}\n\n<style>\n.imgmobile{\ndisplay:none;\n}\n@media (max-width:980px) {\n.imgdesktop {\ndisplay:none;\n}\n.imgmobile{\ndisplay:block;\n    max-width: 100% !important;\n}\n}\n<\/style>"
+      }
+    },
+    "46728639-fd98-478a-aa31-276046aad0d8": {
+      "type": "image-with-text-landing-2023",
+      "custom_css": [
+        "h2 {color: #000; font-weight: 700px; font-size: 30px;}",
+        "h2 b {color: #f3b01c;}",
+        "p strong {font-size: 16px;}",
+        "p {font-size: 13px;}",
+        "@media (max-width: 980px) {h2 {font-size: 22px; } p strong {font-size: 14px; } p {font-size: 11px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_239.jpg",
+        "image_width": 700,
+        "subheading": "",
+        "bold_subheading": false,
+        "title": "¡Comparte <b>tu pasión<\/b> <br>por el modelismo!",
+        "titleen": "Share your <b>passion <\/b><br> for modeling!",
+        "titlefr": "Partagez <b>votre passion<\/b> <br>pour le modélisme",
+        "titlede": "Teilen Sie Ihre Leidenschaft für den Modellbau! ",
+        "titleit": "Condividi la <b>tua passione<\/b> <br> per il modellismo",
+        "titlept": "Partilhe a <b>sua paixão<\/b> <br> pelo modelismo!",
+        "use_h1": false,
+        "text": "<p>¡Aquí podrás conocer a otros entusiastas como tú y mejorar tus habilidades!<\/p><p><strong>Únete y aprovecha la oportunidad de formar parte de una comunidad vibrante y apasionada por el modelismo.<\/strong><\/p><p><strong>¡Te esperamos!<\/strong><\/p>",
+        "texten": "<p>Here you can meet other enthusiasts like you and improve your skills!<\/p><p><strong>Join and take the opportunity to be part of a vibrant and passionate modeling community.<\/strong><\/p><p><strong>We are waiting for you!<\/strong><\/p>",
+        "textfr": "<p>Ici, vous pouvez rencontrer d'autres passionnés comme vous et améliorer vos compétences !<\/p><p><strong>Rejoignez-nous et saisissez l'opportunité de faire partie d'une communauté de modélistes dynamique et passionnée.<\/strong><\/p><p><strong>Nous vous attendons !<\/strong><\/p>",
+        "textit": "<p>Qui puoi incontrare altri appassionati come te e migliorare le tue capacità!<\/p><p><strong>Iscriviti e cogli l'opportunità di far parte di una comunità di modellisti vivace e appassionata.<\/strong><\/p><p><strong>Ti aspettiamo!<\/strong><\/p>",
+        "textde": "<p>Hier kannst du andere Enthusiasten wie dich treffen und deine Fähigkeiten verbessern!<\/p><p><strong>Werden Sie Mitglied und nutzen Sie die Gelegenheit, Teil einer lebendigen und leidenschaftlichen Modellbau-Community zu werden.<\/strong><\/p><p><strong>Wir warten auf Sie!<\/strong><\/p>",
+        "textpt": "<p>Aqui pode conhecer outros entusiastas como você e melhorar as suas capacidades!<\/p><p>Junte-se e aproveite a oportunidade de fazer parte de uma comunidade <strong>de modelismo vibrante e apaixonada.<\/strong><\/p><p><strong>Esperamos por si!<\/strong><\/p>",
+        "button_label": "unirme a la comunidad",
+        "button_link": "",
+        "button_style": "secondary",
+        "image_position": "right",
+        "image_shadow": false,
+        "text_alignment": "left",
+        "use_alt_landing": false
+      }
+    },
+    "2f50d768-ecbc-43e7-86a9-509fda372916": {
+      "type": "blackfriday-3leads",
+      "blocks": {
+        "f3b98e43-731a-4766-8b6f-305d1be0b9fb": {
+          "type": "imagen1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_en": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_fr": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_de": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_it": "shopify:\/\/shop_images\/Recurso_1_4x_1.png"
+          }
+        },
+        "931662a4-d43d-4803-a209-2c8600fe2160": {
+          "type": "titulo1",
+          "settings": {
+            "image": "",
+            "image_en": "10% OFF on your first purchase",
+            "image_fr": "10% de réduction sur votre premier achat",
+            "image_de": "",
+            "image_it": "",
+            "image_pt": ""
+          }
+        },
+        "2a7fff7a-7860-4e8e-b301-9eede9876ffb": {
+          "type": "text01",
+          "settings": {
+            "image": "<p>Al ser parte de la comunidad OcCre te enviamos emails para anunciar <strong>novedades, promociones, datos históricos, sorteos, videotutoriales, trucos <\/strong>y mucho más.<\/p><p>Serás la primera persona en enterarte de las <strong>ofertas exclusivas <\/strong>para <strong>suscriptores<\/strong>.<\/p>",
+            "image_en": "<p>As part of the OcCre community, we send you emails to announce the news, promotions, deals, and historical and relevant data worth reading.<\/p><p>You will also be the first to hear about the sales season and the exclusive offers to save a lot of money.<\/p>",
+            "image_fr": "<p>Si  vous faites partie de la <strong>communauté <\/strong>OcCre, nous vous enverrons des e-mails pour annoncer des <strong>nouveautés, des réductions, des infos historiques pertinentes<\/strong> qui valent la peine d’être lues.<\/p><p>Vous serez également la première personne à être au courant des périodes de soldes et des offres exclusives pour que vous puissiez économiser le plus possible.<\/p>",
+            "image_de": "<p>Si  vous faites partie de la <strong>communauté <\/strong>OcCre, nous vous enverrons des e-mails pour annoncer des <strong>nouveautés, des réductions, des infos historiques pertinentes<\/strong> qui valent la peine d’être lues.<\/p><p>Vous serez également la première personne à être au courant des périodes de soldes et des offres exclusives pour que vous puissiez économiser le plus possible.<\/p>",
+            "image_it": "<p><strong>Essendo membro della comunità OcCre, ti inviamo e-mail sulle novità, sulle promozioni, sugli sconti, sui dati storici e rilevanti che meritano di essere letti.<\/strong><\/p><p>Avrai anche la primizia sui periodi di saldi e promozioni esclusive per farti risparmiare al massimo.<\/p>",
+            "image_pt": "<p><strong>Essendo membro della comunità OcCre, ti inviamo e-mail sulle novità, sulle promozioni, sugli sconti, sui dati storici e rilevanti che meritano di essere letti.<\/strong><\/p><p>Avrai anche la primizia sui periodi di saldi e promozioni esclusive per farti risparmiare al massimo.<\/p>"
+          }
+        },
+        "6e1c9480-0ad1-43b8-9d52-816aff73c982": {
+          "type": "imagenlateral",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_en": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_fr": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_de": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_it": "shopify:\/\/shop_images\/bfbottom1.png"
+          }
+        },
+        "126564f0-2813-4070-a5dd-70dae11c4376": {
+          "type": "text1",
+          "settings": {
+            "image": "<p>Sabemos que tienes mil dudas acerca del fin de semana del <strong>Black Friday<\/strong> y <strong>Cyber Monday<\/strong>, así que aquí tienes algunas de las preguntas más comunes:<\/p>",
+            "image_en": "<p>We know that you have a thousand doubts about the Black Friday and Cyber ​​Monday weekend, so here are some of the most frequent questions and their answers: <\/p>",
+            "image_fr": "<p>Nous savons que vous avez des doutes à propos du week-end du <strong>Black Friday <\/strong>et <strong>du Cyber Monday<\/strong>, donc voici quelques une des questions les plus posées :<\/p>",
+            "image_de": "<p>Wir wissen, dass Sie viele Zweifel am Black Friday und Cyber Monday haben. Hier sind einige der häufigsten Fragen:<\/p>",
+            "image_it": "<p>Sappiamo che hai tanti dubbi sul fine settimana del <strong>Black Friday<\/strong> e <strong>Cyber Monday<\/strong>, queste sono alcune delle domande più frequenti:<\/p>",
+            "image_pt": "<p>Sabemos que você tem mil perguntas sobre o fim de semana da Black Friday e Cyber ​​​​Monday, então aqui estão algumas das perguntas mais comuns:<\/p>"
+          }
+        },
+        "c687c6ae-4dd8-491a-a689-8fd1a22ecccb": {
+          "type": "titulo2",
+          "settings": {
+            "image": "¡Únete a nosotros en la aventura de construir maquetas de barcos tren y tranvías!",
+            "image_en": "Join us on the adventure of building model ships, trains, and trams!",
+            "image_fr": "Rejoignez-nous dans l’aventure et construisez une maquette de bateau, de train et de tramway!",
+            "image_de": "Join us on the adventure of building model ships, trains, and trams!",
+            "image_it": "Unisciti a noi per quest’avventura nella costruzione di modellini di navi, treni e tram!",
+            "image_pt": "Join us on the adventure of building model ships, trains, and trams!"
+          }
+        },
+        "43af8386-e26f-471c-b9ef-8d36fae1322c": {
+          "type": "imagen2",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_222_1.png",
+            "image_en": "shopify:\/\/shop_images\/Group_222_1.png",
+            "image_fr": "shopify:\/\/shop_images\/Group_222_1.png",
+            "image_de": "shopify:\/\/shop_images\/Group_222_1.png",
+            "image_it": "shopify:\/\/shop_images\/Group_222_1.png",
+            "image_pt": "shopify:\/\/shop_images\/Group_222_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "f3b98e43-731a-4766-8b6f-305d1be0b9fb",
+        "931662a4-d43d-4803-a209-2c8600fe2160",
+        "2a7fff7a-7860-4e8e-b301-9eede9876ffb",
+        "6e1c9480-0ad1-43b8-9d52-816aff73c982",
+        "126564f0-2813-4070-a5dd-70dae11c4376",
+        "c687c6ae-4dd8-491a-a689-8fd1a22ecccb",
+        "43af8386-e26f-471c-b9ef-8d36fae1322c"
+      ],
+      "custom_css": [
+        "h3 {color: White !important;}",
+        "@media (max-width: 980px) {.columnas {row-gap: 10px !important; padding: 20px 0px; }}"
+      ],
+      "settings": {
+        "formk": "<div class=\"klaviyo-form-X3UuB2\"><\/div>\n<div class=\"klaviyo-form-Saqn9V\"><\/div>\n<div class=\"klaviyo-form-WGNdb6\"><\/div>\n<div class=\"klaviyo-form-V5CQmp\"><\/div>\n<div class=\"klaviyo-form-SBzE3q\"><\/div>\n<div class=\"klaviyo-form-S2zBzi\"><\/div>\n<div class=\"klaviyo-form-XtXLMU\"><\/div>"
+      }
+    },
+    "57cf4193-0bde-43d4-8a65-409743bf2ad1": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f09f4389e7424ce39842a4a50bb958ea.mp4",
+        "subheading": "",
+        "enlarge_subheading": false,
+        "title": "",
+        "title_size": 34,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "open_url_new_tab": true,
+        "button_style": "primary",
+        "text_alignment": "center center",
+        "height_desktop": 780,
+        "height_mobile": 400,
+        "full_width": true
+      }
+    },
+    "5da9be6f-bc0a-4743-94bd-b7112eeaa14b": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "custom_css": [
+        "h2 {color: #feb71a;}",
+        "p {color: black; font-size: 20px; font-weight: bold;}",
+        ".overlay-text__text {background: white; padding: 40px;}",
+        "@media (max-width: 980px) {.overlay-text__inner {padding-top: 40%; } .overlay-text__text {padding: 25px; } h2 {font-size: 18px !important; } p {text-shadow: none !important; font-size: 10px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_222_2.png",
+        "image_position": "center center",
+        "mobile_image_position": "center top",
+        "height": "fixed",
+        "height_desktop": 920,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "Descubre el modelismo con OcCre.",
+        "titleen": "Discover the world of modeling with OCCRE.",
+        "titlefr": "Découvrez le monde du modélisme avec OcCre.",
+        "titlede": "Entdecken Sie die Welt des Modellbaus mit OcCre.",
+        "titleit": "Scoprite il modellismo con OcCre.",
+        "titlePT": "Descubra a modelação com OcCre.",
+        "title_size": 38,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "<p>Modelismo Naval, Modelismo de Tren, Modelismo<br\/>de Tranvía, Herramientas y Accesorios.<\/p>",
+        "texten": "<p>Ship Models, Train Models, Tram Models, Tools, Accessories and more.<\/p>",
+        "textfr": "<p>Modèles de bateaux, modèles de trains, modèles de tramways, outils, accessoires et plus encore.<\/p>",
+        "textde": "<p>Schiffsmodelle, Eisenbahnmodelle, Straßenbahnmodelle, Werkzeuge, Zubehör und mehr.<\/p>",
+        "textit": "<p>And optional subtextModellismo navale, modellismo ferroviario, modellismo tranviario, attrezzi, accessori e molto altro.<\/p>",
+        "textpt": "<p>Modelação de navios, modelação de comboios, modelação de eléctricos, ferramentas, acessórios e muito mais.<\/p>",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": false,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background"
+      }
+    },
+    "1684201302247eccff": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "f27243ac-bbc9-4c14-9005-e6d840e3bbf0": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-gallery-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 60,
+            "itemsPerView": 5,
+            "imageRatio": "1",
+            "reviewerNameColor": "#ffffff",
+            "starsColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "none",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "f27243ac-bbc9-4c14-9005-e6d840e3bbf0"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "6599e6df-a91c-4c79-8acf-b8877202c618": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "<style>\n#store-messages {\ndisplay:none;\n}\n    #section-id-template--16605734306047__f61c1c32-1191-4c9f-b2f4-83942dcd9eab {\n    margin:0px;\n    margin-bottom:40px;\n    }\n    <\/style>\n    \n    <style>#pagefooter  div.cross-page-promos ,#pagefooter, body,\n    .container.cf {\n    background:white !important;\n    }\n    #store-messages .container.cf{\n    background: #202223 !important;\n    }\n    #shopify-section-template--16669139239167__df93912b-5838-4430-8b3f-c357dc7dc26b {\n    background: #E4E4E4;\n    \n    }\n    \n    #shopify-section-template--16669139239167__df93912b-5838-4430-8b3f-c357dc7dc26b .fully-spaced-row--medium {\n    margin-bottom:0px;}\n    .color-blue p strong {\n    color:#10069F;\n    }\n    .bf-textos-p2 p em {\n    color:#ffb81c;\n    font-size:20px;\n      font-family: Montserrat;\n    font-weight:600;\n    text-decoration: underline;\n    }\n    .tituloprincipal h1 {\n        font-family: Montserrat;\n        font-size: 30px !important;\n        font-weight: 900;\n        line-height: 34px !important; \n        letter-spacing: 0em;\n        text-align: left;\n        color: #09080C;\n        margin-bottom: 15px;\n    }\n    .columnas .columna2 {\n    padding-right:5%;\n    }\n    .columnas .bf-textos-p1 p {\n       \n        font-size: 16px;\n        \n        line-height: 22px;\n      \n    }\n    #section-id-template--16665889734911__16461455438a3b80ec .overlay-text__title {\n    \n    \n    font-family: Montserrat;\n    font-size: 24px !important;\n    font-weight: 500;\n    line-height: 28px;\n    letter-spacing: -0.02em;\n    text-align: left;\n    background:white;\n    color:black;\n    width:560px;\n    padding:5px 10px;\n    \n    }\n    .subheading--over {\n    display:none !important; }\n    .overlay-text__button-row {\n    text-align:left;\n    }\n    #section-id-template--16665889734911__16461455438a3b80ec {\n    text-align:left !important;\n    }\n    #section-id-template--16665889734911__16461455438a3b80ec .overlay-text__button.button   {\n    background:none;\n    text-align:left;\n    margin-left:0px;\n    color:white;\n    \n    }\n    .bf3 {\n    color:#fff!important ;\n    font-family: Montserrat;\n    font-size:26px;\n    font-weight:600;\n    line-height: 28px;\n    letter-spacing: 0em;\n    \n    \n    \n    \n    }\n    .bf3 span {\n    display:block;\n    margin-top:30px;\n    margin-bottom:30px;\n    color:#F3B01C !important ;\n    font-family: Montserrat;\n    font-size: 18px;\n    font-weight:400;\n    line-height: 22px;\n    letter-spacing: 0em;\n    \n    \n    \n    \n    }\n    .no-margin {\n    margin-top:0px !important;\n    margin-bottom:20px;\n    }\n    .no-color h2 {\n    color:#F3B01C;\n    \n    \n    font-family: Montserrat;\n    font-size: 24px;\n    font-weight: 600;\n    line-height: 30px;\n    letter-spacing: 0em;\n    text-align: center;\n    \n    }\n      .columna1, .columna2 {\n       width:45%;\n       }\n       .columna2 {\n       width:55%;\n       padding-right:15%;\n       }\n    .columnas {\n    display:flex;\n     \n        align-items:center;\n    }\n    .columnascenter .form_klaviyo {\n    background:#000;\n    padding:20px 30px;\n    }\n    \n       .columna1de2, .columna2de2 {\n       width:50%;\n       padding: 2% 5%;\n       }\n    \n        .columna1de2a {\n          width:45%;\n            padding: 2% 2%;\n        }\n      .columna2de2a {\n       width:55%;\n          padding: 2% 2%;\n      \n       }\n    \n    @media (min-width: 1100px) {\n    .overlay-text--for-banner .overlay-text__inner {\ndisplay: flex;\n    flex-direction: row-reverse;\n    padding: 80px;\n        max-width: 1440px;\n        margin: 0 auto;\n    }\n    }\n    .collection-slider {\n        position: relative;\n        margin-top: 40px;\n    }\n    <\/style>"
+      }
+    },
+    "f0e43d19-ea1e-4571-b166-7188d3e02044": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "<script>\n    window.addEventListener('klaviyoForms', (event) => {\n        if (event.detail.type === 'submit') {\n            if (window.location.href.includes('comunidad-occre')) {\n                \/\/ GTM Event\n                dataLayer.push({\n                    'event': 'sub-community'\n                });\n                \/\/ FB Pixel Event\n                fbq('track', 'Lead', {\n                    'content_name': 'sub-community'\n                });\n            }\n        }\n    });\n<\/script>"
+      }
+    }
+  },
+  "order": [
+    "16461455438a3b80ec",
+    "1688111978d88eb26a",
+    "main",
+    "d1ff2931-7309-4cfd-8812-5f18789c2601",
+    "2d893d13-ecf5-48cf-a469-613ef89bbb9c",
+    "87950d05-9eb3-44a2-ad7c-eb821aea40de",
+    "141e7937-44d6-4c4b-9c9d-033df12e5211",
+    "a151a29d-f9c1-4a7e-9323-82c0f04d5911",
+    "0ab1db95-5d00-419d-8878-34821bbd5dfe",
+    "88796c2f-90e6-472f-a255-d733a075c991",
+    "1675123540df7b06fb",
+    "be4cc906-6dcb-4522-8087-9c8048cf2dcb",
+    "eb28bb05-5d3c-40de-b901-e9cdbdd75b64",
+    "26d8838a-b5ca-41ec-becf-f2288a86fc91",
+    "46728639-fd98-478a-aa31-276046aad0d8",
+    "2f50d768-ecbc-43e7-86a9-509fda372916",
+    "57cf4193-0bde-43d4-8a65-409743bf2ad1",
+    "5da9be6f-bc0a-4743-94bd-b7112eeaa14b",
+    "1684201302247eccff",
+    "6599e6df-a91c-4c79-8acf-b8877202c618",
+    "f0e43d19-ea1e-4571-b166-7188d3e02044"
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "sections": {
+    "heading": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 300,
+        "image_link": "",
+        "subheading": "",
+        "title": "Customer Help",
+        "titleen": "Two line\ntext heading",
+        "titlefr": "Two line\ntext heading",
+        "titlede": "Two line\ntext heading",
+        "titleit": "Two line\ntext heading",
+        "titlePT": "Two line\ntext heading",
+        "title_size": 52,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "<p>If talking to a real-life human is more your thing, you can reach our Customer Happiness Team via email (below).<\/p>",
+        "texten": "<p>And optional subtext<\/p>",
+        "textfr": "<p>And optional subtext<\/p>",
+        "textde": "<p>And optional subtext<\/p>",
+        "textit": "<p>And optional subtext<\/p>",
+        "textpt": "<p>And optional subtext<\/p>",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "main": {
+      "type": "faq-header",
+      "settings": {
+        "title": "FAQ",
+        "use_h1": false,
+        "text": "<p>Hemos preparado una lista de preguntas frecuentes que quizá pueden ayudarte. <\/p>",
+        "show_search": true,
+        "show_index": true,
+        "index_heading": "¡Encuentra la respuesta!"
+      }
+    },
+    "faq-content-1": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Pedidos",
+            "answer": "<p>Recibirás un correo electrónico de confirmación que te informará que nuestro equipo ha recibido tu pedido. Una vez que se complete tu pedido, recibirás una notificación por correo electrónico con tu información de seguimiento. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question-1"
+      ],
+      "settings": {
+        "title": "Pedidos"
+      }
+    },
+    "faq-content-2": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "🇪🇸 España",
+            "answer": "<p><br\/>- <strong>Gratis <\/strong>para envíos superiores a 100€<br\/>- <strong>4,99€ <\/strong>para los envíos inferiores a 100€<br\/>- El tiempo de entrega es de 24\/48 horas de lunes a viernes.<\/p>"
+          }
+        },
+        "ac932fe2-2832-4a2f-9131-000bb8a20136": {
+          "type": "question",
+          "settings": {
+            "title": "🇺🇸 USA",
+            "answer": "<p><br\/>- <strong>Gratis <\/strong>para envíos superiores a 200$<br\/>- <strong>9.99$ <\/strong>para los envíos inferiores a 200$<br\/>- El tiempo de entrega es de 5 - 7 días de lunes a viernes.<\/p>"
+          }
+        },
+        "1a6cd3a1-73e9-4247-9d18-decd9412ea6b": {
+          "type": "question",
+          "settings": {
+            "title": "🇫🇷 Francia",
+            "answer": "<p><br\/>- <strong>Gratis <\/strong>para envíos superiores a 150€<br\/>- <strong>4,99€ <\/strong>para los envíos inferiores a 150€<br\/>- El tiempo de entrega es de 3 - 5 días de lunes a viernes.<\/p>"
+          }
+        },
+        "e4aa9372-2493-46e5-af1d-532659486c38": {
+          "type": "question",
+          "settings": {
+            "title": "🇮🇹 Italia",
+            "answer": "<p><br\/>- <strong>Gratis<\/strong> para envíos superiores a 150€<br\/>- <strong>4,99€ <\/strong>para los envíos inferiores a 150€<br\/>- El tiempo de entrega es de 3 - 5 días de lunes a viernes.<\/p>"
+          }
+        },
+        "fe4a2c9e-6b7d-4b6f-9f42-b092dfe5b2b5": {
+          "type": "question",
+          "settings": {
+            "title": "🇨🇦 Canadá",
+            "answer": "<p><br\/>- <strong>Gratis <\/strong>para envíos superiores a200CA$<br\/>- <strong>14.99CA$ <\/strong>para los envíos inferiores a 200CA$<br\/>- El tiempo de entrega es de 5 - 7 días de lunes a viernes.<\/p>"
+          }
+        },
+        "5999ab4e-555b-475a-8b40-bbbb522798c8": {
+          "type": "question",
+          "settings": {
+            "title": "🇩🇪 Alemania",
+            "answer": "<p><br\/>- <strong>Gratis <\/strong>para envíos superiores a 150€<br\/>- <strong>4,99€ <\/strong>para los envíos inferiores a 150€<br\/>- El tiempo de entrega es de 2 - 4 días de lunes a viernes.<\/p>"
+          }
+        },
+        "d6b9a754-f7d7-4cac-b142-709c8e3ca910": {
+          "type": "question",
+          "settings": {
+            "title": "🇵🇹 Portugal",
+            "answer": "<p><br\/>- <strong>Gratis <\/strong>para envíos superiores a 150€<br\/>- <strong>4,99€<\/strong> para los envíos inferiores a 150€<br\/>- El tiempo de entrega es de 2 - 4 días de lunes a viernes.<\/p>"
+          }
+        },
+        "e0116ddd-d274-4d4f-8afc-a6aeeed2bf40": {
+          "type": "question",
+          "settings": {
+            "title": "🇳🇱 Holanda",
+            "answer": "<p><br\/>- <strong>Gratis<\/strong> para envíos superiores a 150€<br\/>- <strong>4,99€ <\/strong>para los envíos inferiores a 150€<br\/>- El tiempo de entrega es de 2 - 4 días de lunes a viernes.<\/p>"
+          }
+        },
+        "a93c2739-043d-40ce-912c-0fd4d049e4c9": {
+          "type": "question",
+          "settings": {
+            "title": "🇨🇭 Suiza",
+            "answer": "<p><br\/>- <strong>Gratis <\/strong>para envíos superiores a 250€<br\/>- <strong>15€<\/strong> para los envíos inferiores a 250€<br\/>- El tiempo de entrega es de 2 - 4 días de lunes a viernes.<\/p>"
+          }
+        },
+        "6a2ec3d9-544b-4f06-8ef7-27914c9a1e15": {
+          "type": "question",
+          "settings": {
+            "title": "🇸🇪 Suecia",
+            "answer": "<p><br\/>- <strong>Gratis <\/strong>para envíos superiores a 250€<br\/>-<strong> 9€<\/strong> para los envíos inferiores a 250€<br\/>- El tiempo de entrega es de 2 - 4 días de lunes a viernes.<\/p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "🇪🇺 Resto de Europa",
+            "answer": "<p><br\/>- <strong>Gratis <\/strong>para envíos superiores a 200€<br\/>- <strong>9€ <\/strong>para los envíos inferiores a 200€<br\/>- El tiempo de entrega es de 3 - 5 días de lunes a viernes.<\/p>"
+          }
+        },
+        "5106c2ee-9e67-433a-947b-ed168b1c377b": {
+          "type": "question",
+          "settings": {
+            "title": "🌎 Resto del mundo",
+            "answer": "<p><br\/>- <strong>El precio del envío se muestra en el momento de la compra.<br\/><\/strong>- El tiempo de entrega es de 6 - 12 días de lunes a viernes.<\/p>"
+          }
+        },
+        "b15db23b-330a-4946-928f-20b3510b3374": {
+          "type": "question",
+          "settings": {
+            "title": "Piezas de repuesto",
+            "answer": "<p>- Se envían por correo postal y no tienen número de seguimiento.<\/p><p>- Las piezas salen de nuestro almacén entre 5 y 10 días tras recibir la solicitud. <\/p>"
+          }
+        },
+        "d7112b3c-71be-4896-858d-4b1ff5bba015": {
+          "type": "question",
+          "settings": {
+            "title": "Envío placa personalizada",
+            "answer": "<p>- Se envían por correo postal y no hay número de seguimiento.<\/p><p>- Las placas salen de nuestro almacén entre 3 y 5 días tras recibir la solicitud. <\/p>"
+          }
+        },
+        "11335bec-b95b-4a37-984a-dfa81cdf4b14": {
+          "type": "content",
+          "settings": {
+            "content": "<p><span style=\"text-decoration:underline\"><em><strong>*Los posibles impuestos o tasas adicionales de aduanas no están incluidas<\/strong><\/em><\/span><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question-1",
+        "ac932fe2-2832-4a2f-9131-000bb8a20136",
+        "1a6cd3a1-73e9-4247-9d18-decd9412ea6b",
+        "e4aa9372-2493-46e5-af1d-532659486c38",
+        "fe4a2c9e-6b7d-4b6f-9f42-b092dfe5b2b5",
+        "5999ab4e-555b-475a-8b40-bbbb522798c8",
+        "d6b9a754-f7d7-4cac-b142-709c8e3ca910",
+        "e0116ddd-d274-4d4f-8afc-a6aeeed2bf40",
+        "a93c2739-043d-40ce-912c-0fd4d049e4c9",
+        "6a2ec3d9-544b-4f06-8ef7-27914c9a1e15",
+        "question-2",
+        "5106c2ee-9e67-433a-947b-ed168b1c377b",
+        "b15db23b-330a-4946-928f-20b3510b3374",
+        "d7112b3c-71be-4896-858d-4b1ff5bba015",
+        "11335bec-b95b-4a37-984a-dfa81cdf4b14"
+      ],
+      "settings": {
+        "title": "Envíos"
+      }
+    },
+    "16461444256f4f8b2f": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "164614442553595730-0": {
+          "type": "question",
+          "settings": {
+            "title": "¿Puedo cancelar mi pedido?",
+            "answer": "<p>No es posible cancelar un pedido que ya ha sido enviado. Deberás realizar la devolución una vez recibas el paquete. Asegúrate de no manipular el paquete para poder obtener el 100% de la devolución :) <\/p><p>Los gastos de envío no son reembolsables en el caso de devoluciones.<\/p>"
+          }
+        },
+        "164614442553595730-1": {
+          "type": "question",
+          "settings": {
+            "title": "¿Puedo devolver mi producto?",
+            "answer": "<p>Nos esforzamos por hacer los mejores kits del mundo. Para nosotros, la calidad significa hacerlo bien cuando nadie está mirando. Si el pedido que has recibido no es de tu gusto, o el regalo no es lo que esperabas, con gusto te proporcionaremos un reembolso del 100% de tu pedido, sin hacer preguntas.<\/p><p><\/p><p>- Envía un correo a info@occre.com adjuntando una foto del paquete y la factura. <\/p><p>- La devolución debe solicitarse 45 días después de la fecha de envío, después de lo cual la mercancía debe devolverse dentro de los 15 días. <\/p><p>- La mercancía debe devolverse en su embalaje original. Las devoluciones deben incluir el albarán suministrado.<\/p><p>- La mercancía que parece estar usada y no en su estado original \/ apto para la venta, la devolución no se realizará. <\/p><p>- Será obligatorio en ambos casos presentar el ticket o la factura de compra.<\/p><p>- Los gastos de envío no son reembolsables en el caso de devoluciones.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164614442553595730-0",
+        "164614442553595730-1"
+      ],
+      "settings": {
+        "title": "Cambios y devoluciones"
+      }
+    },
+    "164614455398dc9a01": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "1646144553678b15c4-0": {
+          "type": "question",
+          "settings": {
+            "title": "Comprar en OcCre nunca había sido tan fácil y seguro.",
+            "answer": "<p>La tienda OcCre ofrece los siguientes métodos de pago: <\/p><p><strong>Tarjeta de crédito<\/strong><\/p><p>Visa, MasterCard, American Express y Maestro como medio de pago para todos los pedidos en línea.<\/p><p>Si decides pagar con tarjeta de crédito, tu pedido pasará por un proceso de autorización tan pronto como lo envíes. Una vez autorizado (normalmente, en el mismo día), OcCre empezará a procesar tu pedido. <\/p><p><strong>PayPal<\/strong><\/p><p><strong>Apple Pay<\/strong><\/p><p><strong>Google Pay<\/strong><\/p><p><strong>Shop Pay<\/strong><\/p><p><a href=\"https:\/\/www.klarna.com\/es\/que-es-klarna\/\" target=\"_blank\" title=\"https:\/\/www.klarna.com\/es\/que-es-klarna\/\"><strong>Klarna<\/strong><\/a><strong> <\/strong><\/p><p>Paga en cómodas cuotas con Klarna. Sin intereses. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1646144553678b15c4-0"
+      ],
+      "settings": {
+        "title": "Métodos de pago"
+      }
+    },
+    "165427285225e5c657": {
+      "type": "apps",
+      "blocks": {
+        "90c1b872-5fa3-4e0f-9439-88be784db547": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "info-page",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "0",
+            "bottomPadding": "0"
+          }
+        }
+      },
+      "block_order": [
+        "90c1b872-5fa3-4e0f-9439-88be784db547"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "contact": {
+      "type": "rich-text",
+      "blocks": {
+        "icon": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat_bubble"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "¡Ponte en contacto con nosotros!",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Te responderemos en menos de 24h ;) <\/p>",
+            "enlarge_text": true,
+            "color": "default_color",
+            "bold_text": false
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contacta con OcCre",
+            "button_link": "shopify:\/\/pages\/contacto-occre",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "icon",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "faq-content-1",
+    "faq-content-2",
+    "16461444256f4f8b2f",
+    "164614455398dc9a01",
+    "165427285225e5c657",
+    "contact"
+  ]
+}

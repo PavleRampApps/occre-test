@@ -1,0 +1,139 @@
+{%- comment -%}if background image o titol i image{%- endcomment -%}
+<div class="{% if section.settings.use_alt_color %}use-alt-color{% endif %} fully-spaced-row--medium" data-cc-animate>
+  <div class="container">
+    <div class="image-text-overlay">
+      {% for block in section.blocks %}
+        <div class="card {% if section.blocks.size > 1 %}half-card{% endif %} {% if block.settings.bg_image != blank %}background-image__card {% endif %}" {% if block.settings.bg_image != blank %}style="background-image: url({{block.settings.bg_image | img_url: 'master'}})"{% endif %} data-cc-animate="cc-fade-in-up" data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
+          <div class="overlay-container {% if block.settings.bg_image != blank %}image-overlay--bg-shadow{% endif %}">
+            <div class="overlay-text__inner overlay-text">
+              <div class="overlay-text__text">
+                {%- if block.settings.subheading != blank -%}
+                  <div class="overlay-text__subheading subheading subheading--over">{{ block.settings.subheading | escape }}</div>
+                {%- endif -%}
+                {%- if block.settings.title != blank -%}
+                  <h2 class="overlay-text__title h4-style">{{ block.settings.title | newline_to_br }}</h2>
+                {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                  <div class="overlay-text__rte rte">{{ block.settings.text }}</div>
+                {%- endif -%}
+                {% if block.settings.button_label != blank %}
+                  <div>
+                    <a class="{% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ block.settings.button_link }}">{{ block.settings.button_label | escape }}</a>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+            {%- if block.settings.image != blank -%}
+              <div class="overlay-image">
+                <img src="{{block.settings.image | img_url: 'master'}}">
+              </div>
+            {%- endif -%}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Image text overlay",
+    "class": "section-image-text-overlay",
+    "max_blocks": 2,
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "use_alt_color",
+        "label": "Use alternate section color",
+        "default": true
+      }
+    ],
+    "blocks": [
+      {
+        "type": "card",
+        "name": "Card",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Card"
+          },
+          {
+            "type": "text",
+            "id": "subheading",
+            "label": "Subtitle",
+            "default": "Card"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et</p>"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button",
+            "default": "Read more"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button link"
+          },
+          {
+            "type": "select",
+            "id": "button_style",
+            "label": "Button style",
+            "default": "primary",
+            "options": [
+              {
+                "label": "Button - primary",
+                "value": "primary"
+              },
+              {
+                "label": "Button - secondary",
+                "value": "secondary"
+              },
+              {
+                "label": "Button - tertiary",
+                "value": "tertiary"
+              },
+              {
+                "label": "Button - quaternary",
+                "value": "quaternary"
+              },
+              {
+                "label": "Link",
+                "value": "link"
+              }
+            ]
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Right image"
+          },
+          {
+            "type": "image_picker",
+            "id": "bg_image",
+            "label": "Background image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Image text overlay",
+        "settings": {},
+        "blocks": [
+          {
+            "type": "card"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

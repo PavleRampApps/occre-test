@@ -1,0 +1,21 @@
+{% for block in section.blocks %}
+    <div class="message message-{{ forloop.index }} {% if forloop.index >= 2 and mobile_messages %}soft-spaced-row-above{% endif %}" data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
+        {% if block.settings.link_url != blank %}
+            <a href="{{ block.settings.link_url }}">
+                {% endif %}
+
+                {% if block.settings.heading != blank %}
+                    <h6 class="title">{{ block.settings.heading | escape }}</h6>
+                {% endif %}
+
+                {% if block.settings.subheading != blank %}
+                    <span class="tagline">{{ block.settings.subheading | escape }}</span>
+                {% endif %}
+
+                {% if block.settings.link_url != blank %}
+            </a>
+        {% endif %}
+
+        {% unless forloop.first %}<div class="fluff"></div>{% endunless %}
+    </div>
+{% endfor %}

@@ -1,0 +1,685 @@
+{
+  "sections": {
+    "d8e4a104-2449-4f0b-91df-f967a44bdd2a": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "code": "<style>\n#shopify-section-template--16180352614655__8b6d11b3-c895-4674-a1ed-475fac9c04d6 \n .section-background-video .subheading {\nfont-family: Montserrat;\nfont-size: 18px;\nfont-weight: 700;\nline-height: 22px;\nletter-spacing: -0.02em;\ntext-align: center;\ncolor: #F5F5F5;\n\n}\n#shopify-section-template--16180352614655__8b6d11b3-c895-4674-a1ed-475fac9c04d6 .overlay-text__title.h1-style{\nfont-family: Montserrat;\nfont-size: 49px !important;\nfont-weight: 900;\nline-height: 54px;\nletter-spacing: 0em;\ntext-align: center;\ncolor: #09080C;\n\n}\n<\/style>"
+      }
+    },
+    "1657262775916243ac": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MArca_SHopify_OcCre.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 460,
+        "height_mobile": 560,
+        "image_link": "",
+        "subheading": "BLACK FRIDAY - CYBER MONDAY",
+        "title": "Ahorra hasta un 50%\nen todas las maquetas.",
+        "titleen": "Two line\ntext heading",
+        "titlefr": "Two line\ntext heading",
+        "titlede": "Two line\ntext heading",
+        "titleit": "Two line\ntext heading",
+        "titlePT": "Two line\ntext heading",
+        "title_size": 44,
+        "title_size_mobile": 24,
+        "use_h1": false,
+        "text": "<p>Stock limitado<\/p>",
+        "texten": "<p>And optional subtext<\/p>",
+        "textfr": "<p>And optional subtext<\/p>",
+        "textde": "<p>And optional subtext<\/p>",
+        "textit": "<p>And optional subtext<\/p>",
+        "textpt": "<p>And optional subtext<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "COMPRAR AHORA",
+        "button_url_1": "shopify:\/\/pages\/black-friday",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "0da1d489-a91a-44f5-9fcc-449e3ebda8a7": {
+      "type": "four-boxes-difficulty",
+      "disabled": true,
+      "settings": {
+        "heading_text": "Elige por dificultad",
+        "box_one": "Iniciación",
+        "box_two": "Bajo",
+        "box_three": "Medio",
+        "box_four": "Alto"
+      }
+    },
+    "c7084416-785e-4114-8a0d-f88a7a5e64fa": {
+      "type": "cross-page-promos-banner",
+      "blocks": {
+        "66199c13-629d-437f-8093-55394adb41bc": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon.png",
+            "image_size": "icon",
+            "text": "Garantía de por vida",
+            "link_url": ""
+          }
+        },
+        "6fd3978d-d4f7-4773-890e-b351767e24b1": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fi_truck.png",
+            "image_size": "icon",
+            "text": "Envío rápido y seguro",
+            "link_url": ""
+          }
+        },
+        "610e517b-540d-4a56-b6f4-f0057b5e7ec2": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/u_shield-check.png",
+            "image_size": "icon",
+            "text": "Pago seguro y fácil",
+            "link_url": ""
+          }
+        },
+        "006011b1-ef0c-456d-ad54-0be352681fde": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/u_smile-beam.png",
+            "image_size": "icon",
+            "text": "+23.000 clientes felices",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "66199c13-629d-437f-8093-55394adb41bc",
+        "6fd3978d-d4f7-4773-890e-b351767e24b1",
+        "610e517b-540d-4a56-b6f4-f0057b5e7ec2",
+        "006011b1-ef0c-456d-ad54-0be352681fde"
+      ],
+      "settings": {
+        "css_text": "",
+        "visibility": "all"
+      }
+    },
+    "1643283075b2833b56": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "OcCre, tu tienda de modelismo online",
+        "collection": "bestseller",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 3,
+        "background_style": "use-prim-bg",
+        "show_view_all": true,
+        "view_all_as_button_top": true,
+        "view_all_as_button_bottom": true,
+        "view_all_position": "both",
+        "view_all_text": "",
+        "full_width": true,
+        "is_h1": true,
+        "subtitle": "Las maquetas de madera más deseadas"
+      }
+    },
+    "8b6d11b3-c895-4674-a1ed-475fac9c04d6": {
+      "type": "background-video-bf",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f09f4389e7424ce39842a4a50bb958ea.mp4",
+        "placeholder_image": "shopify:\/\/shop_images\/COMUNIDAD_DE_MODELISTAS_OCCRE.webp",
+        "subheading": "",
+        "enlarge_subheading": false,
+        "title": "La opción perfecta para mantener la mente activa",
+        "title_size": 36,
+        "title_size_mobile": 20,
+        "use_h1": false,
+        "text": "<p>Desafía tu mente, desafía tus propios límites<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "Comprar ahora",
+        "button_url_1": "shopify:\/\/pages\/desire",
+        "button_label_2": "",
+        "button_url_2": "",
+        "open_url_new_tab": false,
+        "button_style": "secondary",
+        "text_alignment": "center center",
+        "height_desktop": 580,
+        "height_mobile": 500,
+        "full_width": true
+      }
+    },
+    "6c2b8664-47ea-497c-b0e3-b1d1fc07147f": {
+      "type": "image-with-reviews",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bg_banner.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/occre-banner.jpg",
+        "author": "shopify:\/\/shop_images\/Roberto_Sanchez_1.png",
+        "reviews": "shopify:\/\/shop_images\/Frame_21_1.png",
+        "image_position": "center center",
+        "mobile_image_position": "center top",
+        "height": "fixed",
+        "height_desktop": 540,
+        "height_mobile": 780,
+        "image_link": "",
+        "subheading": "",
+        "title": "La opción perfecta para<br class=\"only-desktop\"> mantener la <br class=\"only-mobile\"><strong>mente activa<\/strong>",
+        "title-en": "The perfect option to<br class=\"only-desktop\"> keep your <br class=\"only-mobile\"><strong>mind active<\/strong>",
+        "title-fr": "L'option parfaite pour<br class=\"only-desktop\"> garder votre <br class=\"only-mobile\"><strong>esprit actif<\/strong>",
+        "title-de": "Die perfekte Option, um<br class=\"only-desktop\"> Ihren <br class=\"only-mobile\"><strong>Geist aktiv<\/strong> zu halten",
+        "title-it": "L'opzione perfetta per<br class=\"only-desktop\"> mantenere la tua <br class=\"only-mobile\"><strong>mente attiva<\/strong>",
+        "title-pt": "A opção perfeita para<br class=\"only-desktop\"> manter sua <br class=\"only-mobile\"><strong>mente ativa<\/strong>",
+        "title_size": 34,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "<p>Desafía tu mente, desafía tus propios límites.<\/p>",
+        "texten": "<p>Challenge your mind, challenge your own limits.<\/p>",
+        "textfr": "<p>Défiez votre esprit, défiez vos propres limites.<\/p>",
+        "textde": "<p>Fordern Sie Ihren Verstand heraus, fordern Sie Ihre eigenen Grenzen heraus.<\/p>",
+        "textit": "<p>Sfida la tua mente, sfida i tuoi limiti.<\/p>",
+        "textpt": "<p>Desafie sua mente, desafie seus próprios limites.<\/p>",
+        "author-name": "Paul",
+        "author-role": "Modelista",
+        "review": "<p>Perfecto tanto para principiantes como para expertos. <br\/>Al igual que yo, haga realidad sus sueños de hacer modelos con un kit de OcCre: <br\/>¡100% recomendado!<\/p>",
+        "review-en": "<p>Perfect for both beginners and experts alike. <br\/>Like me, bring your model-making dreams to life with a kit from OcCre - 100% recommended! <\/p>",
+        "review-fr": "<p>Parfait pour les débutants comme pour les experts.<br\/>Comme moi, donnez vie à vos rêves de modélisme avec un kit OcCre -<br\/>100% recommandé !<\/p>",
+        "review-de": "<p>Perfekt für Anfänger und Experten gleichermaßen.<br\/>Erwecken Sie wie ich Ihre Modellbauträume mit einem Bausatz von OcCre zum Leben -<br\/>100% empfehlenswert!<\/p>",
+        "review-it": "<p>Perfetto sia per i principianti che per gli esperti.<br\/>Come me, dai vita ai tuoi sogni di modellista con un kit di OcCre -<br\/>Consigliato al 100%!<\/p>",
+        "review-pt": "<p>Perfeito para iniciantes e especialistas.<br\/>Como eu, dê vida aos seus sonhos de modelagem com um kit da OcCre -<br\/>100% recomendado!<\/p>",
+        "reviews-total": "+ de 2.000 reseñas y contando",
+        "enlarge_text": true,
+        "button_label_1": "empieza el desafío",
+        "button_url_1": "shopify:\/\/collections\/todos-los-productos",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center left",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "c2132f4c-cbc5-4daa-b00a-644ca7fda407": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--16180352614655__c2132f4c-cbc5-4daa-b00a-644ca7fda407-1674845476518fa828-0": {
+          "type": "heading",
+          "settings": {
+            "title": "OcCre, tu tienda de modelismo online",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16180352614655__c2132f4c-cbc5-4daa-b00a-644ca7fda407-1674845476518fa828-0"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "1643288495a922b4de": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Nuestras últimas novedades de modelismo",
+        "collection": "novedades",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 3,
+        "background_style": "use-prim-bg",
+        "show_view_all": true,
+        "view_all_as_button_top": false,
+        "view_all_as_button_bottom": true,
+        "view_all_position": "both",
+        "view_all_text": "",
+        "full_width": true,
+        "is_h1": false,
+        "subtitle": ""
+      }
+    },
+    "16565214941e4361c9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Accesorios \/ Herramientas \/ Pinturas y Tintes",
+        "collection": "accesorios",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 3,
+        "background_style": "use-prim-bg",
+        "show_view_all": true,
+        "view_all_as_button_top": false,
+        "view_all_as_button_bottom": true,
+        "view_all_position": "both",
+        "view_all_text": "",
+        "full_width": true,
+        "is_h1": false,
+        "subtitle": ""
+      }
+    },
+    "16359285201c71bbb1": {
+      "type": "background-video",
+      "disabled": true,
+      "blocks": {
+        "d43f2b03-ae9d-44bd-b5da-37bf2c78f7e5": {
+          "type": "sticker",
+          "settings": {
+            "sticker": "shopify:\/\/shop_images\/00-marca-OCCRE-21-Certified_Quality1.png"
+          }
+        }
+      },
+      "block_order": [
+        "d43f2b03-ae9d-44bd-b5da-37bf2c78f7e5"
+      ],
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6f8af3314bb04ce1ac14f869747385ad.mp4",
+        "placeholder_image": "shopify:\/\/shop_images\/Maquetas_de_madera_de_exposicion_OcCre.webp",
+        "subheading": "",
+        "enlarge_subheading": true,
+        "title": "",
+        "title_size": 34,
+        "title_size_mobile": 20,
+        "use_h1": false,
+        "text": "<p>Cada maqueta es única, como tú, y <strong>merece la pena mostrarla al mundo con orgullo<\/strong>.<\/p>",
+        "enlarge_text": true,
+        "button_label_1": "Empieza el desafío",
+        "button_url_1": "shopify:\/\/collections",
+        "button_label_2": "",
+        "button_url_2": "",
+        "open_url_new_tab": false,
+        "button_style": "quaternary",
+        "text_alignment": "center center",
+        "height_desktop": 520,
+        "height_mobile": 560,
+        "full_width": true
+      }
+    },
+    "1644314255307952a9": {
+      "type": "multi-column-single-row",
+      "blocks": {
+        "1644314255dcf300bb-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/instrucciones-idiomas-2-OCCRE-2022.png",
+            "title": "<p>Instrucciones paso a paso en 5 idiomas<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1644314255dcf300bb-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/fotos-paso-a-paso-2-OCCRE-2022.png",
+            "title": "<p>Fotos paso a paso HD<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1644314255dcf300bb-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lista-piezas-2-OCCRE-2022.png",
+            "title": "<p>Lista de piezas con medidas y materiales<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1644314255dcf300bb-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/fichas-ip-2-OCCRE-2022.png",
+            "title": "<p>Videotutoriales paso a paso<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1644314255dcf300bb-4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/planos-escala-2-OCCRE-2022.png",
+            "title": "<p>Planos a escala<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "de1af8ff-6ef5-4f64-946f-ffc5411f986c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/videos-paso-a-paso-2-OCCRE-2022.png",
+            "title": "<p>Video tutorial passo dopo passo<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1644314255dcf300bb-0",
+        "1644314255dcf300bb-1",
+        "1644314255dcf300bb-2",
+        "1644314255dcf300bb-3",
+        "1644314255dcf300bb-4",
+        "de1af8ff-6ef5-4f64-946f-ffc5411f986c"
+      ],
+      "settings": {
+        "title": "¿Qué incluyen nuestros kits?",
+        "text_alignment": "center",
+        "use_alt_bg": false,
+        "image_height": 175,
+        "button_label": "Descubre nuestros kits",
+        "button_link": "shopify:\/\/pages\/abre-un-kit",
+        "button_style": "quaternary",
+        "subheading": "<p>Te acompañamos de principio a fin de la construcción de tu maqueta. Disfruta de la experiencia. Nosotros nos ocupamos del resto. <strong>Siempre a tu lado.<\/strong><\/p>"
+      }
+    },
+    "165493893986bd124a": {
+      "type": "rich-text",
+      "blocks": {
+        "165493893938ba851c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "+23.000 clientes de OcCre felices",
+            "color": "primary_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "165493893938ba851c-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Querido por miles<\/p>",
+            "enlarge_text": false,
+            "color": "primary_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "165493893938ba851c-0",
+        "165493893938ba851c-1"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "1645027434cf62c378": {
+      "type": "apps",
+      "blocks": {
+        "056fcf5e-c424-4bfa-a4bc-218ec8ccb85e": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-trust-badge\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "layout": "horizontal",
+            "alignment": "fillContainer",
+            "scheme-type": "default",
+            "review-title": "reviews",
+            "rating-icon": true,
+            "average-rating": true,
+            "review-count": true,
+            "open-reviews": true,
+            "show-border": true,
+            "border-radius": 8,
+            "font-size": 20,
+            "background-color": "",
+            "secondary-background-color": "",
+            "text-color": "",
+            "rating-icon-color": "",
+            "border-color": ""
+          }
+        },
+        "736510f6-ae75-47f6-bf16-a20339d46157": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "056fcf5e-c424-4bfa-a4bc-218ec8ccb85e",
+        "736510f6-ae75-47f6-bf16-a20339d46157"
+      ],
+      "settings": {
+        "full_width": true
+      }
+    },
+    "e21c01c8-3b32-4d1b-951e-86b99f283e10": {
+      "type": "multi-column-bf",
+      "blocks": {
+        "template--16180352614655__e21c01c8-3b32-4d1b-951e-86b99f283e10-1669161465c6adeef5-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "¡TAN GENIAL DE RECIBIR COMO DE REGALAR!",
+            "text": "<p>Si no sabes que comprar\/regalar, no te la juegues, acierta seguro con las tarjetas regalo OcCre. Es una excelente opción para regalar ahora y aprovechar durante navidad, reyes o cumpleaños<\/p>",
+            "button_label": "VER OPCIONES",
+            "link": "shopify:\/\/products\/gift-card-1"
+          }
+        },
+        "template--16180352614655__e21c01c8-3b32-4d1b-951e-86b99f283e10-1669161465c6adeef5-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Group_133_1.png",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16180352614655__e21c01c8-3b32-4d1b-951e-86b99f283e10-1669161465c6adeef5-0",
+        "template--16180352614655__e21c01c8-3b32-4d1b-951e-86b99f283e10-1669161465c6adeef5-1"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "left",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "1654618184926068e2": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1654618184653ff3e3-0": {
+          "type": "heading",
+          "settings": {
+            "title": "acquista per categoria",
+            "color": "default_color",
+            "text_transform": "text_uppercase",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "1654618184653ff3e3-0"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "164433321224ea7603": {
+      "type": "image-text-overlay",
+      "disabled": true,
+      "blocks": {
+        "b4025a3c-5d5e-470e-be4c-a24e453c5730": {
+          "type": "card",
+          "settings": {
+            "title": "PEZZI DI RICAMBIO",
+            "subheading": "",
+            "text": "<p><strong>Con la garanzia OcCre<\/strong><\/p>",
+            "button_label": "Ordina qui",
+            "button_link": "https:\/\/warranty.occre.com\/form.php",
+            "button_style": "quaternary",
+            "image": "shopify:\/\/shop_images\/garantia-certificada-OCCRE-2022.png",
+            "bg_image": "shopify:\/\/shop_images\/carpenter-measuring-wood-plank-with-vernier-calipe-2021-11-09-07-50-03-utc.jpg"
+          }
+        },
+        "1644333212422bbcfc-0": {
+          "type": "card",
+          "settings": {
+            "title": "LA PLACCA! QUELLO CHE MANCAVA",
+            "subheading": "",
+            "text": "<p><strong>Completamente personalizzata<\/strong><\/p>",
+            "button_label": "Ordina desso la tua",
+            "button_link": "mailto:info@occre.com",
+            "button_style": "quaternary",
+            "image": "shopify:\/\/shop_images\/peana-personalizada-OCCRE-2022.png",
+            "bg_image": "shopify:\/\/shop_images\/Placa_Personalizada.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "b4025a3c-5d5e-470e-be4c-a24e453c5730",
+        "1644333212422bbcfc-0"
+      ],
+      "settings": {
+        "use_alt_color": true
+      }
+    },
+    "16359278867b92de38": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "image_width": 700,
+        "subheading": "Comunidad, Pasión, Innovación",
+        "bold_subheading": false,
+        "title": "Un pequeño garaje, un gran sueño. Nuevo diseño, misma ilusión.",
+        "heading_type": "text_uppercase",
+        "use_h1": false,
+        "text": "<p>Hace más de 21 años, en un pequeño garaje nació una idea. Un sueño. Ayuda a personas de todo el mundo a encontrar su lugar, su pasión, su motivación, su terapia a través del modelismo. Para muchos, la construcción de maquetas es solo un pasatiempo. <strong>Para nosotros una gran familia. Un sueño hecho realidad.<\/strong><\/p>",
+        "color": "default_color",
+        "button_label": "Conoce la historia de OcCre",
+        "button_link": "shopify:\/\/pages\/nuestra-historia",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "16438129902337613b": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1643812990229f0838-0": {
+          "type": "heading",
+          "settings": {
+            "title": "OcCre",
+            "color": "secondary_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "1643812990229f0838-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Noi di OcCre progettiamo, sviluppiamo, produciamo, commercializziamo e vendiamo kit di modellismo navale, modellismo ferroviario, modellismo generico, accessori e complementi in tutto il mondo. Da OcCre troverete tutto ciò di cui avete bisogno per il vostro model kit. \nTutti hanno un hobby. Questo è il nostro.<\/p>",
+            "enlarge_text": false,
+            "color": "secondary_color",
+            "bold_text": false
+          }
+        },
+        "76c3096e-34e2-4865-8a32-5c18564022f5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>OcCre è modellismo di qualità<\/p>",
+            "enlarge_text": false,
+            "color": "secondary_color",
+            "bold_text": true
+          }
+        },
+        "287b0627-3b08-4fbf-8861-8875f3ba2d87": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/00-marca-OCCRE-21_1.png",
+            "image_width": 60,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1643812990229f0838-0",
+        "1643812990229f0838-1",
+        "76c3096e-34e2-4865-8a32-5c18564022f5",
+        "287b0627-3b08-4fbf-8861-8875f3ba2d87"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "bcb9bb93-1753-4144-ba4e-8a982ff0a1af": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "code": "<table style=\"max-width:900px; margin:0 auto\";>\n  <tr>\n    <th><\/th>\n    <th>OcCre<\/th>\n    <th>Otros<\/th>\n  <\/tr>\n  <tr>\n    <td>Barcos<\/td>\n    <td>&#10003;<\/td>\n    <td>&#10003;<\/td>\n  <\/tr>\n  <tr>\n    <td>Envío a todo el mundo<\/td>\n    <td>&#10003;<\/td>\n    <td>&#10003;<\/td>\n  <\/tr>\n  <tr>\n    <td>Garantía de por vida, En todos los kits<\/td>\n    <td>&#10003;<\/td>\n    <td>&#10007;<\/td>\n  <\/tr>\n  <tr>\n    <td>Atención al cliente 24\/7<\/td>\n    <td>&#10003;<\/td>\n    <td>&#10007;<\/td>\n  <\/tr>\n  <tr>\n    <td>Servicio de reposición de piezas gratuito<\/td>\n    <td>&#10003;<\/td>\n    <td>&#10007;<\/td>\n  <\/tr>\n  <tr>\n    <td>Innovación, +4 modelos\/año<\/td>\n    <td>&#10003;<\/td>\n    <td>&#10007;<\/td>\n  <\/tr>\n  <tr>\n    <td>Comunidad, +35.000 modelistas<\/td>\n    <td>&#10003;<\/td>\n    <td>&#10007;<\/td>\n  <\/tr>\n  <tr>\n    <td>Videos tutoriales paso a paso<\/td>\n    <td>&#10003;<\/td>\n    <td>&#10007;<\/td>\n  <\/tr>\n  <tr>\n    <td>Instrucciones muy detalladas en 5 idiomas<\/td>\n    <td>&#10003;<\/td>\n    <td>&#10007;<\/td>\n  <\/tr>\n  <tr>\n    <td>La comunidad de Facebook más activa<\/td>\n    <td>&#10003;<\/td>\n    <td>&#10007;<\/td>\n  <\/tr>\n<\/table>"
+      }
+    },
+    "4c9fb398-396b-4c75-97dd-41ea45a59b45": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "<style>.fully-spaced-row--medium {\n    margin-top: 0;\n    margin-bottom: 50px;\n}<\/style>"
+      }
+    }
+  },
+  "order": [
+    "d8e4a104-2449-4f0b-91df-f967a44bdd2a",
+    "1657262775916243ac",
+    "0da1d489-a91a-44f5-9fcc-449e3ebda8a7",
+    "c7084416-785e-4114-8a0d-f88a7a5e64fa",
+    "1643283075b2833b56",
+    "8b6d11b3-c895-4674-a1ed-475fac9c04d6",
+    "6c2b8664-47ea-497c-b0e3-b1d1fc07147f",
+    "c2132f4c-cbc5-4daa-b00a-644ca7fda407",
+    "1643288495a922b4de",
+    "16565214941e4361c9",
+    "16359285201c71bbb1",
+    "1644314255307952a9",
+    "165493893986bd124a",
+    "1645027434cf62c378",
+    "e21c01c8-3b32-4d1b-951e-86b99f283e10",
+    "1654618184926068e2",
+    "164433321224ea7603",
+    "16359278867b92de38",
+    "16438129902337613b",
+    "bcb9bb93-1753-4144-ba4e-8a982ff0a1af",
+    "4c9fb398-396b-4c75-97dd-41ea45a59b45"
+  ]
+}

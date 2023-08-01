@@ -1,0 +1,350 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": true
+      }
+    },
+    "a99d6410-7c83-41f5-8a5d-bade911a43af": {
+      "type": "image-with-text-overlay-countdown",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_2_1.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 660,
+        "height_mobile": 640,
+        "image_link": "",
+        "subheading": "15 de Abril 2023 | 19:00 (CEST)",
+        "title": "¡Preparate para el frío!",
+        "title-en": "Get ready for the cold!",
+        "title-fr": "Préparez vous pour le froid !",
+        "title-de": "Bereiten Sie sich für die Kälte vor!",
+        "title-it": "Preparati per il freddo!",
+        "title-pt": "Prepare-se para o frio!",
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "<p>Un nuevo y emocionante lanzamiento<br\/>llegará pronto a OcCre... Te dejará helado<\/p>",
+        "texten": "<p>A new and exciting release is coming soon to OcCre... It will leave you frozen.<\/p>",
+        "textfr": "<p>Un nouveau lancement très excitant arrive bientôt chez OcCre...C’est à vous couper le souffle<\/p>",
+        "textde": "<p>Eine neue und spannende Lancierung kommt bald zu OcCre... Sie werden in Schockstarre verfallen<\/p>",
+        "textit": "<p>Un nuovo ed emozionante lancio OcCre è in arrivo. Un lancio veramente agghiacciante. <\/p>",
+        "textpt": "<p>And optional subtext<\/p>",
+        "author-name": "",
+        "author-role": "",
+        "review": "",
+        "review-en": "",
+        "review-fr": "",
+        "review-de": "",
+        "review-it": "",
+        "review-pt": "",
+        "reviews-total": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "ef961ab7-ae41-4de3-9bfe-df002eb4b32d": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/dd5b7d24b313474b946a88707f62dc76.mp4",
+        "subheading": "",
+        "enlarge_subheading": true,
+        "title": "",
+        "title_size": 84,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "open_url_new_tab": true,
+        "button_style": "primary",
+        "text_alignment": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true
+      }
+    },
+    "e2ce867e-8aa1-4c9c-8073-2cd0f7acb796": {
+      "type": "rich-text-with-reviews",
+      "blocks": {
+        "449e5b4f-4fb9-4446-ba6d-a76307d9d067": {
+          "type": "titulo1",
+          "settings": {
+            "image": "Beneficios de Suscribirte al lanzamiento",
+            "image_en": "Benefits of subscribing to the release:",
+            "image_fr": "Les avantages de s’abonner au lancement",
+            "image_de": "Vorteile des Abonnierens der Lancierung",
+            "image_it": "Vantaggi per chi si iscrive all´evento di lancio",
+            "image_br": "Vantagens de subscrever o lançamento"
+          }
+        },
+        "096a8329-3049-464f-a5e2-313d2b35c832": {
+          "type": "text1",
+          "settings": {
+            "image": "Serás el primero en recibir las <b>noticias del nuevo lanzamiento.<\/b>",
+            "image_en": "You'll be the first to receive <b>news about the new release.<\/b>",
+            "image_fr": "Vous serez le premier à recevoir les actualités du nouveau lancement.",
+            "image_de": "Sie erhalten als Erster <b>die Nachrichten von der neuen Lancierung.<\/b>",
+            "image_it": "Riceverai in anticipo le <b>notizie sul nuovo lancio. <\/b>",
+            "image_br": "Será o primeiro a receber <b>notícias do novo lançamento. <\/b>"
+          }
+        },
+        "26e67c84-f086-424c-b856-49ddd6cc7e07": {
+          "type": "text2",
+          "settings": {
+            "image": "Tendrás <b>acceso anticipado a los beneficios exclusivos de la PREcompra<\/b> que no están disponibles para el público en general.",
+            "image_en": "You'll have early <b>access to exclusive PRE-order benefits<\/b> unavailable to the general public.",
+            "image_fr": "Vous aurez un accès anticipé aux avantages exclusifs de la PREcommande qui ne sont pas disponibles pour le grand public.",
+            "image_de": "Sie haben <b>vorzeitigen Zugriff auf die exklusiven Vorteile von dem VORKAUF<\/b>, die für das breite Publikum zur Verfügung nicht stehen.",
+            "image_it": "Avrai <b>accesso anticipato ai benefici esclusivi del PREacquisto che non sono disponibili per il pubblico in generale.<\/b>",
+            "image_br": "Terá <b>acesso antecipado a benefícios exclusivos de pré-compra<\/b> que não estão disponíveis para o público em geral."
+          }
+        },
+        "e15192b3-1c19-4959-91ff-96d6fe209095": {
+          "type": "text3",
+          "settings": {
+            "image": "Podrás <b>acceder a contenido adicional<\/b> como guías, tutoriales, recursos exclusivos.",
+            "image_en": "You can access <b>additional content such as guides, tutorials, and exclusive resources.<\/b>",
+            "image_fr": "Vous pourrez accéder a du contenu additionnel comme des manuels, des tutoriels et des ressources exclusives.",
+            "image_de": "Sie haben <b>Zugriff auf zusätzliche Inhalte<\/b> wie Leitfäden, Tutorials, exklusive Mittel.",
+            "image_it": "Avrai <b>accesso a dei contenuti speciali<\/b> come guide, tutorials, risorse esclusive.",
+            "image_br": "Terá acesso a <b>conteúdos adicionais<\/b>, tais como guias, tutoriais, recursos exclusivos."
+          }
+        },
+        "69e20136-1ec0-45b4-912a-cf6ada4bd832": {
+          "type": "text4",
+          "settings": {
+            "image": "Recibirás <b>ofertas especiales de lanzamientos<\/b> que están reservadas únicamente para los suscriptores.",
+            "image_en": "You'll receive <b>special launch offers that are reserved only for subscribers.<\/b>",
+            "image_fr": "Vous recevrez des offres spéciales de lancement qui sont réservées aux abonnés.",
+            "image_de": "Sie erhalten <b>besondere Angebote von Lancierungen<\/b>, die nur für Abonnenten reserviert sind.",
+            "image_it": "Riceverai <b>offerte speciali di lancio<\/b>  riservate unicamente agli abbonati.",
+            "image_br": "Receberá <b>ofertas especiais de lançamento <\/b> que são reservadas apenas para assinantes."
+          }
+        },
+        "2d98a5a5-737e-489a-818c-ec244942d697": {
+          "type": "h4",
+          "settings": {
+            "image": "15 de Abril 2023 | 19:00 (CEST)",
+            "image_en": "April 15th, 2023 | 7:00pm (CEST)",
+            "image_fr": "15 Avril 2023 | 19:00 (CEST)",
+            "image_de": "15. April 2023 | 19:00 (MESZ)",
+            "image_it": "15 aprile 2023 | 19:00 (CEST)",
+            "image_br": "15 de Abril de 2023 | 19:00 (CEST)"
+          }
+        },
+        "5e5e0ff1-9561-4c0c-9a87-db75e41a3719": {
+          "type": "h3",
+          "settings": {
+            "image": "Lanzamiento exclusivo en YouTube",
+            "image_en": "Exclusive release on YouTube",
+            "image_fr": "Lancement exclusif sur YouTube",
+            "image_de": "Exklusive Lancierung auf YouTube",
+            "image_it": "Lancio esclusivo su YouTube",
+            "image_br": "Lançamento exclusivo no YouTube"
+          }
+        },
+        "5d40fdd5-4234-4a95-b1a5-4121bc13bf26": {
+          "type": "h2",
+          "settings": {
+            "image": "No te pierdas la oferta de precompra con el nuevo lanzamiento",
+            "image_en": "Don't miss out on the pre-order offer for the new release",
+            "image_fr": "Ne ratez pas la précommande du nouveau lancement",
+            "image_de": "Verpassen Sie nicht den Vorkauf mit der neuen Lancierung",
+            "image_it": "Non farti scappare l'offerta di preacquisto del nuovo lancio",
+            "image_br": "Não perca a oferta de pré-compra com o novo lançamento"
+          }
+        },
+        "48288cd7-cc4e-487e-a2d5-463b5dd0f60b": {
+          "type": "btn",
+          "settings": {
+            "image": "SUSCRÍBETE AL CANAL",
+            "image_en": "SUBSCRIBE TO THE CHANNEL",
+            "image_fr": "ABONNEZ VOUS A NOTRE CHAINE",
+            "image_de": "ABONNIEREN SIE DEN KANAL",
+            "image_it": "ISCRIVITI AL CANALE",
+            "image_br": "SUBSCREVER O CANAL"
+          }
+        },
+        "eb1e27a8-90fb-4349-9e60-ea00bc4d4c8b": {
+          "type": "h2h2",
+          "settings": {
+            "image": "No te pierdas la oferta de precompra con el nuevo lanzamiento",
+            "image_en": "Don't miss out on the pre-order offer for the new release",
+            "image_fr": "Ne ratez pas la précommande du nouveau lancement",
+            "image_de": "Verpassen Sie nicht den Vorkauf mit der neuen Lancierung",
+            "image_it": "Non farti scappare l'offerta di preacquisto del nuovo lancio",
+            "image_br": "Não perca a oferta de pré-compra com o novo lançamento"
+          }
+        },
+        "530adc70-8752-4322-b780-022eeca31daa": {
+          "type": "person1",
+          "settings": {
+            "image": "Perfecto tanto para principiantes como para expertos. \nAl igual que yo, haz realidad tus sueños de modelismo \ncon un kit de OcCre: ¡100% recomendado!",
+            "image_en": "Perfect for both beginner and expert alike.\nLike me, bring your model making dreams to life with a kit from OcCre - 100% recommended!",
+            "image_fr": "Idéal pour les novices et les experts.\n Comme moi, réalisez vos rêves de modélisme avec un kit de OcCre : Je le recommande à 100% !",
+            "image_de": "Ideal sowohl für Anfänger als auch für Experten. Genauso wie ich, verwirklichen Sie Ihre Modellbau-Träume mit einem Set von OcCre: 100% empfohlen!",
+            "image_it": "Perfetto, sia per principianti, sia per esperti.\nRealizza i tuoi sogni con un kit OcCre, come l´ho fatto io: Raccomandato al 100% !",
+            "image_br": "Perfeito  para principiantes quanto para especialistas. \nComo eu, torne os seus sonhos de modelação em realidade com um kit OcCre \ncom um kit OcCre: 100% recomendado!"
+          }
+        },
+        "dd77d13d-171d-473c-b5d2-e60bb59fbedb": {
+          "type": "person2",
+          "settings": {
+            "image": "¡OcCre es una empresa que convertirá tus sueños en realidad! ¡Es una empresa que no solo te sigue acompaña sino que también se pone tan feliz por tus resultados contigo! También he tenido en cuenta que la empresa tiene todo lo necesario para un principiante, desde equipos de escritorio hasta una amplia variedad de barcos para cualquier gusto y nivel de habilidad. Es como tu propio pequeño mundo donde siempre eres bienvenido y donde los gerentes están siempre en contacto y listos para ayudarte ¡Conviértete en parte de esta familia!",
+            "image_en": "OcCre is a company that will turn your dreams into reality! This is a company that follows you and is happy for your results together with you! I also took into account that the company has everything necessary for a beginner, from desktop equipment to a wide variety of ships for any taste and your skill level! It's like your own little world where you're always welcome and where managers are always in touch and ready to help you)) Become a part of this family",
+            "image_fr": "OcCre est une entreprise qui transforme vos rêves en réalité ! C’est une entreprise, qui en plus de vous accompagner, est heureuse de voir vos résultats ! Je me suis rendu compte que l’entreprise a tout le nécessaire pour les débutants, des équipements comme des bureaux et une variété de bateaux pour tout les gouts et niveaux. C’est comme votre petit monde où vous êtes toujours le bienvenu et les gérants sont toujours à disposition et prêts à vous aider\n Rejoignez cette famille !",
+            "image_de": "OcCre ist ein Unternehmen, das Ihre Träume wahr werden lässt! Es ist eine Firma, die Sie nicht nur begleitet, sondern auch so glücklich über Ihre Ergebnisse wird! Ich habe auch berücksichtigt, dass die Firma alles hat. Was Sie, für einen Anfänger, benötigen, von Geräten und Mobiliar zum Modellbau bis hin zu einer Vielzahl von Schiffen für jeden Geschmack und Handfertigkeit. Es ist wie Ihre eigene kleine Welt, wo Sie immer willkommen sind, und wo Manager immer in Kontakt und bereit stehen, um Ihnen zu helfen. Werden Sie ein Teil dieser Familie!",
+            "image_it": "Grazie a OcCre i tuoi sogni diventeranno realtà! Occre non solo ti segue e ti accompagna ma anche è felice per i tuoi risultati! Ricordatevi che l'azienda ha tutto il necessario per un principiante, dal materiale di scrivania fino a una ampia varietà di navi per tutti i gusti e livelli di difficoltà. È come un piccolo mondo tutto tuo dove sempre sarai benvenuto e tutti i responsabili OcCre saranno sempre in contatto e pronti ad aiutarti. Diventa parte di questa famiglia!",
+            "image_br": "A OcCre é uma empresa que vai tornar os seus sonhos realidade! É uma empresa que não só o segue  e acompanha, mas também fica tão feliz com os seus resultados consigo! Tive também em conta que a empresa tem tudo o que precisa um principiante, desde equipamento de secretária a uma grande variedade de barcos para qualquer nível de gosto e habilidade. É como o seu próprio pequeno mundo onde é sempre bem-vindo e onde os gestores estão sempre em contacto e prontos para o ajudar. Torne-se parte desta família!"
+          }
+        },
+        "b907fbb6-6a06-40d4-bd37-6ca6857806a4": {
+          "type": "person3",
+          "settings": {
+            "image": "Los modelos de barcos de OcCre son una obra maestra en artesanía y atención al detalle. Construir estos modelos ha sido una experiencia calmante y meditativa, permitiéndome acceder a mi creatividad y encontrar paz. Recomiendo encarecidamente OcCre a cualquiera que busque una experiencia de construcción espiritual y de alta calidad.",
+            "image_en": "Occre ship models are a masterpiece in craftsmanship and attention to detail. Building these models has been a calming and meditative experience, allowing me to tap into my creativity and find peace. I highly recommend Occre to anyone seeking a high-quality, spiritual building experience.",
+            "image_fr": "I modelli di navi OcCre sono un capolavoro artigianale, curati in ogni dettaglio. Costruire questi modelli è stata un´ ́esperienza rilassante e meditativa, che mi permette sviluppare la mia creatività e trovare la pace. Consiglio assolutamente la marca OcCre a chi cerca un'esperienza di costruzione spirituale di ottima qualità.",
+            "image_de": "Die Schiffsmodelle von OcCre sind ein Meisterwerk der Handwerkskunst und Liebe zum Detail. Diese Modelle zu bauen, war eine beruhigende und besinnliche Erfahrung, die mir ermöglichte, meiner Kreativität freien Lauf zu lassen und Frieden zu finden. Ich kann OcCre wärmstens jedem empfehlen, der eine hochwertige Qualität und spirituell erbauende Erfahrung sucht.",
+            "image_it": "I modelli di navi OcCre sono un capolavoro artigianale, curati in ogni dettaglio. Costruire questi modelli è stata un´ ́esperienza rilassante e meditativa, che mi permette sviluppare la mia creatività e trovare la pace. Consiglio assolutamente la marca OcCre a chi cerca un'esperienza di costruzione spirituale di ottima qualità.",
+            "image_br": "Os modelos de navios da OcCre são uma obra-prima de artesanato e atenção aos detalhes. A construção destes modelos tem sido uma experiência calmante e meditativa, permitindo-me aceder à minha criatividade e encontrar a paz. Recomendo altamente o OcCre a qualquer pessoa que procure uma experiência de construção espiritual de alta qualidade."
+          }
+        },
+        "c08783a0-9a96-4eee-b5fe-7b18f57dad2c": {
+          "type": "reviews",
+          "settings": {
+            "image": "Más de 2,000 reseñas y contando",
+            "image_en": "Más de 2,000 reseñas y contando",
+            "image_fr": "Plus de 2000 avis et ça continue",
+            "image_de": "Mehr als 2,000 Bewertungen und noch zu zählen",
+            "image_it": "Più di 2,000 recensioni",
+            "image_br": "Mais de 2.000 comentários e contagem"
+          }
+        }
+      },
+      "block_order": [
+        "449e5b4f-4fb9-4446-ba6d-a76307d9d067",
+        "096a8329-3049-464f-a5e2-313d2b35c832",
+        "26e67c84-f086-424c-b856-49ddd6cc7e07",
+        "e15192b3-1c19-4959-91ff-96d6fe209095",
+        "69e20136-1ec0-45b4-912a-cf6ada4bd832",
+        "2d98a5a5-737e-489a-818c-ec244942d697",
+        "5e5e0ff1-9561-4c0c-9a87-db75e41a3719",
+        "5d40fdd5-4234-4a95-b1a5-4121bc13bf26",
+        "48288cd7-cc4e-487e-a2d5-463b5dd0f60b",
+        "eb1e27a8-90fb-4349-9e60-ea00bc4d4c8b",
+        "530adc70-8752-4322-b780-022eeca31daa",
+        "dd77d13d-171d-473c-b5d2-e60bb59fbedb",
+        "b907fbb6-6a06-40d4-bd37-6ca6857806a4",
+        "c08783a0-9a96-4eee-b5fe-7b18f57dad2c"
+      ],
+      "settings": {
+        "url": "https:\/\/youtu.be\/PvpLMO0Ce7A"
+      }
+    },
+    "94ed189f-c056-4b7a-a62d-de74cfd49f12": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "h2 {text-align: center; padding-top: 30px; color: #242c5f;}",
+        ".container {margin-top: 40px; display: flex; flex-wrap: wrap; column-gap: 10%; row-gap: 20px;}",
+        ".column14 {font-size: 16px; width: 45%; position: relative;}",
+        ".column14 img {position: absolute; width: 15px; top: 5px; left: -25px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "code": "<h2>Beneficios de Suscribirte al lanzamiento<\/h2>\n<div class=\"container\"  style=\"position:relative;\">\n<div class=\"column14\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/arrow_8c965f4f-e36d-4b57-8295-8e04926851b5.png?v=1680784116\" \n> Serás el primero en recibir las noticias del nuevo lanzamiento.<\/div>\n<div class=\"column14\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/arrow_8c965f4f-e36d-4b57-8295-8e04926851b5.png?v=1680784116\" > Podrás acceder a contenido adicional como guías, tutoriales, recursos exclusivos.<\/div>\n<div class=\"column14\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/arrow_8c965f4f-e36d-4b57-8295-8e04926851b5.png?v=1680784116\" > Tendrás acceso anticipado a los beneficios exclusivos de la PREcompra que no están disponibles para el público en general.<\/div>\n<div class=\"column14\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/6942\/3871\/files\/arrow_8c965f4f-e36d-4b57-8295-8e04926851b5.png?v=1680784116\" > Recibirás ofertas especiales de lanzamientos que están reservadas únicamente para los suscriptores.<\/div>\n<\/div>"
+      }
+    },
+    "91df1ca4-f288-4bf3-bc7a-8305ead78897": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "h2,h3,h4 {text-align: center; color: white;}",
+        "div {background: #000; color: white;}",
+        ".flex-3 {display: flex; column-gap: 15px;}",
+        ".flex-3 > div {width: 30%; color: black; background: white; font-weight: normal; font-size: 13px; border-radius: 20px;}",
+        ".flex-3 > div > div {border-radius: 20px 20px 0px 0px; padding: 20px; background: #feb71a; text-align: center; font-weight: bold; font-size: 18px; color: black;}",
+        ".flex-3 p {padding: 20px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "code": ""
+      }
+    },
+    "7374ce26-ecc5-4291-b2a8-9f36cbe76378": {
+      "type": "cross-page-promos-landing",
+      "blocks": {
+        "bef6830d-68ce-4ca4-8f73-7ba6bcb9a373": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/guarantee.png",
+            "image_size": "icon",
+            "text": "Garantía de por vida",
+            "link_url": ""
+          }
+        },
+        "c62ec08f-476e-4761-9540-a8834ea03582": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/delivery.png",
+            "image_size": "icon",
+            "text": "Envío rápido y seguro",
+            "link_url": ""
+          }
+        },
+        "a0e4f17f-a1b0-472f-bcda-5164edabee5e": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lock.png",
+            "image_size": "icon",
+            "text": "Pago seguro y fácil",
+            "link_url": ""
+          }
+        },
+        "1c577543-7fc2-4ed3-98ec-2e6cb4b0175c": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lock_1.png",
+            "image_size": "icon",
+            "text": "+23,321 clientes felices",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "bef6830d-68ce-4ca4-8f73-7ba6bcb9a373",
+        "c62ec08f-476e-4761-9540-a8834ea03582",
+        "a0e4f17f-a1b0-472f-bcda-5164edabee5e",
+        "1c577543-7fc2-4ed3-98ec-2e6cb4b0175c"
+      ],
+      "settings": {
+        "css_text": "",
+        "visibility": "all"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a99d6410-7c83-41f5-8a5d-bade911a43af",
+    "ef961ab7-ae41-4de3-9bfe-df002eb4b32d",
+    "e2ce867e-8aa1-4c9c-8073-2cd0f7acb796",
+    "94ed189f-c056-4b7a-a62d-de74cfd49f12",
+    "91df1ca4-f288-4bf3-bc7a-8305ead78897",
+    "7374ce26-ecc5-4291-b2a8-9f36cbe76378"
+  ]
+}

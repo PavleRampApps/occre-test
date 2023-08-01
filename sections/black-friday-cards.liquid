@@ -1,0 +1,560 @@
+
+<div style=" background-image: url('{{ section.settings.imagebg | img_url }}');
+  background-size:100%;
+  background:white !important">
+  <div class="container container-textos">
+
+
+     <h2 class="bf-textos-h2 blue">
+        {% for block in section.blocks %} 
+  
+  {% case block.type %}
+      {% when 'titulo1' %}
+      
+      {% if block.settings.image != blank %}
+      
+      
+      {% if request.locale.iso_code == 'es'  %}
+      {{ block.settings.image }}
+      
+      
+      {% elsif request.locale.iso_code == 'en'  %}
+  {{ block.settings.image_en }}
+      
+      
+      {% elsif request.locale.iso_code == 'fr' %}
+    {{ block.settings.image_fr }}
+      {% elsif request.locale.iso_code == 'de' %}
+      {{ block.settings.image_de }}
+      
+      {% elsif request.locale.iso_code == 'it' %}
+     {{ block.settings.image_it }}
+        {% elsif request.locale.iso_code == 'pt-PT' %}
+      {% else  %}
+      
+      {{ block.settings.image_en }}
+      {% endif %}
+        
+      {% endif %}
+  {% endcase %}
+{% endfor %}
+    
+      
+      </h2>
+<div class="bf-textos-p2">
+       {% for block in section.blocks %} 
+  
+  {% case block.type %}
+      {% when 'text01' %}
+      
+      {% if block.settings.image != blank %}
+      
+      
+      {% if request.locale.iso_code == 'es'  %}
+      {{ block.settings.image }}
+      
+      
+      {% elsif request.locale.iso_code == 'en'  %}
+  {{ block.settings.image_en }}
+      
+      
+      {% elsif request.locale.iso_code == 'fr' %}
+    {{ block.settings.image_fr }}
+      {% elsif request.locale.iso_code == 'de' %}
+      {{ block.settings.image_de }}
+      
+      {% elsif request.locale.iso_code == 'it' %}
+     {{ block.settings.image_it }}
+        {% elsif request.locale.iso_code == 'pt-PT' %}
+      {% else  %}
+      
+      {{ block.settings.image_en }}
+      {% endif %}
+        
+      {% endif %}
+  {% endcase %}
+{% endfor %}
+</div>
+    
+  
+</div>
+  
+    </div>
+
+<style>
+.section-multi-column {
+  background: white;
+  }
+  .section-multi-column .fully-spaced-row--medium {
+  margin-top:0px;
+  }
+  
+.container-textos {
+    font-family: 'Fira Mono' !important;
+  padding-top:20px;
+   padding-bottom:20px;
+  text-align:center;
+  max-width:1200px;
+  padding-left:2em;
+  padding-right:2em;
+  
+  
+}
+  .blue {
+    color: #10069F;
+    text-align:center;
+        padding: 0px 20%;
+  margin-top:4em;
+
+  }
+ 
+  @media (max-width:980px) {
+   .blue {
+    color: #10069F;
+    text-align:center;
+        padding: 0px 0%;
+
+  }
+    
+  }
+  </style>
+
+
+
+
+{% schema %}
+  {
+    "name": "Black Friday Cards",
+    "settings": [
+       {
+          "type": "textarea",
+          "id": "formk",
+          "label": "Form Codes"
+        },
+      {
+          "type": "image_picker",
+          "id": "imagebg",
+          "label": "Imagebg"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_en",
+          "label": "Image en"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_fr",
+          "label": "Image fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_de",
+          "label": "Image de"
+        },{
+          "type": "image_picker",
+          "id": "image_it",
+          "label": "Image it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+},
+         {
+          "type": "image_picker",
+          "id": "image2",
+          "label": "Image"
+        
+        }
+    ],
+ "blocks": [
+      {
+        "type": "imagen1",
+        "name": "imagen1",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_en",
+          "label": "Image en"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_fr",
+          "label": "Image fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_de",
+          "label": "Image de"
+        },{
+          "type": "image_picker",
+          "id": "image_it",
+          "label": "Image it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      },
+   {
+        "type": "imagenlateral",
+        "name": "imagenlateral",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_en",
+          "label": "Image en"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_fr",
+          "label": "Image fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_de",
+          "label": "Image de"
+        },{
+          "type": "image_picker",
+          "id": "image_it",
+          "label": "Image it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      },
+   {
+        "type": "imagen2",
+        "name": "imagen2",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+          "type": "image_picker",
+          "id": "image_en",
+          "label": "Image en"
+        }, 
+     {
+          "type": "image_picker",
+          "id": "image_fr",
+          "label": "Image fr"
+        },
+     {
+          "type": "image_picker",
+          "id": "image_de",
+          "label": "Image de"
+        },{
+          "type": "image_picker",
+          "id": "image_it",
+          "label": "Image it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      },
+     {
+        "type": "text01",
+        "name": "text01",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "richtext",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "richtext",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "richtext",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "richtext",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "richtext",
+          "id": "image_it",
+          "label": "text it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      }   ,
+     {
+        "type": "titulo1",
+        "name": "titulo1",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "text",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "text",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "text",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "text",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "text",
+          "id": "image_it",
+          "label": "text it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      },
+    
+     {
+        "type": "titulo2",
+        "name": "titulo2",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "text",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "text",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "text",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "text",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "text",
+          "id": "image_it",
+          "label": "text it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      },
+     {
+        "type": "text1",
+        "name": "text1",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "richtext",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "richtext",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "richtext",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "richtext",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "richtext",
+          "id": "image_it",
+          "label": "text it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      },
+     {
+        "type": "text2",
+        "name": "text2",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "richtext",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "richtext",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "richtext",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "richtext",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "richtext",
+          "id": "image_it",
+          "label": "text it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+}
+        ]
+      },
+        {
+        "type": "linkbtn",
+        "name": "btn1",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "text",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "text",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "text",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "text",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "text",
+          "id": "image_it",
+          "label": "text it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+},
+          {
+       "type": "url",
+          "id": "linkbtn",
+          "label": "Link"
+        }
+        ]
+      },
+        {
+        "type": "linkbtn2",
+        "name": "linkbtn2",
+        "limit": 1,
+        "settings": [
+            {
+          "type": "text",
+          "id": "image",
+          "label": "text"
+        },
+      {
+          "type": "text",
+          "id": "image_en",
+          "label": "text en"
+        }, 
+     {
+          "type": "text",
+          "id": "image_fr",
+          "label": "text fr"
+        },
+     {
+          "type": "text",
+          "id": "image_de",
+          "label": "text de"
+        },{
+          "type": "text",
+          "id": "image_it",
+          "label": "text it"
+        },
+  {
+"type": "image_picker",
+"id": "image_pt",
+"label": "Image pt"
+},
+          {
+       "type": "url",
+          "id": "linkbtn",
+          "label": "Link"
+        }
+        ]
+      }
+    ], 
+    "presets": [
+      {
+        "name": "Black Friday Cards"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

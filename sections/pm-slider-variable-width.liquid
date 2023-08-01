@@ -1,0 +1,61 @@
+<div id="section-id-{{ section.id }}" class="pm-slider-variable-width pm-slick">
+  <div class="pmSlickVariableWidth">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'slide' %}
+          {% if block.settings.image %}
+            <div>
+              <img class="img-slide" src="{{ block.settings.image | image_url }}">
+            </div>
+          {% endif %}
+      {% endcase %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Slider Variable Width",
+  "settings": [],
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }
+       ]
+     }
+  ],
+  "presets": [
+    {
+      "name": "Slider Variable Width",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+{% javascript %}
+  window.addEventListener('DOMContentLoaded', () => {
+      jQuery('.pmSlickVariableWidth').slick({
+          infinite: true,
+          speed: 300,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          variableWidth: true,
+          swipeToSlide: true,
+          responsive: [
+              {
+                  breakpoint: 768,
+                  settings: {
+                      arrows: false,
+                  }
+              }
+          ]
+      });
+  }); 
+{% endjavascript %}

@@ -1,0 +1,294 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": true
+      }
+    },
+    "43f6051e-34c1-406e-b73a-0ccd4ddc76a9": {
+      "type": "pm-slider-center-mode",
+      "blocks": {
+        "777ed8d2-f6da-472d-8bc3-9ec1ec84478c": {
+          "type": "slide",
+          "settings": {
+            "image_desktop_es": "shopify:\/\/shop_images\/PHOTO-2023-06-07-08-29-05_2.webp",
+            "image_mobile_es": "shopify:\/\/shop_images\/Recurso_252_25.webp",
+            "image_desktop_en": "shopify:\/\/shop_images\/Mesa_de_trabajo_9_1.webp",
+            "image_mobile_en": "shopify:\/\/shop_images\/Recurso_252_9.webp",
+            "image_desktop_fr": "shopify:\/\/shop_images\/Mesa_de_trabajo_18.webp",
+            "image_mobile_fr": "shopify:\/\/shop_images\/fr-m-Group_488.webp",
+            "image_desktop_it": "shopify:\/\/shop_images\/Mesa_de_trabajo_19.webp",
+            "image_mobile_it": "shopify:\/\/shop_images\/Recurso_252_20_mobile.webp",
+            "image_desktop_de": "shopify:\/\/shop_images\/Mesa_de_trabajo_27.webp",
+            "image_mobile_de": "shopify:\/\/shop_images\/Recurso_252_38_mobile.webp",
+            "image_desktop_pt-PT": "shopify:\/\/shop_images\/Mesa_de_trabajo_21.webp",
+            "image_mobile_pt-PT": "shopify:\/\/shop_images\/Recurso_252_22_mobile.webp"
+          }
+        },
+        "9a23ac45-b960-4c1d-8543-3ee10a0b092f": {
+          "type": "slide",
+          "settings": {
+            "image_desktop_es": "shopify:\/\/shop_images\/PHOTO-2023-06-07-08-29-05_1.webp",
+            "image_mobile_es": "shopify:\/\/shop_images\/es-m-Recurso_252_23_cc74c722-d75f-4ff3-bd8a-1ac2dc60f5ad.webp",
+            "image_desktop_en": "shopify:\/\/shop_images\/en-d-Mesa_de_trabajo_25.webp",
+            "image_mobile_en": "shopify:\/\/shop_images\/en-m-Recurso_252_36_e703a4bf-decb-4f3c-a075-5340235b4df5.webp",
+            "image_desktop_fr": "shopify:\/\/shop_images\/Mesa_de_trabajo_8.webp",
+            "image_mobile_fr": "shopify:\/\/shop_images\/Recurso_252_23.webp",
+            "image_desktop_it": "shopify:\/\/shop_images\/Mesa_de_trabajo_8.webp",
+            "image_mobile_it": "shopify:\/\/shop_images\/Recurso_252_23.webp",
+            "image_desktop_de": "shopify:\/\/shop_images\/Mesa_de_trabajo_8.webp",
+            "image_mobile_de": "shopify:\/\/shop_images\/es-m-Recurso_252_23_882015a0-443a-454d-b54a-94529f09f3a9.webp",
+            "image_desktop_pt-PT": "shopify:\/\/shop_images\/Mesa_de_trabajo_8.webp",
+            "image_mobile_pt-PT": "shopify:\/\/shop_images\/es-m-Recurso_252_23_513b2603-c0c4-491f-aab5-bce18c75ead7.webp"
+          }
+        },
+        "1b4f3356-15a3-42d7-83ec-9558278453bc": {
+          "type": "slide",
+          "settings": {
+            "image_desktop_es": "shopify:\/\/shop_images\/PHOTO-2023-06-07-08-29-05_3.webp",
+            "image_mobile_es": "shopify:\/\/shop_images\/Recurso_252_24_1e9aba36-5610-433e-a73f-efc687e89349.webp",
+            "image_desktop_en": "shopify:\/\/shop_images\/Mesa_de_trabajo_7_1.webp",
+            "image_mobile_en": "shopify:\/\/shop_images\/Recurso_252_10_0c7ebb94-17aa-4d9f-9f9c-e9eaf0dcb8ce.webp",
+            "image_desktop_fr": "shopify:\/\/shop_images\/Mesa_de_trabajo_10.webp",
+            "image_mobile_fr": "shopify:\/\/shop_images\/Recurso_252_11_mobile_84cbbd26-f04e-4db0-9fe1-8ad9c6792d75.webp",
+            "image_desktop_it": "shopify:\/\/shop_images\/Mesa_de_trabajo_11.webp",
+            "image_mobile_it": "shopify:\/\/shop_images\/Recurso_252_12_mobile_8e94ec41-42b5-47d3-9c29-7138909392ff.webp",
+            "image_desktop_de": "shopify:\/\/shop_images\/Mesa_de_trabajo_26_846f7df6-7781-41ca-bf58-df0140bee790.webp",
+            "image_mobile_de": "shopify:\/\/shop_images\/Recurso_252_37_mobile.webp",
+            "image_desktop_pt-PT": "shopify:\/\/shop_images\/Mesa_de_trabajo_13.webp",
+            "image_mobile_pt-PT": "shopify:\/\/shop_images\/Recurso_252_14_mobile_7edc0918-2a1b-47cf-b242-76a209003ef7.webp"
+          }
+        }
+      },
+      "block_order": [
+        "777ed8d2-f6da-472d-8bc3-9ec1ec84478c",
+        "9a23ac45-b960-4c1d-8543-3ee10a0b092f",
+        "1b4f3356-15a3-42d7-83ec-9558278453bc"
+      ],
+      "custom_css": [
+        "div {background-color: #000;}"
+      ],
+      "settings": {
+      }
+    },
+    "f67e9626-f5ec-4d3c-a721-231c4015613d": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".fully-spaced-row--medium {padding-bottom: 124px; margin-bottom: 0;}",
+        ".go2775719682,.go731143819 {color: #b78e41 !important;}",
+        ".go1288557714 {background-color: #b78e41 !important ;}",
+        "form div:first-child {background-color: black;}",
+        ".kv-form {width: 650px; max-width: 65%; margin: 0 auto;}",
+        "@media (max-width: 768px) {.kv-form {width: 65%; min-width: 240px; }}",
+        "#section-id-template--19334304923977__f67e9626-f5ec-4d3c-a721-231c4015613d {margin-top: 0; background-color: #000;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "code": "<div class=\"kv-form\">{% if request.locale.iso_code == 'es' %}\n<div class=\"klaviyo-form-RecGiZ\"><\/div>\n{% elsif request.locale.iso_code == 'it' %}\n<div class=\"klaviyo-form-XAyUWg\"><\/div>\n{% elsif request.locale.iso_code == 'de' %}\n<div class=\"klaviyo-form-VJ738K\"><\/div>\n{% elsif request.locale.iso_code == 'fr' %}\n<div class=\"klaviyo-form-U3Xq7g\"><\/div>\n{% elsif request.locale.iso_code == 'pt-PT' %}\n<div class=\"klaviyo-form-VDtLMm\"><\/div>\n{% else %}\n<div class=\"klaviyo-form-WBpBGh\"><\/div>\n{% endif %}\n<\/div>"
+      }
+    },
+    "659e512f-b683-40d5-9cad-30d2ef2dd5de": {
+      "type": "pm-title",
+      "custom_css": [
+        ".pm_title_countdown {color: #fff; text-align: center; font-family: Montserrat; font-size: 64px; font-style: normal; font-weight: 325; line-height: 109.9%; background-color: black; padding-top: 0px; padding-bottom: 41px;}",
+        "@media (max-width: 575px) {.pm_title_countdown {font-size: 9vw; }}"
+      ],
+      "settings": {
+        "title_es": "Pronto en OcCre",
+        "title_en": "Coming soon on OcCre",
+        "title_fr": "Prochainement sur OcCre",
+        "title_it": "Prossimamente su OcCre",
+        "title_de": "Demnächst auf OcCre",
+        "title_pt-PT": "Brevemente em OcCre"
+      }
+    },
+    "da05b951-9fc1-4280-8646-500c52f57cda": {
+      "type": "pm-countdown",
+      "custom_css": [
+        ".countdown_wrap {background-color: black;}"
+      ],
+      "settings": {
+        "datetime_value": "2023\/09\/24 17:00:00"
+      }
+    },
+    "3f4c675d-238a-4294-9341-cf34d245be19": {
+      "type": "custom-row",
+      "blocks": {
+        "e694f6e1-b62e-4ce5-8c7a-675f70b9082d": {
+          "type": "text",
+          "settings": {
+            "width": "full",
+            "subheading": "",
+            "title": "Limited Edition",
+            "text": "<p><\/p><p><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "text_alignment": "center"
+          }
+        },
+        "template--19334304923977__3f4c675d-238a-4294-9341-cf34d245be19-image-1": {
+          "type": "image",
+          "settings": {
+            "width": "third",
+            "image": "shopify:\/\/shop_images\/Mask_group.webp",
+            "image_position": "center center",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "6736b501-01cc-4248-b66a-2c19386f09ff": {
+          "type": "image",
+          "settings": {
+            "width": "third",
+            "image": "shopify:\/\/shop_images\/Mask_group2.webp",
+            "image_position": "center center",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "d47cdace-c559-4bc6-bb52-75b634bc397f": {
+          "type": "image",
+          "settings": {
+            "width": "third",
+            "image": "shopify:\/\/shop_images\/Mask_group3.webp",
+            "image_position": "center center",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        }
+      },
+      "block_order": [
+        "e694f6e1-b62e-4ce5-8c7a-675f70b9082d",
+        "template--19334304923977__3f4c675d-238a-4294-9341-cf34d245be19-image-1",
+        "6736b501-01cc-4248-b66a-2c19386f09ff",
+        "d47cdace-c559-4bc6-bb52-75b634bc397f"
+      ],
+      "custom_css": [
+        "#section-id-template--19334304923977__3f4c675d-238a-4294-9341-cf34d245be19 {background-color: black;}",
+        "h1 {color: var(--hms-victory, #b78e41); text-align: center; font-family: Cormorant SC; font-size: max(7vw, 35px); font-style: normal; font-weight: 300; line-height: 109.9%; padding: 0;}",
+        ".fully-spaced-row--medium {padding-top: 119px; padding-bottom: 119px; margin-top: 0; margin-bottom: 0;}"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "f40121b5-996a-411b-a93d-b5cbc0f5d2a9": {
+      "type": "cross-page-promos-landing",
+      "blocks": {
+        "96eb2d5f-5d34-4de8-85bf-c3808b546f15": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/guarantee.png",
+            "image_size": "icon",
+            "text": "Garantía de por vida",
+            "link_url": ""
+          }
+        },
+        "a17e053a-02ff-4a49-ae30-df28266a3d1c": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/delivery.png",
+            "image_size": "icon",
+            "text": "Envío rápido y seguro",
+            "link_url": ""
+          }
+        },
+        "c7d6ddad-489d-4760-9756-72e93679badf": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lock.png",
+            "image_size": "icon",
+            "text": "Pago seguro y fácil",
+            "link_url": ""
+          }
+        },
+        "3760b26c-1a3a-43ba-93d6-a4ae453fe44d": {
+          "type": "custom-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lock_1.png",
+            "image_size": "icon",
+            "text": "+23.000 clientes felices",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "96eb2d5f-5d34-4de8-85bf-c3808b546f15",
+        "a17e053a-02ff-4a49-ae30-df28266a3d1c",
+        "c7d6ddad-489d-4760-9756-72e93679badf",
+        "3760b26c-1a3a-43ba-93d6-a4ae453fe44d"
+      ],
+      "settings": {
+        "css_text": "",
+        "visibility": "all"
+      }
+    },
+    "2f985a14-550e-40a6-8cb5-a3576d6c00ff": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "#section-id-template--19334304923977__2f985a14-550e-40a6-8cb5-a3576d6c00ff {margin: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "code": "<link rel=\"preconnect\" href=\"https:\/\/fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https:\/\/fonts.gstatic.com\" crossorigin>\n<link href=\"https:\/\/fonts.googleapis.com\/css2?family=Cormorant+SC&display=swap\" rel=\"stylesheet\">\n<link rel=\"preconnect\" href=\"https:\/\/fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https:\/\/fonts.gstatic.com\" crossorigin>\n<link href=\"https:\/\/fonts.googleapis.com\/css2?family=Abril+Fatface&display=swap\" rel=\"stylesheet\">\n<link rel=\"preconnect\" href=\"https:\/\/fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https:\/\/fonts.gstatic.com\" crossorigin>\n<link href=\"https:\/\/fonts.googleapis.com\/css2?family=Bebas+Neue&display=swap\" rel=\"stylesheet\">\n<style>\n\n.template-suffix-pm-pre-hms-victory #content {\n        background-color: black;\n    }\n\n    @media (max-width:399px) {\n        #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 h2 {\n            font-size: max(6vw, 28px);\n        }\n    }\n\n    @media (min-width:1600px) {\n        #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 h2 {\n            font-size: 96px;\n        }\n\n        #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 p {\n            font-size: 29px;\n        }\n    }\n\n    @media (min-width:992px) and (max-width:1199px) {\n        #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 img {\n            width: 100px;\n            height: 100px !important;\n        }\n    }\n\n\n    #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 p {\n        margin-left: auto;\n        margin-right: auto;\n        padding: 0 5px;\n    }\n\n    #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 .text-column:nth-child(2) p,\n    #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 .text-column:nth-child(3) p {\n        max-width: 165px;\n    }\n\n    @media (max-width:767px) {\n        #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 p {\n            max-width: 175px;\n        }\n    }\n\n    @media (min-width:992px) {\n\n        #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 .text-column:nth-child(3) p {\n            max-width: 270px;\n        }\n\n        #section-id-template--19188104626505__58374dff-97d7-4b0e-bedf-a4288261c1c9 .text-column:nth-child(2) p {\n            max-width: 220px;\n        }\n    }\n<\/style>"
+      }
+    },
+    "91584422-109a-4ff1-a50a-8f02cb03e237": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "#section-id-template--19334304923977__91584422-109a-4ff1-a50a-8f02cb03e237 {margin: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "code": "<script>\nwindow.addEventListener('klaviyoForms', (event) => {\n    if (event.detail.type === 'submit') {\n        if (window.location.href.includes('save-the-date-08-07-2023')) {\n            \/\/ GTM Event\n            dataLayer.push({\n                'event': 'sub_desire'\n            });\n        }\n    }\n});\n<\/script>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "43f6051e-34c1-406e-b73a-0ccd4ddc76a9",
+    "f67e9626-f5ec-4d3c-a721-231c4015613d",
+    "659e512f-b683-40d5-9cad-30d2ef2dd5de",
+    "da05b951-9fc1-4280-8646-500c52f57cda",
+    "3f4c675d-238a-4294-9341-cf34d245be19",
+    "f40121b5-996a-411b-a93d-b5cbc0f5d2a9",
+    "2f985a14-550e-40a6-8cb5-a3576d6c00ff",
+    "91584422-109a-4ff1-a50a-8f02cb03e237"
+  ]
+}

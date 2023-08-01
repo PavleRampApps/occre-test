@@ -1,0 +1,210 @@
+<div class="{% if section.settings.use_alt_landing %}use-alt-landing fully-padded-row--medium{% else %}fully-spaced-row--medium{% endif %} image-with-text-landing">
+    <div class="container">
+      <div class="flexible-layout valign-middle">
+        <div class="column column--half {% if section.settings.image_position == 'right' %}column--order-push-desktop{% endif %}">
+          {% if section.settings.button_link != blank %}<a class="block-link" href="{{ section.settings.button_link }}">{% endif %}
+            <div class="image-overlap" style="max-width: {{ section.settings.image_width }}px">
+              <div class="image-overlap__image image-overlap__image-1 {% if section.settings.image_shadow %}image-shadow{% endif %}">
+                {%- if section.settings.image == blank -%}
+                  <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                {%- else -%}
+                  {%- render 'responsive-image', image: section.settings.image, animate: true, animate_delay: "0.1s", animate_type: "cc-fade-in-up" -%}
+                {%- endif -%}
+              </div>
+  
+              {%- if section.settings.image == blank or section.settings.image_2 != blank -%}
+                <div class="image-overlap__image image-overlap__image-2">
+                  {%- if section.settings.image_2 == blank -%}
+                    <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                  {%- else -%}
+                    <div data-cc-animate="cc-fade-in-up" data-cc-animate-delay="0.3s">
+                      <img src="{{ section.settings.image_2 | img_url: '1024x1024' }}" class="fade-in">
+                    </div>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+            </div>
+          {% if section.settings.button_link != blank %}</a>{% endif %}
+        </div>
+  
+        <div class="column column--half align-{{ section.settings.text_alignment }} reverse-order-mobile" data-cc-animate>
+          <div class="feature-text-paired center-mobile">
+            {%- if section.settings.subheading != blank -%}
+              {% assign bold_subheading = section.settings.bold_subheading %}
+              <div class="subheading subheading--over {% if bold_subheading %}text_bold{% endif %}">{{ section.settings.subheading | escape }}</div>
+            {%- endif -%}
+  
+            {% if section.settings.title != blank %}
+              {% if section.settings.use_h1 %}
+                <h1 class="majortitle in-content text_default_mobile">{{ section.settings.title | escape }}</h1>
+              {% else %}
+                <h2 class="majortitle in-content h1-style-landing text_default_mobile">{{ section.settings.title | escape }}</h2>
+              {% endif %}
+            {% endif %}
+  
+            <div class="rte">{{ section.settings.text }}</div>
+  
+            {% if section.settings.button_label != blank %}
+              {% assign bold_button = section.settings.bold_button %}
+              <div class="lightly-spaced-row-above">
+                <a class="{% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %}" href="{{ section.settings.button_link }}">{{ section.settings.button_label | escape }}</a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  {% schema %}
+    {
+      "name": "Image with text 2",
+      "class": "section-image-with-text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_2",
+          "label": "Image 2"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "min": 150,
+          "max": 700,
+          "step": 10,
+          "unit": "px",
+          "label": "Image width",
+          "default": 700
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading"
+        },
+        {
+          "type": "checkbox",
+          "id": "bold_subheading",
+          "label": "Bold subheading",
+          "default": false,
+          "info": "Check if you want the subheading to be bold"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Image with text"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_h1",
+          "label": "Set as primary page heading",
+          "info": "Uses <h1> tag (used for SEO and accessibility). One per page recommended.",
+          "default": false
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Pair text with an image to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.<\/p>"
+        },
+          {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button",
+          "default": "Comprar ahora"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Button style",
+          "default": "primary",
+          "options": [
+            {
+              "label": "Button - primary",
+              "value": "primary"
+            },
+            {
+              "label": "Button - secondary",
+              "value": "secondary"
+            },
+            {
+                "label": "Button - ternary",
+                "value": "ternary"
+            },
+            {
+                "label": "Button - quaternary",
+                "value": "quaternary"
+            },
+            {
+              "label": "Link",
+              "value": "link"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "image_position",
+          "label": "Image alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        },
+        {
+            "type": "checkbox",
+            "id": "image_shadow",
+            "label": "Show image shadow",
+            "default": false
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "label": "Text alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "use_alt_landing",
+          "label": "Use alternate section color",
+          "default": false
+        }
+      ],
+      "presets": [
+        {
+          "name": "Image with text 2",
+          "settings": {}
+        }
+      ]
+    }
+  {% endschema %}
+  

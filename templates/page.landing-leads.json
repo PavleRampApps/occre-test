@@ -1,0 +1,176 @@
+{
+  "sections": {
+    "16461455438a3b80ec": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2022-01-20_a_las_12.06.27.png",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 480,
+        "height_mobile": 500,
+        "image_link": "",
+        "subheading": "BIENVENIDO\/A A OCCRE",
+        "title": "COMUNIDAD DE MODELISMO \nNº1 EN EL MUNDO",
+        "title_size": 48,
+        "title_size_mobile": 36,
+        "use_h1": false,
+        "text": "<p>Únete a +20.000 modelistas que confian en OcCre para disfrutar de su hobby<\/p>",
+        "enlarge_text": true,
+        "button_label_1": "Suscríbete, No Te Arrepentirás",
+        "button_url_1": "#form-container",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "165530254677e792a5": {
+      "type": "custom-row",
+      "blocks": {
+        "cd215fee-d362-4fdf-bda5-3045163ff34d": {
+          "type": "html",
+          "settings": {
+            "width": "two-thirds",
+            "code": "<style>\n    .pre-form-copy {\n        padding-left: 6px;\n        padding-right: 6px;\n    }\n\n    \/* remove klaviyo form box shadows *\/\n    input,\n    button {\n        box-shadow: none !important;\n    }\n<\/style>\n\n<div class=\"pre-form-copy\">\n    <h1 class=\"secondary_color\">Tenemos un regalo para tu primera compra<\/h1>\n    <p>Este verano disfrútalo a tope armando maquetas de OcCre, puedes aprovechar los nuevos lanzamientos, las últimas novedades, y conseguir descuentos especiales subscribiéndote a la newsletter y SMS.<\/p>\n    <p>Rellena el formulario y recibe un código con un <strong>10% de descuento<\/strong> en tu primera compra.<\/p>\n    <p>Trucos, técnicas, consejos y más que te harán un mejor modelista.<\/p>\n<\/div>\n\n<!-- Klaviyo Embed Forms: -->\n<div id=\"form-container\">\n    <!-- Landing Leads ES -->\n    <div class=\"klaviyo-form-Ym3Sid\"><\/div>\n    <!-- Landing Leads EN -->\n    <div class=\"klaviyo-form-RuswfE\"><\/div>\n    <!-- Landing Leads FR -->\n    <div class=\"klaviyo-form-UVWwDR\"><\/div>\n    <!-- Landing Leads IT -->\n    <div class=\"klaviyo-form-XfWW9b\"><\/div>\n    <!-- Landing Leads DE -->\n    <div class=\"klaviyo-form-Xyktkf\"><\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "cd215fee-d362-4fdf-bda5-3045163ff34d"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "main": {
+      "type": "main-contact",
+      "disabled": true,
+      "blocks": {
+        "name": {
+          "type": "name_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "email": {
+          "type": "email_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "956dd030-c9a3-403f-a646-e634f5e5f251": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Teléfono",
+            "type": "text",
+            "required": false,
+            "half_width": true
+          }
+        },
+        "148f28c1-bbd8-4fe1-8857-dac3c093f9bc": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Modelo",
+            "type": "text",
+            "required": true,
+            "half_width": true
+          }
+        },
+        "12153d92-6124-42fd-a9d7-e7cdb419f8dd": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Referencia producto",
+            "type": "text",
+            "required": false,
+            "half_width": true
+          }
+        },
+        "message": {
+          "type": "message_input",
+          "settings": {
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "name",
+        "email",
+        "956dd030-c9a3-403f-a646-e634f5e5f251",
+        "148f28c1-bbd8-4fe1-8857-dac3c093f9bc",
+        "12153d92-6124-42fd-a9d7-e7cdb419f8dd",
+        "message"
+      ],
+      "settings": {
+        "show_page_title": false,
+        "use_columns": true,
+        "contact_title": "",
+        "contact_text": "<p>¡Te ayudamos! Cuándo, cómo y dónde quieras.<\/p><p>Nuestro servicio de atención al cliente estará encantado de responder tus preguntas en menos de 24 horas. <\/p><p>Gracias por confiar en OcCre ;)<\/p>"
+      }
+    },
+    "1655301961c1133915": {
+      "type": "rich-text",
+      "blocks": {
+        "16553019614224bfe5-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Más de 20.000 modelistas felices",
+            "color": "secondary_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "6b229691-bdc0-4833-89c4-5b59ceb29fe8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Confiado por miles en todo el mundo<\/p>",
+            "enlarge_text": false,
+            "color": "primary_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16553019614224bfe5-0",
+        "6b229691-bdc0-4833-89c4-5b59ceb29fe8"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "1655301363d8161149": {
+      "type": "apps",
+      "blocks": {
+        "8806bb78-039a-44c4-946a-1038882e326d": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 10,
+            "maxwidth": 920
+          }
+        }
+      },
+      "block_order": [
+        "8806bb78-039a-44c4-946a-1038882e326d"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "16461455438a3b80ec",
+    "165530254677e792a5",
+    "main",
+    "1655301961c1133915",
+    "1655301363d8161149"
+  ]
+}

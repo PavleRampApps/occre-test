@@ -1,0 +1,452 @@
+{
+  "sections": {
+    "16461455438a3b80ec": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_372.jpg",
+        "image_position": "center center",
+        "mobile_image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 480,
+        "height_mobile": 760,
+        "image_link": "",
+        "subheading": "BIENVENIDO\/A A OCCRE",
+        "title": "Suscribete a tu lugar en el mundo, y\nobtén un 10% de descuento en tu\nprimera compra",
+        "title_size": 28,
+        "title_size_mobile": 24,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "Conocer el mundo OcCre",
+        "button_url_1": "#",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "165530254677e792a5": {
+      "type": "custom-row",
+      "blocks": {
+        "cd215fee-d362-4fdf-bda5-3045163ff34d": {
+          "type": "html",
+          "settings": {
+            "width": "three-quarters",
+            "code": "<style>\n    .pre-form-copy {\n        padding-left: 6px;\n        padding-right: 6px;\n    }\n\n    \/* remove klaviyo form box shadows *\/\n    input,\n    button {\n        box-shadow: none !important;\n    }\n.pre-form-copy .secondary_color {\nfont-family: Montserrat;\nfont-size: 26px;\nfont-weight: 600;\nline-height: 30px;\nletter-spacing: 0em;\n\ntext-align:center !important;\ncolor:#F3B01C !important;\n\n}\n.pre-form-copy p\n{\nfont-family: Montserrat;\nfont-size: 16px;\nfont-weight: 400;\nline-height: 20px;\nletter-spacing: -0.02em;\ntext-align: center;\n\ntext-align:center;}\n<\/style>\n\n<div class=\"pre-form-copy\">\n    <h1 class=\"secondary_color\" >El mundo de OcCre: Ocio Creativo<\/h1>\n    <p style=\"margin-top:40px;\"> \nOcCre es un mundo de posibilidades por que te permite crear maquetas a tu gusto, a tu manera. <\/p>\n<p>\nOcCre es más que un hobby es una forma de liberar la creatividad, mejorar la concentración y desarrollar habilidades manuales. Es un camino lleno de aprendizaje y satisfacción que te da la posibilidad de disfrutar el proceso.<\/p>\n<p>\nCon más de 22 años en el mercado internacional, OcCre te ofrece maquetas de barco, tren y tranvía diseñadas y fabricadas bajo los más altos estándares de calidad y profesionalismo.\nConstruir una maqueta de OcCre es un proyecto divertido y retador que puede ayudar a desarrollar habilidades manuales, mejorar la concentración y reducir el estrés. <\/p> <p style=\"margin-top:40px;\">\n<b>¡Buena suerte en tu viaje hacia ser un modelista exitoso!<\/b><\/p>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "cd215fee-d362-4fdf-bda5-3045163ff34d"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "45d73294-efa6-43ea-acfd-c94b7b197e3d": {
+      "type": "landing-leads",
+      "blocks": {
+        "cc076671-b47c-427f-8211-5d1a5cbfb3b6": {
+          "type": "titulo1",
+          "settings": {
+            "image": "Formulario de suscripción al ewsletter de OcCre",
+            "image_en": "Formulario de suscripción  al newsletter de OcCre",
+            "image_fr": "",
+            "image_de": "",
+            "image_it": "",
+            "image_br": ""
+          }
+        },
+        "089a5be2-7d53-40ac-a3a1-7feec28f0a0d": {
+          "type": "imagenlateral",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_102.png",
+            "image_en": "shopify:\/\/shop_images\/Group_102.png"
+          }
+        },
+        "fbf04562-6269-4a2f-8e94-1d2640c73e1c": {
+          "type": "text1",
+          "settings": {
+            "image": "<p>✅ Eres el primero en recibir ofertas VIP exclusivas, enterarte de novedades, lanzamientos, consejos y tips de construcción y mucho más.<\/p><p>✅  Obtienes acceso a la Comunidad más grande de Modelistas creada por nosotros. (+36000 modelistas en total)<\/p><p>✅ Accedes a videotutoriales y guías de ayuda para la construcción de tu maqueta. <\/p><p>✅ Te damos acceso anticipado a Black Friday (la época del años que OcCre ofrece descuentos imperdibles)<\/p><p>✅ Desarrollarás nuevas habilidades estimulando la mente y aprenderás sobre recursos y herramientas que te sirvirán para aplicarlas en todos los aspectos de la vida cotidiana.<\/p>",
+            "image_en": "<p>✅ You are the first to receive exclusive VIP offers; find out about news, releases, construction tips, and much more.<\/p><p>✅ You get access to the largest Community of Modelers created by us. (+36000 modelers in total)<\/p><p>✅ You access video tutorials and guides to help you build your model.<\/p><p>✅ We give you early access to Black Friday (the time of the year when OcCre offers the biggest deals)<\/p><p>✅ You will develop new skills by stimulating your mind and learning about resources and tools that will help you apply them in all aspects of everyday life.<\/p>",
+            "image_fr": "",
+            "image_de": "",
+            "image_it": "",
+            "image_br": ""
+          }
+        },
+        "59d70b7a-7cac-427b-a5f5-ea3bebee0002": {
+          "type": "titulo03",
+          "settings": {
+            "image": "Conoce los beneficios de ser parte de la comunidad OcCre",
+            "image_en": "Learn about the benefits of being part of the OcCre community",
+            "image_fr": "",
+            "image_de": "",
+            "image_it": "",
+            "image_br": ""
+          }
+        },
+        "f2e21015-23c0-4ba5-8ae1-b1a4a2501fb2": {
+          "type": "text2",
+          "settings": {
+            "image": "<p>✅ Eres el primero en recibir ofertas VIP exclusivas, enterarte de novedades, lanzamientos, consejos y tips de construcción y mucho más.<\/p><p>✅  Obtienes acceso a la Comunidad más grande de Modelistas creada por nosotros. (+36000 modelistas en total)<\/p><p>✅ Accedes a videotutoriales y guías de ayuda para la construcción de tu maqueta. <\/p><p>✅ Te damos acceso anticipado a Black Friday (la época del años que OcCre ofrece descuentos imperdibles)<\/p><p>✅ Desarrollarás nuevas habilidades estimulando la mente y aprenderás sobre recursos y herramientas que te sirvirán para aplicarlas en todos los aspectos de la vida cotidiana.<\/p>",
+            "image_en": "<p>✅ You are the first to receive exclusive VIP offers; find out about news, releases, construction tips, and much more.<\/p><p>✅ You get access to the largest Community of Modelers created by us. (+36000 modelers in total)<\/p><p>✅ You access video tutorials and guides to help you build your model.<\/p><p>✅ We give you early access to Black Friday (the time of the year when OcCre offers the biggest deals)<\/p><p>✅ You will develop new skills by stimulating your mind and learning about resources and tools that will help you apply them in all aspects of everyday life.<\/p>",
+            "image_fr": "",
+            "image_de": "",
+            "image_it": "",
+            "image_br": ""
+          }
+        }
+      },
+      "block_order": [
+        "cc076671-b47c-427f-8211-5d1a5cbfb3b6",
+        "089a5be2-7d53-40ac-a3a1-7feec28f0a0d",
+        "fbf04562-6269-4a2f-8e94-1d2640c73e1c",
+        "59d70b7a-7cac-427b-a5f5-ea3bebee0002",
+        "f2e21015-23c0-4ba5-8ae1-b1a4a2501fb2"
+      ],
+      "settings": {
+        "formk": "<div class=\"klaviyo-form-U8Shs7\"><\/div>\n<div class=\"klaviyo-form-XNHNJk\"><\/div>\n<div class=\"klaviyo-form-XXYjr8\"><\/div><div class=\"klaviyo-form-X4tfzs\"><\/div><div class=\"klaviyo-form-Yyp7QS\"><\/div>"
+      }
+    },
+    "main": {
+      "type": "main-contact",
+      "disabled": true,
+      "blocks": {
+        "name": {
+          "type": "name_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "email": {
+          "type": "email_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "956dd030-c9a3-403f-a646-e634f5e5f251": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Teléfono",
+            "type": "text",
+            "required": false,
+            "half_width": true
+          }
+        },
+        "148f28c1-bbd8-4fe1-8857-dac3c093f9bc": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Modelo",
+            "type": "text",
+            "required": true,
+            "half_width": true
+          }
+        },
+        "12153d92-6124-42fd-a9d7-e7cdb419f8dd": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Referencia producto",
+            "type": "text",
+            "required": false,
+            "half_width": true
+          }
+        },
+        "message": {
+          "type": "message_input",
+          "settings": {
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "name",
+        "email",
+        "956dd030-c9a3-403f-a646-e634f5e5f251",
+        "148f28c1-bbd8-4fe1-8857-dac3c093f9bc",
+        "12153d92-6124-42fd-a9d7-e7cdb419f8dd",
+        "message"
+      ],
+      "settings": {
+        "show_page_title": false,
+        "use_columns": true,
+        "contact_title": "",
+        "contact_text": "<p>¡Te ayudamos! Cuándo, cómo y dónde quieras.<\/p><p>Nuestro servicio de atención al cliente estará encantado de responder tus preguntas en menos de 24 horas. <\/p><p>Gracias por confiar en OcCre ;)<\/p>"
+      }
+    },
+    "0861418a-9401-40cc-b0e3-1b24128a5a2c": {
+      "type": "blackfriday-2",
+      "settings": {
+        "title": "Maquetas de barco",
+        "collection": "maquetas-barcos-ingleses",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 3,
+        "rows": 1,
+        "background_style": "use-alt-bg",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "4959a99c-3efd-47c3-a91d-cd651aac31a3": {
+      "type": "blackfriday-2",
+      "settings": {
+        "title": "Maquetas de tranvía",
+        "collection": "modelismo-de-tranvias",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 3,
+        "rows": 1,
+        "background_style": "use-prim-bg",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "9fb986ac-8aee-4edc-93dd-0195a06fb58c": {
+      "type": "blackfriday-2",
+      "settings": {
+        "title": "Maquetas de tren",
+        "collection": "modelismo-ferroviario",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 3,
+        "rows": 1,
+        "background_style": "use-prim-bg",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "2f50d768-ecbc-43e7-86a9-509fda372916": {
+      "type": "black-friday3a",
+      "blocks": {
+        "f3b98e43-731a-4766-8b6f-305d1be0b9fb": {
+          "type": "imagen1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_en": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_fr": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_de": "shopify:\/\/shop_images\/Recurso_1_4x_1.png",
+            "image_it": "shopify:\/\/shop_images\/Recurso_1_4x_1.png"
+          }
+        },
+        "931662a4-d43d-4803-a209-2c8600fe2160": {
+          "type": "titulo1",
+          "settings": {
+            "image": "Te regalamos un 10% de descuentos suscribiendote a nuestro newsletter",
+            "image_en": "We give you a 10% discount by subscribing to our newsletter",
+            "image_fr": "Nous vous offrons 10% de réduction en vous abonnant à notre newsletter",
+            "image_de": "Wenn Sie unseren Newsletter abonnieren, schenken wir Ihnen 10% Rabatt",
+            "image_it": "Ti regaliamo un 10% di sconti iscrivendoti alla nostra newsletter",
+            "image_pt": "Damos-lhe um desconto de 10% ao subscrever a nossa newsletter"
+          }
+        },
+        "2a7fff7a-7860-4e8e-b301-9eede9876ffb": {
+          "type": "text01",
+          "settings": {
+            "image": "<p>Al ser parte de la comunidad OcCre te enviamos emails para anunciar novedades, promociones, descuentos, datos históricos y relevantes que merecen la pena ser leídos.<\/p><p>También serás la primer persona en enterarte de la época de rebajas y de las ofertas exclusivas para que ahorres mucho dinero.<\/p>",
+            "image_en": "<p>As part of the OcCre community, we send you emails to announce the news, promotions, deals, and historical and relevant data worth reading.<\/p><p>You will also be the first to hear about the sales season and the exclusive offers to save a lot of money.<\/p>",
+            "image_fr": "<p>As part of the OcCre community, we send you emails to announce the news, promotions, deals, and historical and relevant data worth reading.<\/p><p>You will also be the first to hear about the sales season and the exclusive offers to save a lot of money.<\/p>",
+            "image_de": "<p>As part of the OcCre community, we send you emails to announce the news, promotions, deals, and historical and relevant data worth reading.<\/p><p>You will also be the first to hear about the sales season and the exclusive offers to save a lot of money.<\/p>",
+            "image_it": "<p>As part of the OcCre community, we send you emails to announce the news, promotions, deals, and historical and relevant data worth reading.<\/p><p>You will also be the first to hear about the sales season and the exclusive offers to save a lot of money.<\/p>",
+            "image_pt": "<p>As part of the OcCre community, we send you emails to announce the news, promotions, deals, and historical and relevant data worth reading.<\/p><p>You will also be the first to hear about the sales season and the exclusive offers to save a lot of money.<\/p>"
+          }
+        },
+        "6e1c9480-0ad1-43b8-9d52-816aff73c982": {
+          "type": "imagenlateral",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_en": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_fr": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_de": "shopify:\/\/shop_images\/bfbottom1.png",
+            "image_it": "shopify:\/\/shop_images\/bfbottom1.png"
+          }
+        },
+        "126564f0-2813-4070-a5dd-70dae11c4376": {
+          "type": "text1",
+          "settings": {
+            "image": "<p>Sabemos que tienes mil dudas acerca del fin de semana del <strong>Black Friday<\/strong> y <strong>Cyber Monday<\/strong>, así que aquí tienes algunas de las preguntas más comunes:<\/p>",
+            "image_en": "<p>We know that you have a thousand doubts about the Black Friday and Cyber ​​Monday weekend, so here are some of the most frequent questions and their answers: <\/p>",
+            "image_fr": "<p>Nous savons que vous avez des doutes à propos du week-end du <strong>Black Friday <\/strong>et <strong>du Cyber Monday<\/strong>, donc voici quelques une des questions les plus posées :<\/p>",
+            "image_de": "<p>Wir wissen, dass Sie viele Zweifel am Black Friday und Cyber Monday haben. Hier sind einige der häufigsten Fragen:<\/p>",
+            "image_it": "<p>Sappiamo che hai tanti dubbi sul fine settimana del <strong>Black Friday<\/strong> e <strong>Cyber Monday<\/strong>, queste sono alcune delle domande più frequenti:<\/p>",
+            "image_pt": "<p>Sabemos que você tem mil perguntas sobre o fim de semana da Black Friday e Cyber ​​​​Monday, então aqui estão algumas das perguntas mais comuns:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f3b98e43-731a-4766-8b6f-305d1be0b9fb",
+        "931662a4-d43d-4803-a209-2c8600fe2160",
+        "2a7fff7a-7860-4e8e-b301-9eede9876ffb",
+        "6e1c9480-0ad1-43b8-9d52-816aff73c982",
+        "126564f0-2813-4070-a5dd-70dae11c4376"
+      ],
+      "settings": {
+        "formk": "<div class=\"klaviyo-form-U8Shs7\"><\/div>\n<div class=\"klaviyo-form-XNHNJk\"><\/div>\n<div class=\"klaviyo-form-XXYjr8\"><\/div><div class=\"klaviyo-form-X4tfzs\"><\/div><div class=\"klaviyo-form-Yyp7QS\"><\/div>"
+      }
+    },
+    "57cf4193-0bde-43d4-8a65-409743bf2ad1": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/59060068762946afb5178dd7f341e8de.mp4",
+        "subheading": "",
+        "enlarge_subheading": false,
+        "title": "",
+        "title_size": 34,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "open_url_new_tab": true,
+        "button_style": "primary",
+        "text_alignment": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true
+      }
+    },
+    "d1ff2931-7309-4cfd-8812-5f18789c2601": {
+      "type": "multi-column-bf",
+      "blocks": {
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "¡TAN GENIAL DE RECIBIR COMO DE REGALAR!",
+            "text": "<p>Si no sabes que comprar\/regalar, no te la juegues, acierta seguro con las tarjetas regalo OcCre. Es una excelente opción para regalar ahora y aprovechar durante navidad, reyes o cumpleaños<\/p>",
+            "button_label": "VER OPCIONES",
+            "link": "shopify:\/\/products\/tarjeta-regalo-occre"
+          }
+        },
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/tarjetas.jpg",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-2": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 700,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-0",
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-1",
+        "template--16588526878975__28370e23-f997-459a-92ce-708697c9d68d-1667138281f28b1bcb-2"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "left",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "654f0ab0-d399-4d59-9da2-459829552e67": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-0": {
+          "type": "heading",
+          "settings": {
+            "title": "23.321 CLIENTES FELICES",
+            "color": "default_color",
+            "text_transform": "text_default",
+            "use_h1": false
+          }
+        },
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>querido por miles<\/p>",
+            "enlarge_text": false,
+            "color": "default_color",
+            "bold_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-0",
+        "template--16588526878975__d615a182-55c5-459d-8b85-879521f5023e-1667301607fe133195-1"
+      ],
+      "settings": {
+        "css_text": "",
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "1675123540df7b06fb": {
+      "type": "apps",
+      "blocks": {
+        "ae275606-91bd-4767-8a6d-30ae1e9b732a": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "ae275606-91bd-4767-8a6d-30ae1e9b732a"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "2d893d13-ecf5-48cf-a469-613ef89bbb9c": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "<style>\n#section-id-template--16605734306047__f61c1c32-1191-4c9f-b2f4-83942dcd9eab {\nmargin:0px;\nmargin-bottom:40px;\n}\n<\/style>\n<p style=\"width:80%; margin:0 auto; margin-top:20px; font-size:9px;\">Al registrarte por SMS, aceptas recibir mensajes automatizados de marketing recurrentes al número de teléfono proporcionado, incluyendo recordatorios de carritos. El consentimiento no es una condición de compra. Responde STOP para darte de baja. Responde HELP para obtener ayuda. La frecuencia de los mensajes varía. Pueden aplicarse tarifas de mensajes y datos. Ver nuestra Política de privacidad y nuestros Términos del servicio. \n<\/p>"
+      }
+    },
+    "eb28bb05-5d3c-40de-b901-e9cdbdd75b64": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "<script>\nwindow.addEventListener('klaviyoForms', (event) => {\n    if (event.detail.type === 'submit') {\n        \/\/ GTM Event\n        dataLayer.push({'event': 'sub-bf'});\n        \/\/ FB Pixel Event\n        fbq('track', 'Subscribe');\n    }\n});\n<\/script>\n\n<style>\n.bf-textos-p2 p em {\ncolor:#ffb81c;\nfont-size:20px;\n  font-family: Montserrat;\nfont-weight:600;\ntext-decoration: underline;\n}\n.tituloprincipal h1 {\n    font-family: Montserrat;\n    font-size: 30px !important;\n    font-weight: 900;\n    line-height: 34px !important; \n    letter-spacing: 0em;\n    text-align: left;\n    color: #09080C;\n    margin-bottom: 15px;\n}\n.columnas .columna2 {\npadding-right:5%;\n}\n.columnas .bf-textos-p1 p {\n   \n    font-size: 16px;\n    \n    line-height: 22px;\n  \n}\n#section-id-template--16665889734911__16461455438a3b80ec .overlay-text__title {\n\n\nfont-family: Montserrat;\nfont-size: 24px !important;\nfont-weight: 500;\nline-height: 28px;\nletter-spacing: -0.02em;\ntext-align: left;\nbackground:white;\ncolor:black;\nwidth:560px;\npadding:5px 10px;\n\n}\n.subheading--over {\ndisplay:none !important; }\n.overlay-text__button-row {\ntext-align:left;\n}\n#section-id-template--16665889734911__16461455438a3b80ec {\ntext-align:left !important;\n}\n#section-id-template--16665889734911__16461455438a3b80ec .overlay-text__button.button   {\nbackground:none;\ntext-align:left;\nmargin-left:0px;\ncolor:white;\n\n}\n\n@media (min-width: 1100px) {\n.overlay-text--for-banner .overlay-text__inner {\npadding: 80px;\n    max-width: 1440px;\n    margin: 0 auto;\n}\n}\n.collection-slider {\n    position: relative;\n    margin-top: 40px;\n}\n<\/style>"
+      }
+    }
+  },
+  "order": [
+    "16461455438a3b80ec",
+    "165530254677e792a5",
+    "45d73294-efa6-43ea-acfd-c94b7b197e3d",
+    "main",
+    "0861418a-9401-40cc-b0e3-1b24128a5a2c",
+    "4959a99c-3efd-47c3-a91d-cd651aac31a3",
+    "9fb986ac-8aee-4edc-93dd-0195a06fb58c",
+    "2f50d768-ecbc-43e7-86a9-509fda372916",
+    "57cf4193-0bde-43d4-8a65-409743bf2ad1",
+    "d1ff2931-7309-4cfd-8812-5f18789c2601",
+    "654f0ab0-d399-4d59-9da2-459829552e67",
+    "1675123540df7b06fb",
+    "2d893d13-ecf5-48cf-a469-613ef89bbb9c",
+    "eb28bb05-5d3c-40de-b901-e9cdbdd75b64"
+  ]
+}

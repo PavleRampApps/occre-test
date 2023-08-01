@@ -1,0 +1,165 @@
+<style>
+    .four-boxes-container {
+        width: 100%;
+        padding: 100px 40px;
+        display: none;
+    }
+    .four-boxes-container h1 {
+        font-family: Montserrat,sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+        font-style: normal;
+        color: #202223;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .four-boxes-container .boxes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .four-boxes-container .box {
+        position: relative;
+        display: flex;
+        width: 23%;
+        margin-bottom: 40px;
+    }
+    .four-boxes-container .box a {
+        display: block;
+    }
+    .four-boxes-container .box img {
+        width: 100%;
+        height: 100%;
+    }
+    .four-boxes-container .box .caption {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffb81c;
+        opacity: .8;
+    }
+    .four-boxes-container .box .caption h2 {
+        font-family: Montserrat,sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        font-style: normal;
+        color: #202223;
+    }
+    @media only screen and (max-width:992px){
+        .four-boxes-container .box {
+            width: calc(50% - 20px);
+        }
+    }
+    @media only screen and (max-width:768px) {
+        .four-boxes-container h1 {
+            font-size: 35px;
+        }
+    }
+    @media only screen and (max-width:600px) {
+        .four-boxes-container .box {
+            width: calc(50% - 10px);
+            margin-bottom: 20px;
+        }
+        .four-boxes-container {
+            width: 100%;
+            padding: 50px 16px 10px;
+        }
+    }
+    @media only screen and (max-width:500px) {
+        .four-boxes-container h1 {
+            font-size: 25px;
+        }
+        .four-boxes-container .box .caption h2 {
+            font-size: 20px;
+        }
+    }
+
+</style>
+
+<div class="four-boxes-container">
+    <h1>{{ section.settings.heading_text }}</h1>
+    <div class="boxes">
+        <div class="box">
+            <a href="https://occre.com/en/collections/modelismo-naval?filter.p.m.rocket.dificultad=Iniciación" onclick="ga('send','event','Box','Click','Difficulty')">
+                <div class="caption">
+                    <h2>{{ section.settings.box_one }}</h2>
+                </div>
+                <img src="{{ 'initiation.jpg' | asset_img_url: 'master' }}"/>
+            </a>
+        </div>
+        <div class="box">
+            <a href="https://occre.com/en/collections/modelismo-naval?filter.p.m.rocket.dificultad=Baja" onclick="ga('send','event','Box','Click','Difficulty')">
+                <div class="caption">
+                    <h2>{{ section.settings.box_two }}</h2>
+                </div>
+                <img src="{{ 'low.jpg' | asset_img_url: 'master' }}"/>
+            </a>
+        </div>
+        <div class="box">
+            <a href="https://occre.com/en/collections/modelismo-naval?filter.p.m.rocket.dificultad=Media" onclick="ga('send','event','Box','Click','Difficulty')">
+                <div class="caption">
+                    <h2>{{ section.settings.box_three }}</h2>
+                </div>
+                <img src="{{ 'medium.jpg' | asset_img_url: 'master' }}"/>
+            </a>
+        </div>
+        <div class="box">
+            <a href="https://occre.com/en/collections/modelismo-naval?filter.p.m.rocket.dificultad=Alta" onclick="ga('send','event','Box','Click','Difficulty')">
+                <div class="caption">
+                    <h2>{{ section.settings.box_four }}</h2>
+                </div>
+                <img src="{{ 'high.jpg' | asset_img_url: 'master' }}"/>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Four Boxes Difficulty",
+  "settings": [
+        {
+            "type":"text",
+            "id":"heading_text",
+            "label":"Heading Text"
+        },
+        {
+            "type":"text",
+            "id":"box_one",
+            "label":"Box Text 1",
+            "default":"Initiation"
+        },
+        {
+            "type":"text",
+            "id":"box_two",
+            "label":"Box Text 2",
+            "default":"Low"
+        },
+        {
+            "type":"text",
+            "id":"box_three",
+            "label":"Box Text 3",
+            "default":"Medium"
+        },
+        {
+            "type":"text",
+            "id":"box_four",
+            "label":"Box Text 4",
+            "default":"High"
+        }
+    ],
+  "presets": [
+    {
+        "name": "Four Boxes Difficulty"
+    }
+  ]
+}
+{% endschema %}

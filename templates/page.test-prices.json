@@ -1,0 +1,35 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "full_width": true
+      }
+    },
+    "165276578350b291f4": {
+      "type": "apps",
+      "settings": {
+        "full_width": false
+      }
+    },
+    "165276575739ddb1e6": {
+      "type": "apps",
+      "settings": {
+        "full_width": false
+      }
+    },
+    "32777f17-ad7b-483e-8e20-5c84719e4a24": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "code": "{% if request.path contains 'en-us' %}\n \/\/ do some modification!\n{% elsif  request.path contains 'en-ca' %}\n \/\/ do some modification!2\n{% else %}\nEs euro\n{% endif %}"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165276578350b291f4",
+    "165276575739ddb1e6",
+    "32777f17-ad7b-483e-8e20-5c84719e4a24"
+  ]
+}
